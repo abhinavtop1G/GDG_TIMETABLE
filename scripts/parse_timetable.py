@@ -371,6 +371,8 @@ class ClassEntry:
     room: str = ""
     faculty: str = ""
     options: list[str] = field(default_factory=list)
+    choices: list[dict] = field(default_factory=list)
+    aligned: bool = False
     note: str = ""
     raw: str = ""
 
@@ -445,6 +447,89 @@ def extract(ws, g: Geometry, batches: dict[str, Batch], report: "Report") -> dic
     return schedule
 
 
+PLACEHOLDER = re.compile(r"^[\-\u2013\u2014_.?\s]*$")
+
+
+def split_aligned(cell: str) -> list[str]:
+    """Split a slash list keeping position, duplicates and blanks.
+
+    Elective cells are parallel arrays: the nth course goes with the nth room
+    and the nth teacher, and the sheet writes '---' where a value is missing
+    precisely to hold that position. Deduplicating or dropping blanks here
+    silently shifts every later entry onto the wrong room, so this split does
+    neither.
+    """
+    return ["" if PLACEHOLDER.match(part) else " ".join(part.split()).strip().upper()
+            for part in cell.split("/")]
+
+
+def elective_choices(cells: list[str], report: "Report", where: str) -> tuple[list[dict], bool]:
+    """Pair each elective option with its own room and faculty.
+
+    Returns (choices, aligned). When the parallel arrays disagree in length we
+    refuse to guess: the options are still listed, but without a room, because
+    sending a student to the wrong lab is worse than sending them to none.
+    """
+    option_cell = None
+    for cell in cells:
+        codes = [c for c in split_aligned(cell) if RE_SUBJECT_NOTE.match(c) or RE_SUBJECT.match(c)]
+        if len(codes) > 1:
+            option_cell = cell
+            break
+    if option_cell is None:
+        return [], False
+
+    raw_options = split_aligned(option_cell)
+    options, notes = [], []
+    for part in raw_options:
+        m = RE_SUBJECT_NOTE.match(part)
+        if m:
+            options.append(m.group("code").replace(" ", ""))
+            notes.append(m.group("note").strip())
+        else:
+            options.append(part.replace(" ", ""))
+            notes.append("")
+
+    rooms: list[str] = []
+    faculty: list[str] = []
+    for cell in cells:
+        if cell == option_cell:
+            continue
+        parts = split_aligned(cell)
+        filled = [p for p in parts if p]
+        if not filled:
+            continue
+        kinds = [k for p in filled for k, _ in classify(p)]
+        room_like = sum(1 for k in kinds if k in ("room", "named_room"))
+        fac_like = sum(1 for k in kinds if k == "faculty")
+        if room_like >= fac_like and room_like and not rooms:
+            rooms = parts
+        elif fac_like and not faculty:
+            faculty = parts
+
+    aligned = bool(rooms or faculty)
+    if rooms and len(rooms) != len(options):
+        aligned = False
+    if faculty and len(faculty) != len(options):
+        aligned = False
+
+    if not aligned:
+        report.warn(f"elective not aligned: {where} "
+                    f"({len(options)} options, {len(rooms)} rooms, {len(faculty)} faculty)")
+
+    choices = []
+    for i, code in enumerate(options):
+        if not code:
+            continue
+        choices.append({
+            "code": code,
+            "room": rooms[i] if aligned and i < len(rooms) else "",
+            "faculty": faculty[i] if aligned and i < len(faculty) else "",
+            "note": notes[i],
+        })
+    return choices, aligned
+
+
 def block_kind(cells: list[str]) -> str:
     """lecture / tutorial / practical, from the subject code suffix."""
     for cell in cells:
@@ -510,6 +595,11 @@ def assemble(cells: list[str], day: int, period: int, length: int,
                 report.unknown_context.setdefault(
                     val, f"{sheet} / {batch_id} / {DAYS[day]} P{period}")
 
+    choices, aligned = ([], False)
+    if ctype == "elective":
+        choices, aligned = elective_choices(
+            cells, report, f"{sheet}/{batch_id} {DAYS[day]} P{period}")
+
     start = period_time(period)
     end = period_time(period + length)
     return ClassEntry(
@@ -519,6 +609,8 @@ def assemble(cells: list[str], day: int, period: int, length: int,
         room=" / ".join(dict.fromkeys(rooms)),
         faculty=" / ".join(dict.fromkeys(faculty)),
         options=list(dict.fromkeys(options)),
+        choices=choices,
+        aligned=aligned,
         note=" · ".join(dict.fromkeys(NOTE_FIXES.get(n, n) for n in notes)),
         raw=" | ".join(cells),
     )
@@ -616,6 +708,8 @@ def main():
     for entries in all_schedule.values():
         for e in entries:
             e.title = subjects.get(e.code) or subjects.get(e.code[:6], "")
+            for ch in e.choices:
+                ch["title"] = subjects.get(ch["code"]) or subjects.get(ch["code"][:6], "")
 
     digest = hashlib.sha256(src.read_bytes()).hexdigest()[:16]
     index = {

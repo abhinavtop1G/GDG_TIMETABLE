@@ -22,6 +22,8 @@
    "room": "E107 / TA8",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI801T | E107 | TA8"
   },
@@ -37,6 +39,8 @@
    "room": "E107",
    "faculty": "SNP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI801L | E107 | SNP"
   },
@@ -55,6 +59,23 @@
     "UEI735L",
     "UEI733L"
    ],
+   "choices": [
+    {
+     "code": "UEI735L",
+     "room": "E107",
+     "faculty": "ABP",
+     "note": "",
+     "title": "Power Electronics for Automation"
+    },
+    {
+     "code": "UEI733L",
+     "room": "E108",
+     "faculty": "DND",
+     "note": "",
+     "title": "Embedded System Design"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UEI735L/UEI733L | E107/E108 | ABP/DND"
   },
@@ -70,6 +91,8 @@
    "room": "E107",
    "faculty": "SNP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI801L | E107 | SNP"
   },
@@ -89,6 +112,30 @@
     "UEI735L",
     "UEI733L"
    ],
+   "choices": [
+    {
+     "code": "UEI712L",
+     "room": "E103",
+     "faculty": "ROS",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UEI735L",
+     "room": "E107",
+     "faculty": "ABP",
+     "note": "",
+     "title": "Power Electronics for Automation"
+    },
+    {
+     "code": "UEI733L",
+     "room": "E108",
+     "faculty": "DND",
+     "note": "",
+     "title": "Embedded System Design"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UEI712L/UEI735L/UEI733L | E103/E107/E108 | ROS/ABP/DND"
   },
@@ -109,6 +156,37 @@
     "UHU016",
     "UMA069L"
    ],
+   "choices": [
+    {
+     "code": "UCS002L",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UHU018",
+     "room": "LP106",
+     "faculty": "RKS",
+     "note": "",
+     "title": "Introduction to Corporate Finance"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS002L/UHU018/UHU016/UMA069L | LT101/LP106/B303/F201 | SUS/RKS/PS/AM"
   },
@@ -124,6 +202,8 @@
    "room": "LT102",
    "faculty": "VK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTD004L | LT102 | VK"
   },
@@ -139,6 +219,8 @@
    "room": "E107",
    "faculty": "ROS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI712L | E107 | ROS"
   },
@@ -154,6 +236,8 @@
    "room": "E107",
    "faculty": "SNP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI801L | E107 | SNP"
   },
@@ -172,6 +256,23 @@
     "UEI735L",
     "UEI733L"
    ],
+   "choices": [
+    {
+     "code": "UEI735L",
+     "room": "E107",
+     "faculty": "ABP",
+     "note": "",
+     "title": "Power Electronics for Automation"
+    },
+    {
+     "code": "UEI733L",
+     "room": "E108",
+     "faculty": "DND",
+     "note": "",
+     "title": "Embedded System Design"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UEI735L/UEI733L | E107/E108 | ABP/DND"
   },
@@ -192,6 +293,37 @@
     "UHU016",
     "UMA069L"
    ],
+   "choices": [
+    {
+     "code": "UCS002L",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UHU018",
+     "room": "LP106",
+     "faculty": "RKS",
+     "note": "",
+     "title": "Introduction to Corporate Finance"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS002L/UHU018/UHU016/UMA069L | LT101/LP106/B303/F201 | SUS/RKS/PS/AM"
   },
@@ -207,6 +339,8 @@
    "room": "LT102",
    "faculty": "VK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTD004L | LT102 | VK"
   },
@@ -222,6 +356,8 @@
    "room": "PDC (C220)",
    "faculty": "SWT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "UEI744L/UEI743+UEI831L",
    "raw": "UEI801P | PDC(C220) | LAB | SWT | UEI744L/UEI743+UEI831L"
   },
@@ -240,6 +376,23 @@
     "UEI712P",
     "UEI733P"
    ],
+   "choices": [
+    {
+     "code": "UEI712P",
+     "room": "IOT(D206B)",
+     "faculty": "ROS",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UEI733P",
+     "room": "TFS(C225)",
+     "faculty": "DND",
+     "note": "",
+     "title": "Embedded System Design"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UEI712P/UEI733P | IOT(D206B)/TFS(C225) | LAB | ROS/DND"
   },
@@ -255,6 +408,8 @@
    "room": "E107",
    "faculty": "ROS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI712L | E107 | ROS"
   },
@@ -270,6 +425,8 @@
    "room": "PDC (C220)",
    "faculty": "SWT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI801P | PDC(C220) | LAB | SWT"
   },
@@ -285,6 +442,8 @@
    "room": "E107",
    "faculty": "SWT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI801T | E107 | SWT"
   },
@@ -300,6 +459,8 @@
    "room": "PE (C113) / E307",
    "faculty": "ABP / DBM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "?/UEI743+UEI831T",
    "raw": "UEI735P/- | PE(C113) | LAB | ABP/_ | ?/UEI743+UEI831T | ?/E307 | ?/DBM"
   }

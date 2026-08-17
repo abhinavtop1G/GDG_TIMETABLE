@@ -22,6 +22,8 @@
    "room": "STEP 1ST FLOOR",
    "faculty": "NL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY106P | PBY106P | STEP 1st floor | NL | STEP 1st floor | NL"
   },
@@ -37,6 +39,8 @@
    "room": "G204",
    "faculty": "JPR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMA102P | PMA102P | G204 | JPR | G204 | JPR"
   },
@@ -52,6 +56,8 @@
    "room": "F306",
    "faculty": "DD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY109L | F306 | DD"
   },
@@ -67,6 +73,8 @@
    "room": "F306",
    "faculty": "OVQ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY107L | F306 | OVQ"
   },
@@ -82,6 +90,8 @@
    "room": "F306",
    "faculty": "BB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY108L | F306 | BB"
   },
@@ -97,6 +107,8 @@
    "room": "F306",
    "faculty": "DS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY105L | F306 | DS"
   },
@@ -112,6 +124,8 @@
    "room": "F306",
    "faculty": "JPR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMA102L | F306 | JPR"
   },
@@ -127,6 +141,8 @@
    "room": "BIOCHEMISTRY LAB",
    "faculty": "DS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY105P | PBY105P | Biochemistry Lab | DS | Biochemistry Lab | DS"
   },
@@ -142,6 +158,8 @@
    "room": "F306",
    "faculty": "DD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY109L | F306 | DD"
   },
@@ -157,6 +175,8 @@
    "room": "F306",
    "faculty": "NL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY106L | F306 | NL"
   },
@@ -172,6 +192,8 @@
    "room": "F306",
    "faculty": "OVQ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY107L | F306 | OVQ"
   },
@@ -187,6 +209,8 @@
    "room": "BIOPROCESS LAB",
    "faculty": "DD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY109P | PBY109P | Bioprocess Lab | DD | Bioprocess Lab | DD"
   },
@@ -202,6 +226,8 @@
    "room": "STEP LAB",
    "faculty": "OVQ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY107P | PBY107P | Step lab | OVQ | Step lab | OVQ"
   },
@@ -217,6 +243,8 @@
    "room": "F306",
    "faculty": "DS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY105T | F306 | DS"
   },
@@ -232,6 +260,8 @@
    "room": "F306",
    "faculty": "NL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY106L | F306 | NL"
   },
@@ -247,6 +277,8 @@
    "room": "F306",
    "faculty": "BB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY108L | F306 | BB"
   },
@@ -262,6 +294,8 @@
    "room": "F306",
    "faculty": "OVQ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY107L | F306 | OVQ"
   },
@@ -277,6 +311,8 @@
    "room": "F306",
    "faculty": "DD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY109L | F306 | DD"
   },
@@ -292,6 +328,8 @@
    "room": "F306",
    "faculty": "BB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY108T | F306 | BB"
   },
@@ -307,6 +345,8 @@
    "room": "F306",
    "faculty": "NL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY106T | F306 | NL"
   },
@@ -322,6 +362,8 @@
    "room": "F306",
    "faculty": "NL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY106L | F306 | NL"
   },
@@ -337,6 +379,8 @@
    "room": "F306",
    "faculty": "JPR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMA102L | F306 | JPR"
   },
@@ -352,6 +396,8 @@
    "room": "F306",
    "faculty": "DS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY105L | F306 | DS"
   },
@@ -367,6 +413,8 @@
    "room": "F306",
    "faculty": "BB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY108L | F306 | BB"
   },
@@ -382,6 +430,8 @@
    "room": "BIOPROCESS LAB",
    "faculty": "BB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY108P | PBY108P | Bioprocess Lab | BB | Bioprocess Lab | BB"
   },
@@ -397,6 +447,8 @@
    "room": "F306",
    "faculty": "DD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBY109T | F306 | DD"
   }

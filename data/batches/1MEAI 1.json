@@ -22,6 +22,8 @@
    "room": "ML (L009)",
    "faculty": "MNS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI104P | ML(L009) | LAB | MNS"
   },
@@ -37,6 +39,8 @@
    "room": "LP108",
    "faculty": "SMR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI106L | LP108 | SMR"
   },
@@ -52,6 +56,8 @@
    "room": "LP108",
    "faculty": "AMT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI102L | LP108 | AMT"
   },
@@ -67,6 +73,8 @@
    "room": "LP106",
    "faculty": "RAV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PHU004L | LP106 | RAV"
   },
@@ -82,6 +90,8 @@
    "room": "LP108",
    "faculty": "SMR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI106L | LP108 | SMR"
   },
@@ -97,6 +107,8 @@
    "room": "LP106",
    "faculty": "AMT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI102L | LP106 | AMT"
   },
@@ -112,6 +124,8 @@
    "room": "LP108",
    "faculty": "RAH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI103L | LP108 | RAH"
   },
@@ -127,6 +141,8 @@
    "room": "LP106",
    "faculty": "RAV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PHU004L | LP106 | RAV"
   },
@@ -142,6 +158,8 @@
    "room": "LP108",
    "faculty": "AMT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI102L | LP108 | AMT"
   },
@@ -157,6 +175,8 @@
    "room": "DBMS2 (L207)",
    "faculty": "AMT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI102P | DBMS2(L207) | LAB | AMT"
   },
@@ -172,6 +192,8 @@
    "room": "LP108",
    "faculty": "HMG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI101L | LP108 | HMG"
   },
@@ -187,6 +209,8 @@
    "room": "LP108",
    "faculty": "MNS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI104L | LP108 | MNS"
   },
@@ -202,6 +226,8 @@
    "room": "LP108",
    "faculty": "RAH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI103L | LP108 | RAH"
   },
@@ -217,6 +243,8 @@
    "room": "AI (L307)",
    "faculty": "HMG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI101P | AI(L307) | LAB | HMG"
   },
@@ -232,6 +260,8 @@
    "room": "LP108",
    "faculty": "HMG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI101L | LP108 | HMG"
   },
@@ -247,6 +277,8 @@
    "room": "LP108",
    "faculty": "RAH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI103L | LP108 | RAH"
   },
@@ -262,6 +294,8 @@
    "room": "DBMS2 (L207)",
    "faculty": "SMR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI106P | DBMS2(L207) | LAB | SMR"
   },
@@ -277,6 +311,8 @@
    "room": "LP108",
    "faculty": "MNS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI104L | LP108 | MNS"
   },
@@ -292,6 +328,8 @@
    "room": "IOT (L302)",
    "faculty": "HJS-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI103P | IOT(L302) | LAB | HJS-RA"
   },
@@ -307,6 +345,8 @@
    "room": "LP108",
    "faculty": "HMG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI101L | LP108 | HMG"
   },
@@ -322,6 +362,8 @@
    "room": "LP108",
    "faculty": "MNS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PAI104L | LP108 | MNS"
   }

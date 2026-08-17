@@ -22,6 +22,8 @@
    "room": "LP106",
    "faculty": "SAL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS108L | LP106 | SAL"
   },
@@ -37,6 +39,8 @@
    "room": "LP106",
    "faculty": "HAR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS111L | LP106 | HAR"
   },
@@ -52,6 +56,8 @@
    "room": "ED2 (L209)",
    "faculty": "KAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS113P | ED2(L209) | LAB | KAS"
   },
@@ -67,6 +73,8 @@
    "room": "DT (L308)",
    "faculty": "SHW-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS114P | DT(L308) | LAB | SHW-RA"
   },
@@ -82,6 +90,8 @@
    "room": "LP106",
    "faculty": "RAV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PHU004L | LP106 | RAV"
   },
@@ -97,6 +107,8 @@
    "room": "LP106",
    "faculty": "SHV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS114L | LP106 | SHV"
   },
@@ -112,6 +124,8 @@
    "room": "LP106",
    "faculty": "SAL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS108L | LP106 | SAL"
   },
@@ -127,6 +141,8 @@
    "room": "LP106",
    "faculty": "KAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS113L | LP106 | KAS"
   },
@@ -142,6 +158,8 @@
    "room": "LP106",
    "faculty": "SR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS206L | LP106 | SR"
   },
@@ -157,6 +175,8 @@
    "room": "LP106",
    "faculty": "RAV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PHU004L | LP106 | RAV"
   },
@@ -172,6 +192,8 @@
    "room": "LP106",
    "faculty": "HAR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS111L | LP106 | HAR"
   },
@@ -187,6 +209,8 @@
    "room": "CG2 (L430)",
    "faculty": "HAR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS111P | CG2(L430) | LAB | HAR"
   },
@@ -202,6 +226,8 @@
    "room": "LP106",
    "faculty": "SHV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS114L | LP106 | SHV"
   },
@@ -217,6 +243,8 @@
    "room": "LP106",
    "faculty": "SAL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS108L | LP106 | SAL"
   },
@@ -232,6 +260,8 @@
    "room": "L003",
    "faculty": "SAL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS108P | L003 | LAB | SAL"
   },
@@ -247,6 +277,8 @@
    "room": "LP106",
    "faculty": "HAR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS111L | LP106 | HAR"
   },
@@ -262,6 +294,8 @@
    "room": "LP106",
    "faculty": "SR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS206L | LP106 | SR"
   },
@@ -277,6 +311,8 @@
    "room": "HPC (L312)",
    "faculty": "SR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS206P | HPC(L312) | LAB | SR"
   },
@@ -292,6 +328,8 @@
    "room": "LP106",
    "faculty": "KAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS113L | LP106 | KAS"
   },
@@ -307,6 +345,8 @@
    "room": "LP106",
    "faculty": "SHV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS114L | LP106 | SHV"
   },
@@ -322,6 +362,8 @@
    "room": "LP106",
    "faculty": "SR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS206L | LP106 | SR"
   },
@@ -337,6 +379,8 @@
    "room": "LP106",
    "faculty": "KAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS113L | LP106 | KAS"
   }

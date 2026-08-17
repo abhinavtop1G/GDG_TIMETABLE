@@ -22,6 +22,8 @@
    "room": "F310 / APC10",
    "faculty": "MNK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES101T | F310 | MNK/APC10"
   },
@@ -37,6 +39,8 @@
    "room": "T303",
    "faculty": "SNA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA023T | T303 | SNA"
   },
@@ -52,6 +56,8 @@
    "room": "LP101",
    "faculty": "SAK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UPH013L | LP101 | SAK"
   },
@@ -67,6 +73,8 @@
    "room": "LT102",
    "faculty": "SYV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA023L | LT102 | SYV"
   },
@@ -82,6 +90,8 @@
    "room": "LT101",
    "faculty": "LKB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UPH013L | LT101 | LKB"
   },
@@ -97,6 +107,8 @@
    "room": "LT101",
    "faculty": "SBH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES101L | LT101 | SBH"
   },
@@ -112,6 +124,8 @@
    "room": "E301 / LC1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UPH013T | E301 | LC1"
   },
@@ -127,6 +141,8 @@
    "room": "LP104",
    "faculty": "MNK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES101L | LP104 | MNK"
   },
@@ -142,6 +158,8 @@
    "room": "G317 / LC14",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU003P | G317 | LAB | LC14"
   },
@@ -157,6 +175,8 @@
    "room": "LT101",
    "faculty": "SYV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA023L | LT101 | SYV"
   },
@@ -172,6 +192,8 @@
    "room": "LT101",
    "faculty": "SSB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA023L | LT101 | SSB"
   },
@@ -187,6 +209,8 @@
    "room": "LT101",
    "faculty": "SBH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES101L | LT101 | SBH"
   },
@@ -202,6 +226,8 @@
    "room": "LP105",
    "faculty": "DG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES102L | LP105 | DG"
   },
@@ -217,6 +243,8 @@
    "room": "LP105",
    "faculty": "GK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU003L | LP105 | GK"
   },
@@ -232,6 +260,8 @@
    "room": "CED CAD (CD119) / APC10",
    "faculty": "MNK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES101P | CED CAD(CD119) | LAB | MNK/APC10"
   },
@@ -247,6 +277,8 @@
    "room": "LT101",
    "faculty": "SSB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA023L | LT101 | SSB"
   },
@@ -262,6 +294,8 @@
    "room": "LT101",
    "faculty": "SAT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES102L | LT101 | SAT"
   },
@@ -277,6 +311,8 @@
    "room": "G325 / LC18",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UPH013P | G325 | LAB | LC18"
   },
@@ -292,6 +328,8 @@
    "room": "LT101",
    "faculty": "SYV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA023L | LT101 | SYV"
   },
@@ -307,6 +345,8 @@
    "room": "LP105",
    "faculty": "DG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES102L | LP105 | DG"
   },
@@ -322,6 +362,8 @@
    "room": "W/SHOP",
    "faculty": "DG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES102P | W/SHOP | LAB | DG"
   },
@@ -337,6 +379,8 @@
    "room": "LP105",
    "faculty": "SAK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UPH013L | LP105 | SAK"
   },
@@ -352,6 +396,8 @@
    "room": "LT101",
    "faculty": "LKB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UPH013L | LT101 | LKB"
   },
@@ -367,6 +413,8 @@
    "room": "LT101",
    "faculty": "SSB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA023L | LT101 | SSB"
   },
@@ -382,6 +430,8 @@
    "room": "LP105",
    "faculty": "MNK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES101L | LP105 | MNK"
   },
@@ -397,6 +447,8 @@
    "room": "LP105",
    "faculty": "GK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU003L | LP105 | GK"
   },
@@ -412,6 +464,8 @@
    "room": "LP105",
    "faculty": "SAK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UPH013L | LP105 | SAK"
   },
@@ -427,6 +481,8 @@
    "room": "LT101",
    "faculty": "SAT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES102L | LT101 | SAT"
   },
@@ -442,6 +498,8 @@
    "room": "LT101",
    "faculty": "LKB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UPH013L | LT101 | LKB"
   }

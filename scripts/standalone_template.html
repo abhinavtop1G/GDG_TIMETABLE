@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TIET Timetable — GDG on Campus</title>
+<meta name="theme-color" content="#4285F4">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --blue:#4285F4; --red:#EA4335; --yellow:#FBBC04; --green:#34A853;
+  --bg:#fff; --surface:#f8f9fa; --raise:#fff; --line:#e4e4e7; --ink:#1f1f1f; --muted:#5f6368;
+  --radius:18px; --radius-sm:12px;
+  --shadow:0 1px 2px rgba(60,64,67,.12), 0 4px 16px rgba(60,64,67,.08);
+  --font:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:"Roboto Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0f1011;--surface:#1a1b1d;--raise:#161719;--line:#2b2d30;--ink:#e6e6e6;--muted:#9aa0a6;
+  --shadow:0 1px 2px rgba(0,0,0,.6), 0 4px 20px rgba(0,0,0,.4);}
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);line-height:1.5;
+  background-image:radial-gradient(circle at 12% -8%, rgba(66,133,244,.10), transparent 42%),
+                   radial-gradient(circle at 92% 2%, rgba(234,67,53,.07), transparent 38%);
+  background-repeat:no-repeat;background-attachment:fixed}
+button{font:inherit;color:inherit;cursor:pointer;border:none;background:none}
+:focus-visible{outline:3px solid var(--blue);outline-offset:2px;border-radius:8px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.wrap{max-width:64rem;margin:0 auto;padding:1.5rem 1.15rem 5rem}
+
+/* ---- landing ---- */
+.hero{padding:3.5rem 0 2rem;text-align:center}
+.dots{width:74px;height:74px;margin:0 auto 1.5rem;display:block}
+.dots circle{transform-origin:center;animation:pop .5s cubic-bezier(.2,.9,.3,1.4) both}
+.dots circle:nth-child(2){animation-delay:.07s}
+.dots circle:nth-child(3){animation-delay:.14s}
+.dots circle:nth-child(4){animation-delay:.21s}
+@keyframes pop{from{transform:scale(0);opacity:0}to{transform:scale(1);opacity:1}}
+.eyebrow{margin:0;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.hero h1{margin:.6rem 0 .5rem;font-size:clamp(2.1rem,6vw,3.1rem);font-weight:700;letter-spacing:-.035em;line-height:1.05}
+.hero h1 em{font-style:normal;color:var(--blue)}
+.hero p{margin:0 auto;max-width:34rem;color:var(--muted);font-size:1.02rem}
+.searchWrap{max-width:31rem;margin:2rem auto 0;position:relative}
+.search{width:100%;font-family:var(--mono);font-size:1.1rem;padding:1rem 1.1rem;border-radius:var(--radius);
+  border:1px solid var(--line);background:var(--raise);color:var(--ink);box-shadow:var(--shadow);transition:border-color .15s}
+.search::placeholder{color:var(--muted);opacity:.7}
+.search:focus{outline:none;border-color:var(--blue)}
+.count{margin:.7rem 0 0;font-size:.8rem;color:var(--muted);text-align:center}
+.results{margin-top:1.5rem;text-align:left}
+.grpTitle{margin:1.4rem 0 .6rem;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(8.2rem,1fr));gap:.45rem}
+.chip{text-align:left;background:var(--raise);border:1px solid var(--line);border-radius:var(--radius-sm);
+  padding:.55rem .7rem;display:flex;flex-direction:column;gap:.1rem;transition:border-color .12s,transform .12s}
+.chip:hover{border-color:var(--blue);transform:translateY(-1px)}
+.chip b{font-family:var(--mono);font-size:.88rem;font-weight:500}
+.chip span{font-size:.66rem;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* ---- app header ---- */
+.top{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.25rem 0 1.4rem}
+.brand{display:flex;align-items:center;gap:.7rem}
+.brand svg{width:2.1rem;height:2.1rem;flex:none}
+.brand p{margin:0;font-size:.68rem;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.brand h2{margin:0;font-size:1.15rem;font-weight:600;letter-spacing:-.02em}
+.batchBtn{display:flex;flex-direction:column;align-items:flex-end;background:var(--raise);
+  border:1px solid var(--line);border-radius:var(--radius-sm);padding:.45rem .85rem;transition:border-color .15s}
+.batchBtn:hover{border-color:var(--blue)}
+.batchBtn b{font-family:var(--mono);font-size:.95rem;font-weight:500}
+.batchBtn span{font-size:.66rem;color:var(--muted)}
+
+/* ---- now card ---- */
+.now{position:relative;border-radius:var(--radius);background:var(--raise);border:1px solid var(--line);
+  padding:1.25rem 1.4rem 1.35rem 1.75rem;overflow:hidden;box-shadow:var(--shadow)}
+.now::before{content:"";position:absolute;inset:0 auto 0 0;width:6px;
+  background:linear-gradient(var(--blue) 0 25%,var(--red) 25% 50%,var(--yellow) 50% 75%,var(--green) 75% 100%)}
+.now .lbl{margin:0;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.now h3{margin:.35rem 0 .3rem;font-size:1.6rem;font-weight:600;letter-spacing:-.025em;line-height:1.15}
+.now .det{margin:0;color:var(--muted);font-size:.92rem}
+.now .det b{color:var(--ink);font-weight:500}
+
+/* ---- tabs ---- */
+.tabs{display:flex;align-items:center;justify-content:space-between;gap:.5rem;margin:1.5rem 0 1rem}
+.days{display:flex;gap:.25rem;overflow-x:auto;scrollbar-width:none}
+.days::-webkit-scrollbar{display:none}
+.tab{position:relative;border-radius:999px;padding:.45rem .95rem;font-size:.88rem;font-weight:500;color:var(--muted);white-space:nowrap;transition:background .12s,color .12s}
+.tab:hover{background:var(--surface)}
+.tab.on{background:var(--blue);color:#fff}
+.tab .dot{position:absolute;top:.3rem;right:.4rem;width:5px;height:5px;border-radius:50%;background:var(--red)}
+.tab.on .dot{background:#fff}
+.tab.wk{border:1px solid var(--line)}
+
+/* ---- rail ---- */
+.rail{position:relative;padding-left:4.6rem}
+.spine{position:absolute;inset:0 auto 0 4.15rem;width:2px;background:var(--line)}
+.tick{position:absolute;right:.85rem;transform:translateY(-50%);font-family:var(--mono);font-size:.7rem;color:var(--muted);white-space:nowrap}
+.nowline{position:absolute;left:3.35rem;right:0;border-top:2px solid var(--red);z-index:3;pointer-events:none}
+.nowline i{position:absolute;left:-5px;top:-5px;width:9px;height:9px;border-radius:50%;background:var(--red)}
+.nowline b{position:absolute;left:14px;top:-18px;font-size:.6rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--red)}
+.slot{position:absolute;left:0;right:0;background:var(--raise);border:1px solid var(--line);border-left:4px solid var(--muted);
+  border-radius:var(--radius-sm);padding:.55rem .85rem;overflow:hidden;transition:transform .12s,box-shadow .12s}
+.slot:hover{transform:translateX(2px);box-shadow:var(--shadow)}
+.slot.lecture{border-left-color:var(--blue)}
+.slot.practical{border-left-color:var(--red)}
+.slot.tutorial{border-left-color:var(--yellow)}
+.slot.elective{border-left-color:var(--green)}
+.slot.live{border-color:var(--red);box-shadow:var(--shadow)}
+.slot h4{margin:0;font-size:.98rem;font-weight:600;letter-spacing:-.01em;line-height:1.25;display:flex;gap:.45rem;align-items:baseline;flex-wrap:wrap}
+.slot h4 code{font-family:var(--mono);font-size:.7rem;font-weight:400;color:var(--muted)}
+.slot .meta{margin:.15rem 0 0;font-size:.79rem;color:var(--muted);display:flex;flex-wrap:wrap;gap:.5rem}
+.slot .meta time{font-family:var(--mono)}
+.slot .meta .room{color:var(--ink);font-weight:500}
+.slot .extra{margin:.25rem 0 0;font-size:.72rem;color:var(--muted)}
+.empty{margin-left:4.6rem;border-left:2px solid var(--line);padding:2.5rem 0 2.5rem 1.5rem}
+.empty h4{margin:0;font-size:1.1rem}
+.empty p{margin:.2rem 0 0;color:var(--muted)}
+
+/* ---- week ---- */
+.weekScroll{overflow-x:auto;padding-bottom:.5rem}
+.weekGrid{display:grid;gap:3px;min-width:48rem}
+.wkDay{font-size:.72rem;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);text-align:left;padding-left:.3rem}
+.wkHour{font-family:var(--mono);font-size:.66rem;color:var(--muted);padding-top:.15rem}
+.wkCell{border-radius:8px;padding:.3rem .45rem;background:var(--surface);border-left:3px solid var(--muted);overflow:hidden;line-height:1.3}
+.wkCell.lecture{border-left-color:var(--blue)}
+.wkCell.practical{border-left-color:var(--red)}
+.wkCell.tutorial{border-left-color:var(--yellow)}
+.wkCell.elective{border-left-color:var(--green)}
+.wkCell b{display:block;font-family:var(--mono);font-size:.7rem;font-weight:500}
+.wkCell span{font-size:.64rem;color:var(--muted)}
+
+/* ---- sheet + footer ---- */
+.sheet{position:fixed;inset:0;z-index:30;background:rgba(15,16,17,.5);display:flex;align-items:flex-end;justify-content:center;padding:1rem}
+@media(min-width:40rem){.sheet{align-items:center}}
+.panel{background:var(--bg);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+  width:min(46rem,100%);max-height:88vh;display:flex;flex-direction:column;padding:1.4rem;overflow:hidden}
+.panel .head{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;margin-bottom:.9rem}
+.panel h3{margin:0;font-size:1.2rem;font-weight:600}
+.panel .head p{margin:.25rem 0 0;color:var(--muted);font-size:.85rem;max-width:32rem}
+.panel .results{overflow-y:auto;margin-top:0}
+.ghost{border:1px solid var(--line);border-radius:999px;padding:.45rem 1.05rem;font-size:.85rem;font-weight:500;transition:border-color .12s,color .12s}
+.ghost:hover{border-color:var(--blue);color:var(--blue)}
+.legend{display:flex;flex-wrap:wrap;gap:.9rem;margin:1.25rem 0 0;font-size:.72rem;color:var(--muted)}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:3px;margin-right:.35rem;vertical-align:middle}
+.foot{margin-top:2.25rem;padding-top:1.15rem;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;align-items:center;gap:.9rem}
+.foot p{margin:0;flex:1 1 20rem;font-size:.74rem;color:var(--muted);line-height:1.55}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<div class="wrap" id="app"></div>
+
+<script id="payload" type="application/json">__DATA__</script>
+<script>
+const DATA = JSON.parse(document.getElementById("payload").textContent);
+const DAYS = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+const SHORT = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"];
+const YEARS = {1:"First year",2:"Second year",3:"Third year",4:"Fourth year",5:"Postgraduate"};
+const TYPES = {l:"lecture",p:"practical",t:"tutorial",e:"elective",s:"seminar",d:"discussion",c:"class"};
+const KEY = "gdg-tiet-timetable:batch";
+const START = 480, PX = 1.2, END = 1180;
+
+const app = document.getElementById("app");
+let state = { batch: localStorage.getItem(KEY), day: today(), view: "day", query: "", picker: false };
+
+function today(){ return Math.min((new Date().getDay()+6)%7, 6); }
+function pStart(p){ return START + 50*(p-1); }
+function fmt(m){ const h=Math.floor(m/60), mm=m%60, s=h>=12?"pm":"am", hr=h%12===0?12:h%12;
+  return mm===0 ? `${hr} ${s}` : `${hr}:${String(mm).padStart(2,"0")} ${s}`; }
+function esc(s){ return String(s??"").replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function meta(id){ return DATA.batches.find(b=>b[0]===id); }
+function name(code){ return DATA.subjects[code] || ""; }
+
+function classes(id, day){
+  return (DATA.sched[id]||[]).filter(c=>c[0]===day).sort((a,b)=>a[1]-b[1]);
+}
+function nowState(id){
+  const n = new Date(), mins = n.getHours()*60+n.getMinutes(), list = classes(id, today());
+  const cur = list.find(c => pStart(c[1])<=mins && mins < pStart(c[1])+50*c[2]);
+  const nxt = list.find(c => pStart(c[1])>mins);
+  if(cur || nxt) return {cur, nxt, left: cur ? pStart(cur[1])+50*cur[2]-mins : 0, until: nxt ? pStart(nxt[1])-mins : 0};
+  // Nothing left today: look ahead to the next day that actually has classes.
+  for(let i=1;i<=7;i++){
+    const d = (today()+i)%7, ahead = classes(id, d);
+    if(ahead.length) return {later: ahead[0], laterDay: d};
+  }
+  return {};
+}
+const MARK = `<svg viewBox="0 0 44 44" class="dots" aria-hidden="true"><circle cx="14" cy="14" r="8" fill="#4285F4"/><circle cx="30" cy="14" r="8" fill="#EA4335"/><circle cx="14" cy="30" r="8" fill="#FBBC04"/><circle cx="30" cy="30" r="8" fill="#34A853"/></svg>`;
+
+function pickerList(){
+  const q = state.query.trim().toUpperCase();
+  const hits = DATA.batches.filter(b => !q || b[0].includes(q) || b[2].toUpperCase().includes(q) || b[3].toUpperCase().includes(q) || b[4].toUpperCase().includes(q));
+  const groups = new Map();
+  hits.slice(0,300).forEach(b => { (groups.get(b[1]) || groups.set(b[1],[]).get(b[1])).push(b); });
+  const body = [...groups.entries()].sort((a,b)=>a[0]-b[0]).map(([yr,list]) => `
+    <h4 class="grpTitle">${YEARS[yr]||"Other"}</h4>
+    <div class="grid">${list.map(b=>`<button class="chip" data-pick="${esc(b[0])}"><b>${esc(b[0])}</b>${b[2]?`<span>${esc(b[2])}</span>`:""}</button>`).join("")}</div>`).join("");
+  const note = hits.length ? `${hits.length} of ${DATA.batches.length} batches` : "No match. Try the subgroup letter too, like 2Q3A.";
+  return {body, note};
+}
+
+function landing(){
+  const {body, note} = pickerList();
+  return `<section class="hero">
+    ${MARK}
+    <p class="eyebrow">GDG on Campus · TIET</p>
+    <h1>Your timetable,<br><em>finally readable.</em></h1>
+    <p>Every batch at Thapar, pulled straight from the official sheet. Pick yours once — this device remembers it.</p>
+    <div class="searchWrap">
+      <input class="search" id="q" value="${esc(state.query)}" placeholder="2Q3A, 1B1C, computer…" autocomplete="off" spellcheck="false" aria-label="Search for your batch">
+      <p class="count">${note}</p>
+    </div>
+    <div class="results">${body}</div>
+  </section>`;
+}
+
+function railHTML(){
+  const list = classes(state.batch, state.day);
+  if(!list.length) return `<div class="empty"><h4>Nothing scheduled</h4><p>The whole day is yours.</p></div>`;
+  const isToday = state.day === today();
+  const n = new Date(), mins = n.getHours()*60+n.getMinutes();
+  const lo = Math.min(...list.map(c=>pStart(c[1]))) - 40;
+  const hi = Math.max(...list.map(c=>pStart(c[1])+50*c[2])) + 40;
+  const top = Math.max(START, lo), bot = Math.min(END, hi), h = (bot-top)*PX;
+  const ticks = [];
+  for(let t=Math.ceil(top/60)*60; t<=bot; t+=120) ticks.push(`<span class="tick" style="top:${(t-top)*PX}px">${fmt(t)}</span>`);
+  const line = (isToday && mins>top && mins<bot)
+    ? `<div class="nowline" style="top:${(mins-top)*PX}px"><i></i><b>now</b></div>` : "";
+  const slots = list.map(c=>{
+    const [d,p,len,code,ty,room,fac,opts,note] = c;
+    const s = pStart(p), e = s+50*len, live = isToday && mins>=s && mins<e;
+    const title = name(code) || code;
+    return `<article class="slot ${TYPES[ty]||"class"}${live?" live":""}" style="top:${(s-top)*PX}px;height:${Math.max((e-s)*PX-6,46)}px">
+      <h4>${esc(title)}${name(code)?`<code>${esc(code)}</code>`:""}</h4>
+      <p class="meta"><time>${fmt(s)} – ${fmt(e)}</time>${room?`<span class="room">${esc(room)}</span>`:""}${fac?`<span>${esc(fac)}</span>`:""}</p>
+      ${opts&&opts.length?`<p class="extra">Elective: ${esc(opts.join(" · "))}</p>`:""}
+      ${note?`<p class="extra">${esc(note)}</p>`:""}
+    </article>`;
+  }).join("");
+  return `<div class="rail" style="height:${h}px"><div class="spine"></div>${ticks.join("")}${line}${slots}</div>`;
+}
+
+function weekHTML(){
+  const all = DATA.sched[state.batch]||[];
+  const days = meta(state.batch)[1]===5 ? 7 : 6;
+  const first = Math.min(...all.map(c=>c[1])), last = Math.max(...all.map(c=>c[1]+c[2]-1));
+  const rows = last-first+1;
+  let cells = `<div></div>`;
+  for(let d=0; d<days; d++) cells += `<button class="wkDay" data-day="${d}" style="grid-column:${d+2};grid-row:1">${SHORT[d]}</button>`;
+  for(let r=0;r<rows;r++) cells += `<div class="wkHour" style="grid-column:1;grid-row:${r+2}">${fmt(pStart(first+r))}</div>`;
+  all.forEach(c=>{
+    const [d,p,len,code,ty,room] = c;
+    cells += `<div class="wkCell ${TYPES[ty]||"class"}" style="grid-column:${d+2};grid-row:${p-first+2}/span ${len}" title="${esc(name(code)||code)} ${esc(room)}">
+      <b>${esc(code)}</b>${room?`<span>${esc(room)}</span>`:""}</div>`;
+  });
+  return `<div class="weekScroll"><div class="weekGrid" style="grid-template-columns:4.5rem repeat(${days},minmax(8.5rem,1fr));grid-template-rows:1.9rem repeat(${rows},3.1rem)">${cells}</div></div>`;
+}
+
+function board(){
+  const m = meta(state.batch), days = m[1]===5?7:6;
+  if(state.day >= days) state.day = 0;   // Sunday falls back to Monday
+  const st = nowState(state.batch);
+  const card = st.cur
+    ? `<p class="lbl">In class now</p><h3>${esc(name(st.cur[3])||st.cur[3])}</h3>
+       <p class="det"><b>${esc(st.cur[5]||"Room not listed")}</b>${st.cur[6]?` · ${esc(st.cur[6])}`:""} · ${st.left} min left</p>`
+    : st.nxt
+    ? `<p class="lbl">Up next</p><h3>${esc(name(st.nxt[3])||st.nxt[3])}</h3>
+       <p class="det">${fmt(pStart(st.nxt[1]))} · <b>${esc(st.nxt[5]||"Room not listed")}</b> · in ${st.until} min</p>`
+    : st.later
+    ? `<p class="lbl">${st.laterDay===(today()+1)%7?"Tomorrow":DAYS[st.laterDay]}</p>
+       <h3>${esc(name(st.later[3])||st.later[3])}</h3>
+       <p class="det">Starts ${fmt(pStart(st.later[1]))} · <b>${esc(st.later[5]||"Room not listed")}</b>${st.later[6]?` · ${esc(st.later[6])}`:""}</p>`
+    : `<p class="lbl">${DAYS[today()]}</p><h3>You're done for the day</h3><p class="det">Nothing else on the schedule.</p>`;
+
+  const tabs = Array.from({length:days},(_,d)=>
+    `<button class="tab${d===state.day&&state.view==="day"?" on":""}" data-day="${d}">${SHORT[d]}${d===today()?'<span class="dot"></span>':""}</button>`).join("");
+
+  return `<header class="top">
+      <div class="brand">${MARK.replace('class="dots"','')}
+        <div><p>GDG on Campus · TIET</p><h2>Timetable</h2></div></div>
+      <button class="batchBtn" id="change"><b>${esc(m[0])}</b><span>${YEARS[m[1]]||""} · change</span></button>
+    </header>
+    <section class="now">${card}</section>
+    <nav class="tabs"><div class="days">${tabs}</div>
+      <button class="tab wk${state.view==="week"?" on":""}" data-view="week">Week</button></nav>
+    <main>${state.view==="day"?railHTML():weekHTML()}</main>
+    <div class="legend">
+      <span><i style="background:#4285F4"></i>Lecture</span>
+      <span><i style="background:#EA4335"></i>Lab</span>
+      <span><i style="background:#FBBC04"></i>Tutorial</span>
+      <span><i style="background:#34A853"></i>Elective</span>
+    </div>
+    <footer class="foot">
+      <button class="ghost" id="ics">Add to calendar</button>
+      <p>${esc(DATA.term)} · ${esc(m[2]||"")} · ${(DATA.sched[state.batch]||[]).length} classes a week.
+      Generated from the official sheet — check it if something looks wrong.</p>
+    </footer>
+    ${state.picker?sheet():""}`;
+}
+
+function sheet(){
+  const {body, note} = pickerList();
+  return `<div class="sheet" id="sheet"><div class="panel">
+    <div class="head"><div><h3>Find your batch</h3>
+      <p>It's on your timetable sheet — the practical subgroup, like 2Q3A.</p></div>
+      <button class="ghost" id="close">Close</button></div>
+    <input class="search" id="q" value="${esc(state.query)}" placeholder="2Q3A, 1B1C, computer…" autocomplete="off" spellcheck="false">
+    <p class="count">${note}</p>
+    <div class="results">${body}</div></div></div>`;
+}
+
+function render(keepFocus){
+  app.innerHTML = state.batch && meta(state.batch) ? board() : landing();
+  const q = document.getElementById("q");
+  if(q && keepFocus){ q.focus(); q.setSelectionRange(q.value.length,q.value.length); }
+}
+
+app.addEventListener("input", e=>{
+  if(e.target.id==="q"){ state.query = e.target.value; render(true); }
+});
+app.addEventListener("click", e=>{
+  const pick = e.target.closest("[data-pick]");
+  if(pick){ state.batch = pick.dataset.pick; localStorage.setItem(KEY,state.batch);
+    state.picker=false; state.query=""; state.day=today(); state.view="day"; return render(); }
+  const day = e.target.closest("[data-day]");
+  if(day){ state.day = +day.dataset.day; state.view="day"; return render(); }
+  if(e.target.closest("[data-view]")){ state.view="week"; return render(); }
+  if(e.target.closest("#change")){ state.picker=true; state.query=""; render(true); return; }
+  if(e.target.closest("#close") || e.target.id==="sheet"){ state.picker=false; return render(); }
+  if(e.target.closest("#ics")) downloadICS();
+});
+document.addEventListener("keydown", e=>{ if(e.key==="Escape" && state.picker){ state.picker=false; render(); }});
+setInterval(()=>{ if(!state.picker && state.batch) render(); }, 30000);
+
+function downloadICS(){
+  const id = state.batch, pad=n=>String(n).padStart(2,"0");
+  const ICSD=["MO","TU","WE","TH","FR","SA","SU"], out=["BEGIN:VCALENDAR","VERSION:2.0",
+    "PRODID:-//GDG on Campus TIET//Timetable//EN","CALSCALE:GREGORIAN",
+    `X-WR-CALNAME:TIET ${id}`,"X-WR-TIMEZONE:Asia/Kolkata"];
+  const stamp = new Date().toISOString().replace(/[-:]/g,"").split(".")[0]+"Z";
+  (DATA.sched[id]||[]).forEach((c,i)=>{
+    const [d,p,len,code,ty,room,fac] = c;
+    const day0 = new Date(); day0.setHours(0,0,0,0);
+    day0.setDate(day0.getDate() + ((d - (day0.getDay()+6)%7 + 7) % 7));
+    const ymd = `${day0.getFullYear()}${pad(day0.getMonth()+1)}${pad(day0.getDate())}`;
+    const t = m => `${pad(Math.floor(m/60))}${pad(m%60)}00`;
+    out.push("BEGIN:VEVENT",`UID:${id}-${i}@gdgtiet`,`DTSTAMP:${stamp}`,
+      `DTSTART;TZID=Asia/Kolkata:${ymd}T${t(pStart(p))}`,
+      `DTEND;TZID=Asia/Kolkata:${ymd}T${t(pStart(p)+50*len)}`,
+      `RRULE:FREQ=WEEKLY;BYDAY=${ICSD[d]};UNTIL=20261215T000000Z`,
+      `SUMMARY:${(name(code)||code)}${ty==="p"?" (Lab)":ty==="t"?" (Tutorial)":""}`,
+      room?`LOCATION:${room.replace(/,/g,"\\,")}`:"",
+      `DESCRIPTION:Course ${code}${fac?`\\nFaculty: ${fac}`:""}\\nBatch ${id}`,"END:VEVENT");
+  });
+  out.push("END:VCALENDAR");
+  const blob = new Blob([out.filter(Boolean).join("\r\n")],{type:"text/calendar"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob); a.download = `TIET-${id}.ics`; a.click();
+}
+
+render();
+</script>
+</body>
+</html>

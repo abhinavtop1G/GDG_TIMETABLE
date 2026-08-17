@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
+import ElectivePicker from "./components/ElectivePicker";
 import ExportStudio from "./components/ExportStudio";
 import GdgMark from "./components/GdgMark";
 import Home from "./components/Home";
@@ -13,13 +14,17 @@ import {
   formatTime,
   loadBatch,
   loadIndex,
+  electiveGroups,
   resolveNow,
+  resolvePicks,
   YEAR_LABEL,
   type Batch,
   type Index,
+  type Picks,
 } from "./lib/data";
 
 const STORAGE_KEY = "gdg-tiet-timetable:batch";
+const PICKS_KEY = "gdg-tiet-timetable:electives";
 
 function useIsNarrow(): boolean {
   const [narrow, setNarrow] = useState(
@@ -39,6 +44,8 @@ export default function App() {
   const [batch, setBatch] = useState<Batch | null>(null);
   const [batchId, setBatchId] = useState<string | null>(null);
   const [studioOpen, setStudioOpen] = useState(false);
+  const [electivesOpen, setElectivesOpen] = useState(false);
+  const [picks, setPicks] = useState<Picks>({});
   const [now, setNow] = useState(() => new Date());
   const [error, setError] = useState<string | null>(null);
   const narrow = useIsNarrow();
@@ -73,7 +80,30 @@ export default function App() {
         setError(null);
       })
       .catch((e) => setError(e.message));
+
+    // Elective picks are per batch, so switching batch loads that batch's set.
+    try {
+      const all = JSON.parse(localStorage.getItem(PICKS_KEY) ?? "{}");
+      setPicks(all[batchId] ?? {});
+    } catch {
+      setPicks({});
+    }
   }, [batchId]);
+
+  const savePicks = useCallback(
+    (next: Picks) => {
+      setPicks(next);
+      if (!batchId) return;
+      try {
+        const all = JSON.parse(localStorage.getItem(PICKS_KEY) ?? "{}");
+        all[batchId] = next;
+        localStorage.setItem(PICKS_KEY, JSON.stringify(all));
+      } catch {
+        /* storage full or blocked; picks still apply for this session */
+      }
+    },
+    [batchId],
+  );
 
   // A phone cannot show six columns legibly; land on today instead.
   useEffect(() => {
@@ -123,8 +153,12 @@ export default function App() {
     );
   }
 
+  const resolved: Batch = { ...batch, classes: resolvePicks(batch.classes, picks) };
+  const groups = electiveGroups(batch);
+  const pendingElectives = groups.filter((g) => !picks[g.key]).length;
+
   const dayCount = batch.meta.year === 5 ? 7 : 6;
-  const state = resolveNow(batch, now);
+  const state = resolveNow(resolved, now);
   const label = displayId(batch.id, batch.meta.tutorial_group);
 
   return (
@@ -152,6 +186,17 @@ export default function App() {
           <button className="pill" onClick={() => downloadICS(batch)}>
             Add to calendar
           </button>
+          {groups.length > 0 && (
+            <button
+              className={`pill ${pendingElectives ? "pill--alert" : ""}`}
+              onClick={() => setElectivesOpen(true)}
+            >
+              Electives
+              {pendingElectives > 0 && (
+                <span className="pill__count">{pendingElectives}</span>
+              )}
+            </button>
+          )}
           <button className="pill pill--go" onClick={() => setStudioOpen(true)}>
             Download
           </button>
@@ -226,8 +271,20 @@ export default function App() {
         ))}
       </nav>
 
+      {pendingElectives > 0 && (
+        <button className="banner" onClick={() => setElectivesOpen(true)}>
+          <span className="banner__dot" />
+          <span>
+            You have {pendingElectives} elective slot
+            {pendingElectives > 1 ? "s" : ""} to choose. Pick yours to see the
+            right room and teacher.
+          </span>
+          <span className="banner__go">Choose →</span>
+        </button>
+      )}
+
       <WeekBoard
-        batch={batch}
+        batch={resolved}
         index={index}
         days={dayCount}
         focusDay={focusDay}
@@ -255,9 +312,18 @@ export default function App() {
         </p>
       </footer>
 
+      {electivesOpen && (
+        <ElectivePicker
+          batch={batch}
+          picks={picks}
+          onChange={savePicks}
+          onClose={() => setElectivesOpen(false)}
+        />
+      )}
+
       {studioOpen && (
         <ExportStudio
-          batch={batch}
+          batch={resolved}
           index={index}
           onClose={() => setStudioOpen(false)}
         />

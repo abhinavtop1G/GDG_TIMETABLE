@@ -22,6 +22,8 @@
    "room": "T203",
    "faculty": "DSH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY326L | T203 | DSH"
   },
@@ -37,6 +39,8 @@
    "room": "T203",
    "faculty": "VT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY308L | T203 | VT"
   },
@@ -55,6 +59,23 @@
     "PCY322L",
     "PCY327L"
    ],
+   "choices": [
+    {
+     "code": "PCY322L",
+     "room": "T203",
+     "faculty": "MIL",
+     "note": "",
+     "title": "Photophysical Chemistry"
+    },
+    {
+     "code": "PCY327L",
+     "room": "T202",
+     "faculty": "PG",
+     "note": "",
+     "title": "Organometallic Chemistry"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "PCY322L/PCY327L | T203/T202 | MIL/PG"
   },
@@ -70,6 +91,8 @@
    "room": "G143 / TA6",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY317P | G143 | LAB | TA6"
   },
@@ -85,6 +108,8 @@
    "room": "T203",
    "faculty": "KPU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY307L | T203 | KPU"
   },
@@ -100,6 +125,8 @@
    "room": "T203",
    "faculty": "VLX",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY302L | T203 | VLX"
   },
@@ -115,6 +142,8 @@
    "room": "T203",
    "faculty": "VT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY308L | T203 | VT"
   },
@@ -130,6 +159,8 @@
    "room": "T203",
    "faculty": "MIL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY322L | T203 | MIL"
   },
@@ -145,6 +176,8 @@
    "room": "T203",
    "faculty": "DSH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY326P | T203 | DSH"
   },
@@ -160,6 +193,8 @@
    "room": "T203",
    "faculty": "KPU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY307L | T203 | KPU"
   },
@@ -175,6 +210,8 @@
    "room": "T203",
    "faculty": "VT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY308L | T203 | VT"
   },
@@ -190,6 +227,8 @@
    "room": "T203",
    "faculty": "VT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY308T | T203 | VT"
   },
@@ -205,6 +244,8 @@
    "room": "T203",
    "faculty": "PV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY327L | T203 | PV"
   },
@@ -220,6 +261,8 @@
    "room": "T203",
    "faculty": "MIL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY322L | T203 | MIL"
   },
@@ -235,6 +278,8 @@
    "room": "T203",
    "faculty": "VLX",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY302L | T203 | VLX"
   },
@@ -250,6 +295,8 @@
    "room": "T203",
    "faculty": "KPU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY307L | T203 | KPU"
   },
@@ -265,6 +312,8 @@
    "room": "T203",
    "faculty": "DSH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY327L | T203 | DSH"
   },
@@ -280,6 +329,8 @@
    "room": "G143 / TA7",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY317P | G143 | LAB | TA7"
   },
@@ -295,6 +346,8 @@
    "room": "T203",
    "faculty": "PV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY327L | T203 | PV"
   },
@@ -310,6 +363,8 @@
    "room": "T203",
    "faculty": "VLX",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCY302L | T203 | VLX"
   }

@@ -22,6 +22,8 @@
    "room": "SS1 (L201)",
    "faculty": "SUS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA302P | SS1(L201) | LAB | SUS"
   },
@@ -37,6 +39,8 @@
    "room": "LP106",
    "faculty": "SUB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA105L | LP106 | SUB"
   },
@@ -52,6 +56,8 @@
    "room": "LP106",
    "faculty": "ASK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA109L | LP106 | ASK"
   },
@@ -67,6 +73,8 @@
    "room": "LP106",
    "faculty": "KUC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA102L | LP106 | KUC"
   },
@@ -82,6 +90,8 @@
    "room": "LP106",
    "faculty": "SUS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA302L | LP106 | SUS"
   },
@@ -97,6 +107,8 @@
    "room": "LP106",
    "faculty": "HMK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA207L | LP106 | HMK"
   },
@@ -112,6 +124,8 @@
    "room": "LP106",
    "faculty": "GEK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA107L | LP106 | GEK"
   },
@@ -127,6 +141,8 @@
    "room": "IOT (L302)",
    "faculty": "GEK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA107P | IOT(L302) | LAB | GEK"
   },
@@ -142,6 +158,8 @@
    "room": "ES2 (L402)",
    "faculty": "SHU-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA105P | ES2(L402) | LAB | SHU-RA"
   },
@@ -157,6 +175,8 @@
    "room": "LP106",
    "faculty": "KUC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA102L | LP106 | KUC"
   },
@@ -172,6 +192,8 @@
    "room": "LP106",
    "faculty": "SUS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA302L | LP106 | SUS"
   },
@@ -187,6 +209,8 @@
    "room": "ES1 (L401)",
    "faculty": "NDH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA103P | ES1(L401) | LAB | NDH"
   },
@@ -202,6 +226,8 @@
    "room": "LT401",
    "faculty": "NDH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA103L | LT401 | NDH"
   },
@@ -217,6 +243,8 @@
    "room": "LT401",
    "faculty": "GEK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA107L | LT401 | GEK"
   },
@@ -232,6 +260,8 @@
    "room": "LP106",
    "faculty": "SUB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA105L | LP106 | SUB"
   },
@@ -247,6 +277,8 @@
    "room": "LP106",
    "faculty": "ASK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA109L | LP106 | ASK"
   },
@@ -262,6 +294,8 @@
    "room": "ML (L009)",
    "faculty": "AKS-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA109P | ML(L009) | LAB | AKS-RA"
   },
@@ -277,6 +311,8 @@
    "room": "ML (L009)",
    "faculty": "HMK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA207P | ML(L009) | LAB | HMK"
   },
@@ -292,6 +328,8 @@
    "room": "LP106",
    "faculty": "KUC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA102L | LP106 | KUC"
   },
@@ -307,6 +345,8 @@
    "room": "LP106",
    "faculty": "HMK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA107L | LP106 | HMK"
   },
@@ -322,6 +362,8 @@
    "room": "DBMS1 (L206)",
    "faculty": "JEE-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA102P | DBMS1(L206) | LAB | JEE-RA"
   },
@@ -337,6 +379,8 @@
    "room": "LP106",
    "faculty": "SUS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA302L | LP106 | SUS"
   },
@@ -352,6 +396,8 @@
    "room": "LP106",
    "faculty": "GEK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA107L | LP106 | GEK"
   },
@@ -367,6 +413,8 @@
    "room": "LP106",
    "faculty": "SUB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA105L | LP106 | SUB"
   },
@@ -382,6 +430,8 @@
    "room": "LP106",
    "faculty": "ASK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA109L | LP106 | ASK"
   },
@@ -397,6 +447,8 @@
    "room": "LP106",
    "faculty": "NDH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA103L | LP106 | NDH"
   },
@@ -412,6 +464,8 @@
    "room": "LP106",
    "faculty": "HMK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA207L | LP106 | HMK"
   }

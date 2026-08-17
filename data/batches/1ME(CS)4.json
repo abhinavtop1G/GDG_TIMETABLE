@@ -22,6 +22,8 @@
    "room": "LP106",
    "faculty": "SAL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS108L | LP106 | SAL"
   },
@@ -37,6 +39,8 @@
    "room": "LP106",
    "faculty": "HAR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS111L | LP106 | HAR"
   },
@@ -52,6 +56,8 @@
    "room": "ML (L009)",
    "faculty": "ARU-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS206P | ML(L009) | LAB | ARU-RA"
   },
@@ -67,6 +73,8 @@
    "room": "LP106",
    "faculty": "RAV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PHU004L | LP106 | RAV"
   },
@@ -82,6 +90,8 @@
    "room": "LP106",
    "faculty": "SHV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS114L | LP106 | SHV"
   },
@@ -97,6 +107,8 @@
    "room": "LP106",
    "faculty": "SAL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS108L | LP106 | SAL"
   },
@@ -112,6 +124,8 @@
    "room": "LP106",
    "faculty": "KAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS113L | LP106 | KAS"
   },
@@ -127,6 +141,8 @@
    "room": "LP106",
    "faculty": "SR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS206L | LP106 | SR"
   },
@@ -142,6 +158,8 @@
    "room": "LP106",
    "faculty": "RAV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PHU004L | LP106 | RAV"
   },
@@ -157,6 +175,8 @@
    "room": "LP106",
    "faculty": "HAR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS111L | LP106 | HAR"
   },
@@ -172,6 +192,8 @@
    "room": "PL3 (L010)",
    "faculty": "ANK-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS108P | PL3(L010) | LAB | ANK-RA"
   },
@@ -187,6 +209,8 @@
    "room": "LP106",
    "faculty": "SHV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS114L | LP106 | SHV"
   },
@@ -202,6 +226,8 @@
    "room": "LP106",
    "faculty": "SAL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS108L | LP106 | SAL"
   },
@@ -217,6 +243,8 @@
    "room": "DT (L308)",
    "faculty": "SHV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS114P | DT(L308) | LAB | SHV"
   },
@@ -232,6 +260,8 @@
    "room": "LP106",
    "faculty": "HAR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS111L | LP106 | HAR"
   },
@@ -247,6 +277,8 @@
    "room": "LP106",
    "faculty": "SR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS206L | LP106 | SR"
   },
@@ -262,6 +294,8 @@
    "room": "L301",
    "faculty": "ABK-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS113P | L301 | LAB | ABK-RA"
   },
@@ -277,6 +311,8 @@
    "room": "LP106",
    "faculty": "KAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS113L | LP106 | KAS"
   },
@@ -292,6 +328,8 @@
    "room": "LP106",
    "faculty": "SHV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS114L | LP106 | SHV"
   },
@@ -307,6 +345,8 @@
    "room": "LP106",
    "faculty": "SR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS206L | LP106 | SR"
   },
@@ -322,6 +362,8 @@
    "room": "LP106",
    "faculty": "KAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS113L | LP106 | KAS"
   },
@@ -337,6 +379,8 @@
    "room": "CG2 (L430)",
    "faculty": "JAK-RF",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCS111P | CG2(L430) | LAB | JAK-RF"
   },
@@ -352,6 +396,8 @@
    "room": "F308",
    "faculty": "KSB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PES117L | F308 | KSB"
   },
@@ -367,6 +413,8 @@
    "room": "",
    "faculty": "DG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "(DEE104)",
    "raw": "PES117P | (DEE104) | LAB | DG"
   }

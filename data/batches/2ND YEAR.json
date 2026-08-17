@@ -22,6 +22,8 @@
    "room": "F212",
    "faculty": "SC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMA301L | F212 | SC"
   },
@@ -37,6 +39,8 @@
    "room": "F212",
    "faculty": "ASN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMC331L | F212 | ASN"
   },
@@ -52,6 +56,8 @@
    "room": "F212",
    "faculty": "KVT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMA303L | F212 | KVT"
   },
@@ -67,6 +73,8 @@
    "room": "F212",
    "faculty": "AK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMA304L | F212 | AK"
   },
@@ -82,6 +90,8 @@
    "room": "GC2 (L107)",
    "faculty": "ASA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMC303P | GC2(L107) | LAB | ASA"
   },
@@ -97,6 +107,8 @@
    "room": "AI (L307)",
    "faculty": "ASN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMC331P | AI(L307) | LAB | ASN"
   },
@@ -112,6 +124,8 @@
    "room": "F212",
    "faculty": "KVT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMA303L | F212 | KVT"
   },
@@ -127,6 +141,8 @@
    "room": "F212",
    "faculty": "AK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMA304L | F212 | AK"
   },
@@ -142,6 +158,8 @@
    "room": "F212",
    "faculty": "SC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMA301L | F212 | SC"
   },
@@ -157,6 +175,8 @@
    "room": "F212",
    "faculty": "ST",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMA206L | F212 | ST"
   },
@@ -172,6 +192,8 @@
    "room": "F212",
    "faculty": "ST",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMA206L | F212 | ST"
   },
@@ -187,6 +209,8 @@
    "room": "F212",
    "faculty": "SC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMA301L | F212 | SC"
   },
@@ -202,6 +226,8 @@
    "room": "F212",
    "faculty": "AK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMA304L | F212 | AK"
   },
@@ -217,6 +243,8 @@
    "room": "F212",
    "faculty": "ASA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMC303L | F212 | ASA"
   },
@@ -232,6 +260,8 @@
    "room": "F212",
    "faculty": "ASA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMC303L | F212 | ASA"
   },
@@ -247,6 +277,8 @@
    "room": "F212",
    "faculty": "KVT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMC303L | F212 | KVT"
   },
@@ -262,6 +294,8 @@
    "room": "F212",
    "faculty": "ST",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMC206L | F212 | ST"
   },
@@ -277,6 +311,8 @@
    "room": "NEW (G309)",
    "faculty": "KVT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMA303P | NEW(G309) | LAB | KVT"
   },
@@ -292,6 +328,8 @@
    "room": "TA27",
    "faculty": "AK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMA303P | LAB | AK/TA27"
   },
@@ -307,6 +345,8 @@
    "room": "F212",
    "faculty": "KVT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMA303L | F212 | KVT"
   },
@@ -322,6 +362,8 @@
    "room": "F212",
    "faculty": "SC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMA301T | F212 | SC"
   },
@@ -337,6 +379,8 @@
    "room": "F212",
    "faculty": "ASA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMC303L | F212 | ASA"
   },
@@ -352,6 +396,8 @@
    "room": "F212",
    "faculty": "AK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMA304L | F212 | AK"
   },
@@ -367,6 +413,8 @@
    "room": "GC1 (L106)",
    "faculty": "ST",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMC306P | GC1(L106) | LAB | ST"
   },
@@ -382,6 +430,8 @@
    "room": "F212",
    "faculty": "ASN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMC331L | F212 | ASN"
   },
@@ -397,6 +447,8 @@
    "room": "F212",
    "faculty": "ASN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PMC331L | F212 | ASN"
   }

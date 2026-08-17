@@ -22,6 +22,8 @@
    "room": "LP106",
    "faculty": "ABK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA312L | LP106 | ABK"
   },
@@ -37,6 +39,8 @@
    "room": "LP106",
    "faculty": "HAR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA303L | LP106 | HAR"
   },
@@ -55,6 +59,23 @@
     "MCA214L",
     "MCA306L"
    ],
+   "choices": [
+    {
+     "code": "MCA214L",
+     "room": "LP105",
+     "faculty": "VJY",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "MCA306L",
+     "room": "LP109",
+     "faculty": "MNK",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "MCA214L/MCA306L | LP105/LP109 | VJY/MNK"
   },
@@ -70,6 +91,8 @@
    "room": "LP105",
    "faculty": "ABJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA203L | LP105 | ABJ"
   },
@@ -85,6 +108,8 @@
    "room": "GA (L002)",
    "faculty": "KRT-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA203P | GA(L002) | LAB | KRT-RA"
   },
@@ -100,6 +125,8 @@
    "room": "CG2 (L430)",
    "faculty": "KRT-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA203P | CG2(L430) | LAB | KRT-RA"
   },
@@ -115,6 +142,8 @@
    "room": "LP106",
    "faculty": "HAR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA303L | LP106 | HAR"
   },
@@ -130,6 +159,8 @@
    "room": "LP106",
    "faculty": "ABK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA312L | LP106 | ABK"
   },
@@ -145,6 +176,8 @@
    "room": "LT402",
    "faculty": "ABJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA203L | LT402 | ABJ"
   },
@@ -160,6 +193,8 @@
    "room": "LT402",
    "faculty": "HAR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA303L | LT402 | HAR"
   },
@@ -175,6 +210,8 @@
    "room": "LP106",
    "faculty": "ABJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA203L | LP106 | ABJ"
   },
@@ -193,6 +230,23 @@
     "MCA214L",
     "MCA306L"
    ],
+   "choices": [
+    {
+     "code": "MCA214L",
+     "room": "LP106",
+     "faculty": "VJY",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "MCA306L",
+     "room": "LP109",
+     "faculty": "MNK",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "MCA214L/MCA306L | LP106/LP109 | VJY/MNK"
   },
@@ -208,6 +262,8 @@
    "room": "ED1 (L101)",
    "faculty": "SNL-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA303P | ED1(L101) | LAB | SNL-RA"
   },
@@ -226,6 +282,23 @@
     "MCA421P",
     "MCA306P"
    ],
+   "choices": [
+    {
+     "code": "MCA421P",
+     "room": "IOT(L302)",
+     "faculty": "VJY",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "MCA306P",
+     "room": "CIS(L301)",
+     "faculty": "MNK",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "MCA421P/MCA306P | IOT(L302)/CIS(L301) | LAB | VJY/MNK"
   },
@@ -241,6 +314,8 @@
    "room": "LP102",
    "faculty": "ABK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "MCA312L | LP102 | ABK"
   },
@@ -259,6 +334,23 @@
     "MCA214L",
     "MCA306L"
    ],
+   "choices": [
+    {
+     "code": "MCA214L",
+     "room": "LP102",
+     "faculty": "VJY",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "MCA306L",
+     "room": "LP108",
+     "faculty": "MNK",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "MCA214L/MCA306L | LP102/LP108 | VJY/MNK"
   }

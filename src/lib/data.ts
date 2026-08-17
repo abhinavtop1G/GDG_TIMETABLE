@@ -7,6 +7,14 @@ export type ClassType =
   | "discussion"
   | "class";
 
+export interface Choice {
+  code: string;
+  title: string;
+  room: string;
+  faculty: string;
+  note: string;
+}
+
 export interface ClassEntry {
   day: number;
   period: number;
@@ -19,10 +27,16 @@ export interface ClassEntry {
   room: string;
   faculty: string;
   options: string[];
+  /** Each elective option paired with its own room and faculty. */
+  choices: Choice[];
+  /** True when the sheet's parallel arrays lined up and choices are trustworthy. */
+  aligned: boolean;
   note: string;
   raw: string;
   /** Set when a long block has been split into one card per period. */
   part?: { index: number; of: number };
+  /** Set once the student has chosen which elective they take. */
+  picked?: boolean;
 }
 
 export interface BatchSummary {
@@ -234,4 +248,77 @@ export function searchBatches(batches: BatchSummary[], query: string): BatchSumm
 /** Distinct branches for one year, for the home-page filter. */
 export function branchesForYear(batches: BatchSummary[], year: number): string[] {
   return [...new Set(batches.filter((b) => b.year === year && b.branch).map((b) => b.branch))].sort();
+}
+
+
+// ---------------------------------------------------------------------------
+// Elective choices
+// ---------------------------------------------------------------------------
+
+/** Courses are identified by their six-character base code, so a student's
+ *  pick resolves both the lecture and the lab of the same elective. */
+export function baseCode(code: string): string {
+  return code.slice(0, 6);
+}
+
+export type Picks = Record<string, string>;
+
+/** The distinct elective slots in a batch, grouped by the set of options they
+ *  offer. One group is one decision the student makes. */
+export interface ElectiveGroup {
+  key: string;
+  choices: Choice[];
+  slots: ClassEntry[];
+  aligned: boolean;
+}
+
+export function electiveGroups(batch: Batch): ElectiveGroup[] {
+  const groups = new Map<string, ElectiveGroup>();
+  for (const c of batch.classes) {
+    if (c.type !== "elective" || !c.choices?.length) continue;
+    // Group by the set of courses on offer, ignoring L/P suffix, so the
+    // lecture bundle and its matching lab bundle become one decision.
+    const key = [...new Set(c.choices.map((ch) => baseCode(ch.code)))].sort().join("+");
+    const existing = groups.get(key);
+    if (existing) {
+      existing.slots.push(c);
+      existing.aligned = existing.aligned && c.aligned;
+    } else {
+      groups.set(key, { key, choices: c.choices, slots: [c], aligned: c.aligned });
+    }
+  }
+  return [...groups.values()].sort((a, b) => b.slots.length - a.slots.length);
+}
+
+/** Apply the student's picks, turning elective slots into concrete classes. */
+export function resolvePicks(classes: ClassEntry[], picks: Picks): ClassEntry[] {
+  return classes.map((c) => {
+    if (c.type !== "elective" || !c.choices?.length) return c;
+
+    const key = [...new Set(c.choices.map((ch) => baseCode(ch.code)))].sort().join("+");
+    const pickedBase = picks[key];
+    if (!pickedBase) return c;
+
+    const chosen = c.choices.find((ch) => baseCode(ch.code) === pickedBase);
+    if (!chosen) return c;
+
+    return {
+      ...c,
+      code: chosen.code,
+      title: chosen.title,
+      // Only inherit the room when the source arrays lined up; otherwise the
+      // slot keeps its full option list rather than showing a guessed room.
+      room: c.aligned ? chosen.room : "",
+      faculty: c.aligned ? chosen.faculty : "",
+      note: [chosen.note, c.note].filter(Boolean).join(" · "),
+      type: chosen.code.endsWith("P")
+        ? "practical"
+        : chosen.code.endsWith("T")
+          ? "tutorial"
+          : "lecture",
+      picked: true,
+      choices: c.choices,
+      options: c.options,
+    } as ClassEntry;
+  });
 }

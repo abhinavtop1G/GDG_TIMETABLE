@@ -22,6 +22,8 @@
    "room": "C334",
    "faculty": "AKC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL103P | C334 | LAB | AKC"
   },
@@ -37,6 +39,8 @@
    "room": "E110",
    "faculty": "RS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL111L | E110 | RS"
   },
@@ -52,6 +56,8 @@
    "room": "E110",
    "faculty": "GPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL204L | E110 | GPK"
   },
@@ -67,6 +73,8 @@
    "room": "E110",
    "faculty": "MFD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL113L | E110 | MFD"
   },
@@ -82,6 +90,8 @@
    "room": "E110",
    "faculty": "RS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL111L | E110 | RS"
   },
@@ -97,6 +107,8 @@
    "room": "E110",
    "faculty": "AKC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL103L | E110 | AKC"
   },
@@ -112,6 +124,8 @@
    "room": "E110",
    "faculty": "SKR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL112L | E110 | SKR"
   },
@@ -127,6 +141,8 @@
    "room": "E110",
    "faculty": "AKC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL103T | E110 | AKC"
   },
@@ -142,6 +158,8 @@
    "room": "E110",
    "faculty": "GPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL204L | E110 | GPK"
   },
@@ -157,6 +175,8 @@
    "room": "E110",
    "faculty": "AKC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL103L | E110 | AKC"
   },
@@ -172,6 +192,8 @@
    "room": "E110",
    "faculty": "SKR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL112L | E110 | SKR"
   },
@@ -187,6 +209,8 @@
    "room": "C334",
    "faculty": "GPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL204P | C334 | LAB | GPK"
   },
@@ -202,6 +226,8 @@
    "room": "C221",
    "faculty": "SKR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL112P | C221 | LAB | SKR"
   },
@@ -217,6 +243,8 @@
    "room": "C221",
    "faculty": "RS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL111P | C221 | LAB | RS"
   },
@@ -232,6 +260,8 @@
    "room": "E110",
    "faculty": "MFD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL113L | E110 | MFD"
   },
@@ -247,6 +277,8 @@
    "room": "E110",
    "faculty": "RS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL111L | E110 | RS"
   },
@@ -262,6 +294,8 @@
    "room": "E110",
    "faculty": "GPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL204L | E110 | GPK"
   },
@@ -277,6 +311,8 @@
    "room": "E110",
    "faculty": "AKC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL103L | E110 | AKC"
   },
@@ -292,6 +328,8 @@
    "room": "E110",
    "faculty": "MFD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL113L | E110 | MFD"
   },
@@ -307,6 +345,8 @@
    "room": "E110",
    "faculty": "SKR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL112L | E110 | SKR"
   },
@@ -322,6 +362,8 @@
    "room": "C334",
    "faculty": "MFD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PVL113P | C334 | LAB | MFD"
   }

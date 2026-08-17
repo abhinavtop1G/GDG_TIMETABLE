@@ -22,6 +22,8 @@
    "room": "E107",
    "faculty": "DM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA601L | E107 | DM"
   },
@@ -40,6 +42,23 @@
     "UEE744L",
     "UEE601L"
    ],
+   "choices": [
+    {
+     "code": "UEE744L",
+     "room": "E107",
+     "faculty": "SP",
+     "note": "",
+     "title": "Industrial Electronics"
+    },
+    {
+     "code": "UEE601L",
+     "room": "E313",
+     "faculty": "SJ",
+     "note": "",
+     "title": "Flexible AC Transmission Systems"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UEE744L/UEE601L | E107/E313 | SP/SJ"
   },
@@ -55,6 +74,8 @@
    "room": "E107",
    "faculty": "SKA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC603L | E107 | SKA"
   },
@@ -70,6 +91,8 @@
    "room": "E107",
    "faculty": "SKA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC603L | E107 | SKA"
   },
@@ -88,6 +111,23 @@
     "UEE744L",
     "UEE601L"
    ],
+   "choices": [
+    {
+     "code": "UEE744L",
+     "room": "E107",
+     "faculty": "SP",
+     "note": "",
+     "title": "Industrial Electronics"
+    },
+    {
+     "code": "UEE601L",
+     "room": "E108",
+     "faculty": "SJ",
+     "note": "",
+     "title": "Flexible AC Transmission Systems"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UEE744L/UEE601L | E107/E108 | SP/SJ"
   },
@@ -103,6 +143,8 @@
    "room": "E105",
    "faculty": "DM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA601T | E105 | DM"
   },
@@ -121,6 +163,30 @@
     "UEE744P",
     "UEE601L"
    ],
+   "choices": [
+    {
+     "code": "UEE744P",
+     "room": "PE(C113)",
+     "faculty": "SP",
+     "note": "",
+     "title": "Industrial Electronics"
+    },
+    {
+     "code": "UEE601L",
+     "room": "E107",
+     "faculty": "SJ",
+     "note": "",
+     "title": "Flexible AC Transmission Systems"
+    },
+    {
+     "code": "UEE744P",
+     "room": "PE(C113)",
+     "faculty": "SJ",
+     "note": "",
+     "title": "Industrial Electronics"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UEE744P/UEE601L/UEE744P | PE(C113)/E107/PE(C113) | LAB | SP/SJ/SJ"
   },
@@ -141,6 +207,37 @@
     "UHU016",
     "UMA069L"
    ],
+   "choices": [
+    {
+     "code": "UCS002L",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UHU018",
+     "room": "LP106",
+     "faculty": "RKS",
+     "note": "",
+     "title": "Introduction to Corporate Finance"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS002L/UHU018/UHU016/UMA069L | LT101/LP106/B303/F201 | SUS/RKS/PS/AM"
   },
@@ -156,6 +253,8 @@
    "room": "LT102",
    "faculty": "VK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTD004L | LT102 | VK"
   },
@@ -176,6 +275,37 @@
     "UHU016",
     "UMA069L"
    ],
+   "choices": [
+    {
+     "code": "UCS002L",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UHU018",
+     "room": "LP106",
+     "faculty": "RKS",
+     "note": "",
+     "title": "Introduction to Corporate Finance"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS002L/UHU018/UHU016/UMA069L | LT101/LP106/B303/F201 | SUS/RKS/PS/AM"
   },
@@ -191,6 +321,8 @@
    "room": "LT102",
    "faculty": "VK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTD004L | LT102 | VK"
   },
@@ -206,6 +338,8 @@
    "room": "PSS (H220)",
    "faculty": "DM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA601P | PSS(H220) | LAB | DM"
   },
@@ -221,6 +355,8 @@
    "room": "PE (C113)",
    "faculty": "SKA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC603P | PE(C113) | LAB | SKA"
   },
@@ -236,6 +372,8 @@
    "room": "E107",
    "faculty": "DM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA601L | E107 | DM"
   },
@@ -251,6 +389,8 @@
    "room": "E107",
    "faculty": "SKA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC603L | E107 | SKA"
   }

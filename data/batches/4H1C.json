@@ -22,6 +22,8 @@
    "room": "B302",
    "faculty": "DMG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "URA731P | B302 | DMG"
   },
@@ -37,6 +39,8 @@
    "room": "F207",
    "faculty": "JPT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "URA753L | F207 | JPT"
   },
@@ -56,6 +60,30 @@
     "UME741L",
     "UME744L"
    ],
+   "choices": [
+    {
+     "code": "UME742L",
+     "room": "F206",
+     "faculty": "RTK",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME741L",
+     "room": "F207",
+     "faculty": "VG",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME744L",
+     "room": "F109",
+     "faculty": "ASO",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UME742L/UME741L/UME744L | F206/F207/F109 | RTK/VG/ASO"
   },
@@ -75,6 +103,30 @@
     "URA751L",
     "UME751L"
    ],
+   "choices": [
+    {
+     "code": "UCS760L",
+     "room": "F206",
+     "faculty": "CSED",
+     "note": "",
+     "title": "Edge AI and Robotics: Reinforcement Learning & Conversational AI"
+    },
+    {
+     "code": "URA751L",
+     "room": "F207",
+     "faculty": "NF",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME751L",
+     "room": "F312",
+     "faculty": "AMG",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS760L/URA751L/UME751L | F206/F207/F312 | CSED/NF/AMG"
   },
@@ -96,6 +148,44 @@
     "UME754L",
     "UME743L"
    ],
+   "choices": [
+    {
+     "code": "UCS760L",
+     "room": "F206",
+     "faculty": "CSED",
+     "note": "",
+     "title": "Edge AI and Robotics: Reinforcement Learning & Conversational AI"
+    },
+    {
+     "code": "URA751L",
+     "room": "F207",
+     "faculty": "NF",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME751L",
+     "room": "F312",
+     "faculty": "AMG",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME754L",
+     "room": "F102",
+     "faculty": "VKS",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME743L",
+     "room": "F107",
+     "faculty": "RJS",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS760L/URA751L/UME751L/UME754L/UME743L | F206/F207/F312/F102/F107 | CSED/NF/AMG/VKS/RJS"
   },
@@ -115,6 +205,30 @@
     "URA413L",
     "URA741L"
    ],
+   "choices": [
+    {
+     "code": "UME752L",
+     "room": "F206",
+     "faculty": "APH",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "URA413L",
+     "room": "F207",
+     "faculty": "DKJ",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "URA741L",
+     "room": "F110",
+     "faculty": "PKW",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UME752L/URA413L/URA741L | F206/F207/F110 | APH/DKJ/PKW"
   },
@@ -130,6 +244,8 @@
    "room": "B303",
    "faculty": "DMG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "Capstone project",
    "raw": "URA731L | B303 | DMG | CAPSTONE PROJECT"
   },
@@ -148,6 +264,23 @@
     "UME752L",
     "URA413L"
    ],
+   "choices": [
+    {
+     "code": "UME752L",
+     "room": "F206",
+     "faculty": "APH",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "URA413L",
+     "room": "F207",
+     "faculty": "DKJ",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UME752L/URA413L | F206/F207 | APH/DKJ"
   },
@@ -163,6 +296,8 @@
    "room": "F207",
    "faculty": "JPT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "URA753L | F207 | JPT"
   },
@@ -181,6 +316,23 @@
     "UCS617",
     "UME730L"
    ],
+   "choices": [
+    {
+     "code": "UCS617",
+     "room": "F206",
+     "faculty": "HMG",
+     "note": "",
+     "title": "Microprocessor-Based Systems Design"
+    },
+    {
+     "code": "UME730L",
+     "room": "F207",
+     "faculty": "SAT",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS617/UME730L | F206/F207 | HMG/SAT"
   },
@@ -199,6 +351,23 @@
     "UCS617",
     "UME730L"
    ],
+   "choices": [
+    {
+     "code": "UCS617",
+     "room": "F206",
+     "faculty": "HMG",
+     "note": "",
+     "title": "Microprocessor-Based Systems Design"
+    },
+    {
+     "code": "UME730L",
+     "room": "F207",
+     "faculty": "SAT",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS617/UME730L | F206/F207 | HMG/SAT"
   },
@@ -220,6 +389,44 @@
     "UME754P",
     "UME743P"
    ],
+   "choices": [
+    {
+     "code": "UCS760P",
+     "room": "CSED",
+     "faculty": "CSED",
+     "note": "",
+     "title": "Edge AI and Robotics: Reinforcement Learning & Conversational AI"
+    },
+    {
+     "code": "URA751P",
+     "room": "IA(H214)",
+     "faculty": "NF",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME751P",
+     "room": "MET",
+     "faculty": "AMG",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME754P",
+     "room": "MT(H104)",
+     "faculty": "VKS",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME743P",
+     "room": "CAM(H107)",
+     "faculty": "RJS",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS760P/URA751P/UME751P/UME754P/UME743P | CSED/IA(H214)/MET/MT(H104)/CAM(H107) | LAB | CSED/NF/AMG/VKS/RJS"
   },
@@ -235,6 +442,8 @@
    "room": "CAM (H107)",
    "faculty": "SAT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME730P | CAM(H107) | LAB | SAT"
   },
@@ -253,6 +462,23 @@
     "UCS668P",
     "UME743P"
    ],
+   "choices": [
+    {
+     "code": "UCS668P",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Edge AI and Robotics: Data Centre Vision"
+    },
+    {
+     "code": "UME743P",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": false,
    "note": "CSED/W/S",
    "raw": "UCS668P/UME743P | CSED/W/S | LAB | CSED/RTK"
   },
@@ -271,6 +497,23 @@
     "UME754L",
     "UME743L"
    ],
+   "choices": [
+    {
+     "code": "UME754L",
+     "room": "F206",
+     "faculty": "VKS",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME743L",
+     "room": "F207",
+     "faculty": "RJS",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UME754L/UME743L | F206/F207 | VKS/RJS"
   },
@@ -289,6 +532,23 @@
     "UME741L",
     "UME744L"
    ],
+   "choices": [
+    {
+     "code": "UME741L",
+     "room": "F109",
+     "faculty": "VG",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME744L",
+     "room": "F110",
+     "faculty": "ASO",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UME741L/UME744L | F109/F110 | VG/ASO"
   },
@@ -304,6 +564,8 @@
    "room": "",
    "faculty": "BAJAJ / PKW",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "URA741P | BAJAJ | LAB | PKW"
   },
@@ -319,6 +581,8 @@
    "room": "CSED ROOM",
    "faculty": "CSED",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS668L | CSED ROOM | CSED"
   },
@@ -340,6 +604,44 @@
     "UME741L",
     "UME744L"
    ],
+   "choices": [
+    {
+     "code": "UCS668L",
+     "room": "CSED",
+     "faculty": "CSED",
+     "note": "",
+     "title": "Edge AI and Robotics: Data Centre Vision"
+    },
+    {
+     "code": "URA731L",
+     "room": "B303",
+     "faculty": "DMG",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME742L",
+     "room": "F109",
+     "faculty": "RTK",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME741L",
+     "room": "F110",
+     "faculty": "VG",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME744L",
+     "room": "F11",
+     "faculty": "ASO",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS668L/URA731L/UME742L/UME741L/UME744L | CSED/B303/F109/F110/F11 | CSED/DMG/RTK/VG/ASO"
   },
@@ -360,6 +662,37 @@
     "UME754P",
     "UME743P"
    ],
+   "choices": [
+    {
+     "code": "UCS760P",
+     "room": "CSED",
+     "faculty": "CSED",
+     "note": "",
+     "title": "Edge AI and Robotics: Reinforcement Learning & Conversational AI"
+    },
+    {
+     "code": "URA751P",
+     "room": "IA(214)",
+     "faculty": "NF",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME754P",
+     "room": "MT(H104)",
+     "faculty": "VKS",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME743P",
+     "room": "CAM(H107)",
+     "faculty": "RJS",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS760P/URA751P/UME754P/UME743P | CSED/IA(214)/MT(H104)/CAM(H107) | LAB | CSED/NF/VKS/RJS"
   },
@@ -375,6 +708,8 @@
    "room": "NS2 (L103)",
    "faculty": "HMG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS671P | NS2(L103) | LAB | HMG"
   },
@@ -390,6 +725,8 @@
    "room": "F206",
    "faculty": "JPT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "URA753L | F206 | JPT"
   },
@@ -409,6 +746,30 @@
     "URA413L",
     "URA741L"
    ],
+   "choices": [
+    {
+     "code": "UME752L",
+     "room": "F206",
+     "faculty": "APH",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "URA413L",
+     "room": "F207",
+     "faculty": "DKJ",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "URA741L",
+     "room": "F110",
+     "faculty": "PKW",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UME752L/URA413L/URA741L | F206/F207/F110 | APH/DKJ/PKW"
   },
@@ -427,6 +788,23 @@
     "UCS668P",
     "UME730P"
    ],
+   "choices": [
+    {
+     "code": "UCS668P",
+     "room": "CSDE",
+     "faculty": "CSED",
+     "note": "",
+     "title": "Edge AI and Robotics: Data Centre Vision"
+    },
+    {
+     "code": "UME730P",
+     "room": "CAM(H107)",
+     "faculty": "SAT",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS668P/UME730P | CSDE/CAM(H107) | LAB | CSED/SAT"
   }

@@ -1900,3 +1900,240 @@ button {
     display: none;
   }
 }
+
+/* ---------- electives ---------- */
+
+.pill--alert {
+  border-color: var(--yellow);
+  color: var(--ink);
+}
+
+.pill__count {
+  display: inline-grid;
+  place-items: center;
+  min-width: 1.15rem;
+  height: 1.15rem;
+  margin-left: 0.4rem;
+  padding: 0 0.3rem;
+  border-radius: 999px;
+  background: var(--yellow);
+  color: #3d2f00;
+  font-size: 0.68rem;
+  font-weight: 600;
+}
+
+.banner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  width: 100%;
+  margin: 1rem 0 0;
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  text-align: left;
+  font-size: 0.85rem;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--yellow) 12%, var(--surface));
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--yellow) 34%, transparent);
+  transition: transform 0.15s ease;
+}
+
+.banner:hover {
+  transform: translateY(-1px);
+}
+
+.banner__dot {
+  flex: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--yellow);
+  animation: pulse 2.4s ease-in-out infinite;
+}
+
+.banner__go {
+  margin-left: auto;
+  flex: none;
+  color: var(--blue);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* Unchosen elective slots read as an invitation, not a class. */
+.card--elective:not(.card--picked) {
+  border-style: dashed;
+}
+
+.elective__kind {
+  background: var(--red);
+}
+
+.egroup {
+  margin-top: 0.9rem;
+  border-radius: 14px;
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1px var(--line);
+  overflow: hidden;
+}
+
+.egroup__head {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  width: 100%;
+  padding: 0.85rem 1rem;
+  text-align: left;
+}
+
+.egroup__head:hover {
+  background: var(--surface-2);
+}
+
+.egroup__n {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background: var(--bg-2);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.egroup__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.egroup__title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.egroup__when {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  color: var(--dim);
+}
+
+.egroup__state {
+  margin-left: auto;
+  flex: none;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  color: var(--dim);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+}
+
+.egroup__state--set {
+  color: var(--green);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--green) 50%, transparent);
+}
+
+.egroup__warn {
+  margin: 0;
+  padding: 0.6rem 1rem;
+  font-size: 0.74rem;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--yellow) 14%, transparent);
+}
+
+.echoices {
+  list-style: none;
+  margin: 0;
+  padding: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  border-top: 1px solid var(--line);
+}
+
+.echoice {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  width: 100%;
+  padding: 0.6rem 0.7rem;
+  border-radius: 10px;
+  text-align: left;
+  animation: cardIn 0.24s ease backwards;
+}
+
+.echoice:hover {
+  background: var(--surface-2);
+}
+
+.echoice--on {
+  background: color-mix(in srgb, var(--green) 14%, transparent);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--green) 45%, transparent);
+}
+
+.echoice__main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 0;
+  flex: 1;
+}
+
+.echoice__title {
+  font-size: 0.85rem;
+  overflow-wrap: anywhere;
+}
+
+.echoice__code {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  color: var(--dim);
+}
+
+.echoice__meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.1rem;
+  flex: none;
+}
+
+.echoice__room {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  padding: 0.1rem 0.4rem;
+  border-radius: 5px;
+  background: color-mix(in srgb, var(--ink) 9%, transparent);
+}
+
+.echoice__none {
+  font-size: 0.66rem;
+  color: var(--dim);
+  font-style: italic;
+}
+
+.echoice__fac {
+  font-size: 0.66rem;
+  color: var(--muted);
+}
+
+.echoice__tick {
+  flex: none;
+  width: 1rem;
+  color: var(--green);
+  font-weight: 700;
+}
+
+.elective__fine {
+  margin: 1.2rem 0 0;
+  font-size: 0.72rem;
+  color: var(--dim);
+  text-align: center;
+}

@@ -22,6 +22,8 @@
    "room": "E203",
    "faculty": "TRN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE204L | E203 | TRN"
   },
@@ -37,6 +39,8 @@
    "room": "E203",
    "faculty": "NKW",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE101L | E203 | NKW"
   },
@@ -52,6 +56,8 @@
    "room": "E203",
    "faculty": "RSQ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE104L | E203 | RSQ"
   },
@@ -67,6 +73,8 @@
    "room": "STR LAB (D122)",
    "faculty": "RSQ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE104P | STR LAB (D122) | RSQ"
   },
@@ -82,6 +90,8 @@
    "room": "E109",
    "faculty": "VJK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCL105L | E109 | VJK"
   },
@@ -97,6 +107,8 @@
    "room": "E203",
    "faculty": "PPB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE103L | E203 | PPB"
   },
@@ -112,6 +124,8 @@
    "room": "E203",
    "faculty": "NKW",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE101L | E203 | NKW"
   },
@@ -127,6 +141,8 @@
    "room": "E203",
    "faculty": "PTK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE102L | E203 | PTK"
   },
@@ -142,6 +158,8 @@
    "room": "E203",
    "faculty": "PPB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE103T | E203 | PPB"
   },
@@ -157,6 +175,8 @@
    "room": "E109",
    "faculty": "VJK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCL105L | E109 | VJK"
   },
@@ -172,6 +192,8 @@
    "room": "E203",
    "faculty": "PPB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE103L | E203 | PPB"
   },
@@ -187,6 +209,8 @@
    "room": "CED CAD LAB-2 (D218)",
    "faculty": "NKW",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE101P | CED CAD LAB-2(D218) | NKW"
   },
@@ -202,6 +226,8 @@
    "room": "E203",
    "faculty": "TRN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE204L | E203 | TRN"
   },
@@ -217,6 +243,8 @@
    "room": "E203",
    "faculty": "PTK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE102T | E203 | PTK"
   },
@@ -232,6 +260,8 @@
    "room": "NA LAB 2 (G204) / APC-1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCL105P | NA Lab 2 (G204) | APC-1"
   },
@@ -247,6 +277,8 @@
    "room": "E109",
    "faculty": "VJK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCL105L | E109 | VJK"
   },
@@ -262,6 +294,8 @@
    "room": "E203",
    "faculty": "RSQ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE104L | E203 | RSQ"
   },
@@ -277,6 +311,8 @@
    "room": "E203",
    "faculty": "PPB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE103L | E203 | PPB"
   },
@@ -292,6 +328,8 @@
    "room": "E203",
    "faculty": "NKW",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE101L | E203 | NKW"
   },
@@ -307,6 +345,8 @@
    "room": "E203",
    "faculty": "PTK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE102L | E203 | PTK"
   },
@@ -322,6 +362,8 @@
    "room": "CED CAD LAB-2 (C218)",
    "faculty": "TRN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE204T | CED CAD LAB-2(C218) | TRN"
   },
@@ -337,6 +379,8 @@
    "room": "E203",
    "faculty": "PTK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE102L | E203 | PTK"
   },
@@ -352,6 +396,8 @@
    "room": "E203",
    "faculty": "TRN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE204L | E203 | TRN"
   },
@@ -367,6 +413,8 @@
    "room": "E203",
    "faculty": "RSQ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCE104L | E203 | RSQ"
   }

@@ -22,6 +22,8 @@
    "room": "PG (G201) / TA20 / BEST-SEN (P)",
    "faculty": "BSL / BHL / BPL / SNP / RAW",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA034P | PG(G201) | LAB | TA20 | BEST-SEN(P) | LAB | BSL/BHL/BPL | SNP/RAW"
   },
@@ -37,6 +39,8 @@
    "room": "",
    "faculty": "CAM / DMG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "URA302P | LAB | CAM | DMG"
   },
@@ -52,6 +56,8 @@
    "room": "B302",
    "faculty": "NK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA034L | B302 | NK"
   },
@@ -67,6 +73,8 @@
    "room": "B302",
    "faculty": "DMG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "URA302L | B302 | DMG"
   },
@@ -82,6 +90,8 @@
    "room": "B302",
    "faculty": "DEM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA018L | B302 | DEM"
   },
@@ -97,6 +107,8 @@
    "room": "B302",
    "faculty": "NG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "BEST-EE P",
    "raw": "URAXXX L | B302 | NG | BEST-EE P"
   },
@@ -112,6 +124,8 @@
    "room": "B302",
    "faculty": "SMV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321L | B302 | SMV"
   },
@@ -127,6 +141,8 @@
    "room": "B302",
    "faculty": "RKR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMT404L | B302 | RKR"
   },
@@ -142,6 +158,8 @@
    "room": "B302",
    "faculty": "NG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "URAXXXL | B302 | NG"
   },
@@ -157,6 +175,8 @@
    "room": "",
    "faculty": "MOM / PNK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "URAXXXP | MOM | LAB | PNK"
   },
@@ -172,6 +192,8 @@
    "room": "CAD-2 / BEST3.3T / F210 / E308",
    "faculty": "RKR / MKD / BEST-SEN / JS / VPR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMT404P | CAD-2 | LAB | RKR | BEST3.3T | F210 | MKD | BEST-SEN | E308 | JS/VPR"
   },
@@ -187,6 +209,8 @@
    "room": "E303",
    "faculty": "SVG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "BEST-EE T | E303 | SVG"
   },
@@ -202,6 +226,8 @@
    "room": "B302",
    "faculty": "NK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA034L | B302 | NK"
   },
@@ -217,6 +243,8 @@
    "room": "B302",
    "faculty": "SMV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321P | B302 | LAB | SMV"
   },
@@ -232,6 +260,8 @@
    "room": "B302",
    "faculty": "DMG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "URA302L | B302 | DMG"
   },
@@ -247,6 +277,8 @@
    "room": "B302",
    "faculty": "NG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "URAXXXL | B302 | NG"
   },
@@ -262,6 +294,8 @@
    "room": "B302",
    "faculty": "RKR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMT404L | B302 | RKR"
   },
@@ -277,6 +311,8 @@
    "room": "F209 / BEST-ED- (P) / CAD-1 LAB",
    "faculty": "GGS / MBD / RSJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "URAXXXT | F209 | GGS | BEST-ED-(P) | CAD-1 LAB | MBD/RSJ"
   },
@@ -292,6 +328,8 @@
    "room": "B302",
    "faculty": "NK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA034L | B302 | NK"
   },
@@ -307,6 +345,8 @@
    "room": "B302",
    "faculty": "SMV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321L | B302 | SMV"
   }

@@ -29,6 +29,9 @@ source/*.xlsx  ──►  scripts/parse_timetable.py  ──►  data/  ──�
 - **Pick your year, then your batch.** 534 batches; the numbered group id
   students actually use (2Q31, not 2Q3A).
 - **Live "in class now"** card, and a now-line that moves down the week grid.
+- **Pick your electives.** Third and fourth year slots that offer a choice
+  become a picker showing only the courses open to that batch, each with its
+  own room and teacher. Choosing once fills in the lecture and the lab.
 - **Tap any class** to expand it: full course name, every session of that course
   in the week, total contact hours, all rooms and faculty, and any scheduling
   note. Optional prose lives in `overrides/descriptions.json`.
@@ -58,6 +61,23 @@ npm run samples   # renders sample wallpapers + a PDF to /tmp (needs: npm i -D c
 
 `npm run preview` server-renders the actual components with the shipped CSS, so
 the file shows the real design in both themes — no dev server needed.
+
+## Electives, and why the parser is strict about them
+
+An elective cell is a set of parallel arrays: the nth course goes with the nth
+room and the nth teacher, and the sheet writes `---` where a value is missing
+purely to hold that position.
+
+The first version of this parser deduplicated rooms and dropped those
+placeholders. In one third-year CSE bundle that shifted four of ten courses
+onto the wrong room — a student would have walked into the wrong lab. Elective
+cells are now split with `split_aligned()`, which preserves position,
+duplicates and blanks, and the pairing is only offered when the arrays agree in
+length. When they don't (37 blocks of 1138), the options are still listed but
+no room is shown, and the picker says why.
+
+`npm run check` re-derives every possible pick in every batch and asserts the
+resolved room and teacher match the sheet: 6 452 slots, zero mismatches.
 
 ## Course and faculty names
 

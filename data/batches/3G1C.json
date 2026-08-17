@@ -22,6 +22,8 @@
    "room": "F208",
    "faculty": "BB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT517L | F208 | BB"
   },
@@ -37,6 +39,8 @@
    "room": "F208",
    "faculty": "AKU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT521L | F208 | AKU"
   },
@@ -55,6 +59,23 @@
     "UBT513",
     "UBT514L"
    ],
+   "choices": [
+    {
+     "code": "UBT513",
+     "room": "F208",
+     "faculty": "PD",
+     "note": "",
+     "title": "Cell and Tissue Engineering"
+    },
+    {
+     "code": "UBT514L",
+     "room": "F307",
+     "faculty": "NF1",
+     "note": "",
+     "title": "Natural Products"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UBT513/UBT514L | F208/F307 | PD/NF1"
   },
@@ -70,6 +91,8 @@
    "room": "F208",
    "faculty": "VKH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT516L | F208 | VKH"
   },
@@ -85,6 +108,8 @@
    "room": "F208",
    "faculty": "BB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT517T | F208 | BB"
   },
@@ -100,6 +125,8 @@
    "room": "F208",
    "faculty": "BB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT517L | F208 | BB"
   },
@@ -115,6 +142,8 @@
    "room": "F208",
    "faculty": "VKH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT516L | F208 | VKH"
   },
@@ -130,6 +159,8 @@
    "room": "F208",
    "faculty": "MSR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT515L | F208 | MSR"
   },
@@ -148,6 +179,23 @@
     "UBT513L",
     "UBT512L"
    ],
+   "choices": [
+    {
+     "code": "UBT513L",
+     "room": "F208",
+     "faculty": "PD",
+     "note": "",
+     "title": "Cell and Tissue Engineering"
+    },
+    {
+     "code": "UBT512L",
+     "room": "F307",
+     "faculty": "DD",
+     "note": "",
+     "title": "Structural Biology"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UBT513L/UBT512L | F208/F307 | PD/DD"
   },
@@ -163,6 +211,8 @@
    "room": "F208",
    "faculty": "BB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT517T | F208 | BB"
   },
@@ -178,6 +228,8 @@
    "room": "F208",
    "faculty": "VKH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT516L | F208 | VKH"
   },
@@ -193,6 +245,8 @@
    "room": "F208",
    "faculty": "BB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT517L | F208 | BB"
   },
@@ -208,6 +262,8 @@
    "room": "F208",
    "faculty": "MSR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT516L | F208 | MSR"
   },
@@ -228,6 +284,37 @@
     "UHU016",
     "UMA069L"
    ],
+   "choices": [
+    {
+     "code": "UCS002",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UTD004",
+     "room": "LT102",
+     "faculty": "VK",
+     "note": "",
+     "title": "Campus 2 Corporate"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS002/UTD004/UHU016/UMA069L | LT101/LT102/B303/F201 | SUS/VK/PS/AM"
   },
@@ -243,6 +330,8 @@
    "room": "LT101",
    "faculty": "ANS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU018L | LT101 | ANS"
   },
@@ -258,6 +347,8 @@
    "room": "F208",
    "faculty": "RM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA025P | F208 | RM"
   },
@@ -278,6 +369,37 @@
     "UHU016",
     "UMA069L"
    ],
+   "choices": [
+    {
+     "code": "UCS002",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UTD004",
+     "room": "LT102",
+     "faculty": "VK",
+     "note": "",
+     "title": "Campus 2 Corporate"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS002/UTD004/UHU016/UMA069L | LT101/LT102/B303/F201 | SUS/VK/PS/AM"
   },
@@ -293,6 +415,8 @@
    "room": "LT101",
    "faculty": "ANS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU018L | LT101 | ANS"
   },
@@ -308,6 +432,8 @@
    "room": "F208 / F202",
    "faculty": "PD / DD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT513L/512L | F208/F202 | PD/DD"
   },
@@ -323,6 +449,8 @@
    "room": "F208",
    "faculty": "AKU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT521L | F208 | AKU"
   },
@@ -338,6 +466,8 @@
    "room": "F208",
    "faculty": "RM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA025L | F208 | RM"
   },
@@ -353,6 +483,8 @@
    "room": "F208 / NF1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT514L | F208 | NF1"
   },
@@ -368,6 +500,8 @@
    "room": "F208",
    "faculty": "AKU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT521P | F208 | AKU"
   },
@@ -386,6 +520,23 @@
     "UBT512",
     "UBT514L"
    ],
+   "choices": [
+    {
+     "code": "UBT512",
+     "room": "F208",
+     "faculty": "DD",
+     "note": "",
+     "title": "Structural Biology"
+    },
+    {
+     "code": "UBT514L",
+     "room": "F307",
+     "faculty": "NF1",
+     "note": "",
+     "title": "Natural Products"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UBT512/UBT514L | F208/F307 | DD/NF1"
   },
@@ -401,6 +552,8 @@
    "room": "FIRST FLOOR",
    "faculty": "STEP / NL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT518P | STEP | FIRST FLOOR | LAB | NL"
   }

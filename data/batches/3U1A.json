@@ -22,6 +22,8 @@
    "room": "E308",
    "faculty": "DAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC521L | E308 | DAS"
   },
@@ -37,6 +39,8 @@
    "room": "E308",
    "faculty": "NEN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC502L | E308 | NEN"
   },
@@ -52,6 +56,8 @@
    "room": "E308",
    "faculty": "HS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC503L | E308 | HS"
   },
@@ -67,6 +73,8 @@
    "room": "F302",
    "faculty": "DAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC521P | F302 | LAB | DAS"
   },
@@ -82,6 +90,8 @@
    "room": "C218",
    "faculty": "ABD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE693P | C218 | LAB2 | ABD"
   },
@@ -97,6 +107,8 @@
    "room": "E303",
    "faculty": "HS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC503L | E303 | HS"
   },
@@ -112,6 +124,8 @@
    "room": "E303",
    "faculty": "RP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC501L | E303 | RP"
   },
@@ -127,6 +141,8 @@
    "room": "D115",
    "faculty": "APH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA025L | D115 | APH"
   },
@@ -142,6 +158,8 @@
    "room": "D115",
    "faculty": "NEN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC502L | D115 | NEN"
   },
@@ -157,6 +175,8 @@
    "room": "D117",
    "faculty": "TNC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC502P | D117 | LAB | TNC"
   },
@@ -172,6 +192,8 @@
    "room": "F309",
    "faculty": "APH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA025P | F309 | APH"
   },
@@ -187,6 +209,8 @@
    "room": "E303 / UC501L / E312",
    "faculty": "HAS / RP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC505L | E303 | HAS | UC501L | E312 | RP"
   },
@@ -202,6 +226,8 @@
    "room": "E308",
    "faculty": "RBB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC504L | E308 | RBB"
   },
@@ -217,6 +243,8 @@
    "room": "E303 / RF2",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC501T | E303 | RF2"
   },
@@ -232,6 +260,8 @@
    "room": "F304",
    "faculty": "DAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC521L | F304 | DAS"
   },
@@ -247,6 +277,8 @@
    "room": "CD122",
    "faculty": "RP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC501P | CD122 | LAB | RP"
   },
@@ -262,6 +294,8 @@
    "room": "E312",
    "faculty": "NEN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC502L | E312 | NEN"
   },
@@ -277,6 +311,8 @@
    "room": "E103",
    "faculty": "RP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC501L | E103 | RP"
   },
@@ -292,6 +328,8 @@
    "room": "E103",
    "faculty": "RBB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC504L | E103 | RBB"
   },
@@ -307,6 +345,8 @@
    "room": "E103",
    "faculty": "RBB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC504T | E103 | RBB"
   },
@@ -322,6 +362,8 @@
    "room": "F310",
    "faculty": "HAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC505L | F310 | HAS"
   },
@@ -337,6 +379,8 @@
    "room": "DBMS-1 (L206)",
    "faculty": "HAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC505P | DBMS-1(L206) | LAB | HAS"
   },
@@ -352,6 +396,8 @@
    "room": "E303",
    "faculty": "RBB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC504L | E303 | RBB"
   },
@@ -367,6 +413,8 @@
    "room": "E303",
    "faculty": "HS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC503L | E303 | HS"
   },
@@ -382,6 +430,8 @@
    "room": "E303",
    "faculty": "HAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC505L | E303 | HAS"
   },
@@ -397,6 +447,8 @@
    "room": "E303",
    "faculty": "ABD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC503T | E303 | ABD"
   }

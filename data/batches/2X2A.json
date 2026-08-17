@@ -22,6 +22,8 @@
    "room": "DBMS-1 (L206)",
    "faculty": "MDP-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303P | DBMS-1(L206) | LAB | MDP-RA"
   },
@@ -37,6 +39,8 @@
    "room": "L003",
    "faculty": "YSH-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301P | L003 | LAB | YSH-RA"
   },
@@ -52,6 +56,8 @@
    "room": "LT303",
    "faculty": "PRO",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021L | LT303 | PRO"
   },
@@ -67,6 +73,8 @@
    "room": "LT303",
    "faculty": "VBH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI301L | LT303 | VBH"
   },
@@ -82,6 +90,8 @@
    "room": "LT101 / LT102",
    "faculty": "KL / DG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA016L | LT101/LT102 | KL/DG"
   },
@@ -97,6 +107,8 @@
    "room": "AI (L307)",
    "faculty": "SAK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "Alternate weeks \u00b7 from week 1",
    "raw": "UAI302P | AI(L307) | ALTERNATE FROM FIRST WEEK | SAK"
   },
@@ -112,6 +124,8 @@
    "room": "LT303",
    "faculty": "RHL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303L | LT303 | RHL"
   },
@@ -127,6 +141,8 @@
    "room": "LT303",
    "faculty": "PRO",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021L | LT303 | PRO"
   },
@@ -142,6 +158,8 @@
    "room": "LT303",
    "faculty": "RHL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303L | LT303 | RHL"
   },
@@ -157,6 +175,8 @@
    "room": "LT303",
    "faculty": "JOT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301L | LT303 | JOT"
   },
@@ -172,6 +192,8 @@
    "room": "LT303",
    "faculty": "VBH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI301L | LT303 | VBH"
   },
@@ -187,6 +209,8 @@
    "room": "F314 / B204 / APC15",
    "faculty": "VG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA016P | F314/B204 | LAB | VG/APC15"
   },
@@ -202,6 +226,8 @@
    "room": "LT303",
    "faculty": "PRO",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021L | LT303 | PRO"
   },
@@ -217,6 +243,8 @@
    "room": "LT303",
    "faculty": "JOT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301L | LT303 | JOT"
   },
@@ -232,6 +260,8 @@
    "room": "ED2 (L209)",
    "faculty": "VBH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI301P | ED2(L209) | LAB | VBH"
   },
@@ -247,6 +277,8 @@
    "room": "LT402",
    "faculty": "RHL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303L | LT402 | RHL"
   },
@@ -262,6 +294,8 @@
    "room": "LT402",
    "faculty": "JOT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301L | LT402 | JOT"
   },
@@ -277,6 +311,8 @@
    "room": "LT402",
    "faculty": "VBH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI301L | LT402 | VBH"
   },
@@ -292,6 +328,8 @@
    "room": "FIST (G307) / RA6",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021P | FIST(G307) | LAB | RA6"
   }

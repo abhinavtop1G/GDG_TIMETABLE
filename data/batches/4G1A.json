@@ -22,6 +22,8 @@
    "room": "F302",
    "faculty": "JM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT802L | F302 | JM"
   },
@@ -37,6 +39,8 @@
    "room": "F302",
    "faculty": "MG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT610L | F302 | MG"
   },
@@ -52,6 +56,8 @@
    "room": "F302 / NF1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT832L | F302 | NF1"
   },
@@ -70,6 +76,23 @@
     "UBT837L",
     "UBT839L"
    ],
+   "choices": [
+    {
+     "code": "UBT837L",
+     "room": "F302",
+     "faculty": "SDS",
+     "note": "",
+     "title": "Cancer Biology"
+    },
+    {
+     "code": "UBT839L",
+     "room": "F309",
+     "faculty": "MVR",
+     "note": "",
+     "title": "Drug Design and Development"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UBT837L/UBT839L | F302/F309 | SDS/MVR"
   },
@@ -88,6 +111,23 @@
     "UBT844L",
     "UBT846L"
    ],
+   "choices": [
+    {
+     "code": "UBT844L",
+     "room": "F302",
+     "faculty": "DG",
+     "note": "",
+     "title": "Environmental Biotechnology"
+    },
+    {
+     "code": "UBT846L",
+     "room": "F208",
+     "faculty": "NL",
+     "note": "",
+     "title": "Computational Biology"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UBT844L/UBT846L | F302/F208 | DG/NL"
   },
@@ -103,6 +143,8 @@
    "room": "BMI (B213) / NF1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT832P | BMI(B213) | LAB | NF1"
   },
@@ -118,6 +160,8 @@
    "room": "F302",
    "faculty": "JM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT802L | F302 | JM"
   },
@@ -133,6 +177,8 @@
    "room": "F302 / NF1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT832L | F302 | NF1"
   },
@@ -148,6 +194,8 @@
    "room": "F302",
    "faculty": "MG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT610L | F302 | MG"
   },
@@ -166,6 +214,23 @@
     "UBT837L",
     "UBT839L"
    ],
+   "choices": [
+    {
+     "code": "UBT837L",
+     "room": "F302",
+     "faculty": "SDS",
+     "note": "",
+     "title": "Cancer Biology"
+    },
+    {
+     "code": "UBT839L",
+     "room": "F208",
+     "faculty": "MVR",
+     "note": "",
+     "title": "Drug Design and Development"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UBT837L/UBT839L | F302/F208 | SDS/MVR"
   },
@@ -181,6 +246,8 @@
    "room": "F302",
    "faculty": "JM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT802T | F302 | JM"
   },
@@ -196,6 +263,8 @@
    "room": "F302",
    "faculty": "MG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT610L | F302 | MG"
   },
@@ -211,6 +280,8 @@
    "room": "F302 / NF1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT832L | F302 | NF1"
   },
@@ -226,6 +297,8 @@
    "room": "F302",
    "faculty": "JM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT802L | F302 | JM"
   },
@@ -244,6 +317,23 @@
     "UBT844L",
     "UBT846L"
    ],
+   "choices": [
+    {
+     "code": "UBT844L",
+     "room": "F302",
+     "faculty": "DG",
+     "note": "",
+     "title": "Environmental Biotechnology"
+    },
+    {
+     "code": "UBT846L",
+     "room": "F208",
+     "faculty": "NL",
+     "note": "",
+     "title": "Computational Biology"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UBT844L/UBT846L | F302/F208 | DG/NL"
   },
@@ -259,6 +349,8 @@
    "room": "F302 / F309 / F208",
    "faculty": "SDS / MVR / DG / NL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "UBT844L/846L",
    "raw": "UBT837L/839L | F302/F309 | SDS/MVR | UBT844L/846L | F302/F208 | DG/NL"
   },
@@ -274,6 +366,8 @@
    "room": "F302 / F208",
    "faculty": "DG / NL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT844L/846L | F302/F208 | DG/NL"
   }

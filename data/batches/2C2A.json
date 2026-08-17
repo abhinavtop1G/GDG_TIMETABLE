@@ -22,6 +22,8 @@
    "room": "F314 / B204 / RF8",
    "faculty": "DKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA016P | F314/B204 | LAB | DKS/RF8"
   },
@@ -37,6 +39,8 @@
    "room": "LT403",
    "faculty": "JPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "Alternate weeks \u00b7 from week 2",
    "raw": "UCS320L | LT403 | ALTERNATE FROM SECOND WEEK | JPK"
   },
@@ -52,6 +56,8 @@
    "room": "LT403",
    "faculty": "RMT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301L | LT403 | RMT"
   },
@@ -67,6 +73,8 @@
    "room": "LT403",
    "faculty": "SES",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA018L | LT403 | SES"
   },
@@ -82,6 +90,8 @@
    "room": "F110",
    "faculty": "CHK-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS405T | F110 | CHK-RA"
   },
@@ -97,6 +107,8 @@
    "room": "LT403",
    "faculty": "SES",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA018L | LT403 | SES"
   },
@@ -112,6 +124,8 @@
    "room": "LT403",
    "faculty": "SPN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021L | LT403 | SPN"
   },
@@ -127,6 +141,8 @@
    "room": "DS1 (L004)",
    "faculty": "VSH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301P | DS1(L004) | LAB | VSH"
   },
@@ -142,6 +158,8 @@
    "room": "LT303",
    "faculty": "JAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS405L | LT303 | JAS"
   },
@@ -157,6 +175,8 @@
    "room": "LT303",
    "faculty": "RMT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301L | LT303 | RMT"
   },
@@ -172,6 +192,8 @@
    "room": "LT303",
    "faculty": "ASN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303L | LT303 | ASN"
   },
@@ -187,6 +209,8 @@
    "room": "SS2 (L202)",
    "faculty": "BAN-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301P | SS2(L202) | LAB | BAN-RA"
   },
@@ -202,6 +226,8 @@
    "room": "DS1 (L004)",
    "faculty": "VSH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301P | DS1(L004) | LAB | VSH"
   },
@@ -217,6 +243,8 @@
    "room": "LT302",
    "faculty": "RMT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301L | LT302 | RMT"
   },
@@ -232,6 +260,8 @@
    "room": "LT302",
    "faculty": "SPN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021L | LT302 | SPN"
   },
@@ -247,6 +277,8 @@
    "room": "LT101 / LT102",
    "faculty": "DG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA016L | LT101/LT102 | /DG"
   },
@@ -262,6 +294,8 @@
    "room": "LT403",
    "faculty": "ASN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303L | LT403 | ASN"
   },
@@ -277,6 +311,8 @@
    "room": "LT403",
    "faculty": "JAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS405L | LT403 | JAS"
   },
@@ -292,6 +328,8 @@
    "room": "PL4 (L011)",
    "faculty": "SFL-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA018P | PL4(L011) | LAB | SFL-RA"
   },
@@ -307,6 +345,8 @@
    "room": "FIST (G307) / TA3 / TA4",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021P | FIST(G307) | LAB | TA3/TA4"
   },
@@ -322,6 +362,8 @@
    "room": "LT403",
    "faculty": "SES",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA018L | LT403 | SES"
   },
@@ -337,6 +379,8 @@
    "room": "LT403",
    "faculty": "SDN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021L | LT403 | SDN"
   },
@@ -352,6 +396,8 @@
    "room": "LT403",
    "faculty": "ASN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303L | LT403 | ASN"
   },
@@ -367,6 +413,8 @@
    "room": "LT403",
    "faculty": "JAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS405L | LT403 | JAS"
   }

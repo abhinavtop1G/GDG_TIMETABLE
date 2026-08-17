@@ -22,6 +22,8 @@
    "room": "B301",
    "faculty": "MDL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA301L | B301 | MDL"
   },
@@ -37,6 +39,8 @@
    "room": "B301",
    "faculty": "ALK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC303L | B301 | ALK"
   },
@@ -52,6 +56,8 @@
    "room": "B301",
    "faculty": "ADG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC301L | B301 | ADG"
   },
@@ -67,6 +73,8 @@
    "room": "B301 / NF1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES301L | B301 | NF1"
   },
@@ -82,6 +90,8 @@
    "room": "B216 / L101",
    "faculty": "RJS / KAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA030P | B216/L101 | LAB | RJS/KAS"
   },
@@ -97,6 +107,8 @@
    "room": "E308",
    "faculty": "MDL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA301T | E308 | MDL"
   },
@@ -112,6 +124,8 @@
    "room": "E308",
    "faculty": "NIN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC302T | E308 | NIN"
   },
@@ -127,6 +141,8 @@
    "room": "B301",
    "faculty": "KKG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321L | B301 | KKG"
   },
@@ -142,6 +158,8 @@
    "room": "LT101",
    "faculty": "SSS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTD003L | LT101 | SSS"
   },
@@ -157,6 +175,8 @@
    "room": "B301",
    "faculty": "MDL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA301L | B301 | MDL"
   },
@@ -172,6 +192,8 @@
    "room": "B301",
    "faculty": "MDL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA301L | B301 | MDL"
   },
@@ -187,6 +209,8 @@
    "room": "B301",
    "faculty": "NIN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC302L | B301 | NIN"
   },
@@ -202,6 +226,8 @@
    "room": "B301",
    "faculty": "ALK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC303L | B301 | ALK"
   },
@@ -217,6 +243,8 @@
    "room": "B301",
    "faculty": "ADG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC301L | B301 | ADG"
   },
@@ -232,6 +260,8 @@
    "room": "B301",
    "faculty": "GDS / KAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA030L | B301 | GDS/KAS"
   },
@@ -247,6 +277,8 @@
    "room": "ANALOG (B211) / NF1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES301P | ANALOG(B211) | LAB | NF1"
   },
@@ -262,6 +294,8 @@
    "room": "B301",
    "faculty": "NIN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC302L | B301 | NIN"
   },
@@ -277,6 +311,8 @@
    "room": "B301",
    "faculty": "KKG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321P | B301 | KKG"
   },
@@ -292,6 +328,8 @@
    "room": "B301",
    "faculty": "ALK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC303L | B301 | ALK"
   },
@@ -307,6 +345,8 @@
    "room": "B301",
    "faculty": "ADG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC301L | B301 | ADG"
   },
@@ -322,6 +362,8 @@
    "room": "PSS (H220)",
    "faculty": "ALK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC301P | PSS(H220) | LAB | ALK"
   },
@@ -337,6 +379,8 @@
    "room": "B301",
    "faculty": "NIN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC302L | B301 | NIN"
   },
@@ -352,6 +396,8 @@
    "room": "B301 / NF1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES301L | B301 | NF1"
   }

@@ -22,6 +22,8 @@
    "room": "C218",
    "faculty": "HSC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE306P | C218 | LAB-2 | HSC"
   },
@@ -37,6 +39,8 @@
    "room": "E303",
    "faculty": "SCH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC302L | E303 | SCH"
   },
@@ -52,6 +56,8 @@
    "room": "E303",
    "faculty": "TPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC306L | E303 | TPK"
   },
@@ -67,6 +73,8 @@
    "room": "E303",
    "faculty": "TPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC306T | E303 | TPK"
   },
@@ -82,6 +90,8 @@
    "room": "LT101",
    "faculty": "SSS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTD003P | LT101 | SSS"
   },
@@ -97,6 +107,8 @@
    "room": "F104",
    "faculty": "HSC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE306L | F104 | HSC"
   },
@@ -112,6 +124,8 @@
    "room": "E303",
    "faculty": "TPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC306L | E303 | TPK"
   },
@@ -127,6 +141,8 @@
    "room": "E303",
    "faculty": "NB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA303L | E303 | NB"
   },
@@ -142,6 +158,8 @@
    "room": "LP109",
    "faculty": "SHR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC305L | LP109 | SHR"
   },
@@ -160,6 +178,23 @@
     "UCC305",
     "UCE312P"
    ],
+   "choices": [
+    {
+     "code": "UCC305",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UCE312P",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Solid Mechanics"
+    }
+   ],
+   "aligned": false,
    "note": "",
    "raw": "UCC305/UCE312P | SM | LAB (W123) | SHR/SHG"
   },
@@ -175,6 +210,8 @@
    "room": "NA-1 (G203) / TA15",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA303P | NA-1(G203) | LAB | TA15"
   },
@@ -190,6 +227,8 @@
    "room": "F104",
    "faculty": "HSC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE306L | F104 | HSC"
   },
@@ -205,6 +244,8 @@
    "room": "E303",
    "faculty": "SCH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC302L | E303 | SCH"
   },
@@ -220,6 +261,8 @@
    "room": "E303",
    "faculty": "NB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA303L | E303 | NB"
   },
@@ -235,6 +278,8 @@
    "room": "LP109",
    "faculty": "SHR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC305L | LP109 | SHR"
   },
@@ -250,6 +295,8 @@
    "room": "LP109",
    "faculty": "SHR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC305T | LP109 | SHR"
   },
@@ -265,6 +312,8 @@
    "room": "D122",
    "faculty": "SCH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC302P | D122 | LAB | SCH"
   },
@@ -280,6 +329,8 @@
    "room": "E303",
    "faculty": "SCH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC302L | E303 | SCH"
   },
@@ -295,6 +346,8 @@
    "room": "E303",
    "faculty": "TPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC306L | E303 | TPK"
   },
@@ -310,6 +363,8 @@
    "room": "E303",
    "faculty": "NB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA303L | E303 | NB"
   },
@@ -325,6 +380,8 @@
    "room": "LP109",
    "faculty": "SHR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCC305L | LP109 | SHR"
   },
@@ -340,6 +397,8 @@
    "room": "F104",
    "faculty": "ABK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321P | F104 | ABK"
   },
@@ -355,6 +414,8 @@
    "room": "F104",
    "faculty": "ABK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321L | F104 | ABK"
   },
@@ -373,6 +434,23 @@
     "UCC306",
     "UCE310P"
    ],
+   "choices": [
+    {
+     "code": "UCC306",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Fluid Mechanics"
+    },
+    {
+     "code": "UCE310P",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Fluid Mechanics"
+    }
+   ],
+   "aligned": false,
    "note": "",
    "raw": "UCC306/UCE310P | H108 | LAB | TPK/SJS"
   }

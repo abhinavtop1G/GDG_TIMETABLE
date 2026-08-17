@@ -22,6 +22,8 @@
    "room": "E204",
    "faculty": "RP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE104L | E204 | RP"
   },
@@ -37,6 +39,8 @@
    "room": "E204",
    "faculty": "MNP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE102L | E204 | MNP"
   },
@@ -52,6 +56,8 @@
    "room": "E204",
    "faculty": "TNC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE110L | E204 | TNC"
   },
@@ -67,6 +73,8 @@
    "room": "E204",
    "faculty": "RP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE104T | E204 | RP"
   },
@@ -82,6 +90,8 @@
    "room": "E109",
    "faculty": "VJK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCL105L | E109 | VJK"
   },
@@ -97,6 +107,8 @@
    "room": "E204",
    "faculty": "ABK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE105L | E204 | ABK"
   },
@@ -112,6 +124,8 @@
    "room": "E204",
    "faculty": "RP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE104L | E204 | RP"
   },
@@ -127,6 +141,8 @@
    "room": "E204",
    "faculty": "ABK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE105T | E204 | ABK"
   },
@@ -142,6 +158,8 @@
    "room": "TPE LAB (D117)",
    "faculty": "TNC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE101P | TPE LAB (D117) | TNC"
   },
@@ -157,6 +175,8 @@
    "room": "E109",
    "faculty": "VJK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCL105L | E109 | VJK"
   },
@@ -172,6 +192,8 @@
    "room": "E204",
    "faculty": "MNP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE102L | E204 | MNP"
   },
@@ -187,6 +209,8 @@
    "room": "E204",
    "faculty": "ABK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE105L | E204 | ABK"
   },
@@ -202,6 +226,8 @@
    "room": "E204",
    "faculty": "TNC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE110L | E204 | TNC"
   },
@@ -217,6 +243,8 @@
    "room": "E204",
    "faculty": "MNK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE101L | E204 | MNK"
   },
@@ -232,6 +260,8 @@
    "room": "E204",
    "faculty": "MNP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE102T | E204 | MNP"
   },
@@ -247,6 +277,8 @@
    "room": "E109",
    "faculty": "VJK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCL105L | E109 | VJK"
   },
@@ -262,6 +294,8 @@
    "room": "E204",
    "faculty": "TNC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE110L | E204 | TNC"
   },
@@ -277,6 +311,8 @@
    "room": "E204",
    "faculty": "ABK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE105L | E204 | ABK"
   },
@@ -292,6 +328,8 @@
    "room": "E204",
    "faculty": "RP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE104L | E204 | RP"
   },
@@ -307,6 +345,8 @@
    "room": "E204",
    "faculty": "MNK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE101L | E204 | MNK"
   },
@@ -322,6 +362,8 @@
    "room": "NA2 (G204)",
    "faculty": "VJK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PCL105P | NA2(G204) | VJK"
   },
@@ -337,6 +379,8 @@
    "room": "E204",
    "faculty": "MNP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE102L | E204 | MNP"
   },
@@ -352,6 +396,8 @@
    "room": "E204",
    "faculty": "MNK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PTE101L | E204 | MNK"
   }

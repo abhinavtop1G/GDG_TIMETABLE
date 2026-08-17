@@ -211,7 +211,7 @@ function Card({
   const dept = entry.title ? "" : department(entry.code);
   return (
     <article
-      className={`card card--${entry.type} ${live ? "card--live" : ""}`}
+      className={`card card--${entry.type} ${live ? "card--live" : ""} ${entry.picked ? "card--picked" : ""}`}
       style={
         {
           gridColumn: column,
@@ -247,7 +247,11 @@ function Card({
         )}
       </header>
 
-      <h3 className="card__title">{entry.title || entry.code}</h3>
+      <h3 className="card__title">
+        {entry.type === "elective" && !entry.picked
+          ? "Choose your elective"
+          : entry.title || entry.code}
+      </h3>
       {dept && <span className="card__dept">{dept}</span>}
 
       {entry.note && <span className="card__note">{entry.note}</span>}
@@ -258,8 +262,8 @@ function Card({
         {entry.title && <span className="card__chip">{entry.code}</span>}
       </footer>
 
-      {entry.options.length > 0 && (
-        <span className="card__options">{entry.options.join(" · ")}</span>
+      {entry.type === "elective" && !entry.picked && (
+        <span className="card__options">{entry.choices?.length ?? entry.options.length} options</span>
       )}
       {debug && <span className="card__raw">{entry.raw}</span>}
     </article>

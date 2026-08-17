@@ -22,6 +22,8 @@
    "room": "E302",
    "faculty": "HPB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH307T | E302 | HPB"
   },
@@ -37,6 +39,8 @@
    "room": "E302",
    "faculty": "BNC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012L | E302 | BNC"
   },
@@ -52,6 +56,8 @@
    "room": "LT101",
    "faculty": "SSS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTD003L | LT101 | SSS"
   },
@@ -67,6 +73,8 @@
    "room": "B112",
    "faculty": "VP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH409P | B112 | LAB | VP"
   },
@@ -82,6 +90,8 @@
    "room": "E303",
    "faculty": "JPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH302T | E303 | JPK"
   },
@@ -97,6 +107,8 @@
    "room": "E302",
    "faculty": "NS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH306L | E302 | NS"
   },
@@ -112,6 +124,8 @@
    "room": "E302",
    "faculty": "RKG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH301L | E302 | RKG"
   },
@@ -127,6 +141,8 @@
    "room": "E302",
    "faculty": "JPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH302L | E302 | JPK"
   },
@@ -142,6 +158,8 @@
    "room": "E302",
    "faculty": "VP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH409L | E302 | VP"
   },
@@ -157,6 +175,8 @@
    "room": "E302",
    "faculty": "ASK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321L | E302 | ASK"
   },
@@ -172,6 +192,8 @@
    "room": "E302",
    "faculty": "JPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH302L | E302 | JPK"
   },
@@ -187,6 +209,8 @@
    "room": "E302",
    "faculty": "BNC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012L | E302 | BNC"
   },
@@ -202,6 +226,8 @@
    "room": "E302",
    "faculty": "NS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH306L | E302 | NS"
   },
@@ -217,6 +243,8 @@
    "room": "E302",
    "faculty": "RKG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH301L | E302 | RKG"
   },
@@ -232,6 +260,8 @@
    "room": "B118",
    "faculty": "HPB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH307P | B118 | LAB | HPB"
   },
@@ -247,6 +277,8 @@
    "room": "E302",
    "faculty": "ASK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321P | E302 | ASK"
   },
@@ -262,6 +294,8 @@
    "room": "FM (H108)",
    "faculty": "JPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH302P | FM(H108) | LAB | JPK"
   },
@@ -277,6 +311,8 @@
    "room": "E302",
    "faculty": "HPB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH307L | E302 | HPB"
   },
@@ -292,6 +328,8 @@
    "room": "E302",
    "faculty": "BNC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012L | E302 | BNC"
   },
@@ -307,6 +345,8 @@
    "room": "E302",
    "faculty": "VP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH409L | E302 | VP"
   },
@@ -322,6 +362,8 @@
    "room": "E302 / LC7",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012T | E302 | LC7"
   },
@@ -337,6 +379,8 @@
    "room": "E303",
    "faculty": "RKG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH301T | E303 | RKG"
   },
@@ -352,6 +396,8 @@
    "room": "G321",
    "faculty": "BNC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012P | G321 | LAB | BNC"
   },
@@ -367,6 +413,8 @@
    "room": "E302",
    "faculty": "HPB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH307L | E302 | HPB"
   },
@@ -382,6 +430,8 @@
    "room": "E302",
    "faculty": "JPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH302L | E302 | JPK"
   },
@@ -397,6 +447,8 @@
    "room": "E302",
    "faculty": "RKG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH301L | E302 | RKG"
   },
@@ -412,6 +464,8 @@
    "room": "E302",
    "faculty": "NS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH306L | E302 | NS"
   }

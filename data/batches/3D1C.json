@@ -22,6 +22,8 @@
    "room": "E102",
    "faculty": "SKJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC601L | E102 | SKJ"
   },
@@ -41,6 +43,30 @@
     "UEE527L",
     "ULC303L"
    ],
+   "choices": [
+    {
+     "code": "UEE514L",
+     "room": "E308",
+     "faculty": "DND",
+     "note": "",
+     "title": "Introduction to Database Management Systems"
+    },
+    {
+     "code": "UEE527L",
+     "room": "E102",
+     "faculty": "SHT",
+     "note": "",
+     "title": "Restructured Power Systems"
+    },
+    {
+     "code": "ULC303L",
+     "room": "B301",
+     "faculty": "ALK",
+     "note": "",
+     "title": "Computer Architecture and Organization"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UEE514L/UEE527L/ULC303L | E308/E102/B301 | DND/SHT/ALK"
   },
@@ -56,6 +82,8 @@
    "room": "E102",
    "faculty": "MBK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE504L | E102 | MBK"
   },
@@ -71,6 +99,8 @@
    "room": "E102",
    "faculty": "SG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI501L | E102 | SG"
   },
@@ -86,6 +116,8 @@
    "room": "E102",
    "faculty": "RVK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE410L | E102 | RVK"
   },
@@ -101,6 +133,8 @@
    "room": "B301",
    "faculty": "SCB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA025P | B301 | SCB"
   },
@@ -116,6 +150,8 @@
    "room": "PE (C113)",
    "faculty": "MBK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE504P | PE(C113) | LAB | MBK"
   },
@@ -131,6 +167,8 @@
    "room": "BMC (C323)",
    "faculty": "RVK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE410P | BMC(C323) | LAB | RVK"
   },
@@ -146,6 +184,8 @@
    "room": "E102",
    "faculty": "MBK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE504L | E102 | MBK"
   },
@@ -161,6 +201,8 @@
    "room": "E102",
    "faculty": "RVK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE410L | E102 | RVK"
   },
@@ -176,6 +218,8 @@
    "room": "E102",
    "faculty": "SG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI501T | E102 | SG"
   },
@@ -191,6 +235,8 @@
    "room": "E102",
    "faculty": "PBK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE510L | E102 | PBK"
   },
@@ -210,6 +256,30 @@
     "UEE527L",
     "ULC303L"
    ],
+   "choices": [
+    {
+     "code": "UEE514L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Introduction to Database Management Systems"
+    },
+    {
+     "code": "UEE527L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Restructured Power Systems"
+    },
+    {
+     "code": "ULC303L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Computer Architecture and Organization"
+    }
+   ],
+   "aligned": false,
    "note": "",
    "raw": "UEE514L/UEE527L/ULC303L/ | E308/E102/B301 | DND/SHT/ALK"
   },
@@ -225,6 +295,8 @@
    "room": "E102",
    "faculty": "SKJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC601L | E102 | SKJ"
   },
@@ -240,6 +312,8 @@
    "room": "E102",
    "faculty": "SG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI501L | E102 | SG"
   },
@@ -255,6 +329,8 @@
    "room": "I&C (C217)",
    "faculty": "SG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI510P | I&C(C217) | LAB | SG"
   },
@@ -270,6 +346,8 @@
    "room": "E102",
    "faculty": "DPM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA025L | E102 | DPM"
   },
@@ -285,6 +363,8 @@
    "room": "E102",
    "faculty": "MBK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE504L | E102 | MBK"
   },
@@ -300,6 +380,8 @@
    "room": "E102 / UEE4514P / RT LAB (H219A)",
    "faculty": "RVK / DND",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE410L | E102 | RVK | UEE4514P | RT LAB(H219A) | DND"
   },
@@ -319,6 +401,30 @@
     "UEE527L",
     "ULC301L"
    ],
+   "choices": [
+    {
+     "code": "UEE514P",
+     "room": "RT LAB(H219A)",
+     "faculty": "DND",
+     "note": "",
+     "title": "Introduction to Database Management Systems"
+    },
+    {
+     "code": "UEE527L",
+     "room": "E102",
+     "faculty": "SHT",
+     "note": "",
+     "title": "Restructured Power Systems"
+    },
+    {
+     "code": "ULC301L",
+     "room": "B301",
+     "faculty": "ALK",
+     "note": "",
+     "title": "Data Structures"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UEE514P/UEE527L/ULC301L | RT LAB(H219A)/E102/B301 | DND/SHT/ALK"
   },
@@ -334,6 +440,8 @@
    "room": "E102",
    "faculty": "SKJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC601L | E102 | SKJ"
   },
@@ -349,6 +457,8 @@
    "room": "E102",
    "faculty": "SG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI501L | E102 | SG"
   },
@@ -364,6 +474,8 @@
    "room": "E102",
    "faculty": "PBK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE510L | E102 | PBK"
   },
@@ -379,6 +491,8 @@
    "room": "IOT (D206B) / TA4",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC601P | IOT(D206B) | LAB | TA4"
   },
@@ -394,6 +508,8 @@
    "room": "HV (C102)",
    "faculty": "PBK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE510P | HV(C102) | LAB | PBK"
   }

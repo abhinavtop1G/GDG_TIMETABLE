@@ -22,6 +22,8 @@
    "room": "B208",
    "faculty": "ASG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC703L | B208 | ASG"
   },
@@ -37,6 +39,8 @@
    "room": "B208",
    "faculty": "RPN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC603L | B208 | RPN"
   },
@@ -52,6 +56,8 @@
    "room": "B208",
    "faculty": "PAW",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC701L | B208 | PAW"
   },
@@ -67,6 +73,8 @@
    "room": "B208",
    "faculty": "PAW",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC701L | B208 | PAW"
   },
@@ -82,6 +90,8 @@
    "room": "B208",
    "faculty": "RPN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC603L | B208 | RPN"
   },
@@ -97,6 +107,8 @@
    "room": "B208",
    "faculty": "ASG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC703L | B208 | ASG"
   },
@@ -115,6 +127,23 @@
     "UCS646L",
     "UCS635L"
    ],
+   "choices": [
+    {
+     "code": "UCS646L",
+     "room": "B208",
+     "faculty": "SSH",
+     "note": "",
+     "title": "Game Design & Development"
+    },
+    {
+     "code": "UCS635L",
+     "room": "B301",
+     "faculty": "JPK",
+     "note": "",
+     "title": "GPU Computing"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS646L/UCS635L | B208/B301 | SSH/JPK"
   },
@@ -133,6 +162,23 @@
     "UCS646L",
     "UCS635L"
    ],
+   "choices": [
+    {
+     "code": "UCS646L",
+     "room": "B208",
+     "faculty": "SSH",
+     "note": "",
+     "title": "Game Design & Development"
+    },
+    {
+     "code": "UCS635L",
+     "room": "B301",
+     "faculty": "JPK",
+     "note": "",
+     "title": "GPU Computing"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS646L/UCS635L | B208/B301 | SSH/JPK"
   },
@@ -151,6 +197,23 @@
     "UCS646P",
     "UCS635P"
    ],
+   "choices": [
+    {
+     "code": "UCS646P",
+     "room": "BMC(C323)",
+     "faculty": "SSH",
+     "note": "",
+     "title": "Game Design & Development"
+    },
+    {
+     "code": "UCS635P",
+     "room": "ISD(C223)",
+     "faculty": "JPK",
+     "note": "",
+     "title": "GPU Computing"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS646P/UCS635P | BMC(C323)/ISD(C223) | LAB | SSH/JPK"
   },
@@ -171,6 +234,37 @@
     "UHU016",
     "UMA069L"
    ],
+   "choices": [
+    {
+     "code": "UCS002L",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UHU018",
+     "room": "LP106",
+     "faculty": "RKS",
+     "note": "",
+     "title": "Introduction to Corporate Finance"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS002L/UHU018/UHU016/UMA069L | LT101/LP106/B303/F201 | SUS/RKS/PS/AM"
   },
@@ -186,6 +280,8 @@
    "room": "LT102",
    "faculty": "VK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTD004L | LT102 | VK"
   },
@@ -201,6 +297,8 @@
    "room": "B208",
    "faculty": "RPN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC603L | B208 | RPN"
   },
@@ -216,6 +314,8 @@
    "room": "B208",
    "faculty": "ASG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC703L | B208 | ASG"
   },
@@ -236,6 +336,37 @@
     "UHU016",
     "UMA069L"
    ],
+   "choices": [
+    {
+     "code": "UCS002L",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UHU018",
+     "room": "LP106",
+     "faculty": "RKS",
+     "note": "",
+     "title": "Introduction to Corporate Finance"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS002L/UHU018/UHU016/UMA069L | LT101/LP106/B303/F201 | SUS/RKS/PS/AM"
   },
@@ -251,6 +382,8 @@
    "room": "LT102",
    "faculty": "VK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTD004L | LT102 | VK"
   },
@@ -266,6 +399,8 @@
    "room": "PE (C113) / TA15",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC603P | PE(C113) | LAB | TA15"
   },
@@ -281,6 +416,8 @@
    "room": "E313",
    "faculty": "ASG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC703T | E313 | ASG"
   },
@@ -299,6 +436,23 @@
     "UCS646P",
     "UCS635P"
    ],
+   "choices": [
+    {
+     "code": "UCS646P",
+     "room": "BMC(C323)",
+     "faculty": "SSH",
+     "note": "",
+     "title": "Game Design & Development"
+    },
+    {
+     "code": "UCS635P",
+     "room": "ISD(C223)",
+     "faculty": "JPK",
+     "note": "GROUP-2",
+     "title": "GPU Computing"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS646P/UCS635P(GROUP-2) | BMC(C323)/ISD(C223) | LAB | SSH/JPK"
   },
@@ -314,6 +468,8 @@
    "room": "B208",
    "faculty": "PAW",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC701L | B208 | PAW"
   }

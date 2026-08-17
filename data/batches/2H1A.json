@@ -22,6 +22,8 @@
    "room": "F102",
    "faculty": "MKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA034L | F102 | MKS"
   },
@@ -37,6 +39,8 @@
    "room": "F209",
    "faculty": "PCY / BEST-EEP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME517T | F209 | PCY | BEST-EEP | LAB"
   },
@@ -52,6 +56,8 @@
    "room": "F102",
    "faculty": "MKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA034L | F102 | MKS"
   },
@@ -67,6 +73,8 @@
    "room": "F102",
    "faculty": "KKH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES009L | F102 | KKH"
   },
@@ -82,6 +90,8 @@
    "room": "F102 / BEST3.3L",
    "faculty": "RKS / RJS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME309L | F102 | RKS | BEST3.3L | F102 | RJS"
   },
@@ -97,6 +107,8 @@
    "room": "CAD-2",
    "faculty": "FM / HPS / BEST-EDP / MBD / RSJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME309P | FM | LAB | HPS/ | BEST-EDP | CAD-2 | MBD/RSJ"
   },
@@ -112,6 +124,8 @@
    "room": "F102",
    "faculty": "KKH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES009L | F102 | KKH"
   },
@@ -127,6 +141,8 @@
    "room": "F102",
    "faculty": "RKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME309L | F102 | RKS"
   },
@@ -142,6 +158,8 @@
    "room": "F102",
    "faculty": "MKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA034L | F102 | MKS"
   },
@@ -157,6 +175,8 @@
    "room": "F209",
    "faculty": "KKH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES009T | F209 | KKH"
   },
@@ -172,6 +192,8 @@
    "room": "F209",
    "faculty": "RKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME309T | F209 | RKS"
   },
@@ -187,6 +209,8 @@
    "room": "F102",
    "faculty": "PCY",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME517L | F102 | PCY"
   },
@@ -202,6 +226,8 @@
    "room": "F102",
    "faculty": "JYT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321L | F102 | JYT"
   },
@@ -217,6 +243,8 @@
    "room": "F102",
    "faculty": "JYT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321P | F102 | JYT"
   },
@@ -232,6 +260,8 @@
    "room": "NF2",
    "faculty": "BSL / BHL / BPL / JS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "BEST-SEN-P | BSL/BHL/BPL | LAB | JS/NF2"
   },
@@ -247,6 +277,8 @@
    "room": "FIST (G307)",
    "faculty": "JPR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA034P | FIST(G307) | LAB | JPR"
   },
@@ -262,6 +294,8 @@
    "room": "F102",
    "faculty": "JYT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321L | F102 | JYT"
   },
@@ -277,6 +311,8 @@
    "room": "F102",
    "faculty": "RKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME309L | F102 | RKS"
   },
@@ -292,6 +328,8 @@
    "room": "F102 / BEST3.3T / F210",
    "faculty": "PCY / MKD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME517L | F102 | PCY | BEST3.3T | F210 | MKD"
   }

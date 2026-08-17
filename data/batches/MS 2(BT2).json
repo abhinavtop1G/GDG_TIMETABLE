@@ -22,6 +22,8 @@
    "room": "F307",
    "faculty": "SDS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT301L | F307 | SDS"
   },
@@ -37,6 +39,8 @@
    "room": "F307",
    "faculty": "MVR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT304L | F307 | MVR"
   },
@@ -52,6 +56,8 @@
    "room": "F307",
    "faculty": "MSR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT303L | F307 | MSR"
   },
@@ -67,6 +73,8 @@
    "room": "F307",
    "faculty": "RAV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PHU301L F307 | F307 | RAV"
   },
@@ -85,6 +93,23 @@
     "PBT314L",
     "PBT315L"
    ],
+   "choices": [
+    {
+     "code": "PBT314L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Medical Biotechnology"
+    },
+    {
+     "code": "PBT315L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Protein Engineering"
+    }
+   ],
+   "aligned": false,
    "note": "",
    "raw": "PBT314L/PBT315L"
   },
@@ -100,6 +125,8 @@
    "room": "G2 / MICRO LAB",
    "faculty": "MVR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT304P G2 | PBT304P G2 | Micro Lab | MVR | Micro Lab | MVR"
   },
@@ -115,6 +142,8 @@
    "room": "F307",
    "faculty": "MVR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT304L | F307 | MVR"
   },
@@ -130,6 +159,8 @@
    "room": "F307",
    "faculty": "AKR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT305L | F307 | AKR"
   },
@@ -145,6 +176,8 @@
    "room": "F307",
    "faculty": "RAV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PHU301L F307 | F307 | RAV"
   },
@@ -160,6 +193,8 @@
    "room": "F307",
    "faculty": "MSR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT303L | F307 | MSR"
   },
@@ -175,6 +210,8 @@
    "room": "NA2 (G204)",
    "faculty": "VJK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "DMC007P | NA2(G204) | LAB | VJK"
   },
@@ -190,6 +227,8 @@
    "room": "G2 / MOL BIO LAB",
    "faculty": "SDS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT301P G2 | PBT301P G2 | Mol Bio Lab | SDS | Mol Bio Lab | SDS"
   },
@@ -205,6 +244,8 @@
    "room": "F307",
    "faculty": "AKR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT305L | F307 | AKR"
   },
@@ -220,6 +261,8 @@
    "room": "F307",
    "faculty": "SDS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT301L | F307 | SDS"
   },
@@ -235,6 +278,8 @@
    "room": "F307",
    "faculty": "RAV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PHU301L F307 | F307 | RAV"
   },
@@ -253,6 +298,23 @@
     "PBT314L",
     "PBT315L"
    ],
+   "choices": [
+    {
+     "code": "PBT314L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Medical Biotechnology"
+    },
+    {
+     "code": "PBT315L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Protein Engineering"
+    }
+   ],
+   "aligned": false,
    "note": "",
    "raw": "PBT314L/PBT315L"
   },
@@ -268,6 +330,8 @@
    "room": "G2",
    "faculty": "CORE / AKR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT305P G2 | PBT305P G2 | CORE | AKR | CORE | AKR"
   },
@@ -283,6 +347,8 @@
    "room": "F307",
    "faculty": "SDS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT301L | F307 | SDS"
   },
@@ -298,6 +364,8 @@
    "room": "F307",
    "faculty": "MSR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT303L | F307 | MSR"
   },
@@ -313,6 +381,8 @@
    "room": "F307",
    "faculty": "RAV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PHU301T F307 | F307 | RAV"
   },
@@ -331,6 +401,23 @@
     "PBT314L",
     "PBT315L"
    ],
+   "choices": [
+    {
+     "code": "PBT314L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Medical Biotechnology"
+    },
+    {
+     "code": "PBT315L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Protein Engineering"
+    }
+   ],
+   "aligned": false,
    "note": "",
    "raw": "PBT314L/PBT315L"
   },
@@ -346,6 +433,8 @@
    "room": "NA1 (203) / RA1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "DMC007P | NA1(203) | LAB | RA1"
   },
@@ -361,6 +450,8 @@
    "room": "G2 / STEP- FIRST FLOOR",
    "faculty": "MSR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT303P G2 | PBT303P G2 | STEP- First Floor | MSR | STEP- First Floor | MSR"
   },
@@ -376,6 +467,8 @@
    "room": "F307",
    "faculty": "MVR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT304L | F307 | MVR"
   },
@@ -391,6 +484,8 @@
    "room": "F307",
    "faculty": "AKR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT305L | F307 | AKR"
   },
@@ -406,6 +501,8 @@
    "room": "MOL BIO LAB",
    "faculty": "PD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT314P | PBT314P | Mol Bio Lab | PD | Mol Bio Lab | PD"
   },
@@ -421,6 +518,8 @@
    "room": "BIOCHEM LAB",
    "faculty": "TA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT315P | PBT315P | Biochem Lab | TA | Biochem Lab | TA"
   },
@@ -436,6 +535,8 @@
    "room": "NA2 (G204) / TA8",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "DMC013P | NA2(G204) | LAB | TA8"
   }

@@ -22,6 +22,8 @@
    "room": "LT401",
    "faculty": "BHU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021L | LT401 | BHU"
   },
@@ -37,6 +39,8 @@
    "room": "LT401",
    "faculty": "TBH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301L | LT401 | TBH"
   },
@@ -52,6 +56,8 @@
    "room": "C212 / F315 / RF3",
    "faculty": "VKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA016P | C212/F315 | LAB | RF3/VKS"
   },
@@ -67,6 +73,8 @@
    "room": "LT401",
    "faculty": "JAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS405L | LT401 | JAS"
   },
@@ -82,6 +90,8 @@
    "room": "LT401",
    "faculty": "SES",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA018L | LT401 | SES"
   },
@@ -97,6 +107,8 @@
    "room": "LT102 / LT101",
    "faculty": "DG / KL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA016L | LT102/LT101 | DG/KL"
   },
@@ -112,6 +124,8 @@
    "room": "PL5 (L208)",
    "faculty": "YAD-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA018P | PL5(L208) | LAB | YAD-RA"
   },
@@ -127,6 +141,8 @@
    "room": "LT301",
    "faculty": "SES",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA018L | LT301 | SES"
   },
@@ -142,6 +158,8 @@
    "room": "LT301",
    "faculty": "GAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303L | LT301 | GAS"
   },
@@ -157,6 +175,8 @@
    "room": "F110",
    "faculty": "VSL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS405T | F110 | VSL"
   },
@@ -172,6 +192,8 @@
    "room": "SS-2",
    "faculty": "SHV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303P | SS-2 | LAB | SHV"
   },
@@ -187,6 +209,8 @@
    "room": "LT301",
    "faculty": "JPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "Alternate weeks \u00b7 from week 2",
    "raw": "UCS320L | LT301 | SECOND WEEK ONWARDS ALTERNATE WEEK | JPK"
   },
@@ -202,6 +226,8 @@
    "room": "LT301",
    "faculty": "SES",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA018L | LT301 | SES"
   },
@@ -217,6 +243,8 @@
    "room": "SS-1 (L201)",
    "faculty": "RHL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303P | SS-1(L201) | LAB | RHL"
   },
@@ -232,6 +260,8 @@
    "room": "LT301",
    "faculty": "TBH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS405L | LT301 | TBH"
   },
@@ -247,6 +277,8 @@
    "room": "LT301",
    "faculty": "BHU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021L | LT301 | BHU"
   },
@@ -262,6 +294,8 @@
    "room": "LT301",
    "faculty": "TBH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301L | LT301 | TBH"
   },
@@ -277,6 +311,8 @@
    "room": "LT301",
    "faculty": "BHU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021L | LT301 | BHU"
   },
@@ -292,6 +328,8 @@
    "room": "LT301",
    "faculty": "GAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303L | LT301 | GAS"
   },
@@ -307,6 +345,8 @@
    "room": "LT301",
    "faculty": "JAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS405L | LT301 | JAS"
   },
@@ -322,6 +362,8 @@
    "room": "DS1 (L004)",
    "faculty": "PKV-CRA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301P | DS1(L004) | LAB | PKV-CRA"
   },
@@ -337,6 +379,8 @@
    "room": "LT301",
    "faculty": "JAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS405L | LT301 | JAS"
   },
@@ -352,6 +396,8 @@
    "room": "LT301",
    "faculty": "GAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303L | LT301 | GAS"
   },
@@ -367,6 +413,8 @@
    "room": "FIST (G307) / TA9",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021P | FIST(G307) | LAB | TA9"
   }

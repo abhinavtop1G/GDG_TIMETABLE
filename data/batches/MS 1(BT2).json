@@ -22,6 +22,8 @@
    "room": "F306",
    "faculty": "VKH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT114L | F306 | VKH"
   },
@@ -37,6 +39,8 @@
    "room": "F306",
    "faculty": "DG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT110L | F306 | DG"
   },
@@ -52,6 +56,8 @@
    "room": "F306",
    "faculty": "SS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT115L | F306 | SS"
   },
@@ -67,6 +73,8 @@
    "room": "G2",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT113P G2 | PBT113P G2"
   },
@@ -82,6 +90,8 @@
    "room": "G2 / BIOCHEM LAB",
    "faculty": "SS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT113P G2 | PBT113P G2 | Biochem Lab | SS | Biochem Lab | SS | Biochem Lab | SS | Biochem Lab | SS"
   },
@@ -97,6 +107,8 @@
    "room": "F307",
    "faculty": "AKR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT115L | F307 | AKR"
   },
@@ -112,6 +124,8 @@
    "room": "F305",
    "faculty": "SS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT113L | F305 | SS"
   },
@@ -127,6 +141,8 @@
    "room": "F305",
    "faculty": "SJK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PIM101L | F305 | SJK"
   },
@@ -142,6 +158,8 @@
    "room": "F305",
    "faculty": "VKH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT114L | F305 | VKH"
   },
@@ -157,6 +175,8 @@
    "room": "G2 / F306",
    "faculty": "APB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PHU002T G2 | F306 | APB"
   },
@@ -172,6 +192,8 @@
    "room": "G2 / MICRO LAB",
    "faculty": "DG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT110P G2 | PBT110P G2 | Micro Lab | DG | Micro Lab | DG"
   },
@@ -187,6 +209,8 @@
    "room": "F305",
    "faculty": "DG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT110L | F305 | DG"
   },
@@ -202,6 +226,8 @@
    "room": "F305",
    "faculty": "SS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT115L | F305 | SS"
   },
@@ -217,6 +243,8 @@
    "room": "F305",
    "faculty": "VKH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT114L | F305 | VKH"
   },
@@ -232,6 +260,8 @@
    "room": "F307",
    "faculty": "AKR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT115L | F307 | AKR"
   },
@@ -247,6 +277,8 @@
    "room": "F305",
    "faculty": "SJK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PIM101L | F305 | SJK"
   },
@@ -262,6 +294,8 @@
    "room": "F305",
    "faculty": "SJK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PIM101T | F305 | SJK"
   },
@@ -277,6 +311,8 @@
    "room": "G2 / MOL BIO LAB",
    "faculty": "JM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT114P G2 | PBT114P G2 | Mol Bio Lab | JM | Mol Bio Lab | JM"
   },
@@ -292,6 +328,8 @@
    "room": "F305",
    "faculty": "DG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT110L | F305 | DG"
   },
@@ -307,6 +345,8 @@
    "room": "F305",
    "faculty": "SJK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PIM101L | F305 | SJK"
   },
@@ -322,6 +362,8 @@
    "room": "F305",
    "faculty": "SJK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PIM101T | F305 | SJK"
   },
@@ -337,6 +379,8 @@
    "room": "",
    "faculty": "APB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PHU002 | APB"
   },
@@ -352,6 +396,8 @@
    "room": "G2 / CORE LAB",
    "faculty": "PD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT115P G2 | PBT115P G2 | CORE Lab | PD | CORE Lab | PD"
   },
@@ -367,6 +413,8 @@
    "room": "F307",
    "faculty": "AKR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PBT115L | F307 | AKR"
   },
@@ -382,6 +430,8 @@
    "room": "F307",
    "faculty": "APB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "PHU002 | F307 | APB"
   }

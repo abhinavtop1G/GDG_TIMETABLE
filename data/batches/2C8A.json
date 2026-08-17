@@ -22,6 +22,8 @@
    "room": "E205",
    "faculty": "ASN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303L | E205 | ASN"
   },
@@ -37,6 +39,8 @@
    "room": "E205",
    "faculty": "AJD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021L | E205 | AJD"
   },
@@ -52,6 +56,8 @@
    "room": "E205",
    "faculty": "ADT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS405L | E205 | ADT"
   },
@@ -67,6 +73,8 @@
    "room": "E205",
    "faculty": "MNP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301L | E205 | MNP"
   },
@@ -82,6 +90,8 @@
    "room": "F111",
    "faculty": "ADT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS405T | F111 | ADT"
   },
@@ -97,6 +107,8 @@
    "room": "PL-5 (L208)",
    "faculty": "JSR-CRA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA018P | PL-5(L208) | LAB | JSR-CRA"
   },
@@ -112,6 +124,8 @@
    "room": "E205",
    "faculty": "ADT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS405L | E205 | ADT"
   },
@@ -127,6 +141,8 @@
    "room": "E205",
    "faculty": "HAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA018L | E205 | HAS"
   },
@@ -142,6 +158,8 @@
    "room": "NA1 (G203)",
    "faculty": "MH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021P | NA1(G203) | LAB | MH"
   },
@@ -157,6 +175,8 @@
    "room": "E205",
    "faculty": "MNP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301L | E205 | MNP"
   },
@@ -172,6 +192,8 @@
    "room": "E205",
    "faculty": "ASN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303L | E205 | ASN"
   },
@@ -187,6 +209,8 @@
    "room": "E205",
    "faculty": "AJD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021L | E205 | AJD"
   },
@@ -202,6 +226,8 @@
    "room": "E205",
    "faculty": "HAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA018L | E205 | HAS"
   },
@@ -217,6 +243,8 @@
    "room": "DS-1 (L004)",
    "faculty": "MNP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301P | DS-1(L004) | LAB | MNP"
   },
@@ -232,6 +260,8 @@
    "room": "DBMS-1 (L206)",
    "faculty": "BAN-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303P | DBMS-1(L206) | LAB | BAN-RA"
   },
@@ -247,6 +277,8 @@
    "room": "E205",
    "faculty": "MNP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301L | E205 | MNP"
   },
@@ -262,6 +294,8 @@
    "room": "E205",
    "faculty": "AJD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021L | E205 | AJD"
   },
@@ -277,6 +311,8 @@
    "room": "E205",
    "faculty": "ASN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303L | E205 | ASN"
   },
@@ -292,6 +328,8 @@
    "room": "E205",
    "faculty": "JPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "Alternate weeks \u00b7 from week 2",
    "raw": "UCS320L | E205 | ALTERNATE FROM SECOND WEEK | JPK"
   },
@@ -307,6 +345,8 @@
    "room": "B204 / F314 / RF4",
    "faculty": "RKD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA016P | B204/F314 | LAB | RF4/RKD"
   },
@@ -322,6 +362,8 @@
    "room": "E205",
    "faculty": "ADT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS405L | E205 | ADT"
   },
@@ -337,6 +379,8 @@
    "room": "E205",
    "faculty": "HAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA018L | E205 | HAS"
   },
@@ -352,6 +396,8 @@
    "room": "LT102 / LT101",
    "faculty": "AMJ / GTS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA016L | LT102/LT101 | AMJ/GTS"
   }

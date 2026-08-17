@@ -22,6 +22,8 @@
    "room": "B304",
    "faculty": "DGS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC501L | B304 | DGS"
   },
@@ -37,6 +39,8 @@
    "room": "B304",
    "faculty": "AKA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC401L | B304 | AKA"
   },
@@ -52,6 +56,8 @@
    "room": "B304",
    "faculty": "MKR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC304L | B304 | MKR"
   },
@@ -67,6 +73,8 @@
    "room": "B107",
    "faculty": "ST",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC305T | B107 | ST"
   },
@@ -82,6 +90,8 @@
    "room": "B304",
    "faculty": "ST",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC305L | B304 | ST"
   },
@@ -97,6 +107,8 @@
    "room": "B304",
    "faculty": "CDM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC302L | B304 | CDM"
   },
@@ -112,6 +124,8 @@
    "room": "B304",
    "faculty": "SMV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321P | B304 | LAB | SMV"
   },
@@ -127,6 +141,8 @@
    "room": "LT101",
    "faculty": "VK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTD003L | LT101 | VK"
   },
@@ -142,6 +158,8 @@
    "room": "C328",
    "faculty": "SSK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC401P | C328 | LAB | SSK"
   },
@@ -157,6 +175,8 @@
    "room": "B304",
    "faculty": "AKA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC401L | B304 | AKA"
   },
@@ -172,6 +192,8 @@
    "room": "B304",
    "faculty": "DGS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC501L | B304 | DGS"
   },
@@ -187,6 +209,8 @@
    "room": "B304",
    "faculty": "CDM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC302L | B304 | CDM"
   },
@@ -202,6 +226,8 @@
    "room": "B304",
    "faculty": "MKR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC304L | B304 | MKR"
   },
@@ -217,6 +243,8 @@
    "room": "B107 / APC13",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC304T | B107 | APC13"
   },
@@ -232,6 +260,8 @@
    "room": "B304",
    "faculty": "ST",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC305L | B304 | ST"
   },
@@ -247,6 +277,8 @@
    "room": "B304",
    "faculty": "SMV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321L | B304 | SMV"
   },
@@ -262,6 +294,8 @@
    "room": "B304",
    "faculty": "DGS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC501L | B304 | DGS"
   },
@@ -277,6 +311,8 @@
    "room": "B304",
    "faculty": "MKR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC304L | B304 | MKR"
   },
@@ -292,6 +328,8 @@
    "room": "C334",
    "faculty": "MKR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC304P | C334 | LAB | MKR"
   },
@@ -307,6 +345,8 @@
    "room": "C327",
    "faculty": "TSP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC302P | C327 | LAB | TSP"
   },
@@ -322,6 +362,8 @@
    "room": "B304",
    "faculty": "ST",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC305L | B304 | ST"
   },
@@ -337,6 +379,8 @@
    "room": "B304",
    "faculty": "SMV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321L | B304 | SMV"
   },
@@ -352,6 +396,8 @@
    "room": "C332",
    "faculty": "DGS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC501P | C332 | LAB | DGS"
   },
@@ -367,6 +413,8 @@
    "room": "B304",
    "faculty": "AKA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC401L | B304 | AKA"
   },
@@ -382,6 +430,8 @@
    "room": "B304",
    "faculty": "CDM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC302L | B304 | CDM"
   }

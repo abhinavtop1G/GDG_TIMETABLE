@@ -22,6 +22,8 @@
    "room": "E310",
    "faculty": "AC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH509L | E310 | AC"
   },
@@ -37,6 +39,8 @@
    "room": "B119",
    "faculty": "SKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH405P | B119 | LAB | SKS"
   },
@@ -52,6 +56,8 @@
    "room": "F309",
    "faculty": "MDS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA025P | F309 | MDS"
   },
@@ -67,6 +73,8 @@
    "room": "E310",
    "faculty": "SKA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH501L | E310 | SKA"
   },
@@ -82,6 +90,8 @@
    "room": "E310",
    "faculty": "PMS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH506L | E310 | PMS"
   },
@@ -97,6 +107,8 @@
    "room": "E310",
    "faculty": "SKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH405L | E310 | SKS"
   },
@@ -112,6 +124,8 @@
    "room": "B124",
    "faculty": "CS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH401P | B124 | LAB | CS"
   },
@@ -127,6 +141,8 @@
    "room": "E310",
    "faculty": "RGU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH401L | E310 | RGU"
   },
@@ -142,6 +158,8 @@
    "room": "E310",
    "faculty": "SKA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH501L | E310 | SKA"
   },
@@ -157,6 +175,8 @@
    "room": "E310",
    "faculty": "AC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH509P | E310 | AC"
   },
@@ -172,6 +192,8 @@
    "room": "E310",
    "faculty": "AC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH509L | E310 | AC"
   },
@@ -187,6 +209,8 @@
    "room": "E310",
    "faculty": "SKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH405T | E310 | SKS"
   },
@@ -202,6 +226,8 @@
    "room": "E310",
    "faculty": "SKA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH501T | E310 | SKA"
   },
@@ -222,6 +248,37 @@
     "UHU016",
     "UMA069L"
    ],
+   "choices": [
+    {
+     "code": "UCS002",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UTD004",
+     "room": "LT102",
+     "faculty": "VK",
+     "note": "",
+     "title": "Campus 2 Corporate"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS002/UTD004/UHU016/UMA069L | LT101/LT102/B303/F201 | SUS/VK/PS/AM"
   },
@@ -237,6 +294,8 @@
    "room": "LT101",
    "faculty": "ANS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU018L | LT101 | ANS"
   },
@@ -252,6 +311,8 @@
    "room": "E310",
    "faculty": "PMS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH506L | E310 | PMS"
   },
@@ -267,6 +328,8 @@
    "room": "E310",
    "faculty": "SKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH405L | E310 | SKS"
   },
@@ -282,6 +345,8 @@
    "room": "E310",
    "faculty": "RGU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH401L | E310 | RGU"
   },
@@ -302,6 +367,37 @@
     "UHU016",
     "UMA069L"
    ],
+   "choices": [
+    {
+     "code": "UCS002",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UTD004",
+     "room": "LT102",
+     "faculty": "VK",
+     "note": "",
+     "title": "Campus 2 Corporate"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS002/UTD004/UHU016/UMA069L | LT101/LT102/B303/F201 | SUS/VK/PS/AM"
   },
@@ -317,6 +413,8 @@
    "room": "LT101",
    "faculty": "ANS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU018L | LT101 | ANS"
   },
@@ -332,6 +430,8 @@
    "room": "E310",
    "faculty": "RGU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH401T | E310 | RGU"
   },
@@ -347,6 +447,8 @@
    "room": "E310",
    "faculty": "PMS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH506T | E310 | PMS"
   },
@@ -362,6 +464,8 @@
    "room": "E102",
    "faculty": "MDS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA025L | E102 | MDS"
   },
@@ -377,6 +481,8 @@
    "room": "E310",
    "faculty": "RGU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH401L | E310 | RGU"
   },
@@ -392,6 +498,8 @@
    "room": "E310",
    "faculty": "PMS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH506L | E310 | PMS"
   },
@@ -407,6 +515,8 @@
    "room": "C120",
    "faculty": "SKA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH501P | C120 | LAB | SKA"
   },
@@ -422,6 +532,8 @@
    "room": "E310",
    "faculty": "SKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH405L | E310 | SKS"
   },
@@ -437,6 +549,8 @@
    "room": "E310",
    "faculty": "SKA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH501L | E310 | SKA"
   },
@@ -452,6 +566,8 @@
    "room": "BC125",
    "faculty": "PMS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH506P | BC125 | LAB | PMS"
   }

@@ -22,6 +22,8 @@
    "room": "F104",
    "faculty": "RS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UVD701L | F104 | RS"
   },
@@ -37,6 +39,8 @@
    "room": "C221",
    "faculty": "RS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UVD701P | C221 | LAB | RS"
   },
@@ -52,6 +56,8 @@
    "room": "C334",
    "faculty": "UKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UVDXXXP | C334/? | UKS"
   },
@@ -67,6 +73,8 @@
    "room": "B209",
    "faculty": "HSS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC519T | B209 | HSS"
   },
@@ -82,6 +90,8 @@
    "room": "E107",
    "faculty": "RS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UVD701L | E107 | RS"
   },
@@ -100,6 +110,23 @@
     "UNCXXXL",
     "UVDXXXL"
    ],
+   "choices": [
+    {
+     "code": "UNCXXXL",
+     "room": "F303",
+     "faculty": "AJK",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UVDXXXL",
+     "room": "F316",
+     "faculty": "UKS",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UNCXXXL/UVDXXXL | F303/F316 | AJK/UKS"
   },
@@ -115,6 +142,8 @@
    "room": "B309",
    "faculty": "HSS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC519L | B309 | HSS"
   },
@@ -130,6 +159,8 @@
    "room": "B214",
    "faculty": "HSS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC519P | B214 | LAB | HSS"
   },
@@ -150,6 +181,37 @@
     "UHU016",
     "UMA069L"
    ],
+   "choices": [
+    {
+     "code": "UCS002",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UHU018",
+     "room": "LP106",
+     "faculty": "RKS",
+     "note": "",
+     "title": "Introduction to Corporate Finance"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS002/UHU018/UHU016/UMA069L | LT101/LP106/B303/F201 | SUS/RKS/PS/AM"
   },
@@ -165,6 +227,8 @@
    "room": "LT102",
    "faculty": "VK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTD004L | LT102 | VK"
   },
@@ -180,6 +244,8 @@
    "room": "B309",
    "faculty": "HSS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC519L | B309 | HSS"
   },
@@ -200,6 +266,37 @@
     "UHU016",
     "UMA069L"
    ],
+   "choices": [
+    {
+     "code": "UCS002",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UHU018",
+     "room": "LP106",
+     "faculty": "RKS",
+     "note": "",
+     "title": "Introduction to Corporate Finance"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS002/UHU018/UHU016/UMA069L | LT101/LP106/B303/F201 | SUS/RKS/PS/AM"
   },
@@ -215,6 +312,8 @@
    "room": "LT102",
    "faculty": "VK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTD004L | LT102 | VK"
   },
@@ -233,6 +332,23 @@
     "UNCXXXL",
     "UVDXXXL"
    ],
+   "choices": [
+    {
+     "code": "UNCXXXL",
+     "room": "F303",
+     "faculty": "AJK",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UVDXXXL",
+     "room": "F304",
+     "faculty": "UKS",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UNCXXXL/UVDXXXL | F303/F304 | AJK/UKS"
   },
@@ -248,6 +364,8 @@
    "room": "F303",
    "faculty": "AJK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNCXXXL | F303 | AJK"
   },
@@ -263,6 +381,8 @@
    "room": "B309",
    "faculty": "HSS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC519L | B309 | HSS"
   }

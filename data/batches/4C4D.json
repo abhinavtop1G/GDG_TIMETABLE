@@ -29,6 +29,51 @@
     "UCS762P",
     "UCS760P"
    ],
+   "choices": [
+    {
+     "code": "UCS752P",
+     "room": "L002",
+     "faculty": "SSH",
+     "note": "",
+     "title": "Augmented and Virtual Reality"
+    },
+    {
+     "code": "UCS754P",
+     "room": "L408",
+     "faculty": "NRJ",
+     "note": "",
+     "title": "Blockchain Technology and Applications"
+    },
+    {
+     "code": "UCS758P",
+     "room": "L106",
+     "faculty": "ANJ",
+     "note": "",
+     "title": "System Provisioning and Configuration Management"
+    },
+    {
+     "code": "UCS750P",
+     "room": "L102",
+     "faculty": "GS",
+     "note": "",
+     "title": "Computer Hacking and Forensic Investigation"
+    },
+    {
+     "code": "UCS762P",
+     "room": "L103",
+     "faculty": "RAH",
+     "note": "",
+     "title": "Cyber Security for Mobility Systems"
+    },
+    {
+     "code": "UCS760P",
+     "room": "L312",
+     "faculty": "ABS-CRA",
+     "note": "",
+     "title": "Edge AI and Robotics: Reinforcement Learning & Conversational AI"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS752P/UCS754P/UCS758P/UCS750P/UCS762P/UCS760P | L002/L408/L106/L102/L103/L312 | LAB | SSH/NRJ/ANJ/GS/RAH/ABS-CRA"
   },
@@ -56,6 +101,86 @@
     "UCS772L",
     "UMC743L"
    ],
+   "choices": [
+    {
+     "code": "UCS751L",
+     "room": "LP106",
+     "faculty": "PSR",
+     "note": "",
+     "title": "Simulation & Modelling"
+    },
+    {
+     "code": "UCS752L",
+     "room": "E304",
+     "faculty": "SSH",
+     "note": "",
+     "title": "Augmented and Virtual Reality"
+    },
+    {
+     "code": "UCS754L",
+     "room": "LP109",
+     "faculty": "NRJ",
+     "note": "",
+     "title": "Blockchain Technology and Applications"
+    },
+    {
+     "code": "UCS758L",
+     "room": "T101",
+     "faculty": "ANJ",
+     "note": "",
+     "title": "System Provisioning and Configuration Management"
+    },
+    {
+     "code": "UCS750L",
+     "room": "E305",
+     "faculty": "GS",
+     "note": "",
+     "title": "Computer Hacking and Forensic Investigation"
+    },
+    {
+     "code": "UCS762L",
+     "room": "E308",
+     "faculty": "RAH",
+     "note": "",
+     "title": "Cyber Security for Mobility Systems"
+    },
+    {
+     "code": "UCS760L",
+     "room": "E101",
+     "faculty": "HMK",
+     "note": "",
+     "title": "Edge AI and Robotics: Reinforcement Learning & Conversational AI"
+    },
+    {
+     "code": "UCS748L",
+     "room": "E205",
+     "faculty": "RKT",
+     "note": "",
+     "title": "Generative AI"
+    },
+    {
+     "code": "UCS745L",
+     "room": "F304",
+     "faculty": "VJY",
+     "note": "",
+     "title": "Cloud & DevOps"
+    },
+    {
+     "code": "UCS772L",
+     "room": "E105",
+     "faculty": "MAK",
+     "note": "",
+     "title": "Data Science: Computer Vision & NLP"
+    },
+    {
+     "code": "UMC743L",
+     "room": "LE101",
+     "faculty": "KUC",
+     "note": "",
+     "title": "Quantitative and Statistical Methods for Finance"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS751L/UCS752L/UCS754L/UCS758L/UCS750L/UCS762L/UCS760L/UCS748L/UCS745L/UCS772L/UMC743L | LP106/E304/LP109/T101/E305/E308/E101/E205/F304/E105/LE101 | PSR/SSH/NRJ/ANJ/GS/RAH/HMK/RKT/VJY/MAK/KUC"
   },
@@ -83,6 +208,86 @@
     "UCS772L",
     "UMC743L"
    ],
+   "choices": [
+    {
+     "code": "UCS751L",
+     "room": "LP106",
+     "faculty": "PSR",
+     "note": "",
+     "title": "Simulation & Modelling"
+    },
+    {
+     "code": "UCS752L",
+     "room": "E304",
+     "faculty": "SSH",
+     "note": "",
+     "title": "Augmented and Virtual Reality"
+    },
+    {
+     "code": "UCS754L",
+     "room": "LP109",
+     "faculty": "NRJ",
+     "note": "",
+     "title": "Blockchain Technology and Applications"
+    },
+    {
+     "code": "UCS758L",
+     "room": "T101",
+     "faculty": "ANJ",
+     "note": "",
+     "title": "System Provisioning and Configuration Management"
+    },
+    {
+     "code": "UCS750L",
+     "room": "E305",
+     "faculty": "GS",
+     "note": "",
+     "title": "Computer Hacking and Forensic Investigation"
+    },
+    {
+     "code": "UCS762L",
+     "room": "E308",
+     "faculty": "RAH",
+     "note": "",
+     "title": "Cyber Security for Mobility Systems"
+    },
+    {
+     "code": "UCS760L",
+     "room": "E101",
+     "faculty": "HMK",
+     "note": "",
+     "title": "Edge AI and Robotics: Reinforcement Learning & Conversational AI"
+    },
+    {
+     "code": "UCS748L",
+     "room": "E205",
+     "faculty": "RKT",
+     "note": "",
+     "title": "Generative AI"
+    },
+    {
+     "code": "UCS745L",
+     "room": "F304",
+     "faculty": "VJY",
+     "note": "",
+     "title": "Cloud & DevOps"
+    },
+    {
+     "code": "UCS772L",
+     "room": "E105",
+     "faculty": "MAK",
+     "note": "",
+     "title": "Data Science: Computer Vision & NLP"
+    },
+    {
+     "code": "UMC743L",
+     "room": "LE101",
+     "faculty": "KUC",
+     "note": "",
+     "title": "Quantitative and Statistical Methods for Finance"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS751L/UCS752L/UCS754L/UCS758L/UCS750L/UCS762L/UCS760L/UCS748L/UCS745L/UCS772L/UMC743L | LP106/E304/LP109/T101/E305/E308/E101/E205/F304/E105/LE101 | PSR/SSH/NRJ/ANJ/GS/RAH/HMK/RKT/VJY/MAK/KUC"
   },
@@ -98,6 +303,8 @@
    "room": "T101",
    "faculty": "SPT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU005L | T101 | SPT"
   },
@@ -113,6 +320,8 @@
    "room": "T101",
    "faculty": "SKH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS802L | T101 | SKH"
   },
@@ -131,6 +340,23 @@
     "UCS751P",
     "UCS748P"
    ],
+   "choices": [
+    {
+     "code": "UCS751P",
+     "room": "L102",
+     "faculty": "PSR",
+     "note": "",
+     "title": "Simulation & Modelling"
+    },
+    {
+     "code": "UCS748P",
+     "room": "L401",
+     "faculty": "JYT",
+     "note": "",
+     "title": "Generative AI"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS751P/UCS748P | L102/L401 | LAB | PSR/JYT"
   },
@@ -146,6 +372,8 @@
    "room": "L010",
    "faculty": "KUC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMC743P | L010 | LAB | KUC"
   },
@@ -161,6 +389,8 @@
    "room": "T101",
    "faculty": "SPT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU005L | T101 | SPT"
   },
@@ -176,6 +406,8 @@
    "room": "T101",
    "faculty": "SKH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS802L | T101 | SKH"
   },
@@ -191,6 +423,8 @@
    "room": "T101",
    "faculty": "SKH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS802L | T101 | SKH"
   },
@@ -206,6 +440,8 @@
    "room": "GC-2 (L107)",
    "faculty": "SKH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS802P | GC-2(L107) | LAB | SKH"
   },
@@ -221,6 +457,8 @@
    "room": "F304 / LC22",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU005P | F304 | LC22"
   },
@@ -239,6 +477,23 @@
     "UCS745P",
     "UCS772P"
    ],
+   "choices": [
+    {
+     "code": "UCS745P",
+     "room": "L206",
+     "faculty": "RIA-RA",
+     "note": "",
+     "title": "Cloud & DevOps"
+    },
+    {
+     "code": "UCS772P",
+     "room": "L009",
+     "faculty": "MAK",
+     "note": "",
+     "title": "Data Science: Computer Vision & NLP"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS745P/UCS772P | L206/L009 | LAB | RIA-RA/MAK"
   }

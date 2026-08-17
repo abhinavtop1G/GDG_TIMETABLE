@@ -22,6 +22,8 @@
    "room": "LP109",
    "faculty": "AKU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCT301L | LP109 | AKU"
   },
@@ -37,6 +39,8 @@
    "room": "LP109",
    "faculty": "VIN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCTXX2L | LP109 | VIN"
   },
@@ -52,6 +56,8 @@
    "room": "LP109",
    "faculty": "RIR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCT203L | LP109 | RIR"
   },
@@ -67,6 +73,8 @@
    "room": "LP109",
    "faculty": "ASM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCTXX1L | LP109 | ASM"
   },
@@ -82,6 +90,8 @@
    "room": "NS2 (L103)",
    "faculty": "RIR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCT203P | NS2(L103) | LAB | RIR"
   },
@@ -97,6 +107,8 @@
    "room": "LP109",
    "faculty": "AKU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCT301T | LP109 | AKU"
   },
@@ -112,6 +124,8 @@
    "room": "LP109",
    "faculty": "AKU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCT301L | LP109 | AKU"
   },
@@ -127,6 +141,8 @@
    "room": "LP109",
    "faculty": "VIN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCTXX2L | LP109 | VIN"
   },
@@ -142,6 +158,8 @@
    "room": "E101",
    "faculty": "SPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU012P | E101 | SPK"
   },
@@ -157,6 +175,8 @@
    "room": "CG2 (L430)",
    "faculty": "SHS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCTXX3P | CG2(L430) | LAB | SHS"
   },
@@ -172,6 +192,8 @@
    "room": "LP109",
    "faculty": "AKU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCT301L | LP109 | AKU"
   },
@@ -187,6 +209,8 @@
    "room": "LP109",
    "faculty": "VIN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCTXX2L | LP109 | VIN"
   },
@@ -202,6 +226,8 @@
    "room": "LP109",
    "faculty": "RIR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCT203L | LP109 | RIR"
   },
@@ -217,6 +243,8 @@
    "room": "LP109",
    "faculty": "ASM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCTXX1L | LP109 | ASM"
   },
@@ -232,6 +260,8 @@
    "room": "DBMS1 (L206)",
    "faculty": "ASM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCTXX1P | DBMS1(L206) | LAB | ASM"
   },
@@ -247,6 +277,8 @@
    "room": "LP105",
    "faculty": "RR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU029L | LP105 | RR"
   },
@@ -262,6 +294,8 @@
    "room": "LP105",
    "faculty": "RR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU029L | LP105 | RR"
   },
@@ -277,6 +311,8 @@
    "room": "SE1 (L104)",
    "faculty": "SHR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCTXX2P | SE1(L104) | LAB | SHR"
   },
@@ -292,6 +328,8 @@
    "room": "E101",
    "faculty": "SPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU012L | E101 | SPK"
   },
@@ -307,6 +345,8 @@
    "room": "E101",
    "faculty": "ASM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCTXX1L | E101 | ASM"
   },
@@ -322,6 +362,8 @@
    "room": "E101",
    "faculty": "SHS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCTXX3L | E101 | SHS"
   },
@@ -337,6 +379,8 @@
    "room": "LP109",
    "faculty": "RIR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCT203L | LP109 | RIR"
   },
@@ -352,6 +396,8 @@
    "room": "LP109",
    "faculty": "ASH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCTXX3L | LP109 | ASH"
   }

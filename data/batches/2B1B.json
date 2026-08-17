@@ -22,6 +22,8 @@
    "room": "F104",
    "faculty": "SJS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE310L | F104 | SJS"
   },
@@ -37,6 +39,8 @@
    "room": "F104",
    "faculty": "SJK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035L | F104 | SJK"
   },
@@ -52,6 +56,8 @@
    "room": "F104",
    "faculty": "SJS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE310T | F104 | SJS"
   },
@@ -67,6 +73,8 @@
    "room": "LT101",
    "faculty": "SSS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTD003L | LT101 | SSS"
   },
@@ -82,6 +90,8 @@
    "room": "D122",
    "faculty": "DAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE308P | D122 | LAB | DAS"
   },
@@ -97,6 +107,8 @@
    "room": "F104",
    "faculty": "HSC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE306L | F104 | HSC"
   },
@@ -112,6 +124,8 @@
    "room": "F104",
    "faculty": "SHG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE312L | F104 | SHG"
   },
@@ -127,6 +141,8 @@
    "room": "F104",
    "faculty": "SJK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035L | F104 | SJK"
   },
@@ -142,6 +158,8 @@
    "room": "C218",
    "faculty": "SCH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE306P | C218 | LAB | SCH"
   },
@@ -157,6 +175,8 @@
    "room": "H108",
    "faculty": "SJS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE310P | H108 | LAB | SJS"
   },
@@ -172,6 +192,8 @@
    "room": "PG (G201) / TA16",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035P | PG(G201) | LAB | TA16"
   },
@@ -187,6 +209,8 @@
    "room": "F104",
    "faculty": "HSC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE306L | F104 | HSC"
   },
@@ -202,6 +226,8 @@
    "room": "F104",
    "faculty": "SHG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE312L | F104 | SHG"
   },
@@ -217,6 +243,8 @@
    "room": "F104",
    "faculty": "SJS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE310L | F104 | SJS"
   },
@@ -232,6 +260,8 @@
    "room": "F104",
    "faculty": "SJK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035L | F104 | SJK"
   },
@@ -247,6 +277,8 @@
    "room": "F104 / APC14",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE312T | F104 | APC14"
   },
@@ -262,6 +294,8 @@
    "room": "LAB (W123)",
    "faculty": "SM / SHG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE312P | SM | LAB (W123) | SHG"
   },
@@ -277,6 +311,8 @@
    "room": "F104",
    "faculty": "DAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE308L | F104 | DAS"
   },
@@ -292,6 +328,8 @@
    "room": "F104",
    "faculty": "SHG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE312L | F104 | SHG"
   },
@@ -307,6 +345,8 @@
    "room": "F104",
    "faculty": "SJS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE310L | F104 | SJS"
   },
@@ -322,6 +362,8 @@
    "room": "F104",
    "faculty": "ABK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321P | F104 | ABK"
   },
@@ -337,6 +379,8 @@
    "room": "F104",
    "faculty": "DAS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE308L | F104 | DAS"
   },
@@ -352,6 +396,8 @@
    "room": "F104",
    "faculty": "ABK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321L | F104 | ABK"
   },
@@ -367,6 +413,8 @@
    "room": "C218",
    "faculty": "HSC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE306P | C218 | LAB-2 | HSC"
   }

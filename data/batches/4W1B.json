@@ -25,6 +25,23 @@
     "URA731P",
     "URA741P"
    ],
+   "choices": [
+    {
+     "code": "URA731P",
+     "room": "B302",
+     "faculty": "DMG",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "URA741P",
+     "room": "BAJAJ LAB",
+     "faculty": "PKW",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "URA731P/URA741P | B302/BAJAJ LAB | LAB | DMG/PKW"
   },
@@ -40,6 +57,8 @@
    "room": "F207",
    "faculty": "JPT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "URA753L | F207 | JPT"
   },
@@ -55,6 +74,8 @@
    "room": "LP108",
    "faculty": "CSED",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "URA745L | LP108 | CSED"
   },
@@ -74,6 +95,30 @@
     "URA751L",
     "UME751L"
    ],
+   "choices": [
+    {
+     "code": "UCS760L",
+     "room": "F206",
+     "faculty": "HMK",
+     "note": "",
+     "title": "Edge AI and Robotics: Reinforcement Learning & Conversational AI"
+    },
+    {
+     "code": "URA751L",
+     "room": "F207",
+     "faculty": "NF",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME751L",
+     "room": "F312",
+     "faculty": "AMG",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS760L/URA751L/UME751L | F206/F207/F312 | HMK/NF/AMG"
   },
@@ -93,6 +138,30 @@
     "URA751L",
     "UME751L"
    ],
+   "choices": [
+    {
+     "code": "UCS760L",
+     "room": "F206",
+     "faculty": "HMK",
+     "note": "",
+     "title": "Edge AI and Robotics: Reinforcement Learning & Conversational AI"
+    },
+    {
+     "code": "URA751L",
+     "room": "F207",
+     "faculty": "NF",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME751L",
+     "room": "F312",
+     "faculty": "AMG",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS760L/URA751L/UME751L | F206/F207/F312 | HMK/NF/AMG"
   },
@@ -112,6 +181,30 @@
     "URA413L",
     "URA741L"
    ],
+   "choices": [
+    {
+     "code": "UME752L",
+     "room": "F206",
+     "faculty": "APH",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "URA413L",
+     "room": "F207",
+     "faculty": "DKJ",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "URA741L",
+     "room": "F110",
+     "faculty": "PKW",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UME752L/URA413L/URA741L | F206/F207/F110 | APH/DKJ/PKW"
   },
@@ -127,6 +220,8 @@
    "room": "B303",
    "faculty": "DMG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "Capstone project",
    "raw": "URA731L | B303 | DMG | CAPSTONE PROJECT"
   },
@@ -145,6 +240,23 @@
     "UME752L",
     "URA413L"
    ],
+   "choices": [
+    {
+     "code": "UME752L",
+     "room": "F206",
+     "faculty": "APH",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "URA413L",
+     "room": "F207",
+     "faculty": "DKJ",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UME752L/URA413L | F206/F207 | APH/DKJ"
   },
@@ -163,6 +275,23 @@
     "URA753L",
     "UME715L"
    ],
+   "choices": [
+    {
+     "code": "URA753L",
+     "room": "F207",
+     "faculty": "JPT",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME715L",
+     "room": "F109",
+     "faculty": "ASO",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "URA753L/UME715L | F207/F109 | JPT/ASO"
   },
@@ -182,6 +311,30 @@
     "URA745L",
     "UEI514L"
    ],
+   "choices": [
+    {
+     "code": "UCS671L",
+     "room": "F206",
+     "faculty": "HMG",
+     "note": "",
+     "title": "Edge AI and Robotics: Embedded Vision"
+    },
+    {
+     "code": "URA745L",
+     "room": "LP108",
+     "faculty": "CSED",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UEI514L",
+     "room": "F111",
+     "faculty": "SNK",
+     "note": "",
+     "title": "IoT Based Systems"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS671L/URA745L/UEI514L | F206/LP108/F111 | HMG/CSED/SNK"
   },
@@ -201,6 +354,30 @@
     "URA745L",
     "UEI514L"
    ],
+   "choices": [
+    {
+     "code": "UCS671L",
+     "room": "F206",
+     "faculty": "HMG",
+     "note": "",
+     "title": "Edge AI and Robotics: Embedded Vision"
+    },
+    {
+     "code": "URA745L",
+     "room": "LP108",
+     "faculty": "CSED",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UEI514L",
+     "room": "F111",
+     "faculty": "SNK",
+     "note": "",
+     "title": "IoT Based Systems"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS671L/URA745L/UEI514L | F206/LP108/F111 | HMG/CSED/SNK"
   },
@@ -219,6 +396,23 @@
     "URA751P",
     "UME751P"
    ],
+   "choices": [
+    {
+     "code": "URA751P",
+     "room": "IA(H214)",
+     "faculty": "NF",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME751P",
+     "room": "MET",
+     "faculty": "AMG",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "URA751P/UME751P | IA(H214)/MET | LAB | NF/AMG"
   },
@@ -237,6 +431,23 @@
     "UCS671P",
     "UEI514P"
    ],
+   "choices": [
+    {
+     "code": "UCS671P",
+     "room": "PL3(L010)",
+     "faculty": "ABP-RA",
+     "note": "",
+     "title": "Edge AI and Robotics: Embedded Vision"
+    },
+    {
+     "code": "UEI514P",
+     "room": "RT(H219A)",
+     "faculty": "SNK",
+     "note": "",
+     "title": "IoT Based Systems"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS671P/UEI514P | PL3(L010)/RT(H219A) | LAB | ABP-RA/SNK"
   },
@@ -252,6 +463,8 @@
    "room": "F206",
    "faculty": "RAR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "URA701L | F206 | RAR"
   },
@@ -267,6 +480,8 @@
    "room": "F206",
    "faculty": "TKB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME722L | F206 | TKB"
   },
@@ -282,6 +497,8 @@
    "room": "F310",
    "faculty": "TKB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME722T | F310 | TKB"
   },
@@ -297,6 +514,8 @@
    "room": "IOT (L302)",
    "faculty": "ABS-CRA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS760P | IOT(L302) | LAB | ABS-CRA"
   },
@@ -312,6 +531,8 @@
    "room": "CAM (H107)",
    "faculty": "TKB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME722P | CAM(H107) | LAB | TKB"
   },
@@ -327,6 +548,8 @@
    "room": "F206",
    "faculty": "TKB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME722L | F206 | TKB"
   },
@@ -342,6 +565,8 @@
    "room": "F206",
    "faculty": "RAR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "URA701L | F206 | RAR"
   },
@@ -357,6 +582,8 @@
    "room": "CSED ROOM",
    "faculty": "CSED",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS668L | CSED ROOM | CSED"
   },
@@ -375,6 +602,23 @@
     "UCS668L",
     "URA731L"
    ],
+   "choices": [
+    {
+     "code": "UCS668L",
+     "room": "CSED",
+     "faculty": "CSED",
+     "note": "",
+     "title": "Edge AI and Robotics: Data Centre Vision"
+    },
+    {
+     "code": "URA731L",
+     "room": "B303",
+     "faculty": "DMG",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS668L/URA731L | CSED/B303 | CSED/DMG"
   },
@@ -390,6 +634,8 @@
    "room": "IA (214)",
    "faculty": "NF",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "URA751P | IA(214) | LAB | NF"
   },
@@ -405,6 +651,8 @@
    "room": "CAD-3 (D101)",
    "faculty": "RAR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "URA701P | CAD-3(D101) | LAB | RAR"
   },
@@ -423,6 +671,23 @@
     "URA753L",
     "UME715L"
    ],
+   "choices": [
+    {
+     "code": "URA753L",
+     "room": "F206",
+     "faculty": "JPT",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME715L",
+     "room": "F110",
+     "faculty": "ASO",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "URA753L/UME715L | F206/F110 | JPT/ASO"
   },
@@ -442,6 +707,30 @@
     "URA413L",
     "URA741L"
    ],
+   "choices": [
+    {
+     "code": "UME752L",
+     "room": "F206",
+     "faculty": "APH",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "URA413L",
+     "room": "F207",
+     "faculty": "DKJ",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "URA741L",
+     "room": "F110",
+     "faculty": "PKW",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UME752L/URA413L/URA741L | F206/F207/F110 | APH/DKJ/PKW"
   },
@@ -457,6 +746,8 @@
    "room": "F110",
    "faculty": "ASO",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME715T | F110 | ASO"
   }

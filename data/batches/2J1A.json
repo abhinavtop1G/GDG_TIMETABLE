@@ -22,6 +22,8 @@
    "room": "EE2 (H222) / TA14",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM031P | EE2(H222) | LAB | TA14"
   },
@@ -37,6 +39,8 @@
    "room": "E307",
    "faculty": "SUM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM031L | E307 | SUM"
   },
@@ -52,6 +56,8 @@
    "room": "E307",
    "faculty": "AKP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA017L | E307 | AKP"
   },
@@ -67,6 +73,8 @@
    "room": "E307",
    "faculty": "DBM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM017L | E307 | DBM"
   },
@@ -82,6 +90,8 @@
    "room": "B301",
    "faculty": "KKG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321P | B301 | KKG"
   },
@@ -97,6 +107,8 @@
    "room": "E307",
    "faculty": "DBD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM009L | E307 | DBD"
   },
@@ -112,6 +124,8 @@
    "room": "E307 / NF1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM003L | E307 | NF1"
   },
@@ -127,6 +141,8 @@
    "room": "BM (C324)",
    "faculty": "DBM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM024P | BM(C324) | LAB | DBM"
   },
@@ -142,6 +158,8 @@
    "room": "E307",
    "faculty": "SUM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM031L | E307 | SUM"
   },
@@ -157,6 +175,8 @@
    "room": "E307 / TA14",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM031T | E307 | TA14"
   },
@@ -172,6 +192,8 @@
    "room": "E307",
    "faculty": "DBD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM009L | E307 | DBD"
   },
@@ -187,6 +209,8 @@
    "room": "E307",
    "faculty": "AKP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA017L | E307 | AKP"
   },
@@ -202,6 +226,8 @@
    "room": "NF1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "BIO PROCEES",
    "raw": "UBM003P | BIO PROCEES | LAB | NF1"
   },
@@ -217,6 +243,8 @@
    "room": "BM (C324)",
    "faculty": "DBM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM024P | BM(C324) | LAB | DBM"
   },
@@ -232,6 +260,8 @@
    "room": "E307",
    "faculty": "SGK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM024L | E307 | SGK"
   },
@@ -247,6 +277,8 @@
    "room": "E307",
    "faculty": "DBD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM009T | E307 | DBD"
   },
@@ -262,6 +294,8 @@
    "room": "E307 / NF1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM003L | E307 | NF1"
   },
@@ -277,6 +311,8 @@
    "room": "E307",
    "faculty": "AKP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA017L | E307 | AKP"
   },
@@ -292,6 +328,8 @@
    "room": "NF1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "BIO PROCESS",
    "raw": "UBM003P | BIO PROCESS | LAB | NF1"
   },
@@ -307,6 +345,8 @@
    "room": "EE-2 (H222) / TA14",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM031P | EE-2(H222) | LAB | TA14"
   },
@@ -322,6 +362,8 @@
    "room": "E307",
    "faculty": "DBM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM008L | E307 | DBM"
   },
@@ -337,6 +379,8 @@
    "room": "E307",
    "faculty": "DBD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM009L | E307 | DBD"
   },
@@ -352,6 +396,8 @@
    "room": "E307",
    "faculty": "DBD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM009T | E307 | DBD"
   },
@@ -367,6 +413,8 @@
    "room": "E307",
    "faculty": "AKP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA017L | E307 | AKP"
   },
@@ -382,6 +430,8 @@
    "room": "E307 / NF1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM003L | E307 | NF1"
   },
@@ -397,6 +447,8 @@
    "room": "E307",
    "faculty": "DBM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM008L | E307 | DBM"
   },
@@ -412,6 +464,8 @@
    "room": "B301",
    "faculty": "KKG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321P | B301 | KKG"
   },
@@ -427,6 +481,8 @@
    "room": "E307",
    "faculty": "AKP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA017L | E307 | AKP"
   },
@@ -442,6 +498,8 @@
    "room": "E307",
    "faculty": "SUM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM031L | E307 | SUM"
   },
@@ -457,6 +515,8 @@
    "room": "EE2 (H222) / TA14",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM031P | EE2(H222) | LAB | TA14"
   }

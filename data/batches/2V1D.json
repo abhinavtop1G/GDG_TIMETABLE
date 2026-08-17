@@ -22,6 +22,8 @@
    "room": "B105 / PF-1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UVD301P | B105 | LAB | PF-1"
   },
@@ -37,6 +39,8 @@
    "room": "F301",
    "faculty": "GPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612T | F301 | GPK"
   },
@@ -52,6 +56,8 @@
    "room": "F301 / PF1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UVD301T | F301 | PF1"
   },
@@ -67,6 +73,8 @@
    "room": "B302",
    "faculty": "MKA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UVD301L | B302 | MKA"
   },
@@ -82,6 +90,8 @@
    "room": "B305",
    "faculty": "ARN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321P | B305 | LAB | ARN"
   },
@@ -97,6 +107,8 @@
    "room": "LT101",
    "faculty": "VK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTD003L | LT101 | VK"
   },
@@ -112,6 +124,8 @@
    "room": "B302",
    "faculty": "TV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035L | B302 | TV"
   },
@@ -127,6 +141,8 @@
    "room": "B302",
    "faculty": "ARN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321L | B302 | ARN"
   },
@@ -142,6 +158,8 @@
    "room": "B302",
    "faculty": "ARP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UVD302L | B302 | ARP"
   },
@@ -157,6 +175,8 @@
    "room": "B302",
    "faculty": "MKA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UVD301L | B302 | MKA"
   },
@@ -172,6 +192,8 @@
    "room": "B302",
    "faculty": "GPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612L | B302 | GPK"
   },
@@ -187,6 +209,8 @@
    "room": "C325",
    "faculty": "BG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612P | C325 | LAB | BG"
   },
@@ -202,6 +226,8 @@
    "room": "LT101 / LT102",
    "faculty": "SCS / AMJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA016L | LT101/LT102 | SCS/AMJ"
   },
@@ -217,6 +243,8 @@
    "room": "B302",
    "faculty": "TV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035L | B302 | TV"
   },
@@ -232,6 +260,8 @@
    "room": "B302",
    "faculty": "GPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612L | B302 | GPK"
   },
@@ -247,6 +277,8 @@
    "room": "B302",
    "faculty": "ARN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321L | B302 | ARN"
   },
@@ -262,6 +294,8 @@
    "room": "B302",
    "faculty": "ARP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UVD302L | B302 | ARP"
   },
@@ -277,6 +311,8 @@
    "room": "F314 / B204 / RF1",
    "faculty": "SCS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA016P | F314/B204 | LAB | SCS/RF1"
   },
@@ -292,6 +328,8 @@
    "room": "NA1 (G203)",
    "faculty": "RJD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035P | NA1(G203) | LAB | RJD"
   },
@@ -307,6 +345,8 @@
    "room": "F301",
    "faculty": "JTK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012T | F301 | JTK"
   },
@@ -322,6 +362,8 @@
    "room": "B305",
    "faculty": "TV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035L | B305 | TV"
   },
@@ -337,6 +379,8 @@
    "room": "B305",
    "faculty": "ARP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UVD302L | B305 | ARP"
   },
@@ -352,6 +396,8 @@
    "room": "B305",
    "faculty": "GPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612L | B305 | GPK"
   },
@@ -367,6 +413,8 @@
    "room": "B305",
    "faculty": "MKA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UVD301L | B305 | MKA"
   }

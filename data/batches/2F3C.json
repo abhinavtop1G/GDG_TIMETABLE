@@ -22,6 +22,8 @@
    "room": "C212 / F315 / RF3",
    "faculty": "GTS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA016P | C212/F315 | LAB | RF3/GTS"
   },
@@ -37,6 +39,8 @@
    "room": "LT101",
    "faculty": "VK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTD003L | LT101 | VK"
   },
@@ -52,6 +56,8 @@
    "room": "NA-1 (G203) / TA40",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035P | NA-1(G203) | LAB | TA40"
   },
@@ -67,6 +73,8 @@
    "room": "F301 / LC4",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012T | F301 | LC4"
   },
@@ -82,6 +90,8 @@
    "room": "F201",
    "faculty": "SP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC311L | F201 | SP"
   },
@@ -97,6 +107,8 @@
    "room": "F201",
    "faculty": "AS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612L | F201 | AS"
   },
@@ -112,6 +124,8 @@
    "room": "F201",
    "faculty": "JTK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012L | F201 | JTK"
   },
@@ -127,6 +141,8 @@
    "room": "F201",
    "faculty": "FM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035L | F201 | FM"
   },
@@ -142,6 +158,8 @@
    "room": "LT102 / LT101",
    "faculty": "AMJ / SCS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA016L | LT102/LT101 | AMJ/SCS"
   },
@@ -157,6 +175,8 @@
    "room": "MS (G321) / LC6",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012P | MS(G321) | LAB | LC6"
   },
@@ -172,6 +192,8 @@
    "room": "F201",
    "faculty": "ARN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321L | F201 | ARN"
   },
@@ -187,6 +209,8 @@
    "room": "F201",
    "faculty": "ARN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321L | F201 | ARN"
   },
@@ -202,6 +226,8 @@
    "room": "F201",
    "faculty": "FM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035L | F201 | FM"
   },
@@ -217,6 +243,8 @@
    "room": "F201",
    "faculty": "AS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612L | F201 | AS"
   },
@@ -232,6 +260,8 @@
    "room": "F201",
    "faculty": "SP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC311L | F201 | SP"
   },
@@ -247,6 +277,8 @@
    "room": "F201",
    "faculty": "JTK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012L | F201 | JTK"
   },
@@ -262,6 +294,8 @@
    "room": "C325",
    "faculty": "BG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612P | C325 | LAB | BG"
   },
@@ -277,6 +311,8 @@
    "room": "F202",
    "faculty": "ARN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321P | F202 | LAB | ARN"
   },
@@ -292,6 +328,8 @@
    "room": "F202",
    "faculty": "FM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035L | F202 | FM"
   },
@@ -307,6 +345,8 @@
    "room": "F301",
    "faculty": "SP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC311T | F301 | SP"
   },
@@ -322,6 +362,8 @@
    "room": "F301 / PF4",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612T | F301 | PF4"
   },
@@ -337,6 +379,8 @@
    "room": "F202",
    "faculty": "JTK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012L | F202 | JTK"
   },
@@ -352,6 +396,8 @@
    "room": "F202",
    "faculty": "AS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612L | F202 | AS"
   }

@@ -25,6 +25,23 @@
     "UHU028L",
     "UHU026L"
    ],
+   "choices": [
+    {
+     "code": "UHU028L",
+     "room": "E106",
+     "faculty": "GK",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UHU026L",
+     "room": "E104",
+     "faculty": "SPT",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UHU028L/UHU026L | E106/E104 | GK/SPT"
   },
@@ -40,6 +57,8 @@
    "room": "E106",
    "faculty": "SUG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCT502L | E106 | SUG"
   },
@@ -55,6 +74,8 @@
    "room": "E106",
    "faculty": "RAJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCT501L | E106 | RAJ"
   },
@@ -70,6 +91,8 @@
    "room": "E106",
    "faculty": "NSD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU042L | E106 | NSD"
   },
@@ -85,6 +108,8 @@
    "room": "PL-4 (L011)",
    "faculty": "RAJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCT501P | PL-4(L011) | LAB | RAJ"
   },
@@ -100,6 +125,8 @@
    "room": "E106",
    "faculty": "SCB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU029L | E106 | SCB"
   },
@@ -115,6 +142,8 @@
    "room": "E106",
    "faculty": "SUG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCT502L | E106 | SUG"
   },
@@ -130,6 +159,8 @@
    "room": "E106",
    "faculty": "RAJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCT501L | E106 | RAJ"
   },
@@ -145,6 +176,8 @@
    "room": "E306",
    "faculty": "NSD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU042P | E306 | LAB | NSD"
   },
@@ -160,6 +193,8 @@
    "room": "E104",
    "faculty": "MT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU026 P | E104 | LAB | MT"
   },
@@ -175,6 +210,8 @@
    "room": "PGAS2 (L410)",
    "faculty": "SB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCT513T | PGAS2(L410) | SB"
   },
@@ -190,6 +227,8 @@
    "room": "E106",
    "faculty": "SUG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCT502L | E106 | SUG"
   },
@@ -205,6 +244,8 @@
    "room": "E106",
    "faculty": "RAJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCT501L | E106 | RAJ"
   },
@@ -220,6 +261,8 @@
    "room": "E106",
    "faculty": "SPT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU026L | E106 | SPT"
   },
@@ -235,6 +278,8 @@
    "room": "E106",
    "faculty": "GK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU028L | E106 | GK"
   },
@@ -250,6 +295,8 @@
    "room": "LP105",
    "faculty": "RR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU030L | LP105 | RR"
   },
@@ -265,6 +312,8 @@
    "room": "LP105",
    "faculty": "RR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU030L | LP105 | RR"
   },
@@ -283,6 +332,23 @@
     "UHU028L",
     "UHU026L"
    ],
+   "choices": [
+    {
+     "code": "UHU028L",
+     "room": "E106",
+     "faculty": "GK",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UHU026L",
+     "room": "E104",
+     "faculty": "SPT",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UHU028L/UHU026L | E106/E104 | GK/SPT"
   },
@@ -301,6 +367,23 @@
     "UCT513L",
     "UCT512L"
    ],
+   "choices": [
+    {
+     "code": "UCT513L",
+     "room": "E106",
+     "faculty": "SB",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UCT512L",
+     "room": "E101",
+     "faculty": "SAM",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCT513L/UCT512L | E106/E101 | SB/SAM"
   },
@@ -316,6 +399,8 @@
    "room": "SS-1 (L201)",
    "faculty": "SUG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCT502P | SS-1 (L201) | LAB | SUG"
   },
@@ -331,6 +416,8 @@
    "room": "F313 / LC29",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU028P | F313 | LC 29"
   },
@@ -349,6 +436,23 @@
     "UCT512P",
     "UCT513P"
    ],
+   "choices": [
+    {
+     "code": "UCT512P",
+     "room": "IOT(L302)",
+     "faculty": "SAM",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UCT513P",
+     "room": "ML(L009)",
+     "faculty": "SB",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCT512P/UCT513P | IOT(L302)/ML(L009) | LAB | SAM/SB"
   },
@@ -364,6 +468,8 @@
    "room": "E106",
    "faculty": "SAM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCT512T | E106 | SAM"
   },
@@ -379,6 +485,8 @@
    "room": "E106",
    "faculty": "SCB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU029L | E106 | SCB"
   },
@@ -397,6 +505,23 @@
     "UCT513L",
     "UCT512L"
    ],
+   "choices": [
+    {
+     "code": "UCT513L",
+     "room": "E106",
+     "faculty": "SB",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UCT512L",
+     "room": "E101",
+     "faculty": "SAM",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCT513L/UCT512L | E106/E101 | SB/SAM"
   }

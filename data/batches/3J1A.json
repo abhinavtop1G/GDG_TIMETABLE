@@ -22,6 +22,8 @@
    "room": "E307",
    "faculty": "DBM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI831L | E307 | DBM"
   },
@@ -37,6 +39,8 @@
    "room": "E307",
    "faculty": "DM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM504L | E307 | DM"
   },
@@ -52,6 +56,8 @@
    "room": "E307",
    "faculty": "DM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM504T | E307 | DM"
   },
@@ -67,6 +73,8 @@
    "room": "BMC (C323)",
    "faculty": "ASG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM605P | BMC(C323) | LAB | ASG"
   },
@@ -82,6 +90,8 @@
    "room": "E307",
    "faculty": "MIS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI614L | E307 | MIS"
   },
@@ -97,6 +107,8 @@
    "room": "E307",
    "faculty": "DBD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBMXXXL | E307 | DBD"
   },
@@ -112,6 +124,8 @@
    "room": "E307",
    "faculty": "SKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM505L | E307 | SKS"
   },
@@ -127,6 +141,8 @@
    "room": "E307",
    "faculty": "DM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM504L | E307 | DM"
   },
@@ -142,6 +158,8 @@
    "room": "ANALOG (B211)",
    "faculty": "SKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM505P | ANALOG(B211) | LAB | SKS"
   },
@@ -157,6 +175,8 @@
    "room": "BMI (B213)",
    "faculty": "MIS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI614P | BMI(B213) | LAB | MIS"
   },
@@ -172,6 +192,8 @@
    "room": "E307",
    "faculty": "ASG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM605L | E307 | ASG"
   },
@@ -187,6 +209,8 @@
    "room": "E307",
    "faculty": "DM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM504L | E307 | DM"
   },
@@ -202,6 +226,8 @@
    "room": "E307",
    "faculty": "SKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM505L | E307 | SKS"
   },
@@ -217,6 +243,8 @@
    "room": "E307",
    "faculty": "DBD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBMXXXL | E307 | DBD"
   },
@@ -232,6 +260,8 @@
    "room": "E307",
    "faculty": "MIS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI614L | E307 | MIS"
   },
@@ -247,6 +277,8 @@
    "room": "E307",
    "faculty": "MIS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI614L | E307 | MIS"
   },
@@ -262,6 +294,8 @@
    "room": "E307",
    "faculty": "ASG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM603L | E307 | ASG"
   },
@@ -277,6 +311,8 @@
    "room": "E307",
    "faculty": "DBM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI831L | E307 | DBM"
   },
@@ -292,6 +328,8 @@
    "room": "E307",
    "faculty": "DBM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI831T | E307 | DBM"
   },
@@ -307,6 +345,8 @@
    "room": "E307",
    "faculty": "SKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM505T | E307 | SKS"
   },
@@ -322,6 +362,8 @@
    "room": "E307",
    "faculty": "SKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM505L | E307 | SKS"
   },
@@ -337,6 +379,8 @@
    "room": "BMC (C323)",
    "faculty": "DBD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBMXXXL | BMC(C323) | LAB | DBD"
   },
@@ -352,6 +396,8 @@
    "room": "E307",
    "faculty": "MIS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI614T | E307 | MIS"
   },
@@ -367,6 +413,8 @@
    "room": "E307",
    "faculty": "ASG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBM603L | E307 | ASG"
   },
@@ -382,6 +430,8 @@
    "room": "E307",
    "faculty": "DBM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEI831L | E307 | DBM"
   }

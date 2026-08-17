@@ -22,6 +22,8 @@
    "room": "IOT (D206B)",
    "faculty": "ADG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC502P | IOT(D206B) | LAB | ADG"
   },
@@ -37,6 +39,8 @@
    "room": "PSS (H220) / TA4",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC601P | PSS(H220) | LAB | TA4"
   },
@@ -52,6 +56,8 @@
    "room": "B208",
    "faculty": "ADG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC502L | B208 | ADG"
   },
@@ -67,6 +73,8 @@
    "room": "PE (C113)",
    "faculty": "MKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE512P | PE(C113) | LAB | MKS"
   },
@@ -82,6 +90,8 @@
    "room": "B208",
    "faculty": "ALK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC303L | B208 | ALK"
   },
@@ -97,6 +107,8 @@
    "room": "B208",
    "faculty": "SAH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE508L | B208 | SAH"
   },
@@ -112,6 +124,8 @@
    "room": "E303",
    "faculty": "SAH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE508T | E303 | SAH"
   },
@@ -127,6 +141,8 @@
    "room": "E305",
    "faculty": "MKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE512T | E305 | MKS"
   },
@@ -142,6 +158,8 @@
    "room": "B208",
    "faculty": "RVK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC501L | B208 | RVK"
   },
@@ -157,6 +175,8 @@
    "room": "B208",
    "faculty": "MKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE512L | B208 | MKS"
   },
@@ -172,6 +192,8 @@
    "room": "B208",
    "faculty": "SBH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC601L | B208 | SBH"
   },
@@ -190,6 +212,23 @@
     "ULC512L",
     "ULC513L"
    ],
+   "choices": [
+    {
+     "code": "ULC512L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "ULC513L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": false,
    "note": "",
    "raw": "ULC512L/ULC513L/ | B208/B301 | MDL/DND"
   },
@@ -205,6 +244,8 @@
    "room": "B301",
    "faculty": "ALK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC303L | B301 | ALK"
   },
@@ -220,6 +261,8 @@
    "room": "B301",
    "faculty": "SAH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE508L | B301 | SAH"
   },
@@ -235,6 +278,8 @@
    "room": "B301",
    "faculty": "ADG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC502L | B301 | ADG"
   },
@@ -250,6 +295,8 @@
    "room": "B301",
    "faculty": "ADG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC502L | B301 | ADG"
   },
@@ -265,6 +312,8 @@
    "room": "B301",
    "faculty": "ALK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC303L | B301 | ALK"
   },
@@ -280,6 +329,8 @@
    "room": "I&C (C217) / TA13",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE508P | I&C(C217) | LAB | TA13"
   },
@@ -295,6 +346,8 @@
    "room": "B208",
    "faculty": "MKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE512L | B208 | MKS"
   },
@@ -310,6 +363,8 @@
    "room": "B208",
    "faculty": "RVK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC501L | B208 | RVK"
   },
@@ -325,6 +380,8 @@
    "room": "B208",
    "faculty": "SBH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC601L | B208 | SBH"
   },
@@ -340,6 +397,8 @@
    "room": "B208",
    "faculty": "MKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE512L | B208 | MKS"
   },
@@ -358,6 +417,23 @@
     "ULC512L",
     "ULC513L"
    ],
+   "choices": [
+    {
+     "code": "ULC512L",
+     "room": "B208",
+     "faculty": "MDL",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "ULC513L",
+     "room": "B209",
+     "faculty": "DND",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "ULC512L/ULC513L | B208/B209 | MDL/DND"
   },
@@ -373,6 +449,8 @@
    "room": "BMC (C323) / TA9",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC501P | BMC(C323) | LAB | TA9"
   },
@@ -388,6 +466,8 @@
    "room": "B208",
    "faculty": "SAH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEE508L | B208 | SAH"
   },
@@ -403,6 +483,8 @@
    "room": "B208",
    "faculty": "SBH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC601L | B208 | SBH"
   },
@@ -418,6 +500,8 @@
    "room": "B208",
    "faculty": "RVK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "ULC501L | B208 | RVK"
   },
@@ -436,6 +520,37 @@
     "ULC512P",
     "ULC513P"
    ],
+   "choices": [
+    {
+     "code": "ULC512P",
+     "room": "PSS(H220)",
+     "faculty": "MDL",
+     "note": "G1",
+     "title": ""
+    },
+    {
+     "code": "ULC512P",
+     "room": "NETWORK(H223)",
+     "faculty": "TA9",
+     "note": "G2",
+     "title": ""
+    },
+    {
+     "code": "ULC513P",
+     "room": "IOT(D206B)",
+     "faculty": "DND",
+     "note": "G1",
+     "title": ""
+    },
+    {
+     "code": "ULC513P",
+     "room": "BMC(C323)",
+     "faculty": "TA4",
+     "note": "G2",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "ULC512P(G1)/ULC512P(G2)/ULC513P(G1)/ULC513P(G2) | PSS(H220)/NETWORK(H223)/IOT(D206B)/BMC(C323) | LAB | MDL/TA9/DND/TA4"
   }

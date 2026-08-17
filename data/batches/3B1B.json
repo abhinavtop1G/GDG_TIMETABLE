@@ -22,6 +22,8 @@
    "room": "D115",
    "faculty": "ABK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE521L | D115 | ABK"
   },
@@ -37,6 +39,8 @@
    "room": "E103",
    "faculty": "TNC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE511L | E103 | TNC"
   },
@@ -52,6 +56,8 @@
    "room": "E103",
    "faculty": "APR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE501L | E103 | APR"
   },
@@ -67,6 +73,8 @@
    "room": "D115",
    "faculty": "ABK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE521P | D115 | ABK"
   },
@@ -82,6 +90,8 @@
    "room": "D117",
    "faculty": "TNC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE511P | D117 | LAB | TNC"
   },
@@ -97,6 +107,8 @@
    "room": "E103",
    "faculty": "APR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE501L | E103 | APR"
   },
@@ -112,6 +124,8 @@
    "room": "E103",
    "faculty": "DNR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE401L | E103 | DNR"
   },
@@ -127,6 +141,8 @@
    "room": "E103",
    "faculty": "ABD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE512L | E103 | ABD"
   },
@@ -142,6 +158,8 @@
    "room": "E103",
    "faculty": "TNC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE511L | E103 | TNC"
   },
@@ -157,6 +175,8 @@
    "room": "C218",
    "faculty": "HS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE693P | C218 | LAB | HS"
   },
@@ -172,6 +192,8 @@
    "room": "D115",
    "faculty": "RBB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA025P | D115 | LAB | RBB"
   },
@@ -187,6 +209,8 @@
    "room": "E103",
    "faculty": "DNR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE401L | E103 | DNR"
   },
@@ -202,6 +226,8 @@
    "room": "E103",
    "faculty": "ABD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE512L | E103 | ABD"
   },
@@ -217,6 +243,8 @@
    "room": "E103",
    "faculty": "TNC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE511L | E103 | TNC"
   },
@@ -232,6 +260,8 @@
    "room": "E103",
    "faculty": "HS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE513L | E103 | HS"
   },
@@ -247,6 +277,8 @@
    "room": "D115",
    "faculty": "ABK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE521L | D115 | ABK"
   },
@@ -262,6 +294,8 @@
    "room": "E103",
    "faculty": "ABD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE512T | E103 | ABD"
   },
@@ -277,6 +311,8 @@
    "room": "E303",
    "faculty": "APR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE501T | E303 | APR"
   },
@@ -292,6 +328,8 @@
    "room": "E103",
    "faculty": "HS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE513L | E103 | HS"
   },
@@ -307,6 +345,8 @@
    "room": "E103",
    "faculty": "DNR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE401L | E103 | DNR"
   },
@@ -322,6 +362,8 @@
    "room": "E103",
    "faculty": "RBB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA025L | E103 | RBB"
   },
@@ -337,6 +379,8 @@
    "room": "F312",
    "faculty": "DNR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE401T | F312 | DNR"
   },
@@ -352,6 +396,8 @@
    "room": "CD122",
    "faculty": "APR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE501P | CD122 | LAB | APR"
   },
@@ -367,6 +413,8 @@
    "room": "E103",
    "faculty": "APR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE501L | E103 | APR"
   },
@@ -382,6 +430,8 @@
    "room": "E103",
    "faculty": "HS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE513L | E103 | HS"
   },
@@ -397,6 +447,8 @@
    "room": "E103",
    "faculty": "ABD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE512L | E103 | ABD"
   },
@@ -412,6 +464,8 @@
    "room": "E308",
    "faculty": "HS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCE513T | E308 | HS"
   }

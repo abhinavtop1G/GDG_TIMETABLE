@@ -22,6 +22,8 @@
    "room": "L101 / B216 / AMK1",
    "faculty": "SAS-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA024P | L101/B216 | LAB | SAS-RA/AMK1"
   },
@@ -37,6 +39,8 @@
    "room": "F108",
    "faculty": "SKM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME718L | F108 | SKM"
   },
@@ -52,6 +56,8 @@
    "room": "F108",
    "faculty": "DK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME511L | F108 | DK"
   },
@@ -67,6 +73,8 @@
    "room": "F102",
    "faculty": "BJS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME408L | F102 | BJS"
   },
@@ -82,6 +90,8 @@
    "room": "F102",
    "faculty": "SSH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME720L | F102 | SSH"
   },
@@ -97,6 +107,8 @@
    "room": "ICE (H106)",
    "faculty": "SDS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME718P | ICE(H106) | LAB | SDS"
   },
@@ -112,6 +124,8 @@
    "room": "F108",
    "faculty": "VS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA025L | F108 | VS"
   },
@@ -127,6 +141,8 @@
    "room": "F108",
    "faculty": "RPN / AKV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA024L | F108 | RPN/AKV"
   },
@@ -142,6 +158,8 @@
    "room": "F108",
    "faculty": "RKG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME404L | F108 | RKG"
   },
@@ -157,6 +175,8 @@
    "room": "F108",
    "faculty": "SKM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME718L | F108 | SKM"
   },
@@ -172,6 +192,8 @@
    "room": "F309",
    "faculty": "VS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA025P | F309 | VS"
   },
@@ -187,6 +209,8 @@
    "room": "F316",
    "faculty": "RKG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME408T | F316 | RKG"
   },
@@ -202,6 +226,8 @@
    "room": "F108",
    "faculty": "DK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME511L | F108 | DK"
   },
@@ -217,6 +243,8 @@
    "room": "F108",
    "faculty": "SKM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME718L | F108 | SKM"
   },
@@ -232,6 +260,8 @@
    "room": "F108",
    "faculty": "RKG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME404L | F108 | RKG"
   },
@@ -252,6 +282,37 @@
     "UHU016",
     "UMA069L"
    ],
+   "choices": [
+    {
+     "code": "UCS002",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UTD004",
+     "room": "LT102",
+     "faculty": "VK",
+     "note": "",
+     "title": "Campus 2 Corporate"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS002/UTD004/UHU016/UMA069L | LT101/LT102/B303/F201 | SUS/VK/PS/AM"
   },
@@ -267,6 +328,8 @@
    "room": "LT101",
    "faculty": "ANS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU018L | LT101 | ANS"
   },
@@ -282,6 +345,8 @@
    "room": "F210",
    "faculty": "RKG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME404T | F210 | RKG"
   },
@@ -302,6 +367,37 @@
     "UHU016",
     "UMA069L"
    ],
+   "choices": [
+    {
+     "code": "UCS002",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UTD004",
+     "room": "LT102",
+     "faculty": "VK",
+     "note": "",
+     "title": "Campus 2 Corporate"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS002/UTD004/UHU016/UMA069L | LT101/LT102/B303/F201 | SUS/VK/PS/AM"
   },
@@ -317,6 +413,8 @@
    "room": "LT101",
    "faculty": "ANS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU018L | LT101 | ANS"
   },
@@ -332,6 +430,8 @@
    "room": "F108",
    "faculty": "AM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME633L | F108 | AM"
   },
@@ -347,6 +447,8 @@
    "room": "F108",
    "faculty": "DK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME511L | F108 | DK"
   },
@@ -362,6 +464,8 @@
    "room": "F108",
    "faculty": "SSH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME720L | F108 | SSH"
   },
@@ -377,6 +481,8 @@
    "room": "F108",
    "faculty": "RKG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME404L | F108 | RKG"
   },
@@ -392,6 +498,8 @@
    "room": "F108",
    "faculty": "BJS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME408L | F108 | BJS"
   },
@@ -407,6 +515,8 @@
    "room": "F209",
    "faculty": "SSH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME720T | F209 | SSH"
   },
@@ -422,6 +532,8 @@
    "room": "F210",
    "faculty": "RPS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME718T | F210 | RPS"
   },
@@ -437,6 +549,8 @@
    "room": "F108",
    "faculty": "SSH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME720L | F108 | SSH"
   },
@@ -455,6 +569,23 @@
     "UME511P",
     "UME720P"
    ],
+   "choices": [
+    {
+     "code": "UME511P",
+     "room": "AUTO(W121)",
+     "faculty": "DK",
+     "note": "",
+     "title": "Automobile Engineering"
+    },
+    {
+     "code": "UME720P",
+     "room": "HT(W118A)",
+     "faculty": "SSH",
+     "note": "",
+     "title": "Heat Transfer"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UME511P/UME720P | AUTO(W121)/HT(W118A) | LAB | DK/SSH"
   },
@@ -470,6 +601,8 @@
    "room": "F108",
    "faculty": "AM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME633L | F108 | AM"
   },
@@ -485,6 +618,8 @@
    "room": "F108",
    "faculty": "BJS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME408L | F108 | BJS"
   },
@@ -500,6 +635,8 @@
    "room": "F108",
    "faculty": "AM / SPP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME633P | F108 | AM/SPP"
   }

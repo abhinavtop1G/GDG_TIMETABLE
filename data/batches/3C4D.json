@@ -22,6 +22,8 @@
    "room": "LT401",
    "faculty": "KML",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS503L | LT401 | KML"
   },
@@ -37,6 +39,8 @@
    "room": "LT401",
    "faculty": "ANP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS615L | LT401 | ANP"
   },
@@ -52,6 +56,8 @@
    "room": "ML (L009)",
    "faculty": "SHK-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UML501P | ML(L009) | LAB | SHK-RA"
   },
@@ -71,6 +77,30 @@
     "UCS550P",
     "UCS539L"
    ],
+   "choices": [
+    {
+     "code": "UCS668P",
+     "room": "L004",
+     "faculty": "JHB",
+     "note": "",
+     "title": "Edge AI and Robotics: Data Centre Vision"
+    },
+    {
+     "code": "UCS550P",
+     "room": "L102",
+     "faculty": "SAL",
+     "note": "",
+     "title": "Network Defence"
+    },
+    {
+     "code": "UCS539L",
+     "room": "LT102",
+     "faculty": "ROS",
+     "note": "UPTO 04:20 PM",
+     "title": "Finance, Accounting and Valuation"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS668P/UCS550P/UCS539L(Upto 04:20 PM) | L004/L102/LT102 | LAB | JHB/SAL/ROS"
   },
@@ -86,6 +116,8 @@
    "room": "L010",
    "faculty": "ROS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS539P | L010 | LAB | ROS"
   },
@@ -101,6 +133,8 @@
    "room": "LT401 / ASK (DE)",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS421L | LT401 | ASK(DE)"
   },
@@ -116,6 +150,8 @@
    "room": "LT401",
    "faculty": "MJU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS510L | LT401 | MJU"
   },
@@ -131,6 +167,8 @@
    "room": "LT401",
    "faculty": "SAU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS553L | LT401 | SAU"
   },
@@ -146,6 +184,8 @@
    "room": "LT401",
    "faculty": "MCL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UML501L | LT401 | MCL"
   },
@@ -161,6 +201,8 @@
    "room": "LT402",
    "faculty": "KML",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS503L | LT402 | KML"
   },
@@ -176,6 +218,8 @@
    "room": "LT402",
    "faculty": "ANP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS615L | LT402 | ANP"
   },
@@ -196,6 +240,37 @@
     "UCS537P",
     "UCS542P"
    ],
+   "choices": [
+    {
+     "code": "UCS532P",
+     "room": "L002",
+     "faculty": "ST",
+     "note": "",
+     "title": "Computer Vision"
+    },
+    {
+     "code": "UMC513P",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Linear Algebra for Artificial Intelligence and Machine Learning"
+    },
+    {
+     "code": "UCS537P",
+     "room": "L106",
+     "faculty": "GS",
+     "note": "",
+     "title": "Source Code Management"
+    },
+    {
+     "code": "UCS542P",
+     "room": "L207",
+     "faculty": "GUK-RA",
+     "note": "",
+     "title": "UI & UX Specialist"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS532P/UMC513P/UCS537P/UCS542P | L002/---/L106/L207 | LAB | ST/---/GS/GUK-RA"
   },
@@ -211,6 +286,8 @@
    "room": "LT403",
    "faculty": "ANP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS615L | LT403 | ANP"
   },
@@ -226,6 +303,8 @@
    "room": "LT403",
    "faculty": "MJU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS510L | LT403 | MJU"
   },
@@ -241,6 +320,8 @@
    "room": "LT403",
    "faculty": "MCL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UML501L | LT403 | MCL"
   },
@@ -256,6 +337,8 @@
    "room": "LT403 / ASK (DE)",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS421L | LT403 | ASK(DE)"
   },
@@ -271,6 +354,8 @@
    "room": "SE2 (L105)",
    "faculty": "RGB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS503P | SE2(L105) | LAB | RGB"
   },
@@ -286,6 +371,8 @@
    "room": "LP101",
    "faculty": "ROS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS539L | LP101 | ROS"
   },
@@ -301,6 +388,8 @@
    "room": "ES1 (L401)",
    "faculty": "SUR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS553P | ES1(L401) | LAB | SUR"
   },
@@ -316,6 +405,8 @@
    "room": "LT303 / ASK (DE)",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS421L | LT303 | ASK(DE)"
   },
@@ -331,6 +422,8 @@
    "room": "LT303",
    "faculty": "MJU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS510L | LT303 | MJU"
   },
@@ -357,6 +450,79 @@
     "UCS550L",
     "UMC513L"
    ],
+   "choices": [
+    {
+     "code": "UCS531L",
+     "room": "LT301",
+     "faculty": "SAM",
+     "note": "",
+     "title": "Cloud Computing"
+    },
+    {
+     "code": "UCS548L",
+     "room": "LT402",
+     "faculty": "AMT",
+     "note": "",
+     "title": "Foundation of Data Science"
+    },
+    {
+     "code": "UCS532L",
+     "room": "LP109",
+     "faculty": "ST",
+     "note": "",
+     "title": "Computer Vision"
+    },
+    {
+     "code": "UCS534L",
+     "room": "LP108",
+     "faculty": "MAN",
+     "note": "",
+     "title": "Computer & Network Security"
+    },
+    {
+     "code": "UCS537L",
+     "room": "E101",
+     "faculty": "GS",
+     "note": "",
+     "title": "Source Code Management"
+    },
+    {
+     "code": "UCS542L",
+     "room": "LT101",
+     "faculty": "MKB",
+     "note": "",
+     "title": "UI & UX Specialist"
+    },
+    {
+     "code": "UCS551L",
+     "room": "LT101",
+     "faculty": "JS",
+     "note": "",
+     "title": "Conversational AI: Accelerated Data Science"
+    },
+    {
+     "code": "UCS668L",
+     "room": "LT102",
+     "faculty": "JHB",
+     "note": "",
+     "title": "Edge AI and Robotics: Data Centre Vision"
+    },
+    {
+     "code": "UCS550L",
+     "room": "E104",
+     "faculty": "SAL",
+     "note": "",
+     "title": "Network Defence"
+    },
+    {
+     "code": "UMC513L",
+     "room": "T106",
+     "faculty": "YK",
+     "note": "",
+     "title": "Linear Algebra for Artificial Intelligence and Machine Learning"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS531L/UCS548L/UCS532L/UCS534L/UCS537L/UCS542L/UCS551L/UCS668L/UCS550L/UMC513L | LT301/LT402/LP109/LP108/E101/LT101/LT101/LT102/E104/T106 | SAM/AMT/ST/MAN/GS/MKB/JS/JHB/SAL/YK"
   },
@@ -383,6 +549,79 @@
     "UCS550L",
     "UMC513L"
    ],
+   "choices": [
+    {
+     "code": "UCS531L",
+     "room": "LT301",
+     "faculty": "SAM",
+     "note": "",
+     "title": "Cloud Computing"
+    },
+    {
+     "code": "UCS548L",
+     "room": "LT402",
+     "faculty": "AMT",
+     "note": "",
+     "title": "Foundation of Data Science"
+    },
+    {
+     "code": "UCS532L",
+     "room": "LP109",
+     "faculty": "ST",
+     "note": "",
+     "title": "Computer Vision"
+    },
+    {
+     "code": "UCS534L",
+     "room": "LP108",
+     "faculty": "MAN",
+     "note": "",
+     "title": "Computer & Network Security"
+    },
+    {
+     "code": "UCS537L",
+     "room": "E101",
+     "faculty": "GS",
+     "note": "",
+     "title": "Source Code Management"
+    },
+    {
+     "code": "UCS542L",
+     "room": "LT101",
+     "faculty": "MKB",
+     "note": "",
+     "title": "UI & UX Specialist"
+    },
+    {
+     "code": "UCS551L",
+     "room": "LT101",
+     "faculty": "JS",
+     "note": "",
+     "title": "Conversational AI: Accelerated Data Science"
+    },
+    {
+     "code": "UCS668L",
+     "room": "LT102",
+     "faculty": "JHB",
+     "note": "",
+     "title": "Edge AI and Robotics: Data Centre Vision"
+    },
+    {
+     "code": "UCS550L",
+     "room": "E104",
+     "faculty": "SAL",
+     "note": "",
+     "title": "Network Defence"
+    },
+    {
+     "code": "UMC513L",
+     "room": "T106",
+     "faculty": "YK",
+     "note": "",
+     "title": "Linear Algebra for Artificial Intelligence and Machine Learning"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS531L/UCS548L/UCS532L/UCS534L/UCS537L/UCS542L/UCS551L/UCS668L/UCS550L/UMC513L | LT301/LT402/LP109/LP108/E101/LT101/LT101/LT102/E104/T106 | SAM/AMT/ST/MAN/GS/MKB/JS/JHB/SAL/YK"
   },
@@ -398,6 +637,8 @@
    "room": "LT402",
    "faculty": "MCL",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UML501L | LT402 | MCL"
   },
@@ -413,6 +654,8 @@
    "room": "LT402",
    "faculty": "SAU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS553L | LT402 | SAU"
   },
@@ -428,6 +671,8 @@
    "room": "CG2 (L430)",
    "faculty": "NIS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS615P | CG2(L430) | LAB | NIS"
   },
@@ -443,6 +688,8 @@
    "room": "LT401",
    "faculty": "SAU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS553L | LT401 | SAU"
   },
@@ -458,6 +705,8 @@
    "room": "LT401",
    "faculty": "KML",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS503L | LT401 | KML"
   },
@@ -478,6 +727,37 @@
     "UCS534P",
     "UCS551P"
    ],
+   "choices": [
+    {
+     "code": "UCS531P",
+     "room": "L302",
+     "faculty": "VPS",
+     "note": "",
+     "title": "Cloud Computing"
+    },
+    {
+     "code": "UCS548P",
+     "room": "L308",
+     "faculty": "DET",
+     "note": "",
+     "title": "Foundation of Data Science"
+    },
+    {
+     "code": "UCS534P",
+     "room": "L409",
+     "faculty": "MAN",
+     "note": "",
+     "title": "Computer & Network Security"
+    },
+    {
+     "code": "UCS551P",
+     "room": "LP108",
+     "faculty": "JS",
+     "note": "",
+     "title": "Conversational AI: Accelerated Data Science"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS531P/UCS548P/UCS534P/UCS551P | L302/L308/L409/LP108 | LAB | VPS/DET/MAN/JS"
   }

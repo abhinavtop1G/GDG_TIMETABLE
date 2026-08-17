@@ -22,6 +22,8 @@
    "room": "SS-2 (L202)",
    "faculty": "ISR-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303P | SS-2(L202) | LAB | ISR-RA"
   },
@@ -37,6 +39,8 @@
    "room": "LT303",
    "faculty": "SIK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301L | LT303 | SIK"
   },
@@ -52,6 +56,8 @@
    "room": "LT303",
    "faculty": "SHD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303L | LT303 | SHD"
   },
@@ -67,6 +73,8 @@
    "room": "LT303",
    "faculty": "MH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021L | LT303 | MH"
   },
@@ -82,6 +90,8 @@
    "room": "DS-1 (L004)",
    "faculty": "JOT",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301P | DS-1(L004) | LAB | JOT"
   },
@@ -97,6 +107,8 @@
    "room": "PG (G201) / TA28",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021P | PG(G201) | LAB | TA28"
   },
@@ -112,6 +124,8 @@
    "room": "LT302",
    "faculty": "ASK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI301L | LT302 | ASK"
   },
@@ -127,6 +141,8 @@
    "room": "LT302",
    "faculty": "SHD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303L | LT302 | SHD"
   },
@@ -142,6 +158,8 @@
    "room": "LT302",
    "faculty": "SIK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301L | LT302 | SIK"
   },
@@ -157,6 +175,8 @@
    "room": "LT101 / LT102",
    "faculty": "DG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA016L | LT101/LT102 | /DG"
   },
@@ -172,6 +192,8 @@
    "room": "LT402",
    "faculty": "MH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021L | LT402 | MH"
   },
@@ -187,6 +209,8 @@
    "room": "LT402",
    "faculty": "ASK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI301L | LT402 | ASK"
   },
@@ -202,6 +226,8 @@
    "room": "F315 / C212",
    "faculty": "DG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA016P | F315/C212 | LAB | DG/DG"
   },
@@ -217,6 +243,8 @@
    "room": "AI (L307)",
    "faculty": "SAK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "Alternate weeks \u00b7 from week 1",
    "raw": "UAI302P | AI(L307) | ALTERNATE FROM FIRST WEEK | SAK"
   },
@@ -232,6 +260,8 @@
    "room": "LT301",
    "faculty": "SHD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303L | LT301 | SHD"
   },
@@ -247,6 +277,8 @@
    "room": "LT301",
    "faculty": "ASK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS303L | LT301 | ASK"
   },
@@ -262,6 +294,8 @@
    "room": "ED2 (L209)",
    "faculty": "VRN-CRA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI301P | ED2(L209) | LAB | VRN-CRA"
   },
@@ -277,6 +311,8 @@
    "room": "LT403",
    "faculty": "MH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA021L | LT403 | MH"
   },
@@ -292,6 +328,8 @@
    "room": "LT403",
    "faculty": "SIK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS301L | LT403 | SIK"
   }

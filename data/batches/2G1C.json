@@ -22,6 +22,8 @@
    "room": "B303",
    "faculty": "SS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT310L | B303 | SS"
   },
@@ -37,6 +39,8 @@
    "room": "B303",
    "faculty": "MKB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT309L | B303 | MKB"
   },
@@ -52,6 +56,8 @@
    "room": "B303",
    "faculty": "DS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT307L | B303 | DS"
   },
@@ -67,6 +73,8 @@
    "room": "B303",
    "faculty": "HH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH301L | B303 | HH"
   },
@@ -82,6 +90,8 @@
    "room": "LT101",
    "faculty": "SSS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTD003L | LT101 | SSS"
   },
@@ -97,6 +107,8 @@
    "room": "B303",
    "faculty": "AKU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT321L | B303 | AKU"
   },
@@ -112,6 +124,8 @@
    "room": "B303",
    "faculty": "HH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH301L | B303 | HH"
   },
@@ -127,6 +141,8 @@
    "room": "B303",
    "faculty": "DS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT307L | B303 | DS"
   },
@@ -142,6 +158,8 @@
    "room": "B303",
    "faculty": "OVQ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT308L | B303 | OVQ"
   },
@@ -157,6 +175,8 @@
    "room": "B303",
    "faculty": "MKB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT309L | B303 | MKB"
   },
@@ -172,6 +192,8 @@
    "room": "B303",
    "faculty": "SS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT310L | B303 | SS"
   },
@@ -187,6 +209,8 @@
    "room": "B303",
    "faculty": "AKU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT321P | B303 | AKU"
   },
@@ -202,6 +226,8 @@
    "room": "B303",
    "faculty": "OVQ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT308L | B303 | OVQ"
   },
@@ -217,6 +243,8 @@
    "room": "B303",
    "faculty": "MKB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT309L | B303 | MKB"
   },
@@ -232,6 +260,8 @@
    "room": "B303",
    "faculty": "HH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH301T | B303 | HH"
   },
@@ -247,6 +277,8 @@
    "room": "B307",
    "faculty": "DS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT307L | B307 | DS"
   },
@@ -262,6 +294,8 @@
    "room": "",
    "faculty": "OVQ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "BIOPROCESS",
    "raw": "UBT311P | BIOPROCESS | LAB | OVQ"
   },
@@ -277,6 +311,8 @@
    "room": "B303",
    "faculty": "HH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCH301L | B303 | HH"
   },
@@ -292,6 +328,8 @@
    "room": "B303",
    "faculty": "SS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT310L | B303 | SS"
   },
@@ -307,6 +345,8 @@
    "room": "B303",
    "faculty": "OVQ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UBT308L | B303 | OVQ"
   }

@@ -22,6 +22,8 @@
    "room": "C327 / NEC1",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC501P | C327 | LAB | NEC1"
   },
@@ -37,6 +39,8 @@
    "room": "B309",
    "faculty": "RU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC503L | B309 | RU"
   },
@@ -52,6 +56,8 @@
    "room": "B309",
    "faculty": "SNJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC502L | B309 | SNJ"
   },
@@ -67,6 +73,8 @@
    "room": "B309",
    "faculty": "PV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC716L | B309 | PV"
   },
@@ -82,6 +90,8 @@
    "room": "F310",
    "faculty": "NS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA025T | F310 | NS"
   },
@@ -104,6 +114,51 @@
     "UCS550P",
     "UCS539L"
    ],
+   "choices": [
+    {
+     "code": "UEC521P",
+     "room": "C221",
+     "faculty": "SSK",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UNC514P",
+     "room": "C326",
+     "faculty": "SUR",
+     "note": "",
+     "title": "Data Science Fundamentals"
+    },
+    {
+     "code": "UCS534P",
+     "room": "L408",
+     "faculty": "MAN",
+     "note": "",
+     "title": "Computer & Network Security"
+    },
+    {
+     "code": "UCS668P",
+     "room": "L004",
+     "faculty": "JHB",
+     "note": "",
+     "title": "Edge AI and Robotics: Data Centre Vision"
+    },
+    {
+     "code": "UCS550P",
+     "room": "L102",
+     "faculty": "SAL",
+     "note": "",
+     "title": "Network Defence"
+    },
+    {
+     "code": "UCS539L",
+     "room": "LT102",
+     "faculty": "ROS",
+     "note": "UPTO 04:20 PM",
+     "title": "Finance, Accounting and Valuation"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UEC521P/UNC514P/UCS534P/UCS668P/UCS550P/UCS539L(Upto 04:20 PM) | C221/C326/L408/L004/L102/LT102 | LAB | SSK/SUR/MAN/JHB/SAL/ROS"
   },
@@ -119,6 +174,8 @@
    "room": "L002",
    "faculty": "ROS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS539P | L002 | LAB | ROS"
   },
@@ -134,6 +191,8 @@
    "room": "B301",
    "faculty": "RU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC503L | B301 | RU"
   },
@@ -149,6 +208,8 @@
    "room": "B301",
    "faculty": "PV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC310L | B301 | PV"
   },
@@ -164,6 +225,8 @@
    "room": "B308",
    "faculty": "TSP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC501L | B308 | TSP"
   },
@@ -179,6 +242,8 @@
    "room": "B308",
    "faculty": "AUS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC716L | B308 | AUS"
   },
@@ -194,6 +259,8 @@
    "room": "B308",
    "faculty": "VKM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UECXXXP | B308 | LAB | VKM"
   },
@@ -212,6 +279,23 @@
     "UNC514P",
     "UEC521P"
    ],
+   "choices": [
+    {
+     "code": "UNC514P",
+     "room": "C326",
+     "faculty": "SUR",
+     "note": "",
+     "title": "Data Science Fundamentals"
+    },
+    {
+     "code": "UEC521P",
+     "room": "C221",
+     "faculty": "SSK",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UNC514P/UEC521P | C326/C221 | LAB | SUR/SSK"
   },
@@ -227,6 +311,8 @@
    "room": "B309",
    "faculty": "PV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC310L | B309 | PV"
   },
@@ -242,6 +328,8 @@
    "room": "B309",
    "faculty": "SNJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC502L | B309 | SNJ"
   },
@@ -257,6 +345,8 @@
    "room": "B309",
    "faculty": "RU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC503L | B309 | RU"
   },
@@ -272,6 +362,8 @@
    "room": "B309",
    "faculty": "TSP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC501L | B309 | TSP"
   },
@@ -287,6 +379,8 @@
    "room": "LT101",
    "faculty": "ROS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS539L | LT101/ROS"
   },
@@ -302,6 +396,8 @@
    "room": "C203 / APC12",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC502P | C203 | LAB | APC12"
   },
@@ -317,6 +413,8 @@
    "room": "B107 / APC14",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC502T | B107 | APC14"
   },
@@ -332,6 +430,8 @@
    "room": "B107 / APC12",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC310T | B107 | APC12"
   },
@@ -361,6 +461,100 @@
     "UCS550L",
     "UMC513L"
    ],
+   "choices": [
+    {
+     "code": "UEC521L",
+     "room": "B305",
+     "faculty": "SSK",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UNC514L",
+     "room": "B308",
+     "faculty": "SUR",
+     "note": "",
+     "title": "Data Science Fundamentals"
+    },
+    {
+     "code": "UEC518L",
+     "room": "F204",
+     "faculty": "NS",
+     "note": "",
+     "title": "Network Security"
+    },
+    {
+     "code": "UCS531L",
+     "room": "LT301",
+     "faculty": "SAM",
+     "note": "",
+     "title": "Cloud Computing"
+    },
+    {
+     "code": "UCS548L",
+     "room": "LT401",
+     "faculty": "DET",
+     "note": "",
+     "title": "Foundation of Data Science"
+    },
+    {
+     "code": "UCS532L",
+     "room": "LP109",
+     "faculty": "ST",
+     "note": "",
+     "title": "Computer Vision"
+    },
+    {
+     "code": "UCS534L",
+     "room": "LP108",
+     "faculty": "MAN",
+     "note": "",
+     "title": "Computer & Network Security"
+    },
+    {
+     "code": "UCS537L",
+     "room": "E101",
+     "faculty": "GS",
+     "note": "",
+     "title": "Source Code Management"
+    },
+    {
+     "code": "UCS542L",
+     "room": "LT101",
+     "faculty": "MKB",
+     "note": "",
+     "title": "UI & UX Specialist"
+    },
+    {
+     "code": "UCS551L",
+     "room": "LT101",
+     "faculty": "JS",
+     "note": "",
+     "title": "Conversational AI: Accelerated Data Science"
+    },
+    {
+     "code": "UCS668L",
+     "room": "LT102",
+     "faculty": "JHB",
+     "note": "",
+     "title": "Edge AI and Robotics: Data Centre Vision"
+    },
+    {
+     "code": "UCS550L",
+     "room": "E104",
+     "faculty": "SAL",
+     "note": "",
+     "title": "Network Defence"
+    },
+    {
+     "code": "UMC513L",
+     "room": "T106",
+     "faculty": "YK",
+     "note": "",
+     "title": "Linear Algebra for Artificial Intelligence and Machine Learning"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UEC521L/UNC514L/UEC518L/UCS531L/UCS548L/UCS532L/UCS534L/UCS537L/UCS542L/UCS551L/UCS668L/UCS550L/UMC513L | B305/B308/F204/LT301/LT401/LP109/LP108/E101/LT101/LT101/LT102/E104/T106 | SSK/SUR/NS/SAM/DET/ST/MAN/GS/MKB/JS/JHB/SAL/YK"
   },
@@ -390,6 +584,100 @@
     "UCS550L",
     "UMC513L"
    ],
+   "choices": [
+    {
+     "code": "UEC521L",
+     "room": "B305",
+     "faculty": "SSK",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UNC514L",
+     "room": "B308",
+     "faculty": "SUR",
+     "note": "",
+     "title": "Data Science Fundamentals"
+    },
+    {
+     "code": "UEC518L",
+     "room": "F204",
+     "faculty": "NS",
+     "note": "",
+     "title": "Network Security"
+    },
+    {
+     "code": "UCS531L",
+     "room": "LT301",
+     "faculty": "SAM",
+     "note": "",
+     "title": "Cloud Computing"
+    },
+    {
+     "code": "UCS548L",
+     "room": "LT401",
+     "faculty": "DET",
+     "note": "",
+     "title": "Foundation of Data Science"
+    },
+    {
+     "code": "UCS532L",
+     "room": "LP109",
+     "faculty": "ST",
+     "note": "",
+     "title": "Computer Vision"
+    },
+    {
+     "code": "UCS534L",
+     "room": "LP108",
+     "faculty": "MAN",
+     "note": "",
+     "title": "Computer & Network Security"
+    },
+    {
+     "code": "UCS537L",
+     "room": "E101",
+     "faculty": "GS",
+     "note": "",
+     "title": "Source Code Management"
+    },
+    {
+     "code": "UCS542L",
+     "room": "LT101",
+     "faculty": "MKB",
+     "note": "",
+     "title": "UI & UX Specialist"
+    },
+    {
+     "code": "UCS551L",
+     "room": "LT101",
+     "faculty": "JS",
+     "note": "",
+     "title": "Conversational AI: Accelerated Data Science"
+    },
+    {
+     "code": "UCS668L",
+     "room": "LT102",
+     "faculty": "JHB",
+     "note": "",
+     "title": "Edge AI and Robotics: Data Centre Vision"
+    },
+    {
+     "code": "UCS550L",
+     "room": "E104",
+     "faculty": "SAL",
+     "note": "",
+     "title": "Network Defence"
+    },
+    {
+     "code": "UMC513L",
+     "room": "T106",
+     "faculty": "YK",
+     "note": "",
+     "title": "Linear Algebra for Artificial Intelligence and Machine Learning"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UEC521L/UNC514L/UEC518L/UCS531L/UCS548L/UCS532L/UCS534L/UCS537L/UCS542L/UCS551L/UCS668L/UCS550L/UMC513L | B305/B308/F204/LT301/LT401/LP109/LP108/E101/LT101/LT101/LT102/E104/T106 | SSK/SUR/NS/SAM/DET/ST/MAN/GS/MKB/JS/JHB/SAL/YK"
   },
@@ -405,6 +693,8 @@
    "room": "B309",
    "faculty": "AUS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC716L | B309 | AUS"
   },
@@ -420,6 +710,8 @@
    "room": "B309",
    "faculty": "GPK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA025L | B309 | GPK"
   },
@@ -435,6 +727,8 @@
    "room": "B309",
    "faculty": "TSP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC501L | B309 | TSP"
   },
@@ -450,6 +744,8 @@
    "room": "B309",
    "faculty": "VKM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UECXXXL | B309 | VKM"
   },
@@ -465,6 +761,8 @@
    "room": "B309",
    "faculty": "AUS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC716L | B309 | AUS"
   },
@@ -480,6 +778,8 @@
    "room": "B309",
    "faculty": "SNJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC502L | B309 | SNJ"
   },
@@ -495,6 +795,8 @@
    "room": "C333",
    "faculty": "RU",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UNC503P | C333 | LAB | RU"
   },
@@ -510,6 +812,8 @@
    "room": "C202",
    "faculty": "UKS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC716P | C202 | LAB | UKS"
   },
@@ -529,6 +833,30 @@
     "UEC521P",
     "UEC518P"
    ],
+   "choices": [
+    {
+     "code": "UNC514P",
+     "room": "C326",
+     "faculty": "SUR",
+     "note": "",
+     "title": "Data Science Fundamentals"
+    },
+    {
+     "code": "UEC521P",
+     "room": "C221",
+     "faculty": "SSK",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UEC518P",
+     "room": "C202",
+     "faculty": "NS",
+     "note": "",
+     "title": "Network Security"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UNC514P/UEC521P/UEC518P | C326/C221/C202 | LAB | SUR/SSK/NS"
   }

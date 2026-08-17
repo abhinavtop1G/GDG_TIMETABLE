@@ -22,6 +22,8 @@
    "room": "F201",
    "faculty": "BG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612L | F201 | BG"
   },
@@ -37,6 +39,8 @@
    "room": "F201",
    "faculty": "SV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC311L | F201 | SV"
   },
@@ -52,6 +56,8 @@
    "room": "LT101",
    "faculty": "VK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTD003L | LT101 | VK"
   },
@@ -67,6 +73,8 @@
    "room": "F201",
    "faculty": "RJD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035L | F201 | RJD"
   },
@@ -82,6 +90,8 @@
    "room": "B204 / F314 / RF1",
    "faculty": "PKC",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA016P | B204/F314 | LAB | RF1/PKC"
   },
@@ -97,6 +107,8 @@
    "room": "F201",
    "faculty": "NJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321L | F201 | NJ"
   },
@@ -112,6 +124,8 @@
    "room": "F201",
    "faculty": "NJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321L | F201 | NJ"
   },
@@ -127,6 +141,8 @@
    "room": "LT102 / LT101",
    "faculty": "AMJ / SCS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA016L | LT102/LT101 | AMJ/SCS"
   },
@@ -142,6 +158,8 @@
    "room": "MS (G321) / LC4",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012P | MS(G321) | LAB | LC4"
   },
@@ -157,6 +175,8 @@
    "room": "F201",
    "faculty": "RJD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035L | F201 | RJD"
   },
@@ -172,6 +192,8 @@
    "room": "F201",
    "faculty": "SV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC311L | F201 | SV"
   },
@@ -187,6 +209,8 @@
    "room": "F201",
    "faculty": "KUS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012L | F201 | KUS"
   },
@@ -202,6 +226,8 @@
    "room": "F201",
    "faculty": "BG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612L | F201 | BG"
   },
@@ -217,6 +243,8 @@
    "room": "F301 / LC3",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012T | F301 | LC3"
   },
@@ -232,6 +260,8 @@
    "room": "F301",
    "faculty": "BG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612T | F301 | BG"
   },
@@ -247,6 +277,8 @@
    "room": "F202",
    "faculty": "RJD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035L | F202 | RJD"
   },
@@ -262,6 +294,8 @@
    "room": "F202",
    "faculty": "KUS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012L | F202 | KUS"
   },
@@ -277,6 +311,8 @@
    "room": "B107",
    "faculty": "ST",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC311T | B107 | ST"
   },
@@ -292,6 +328,8 @@
    "room": "C325",
    "faculty": "AS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612P | C325 | LAB | AS"
   },
@@ -307,6 +345,8 @@
    "room": "NA2 (G204)",
    "faculty": "RJD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035P | NA2(G204) | LAB | RJD"
   },
@@ -322,6 +362,8 @@
    "room": "F201",
    "faculty": "KUS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012L | F201 | KUS"
   },
@@ -337,6 +379,8 @@
    "room": "F201",
    "faculty": "BG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612L | F201 | BG"
   },
@@ -352,6 +396,8 @@
    "room": "F201",
    "faculty": "NJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321P | F201 | NJ"
   },
@@ -367,6 +413,8 @@
    "room": "F201",
    "faculty": "NJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321P | F201 | NJ"
   }

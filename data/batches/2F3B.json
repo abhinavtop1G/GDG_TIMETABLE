@@ -22,6 +22,8 @@
    "room": "B204 / F314 / RF2",
    "faculty": "APS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA016P | B204/F314 | LAB | RF2/APS"
   },
@@ -37,6 +39,8 @@
    "room": "LT101",
    "faculty": "VK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTD003L | LT101 | VK"
   },
@@ -52,6 +56,8 @@
    "room": "F301 / LC3",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012T | F301 | LC3"
   },
@@ -67,6 +73,8 @@
    "room": "F201",
    "faculty": "SP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC311L | F201 | SP"
   },
@@ -82,6 +90,8 @@
    "room": "F201",
    "faculty": "AS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612L | F201 | AS"
   },
@@ -97,6 +107,8 @@
    "room": "C325 / APC4",
    "faculty": "",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612P | C325 | LAB | APC4"
   },
@@ -112,6 +124,8 @@
    "room": "F201",
    "faculty": "JTK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012L | F201 | JTK"
   },
@@ -127,6 +141,8 @@
    "room": "F201",
    "faculty": "FM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035L | F201 | FM"
   },
@@ -142,6 +158,8 @@
    "room": "G249",
    "faculty": "KUS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012P | G249 | LAB | KUS"
   },
@@ -157,6 +175,8 @@
    "room": "LT102 / LT101",
    "faculty": "AMJ / SCS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA016L | LT102/LT101 | AMJ/SCS"
   },
@@ -172,6 +192,8 @@
    "room": "NA2 (G204)",
    "faculty": "TV",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035P | NA2(G204) | LAB | TV"
   },
@@ -187,6 +209,8 @@
    "room": "F201",
    "faculty": "ARN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321L | F201 | ARN"
   },
@@ -202,6 +226,8 @@
    "room": "F201",
    "faculty": "ARN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321L | F201 | ARN"
   },
@@ -217,6 +243,8 @@
    "room": "F201",
    "faculty": "FM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035L | F201 | FM"
   },
@@ -232,6 +260,8 @@
    "room": "F201",
    "faculty": "AS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612L | F201 | AS"
   },
@@ -247,6 +277,8 @@
    "room": "F201",
    "faculty": "SP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC311L | F201 | SP"
   },
@@ -262,6 +294,8 @@
    "room": "F201",
    "faculty": "JTK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012L | F201 | JTK"
   },
@@ -277,6 +311,8 @@
    "room": "F202",
    "faculty": "ARN",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS321P | F202 | LAB | ARN"
   },
@@ -292,6 +328,8 @@
    "room": "F202",
    "faculty": "FM",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMA035L | F202 | FM"
   },
@@ -307,6 +345,8 @@
    "room": "F202",
    "faculty": "JTK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UES012L | F202 | JTK"
   },
@@ -322,6 +362,8 @@
    "room": "F202",
    "faculty": "AS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612L | F202 | AS"
   },
@@ -337,6 +379,8 @@
    "room": "F301",
    "faculty": "BG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC612T | F301 | BG"
   },
@@ -352,6 +396,8 @@
    "room": "F301",
    "faculty": "SP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UEC311T | F301 | SP"
   }

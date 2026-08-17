@@ -22,6 +22,8 @@
    "room": "B302",
    "faculty": "DMG / SPP",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMT521P | B302 | DMG/SPP"
   },
@@ -37,6 +39,8 @@
    "room": "F313",
    "faculty": "SVS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMT504T | F313 | SVS"
   },
@@ -52,6 +56,8 @@
    "room": "F309",
    "faculty": "DKJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME403T | F309 | DKJ"
   },
@@ -67,6 +73,8 @@
    "room": "F109",
    "faculty": "GTS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME511L | F109 | GTS"
   },
@@ -82,6 +90,8 @@
    "room": "F109",
    "faculty": "BJS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMT403L | F109 | BJS"
   },
@@ -97,6 +107,8 @@
    "room": "B303",
    "faculty": "DMG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMT521L | B303 | DMG"
   },
@@ -112,6 +124,8 @@
    "room": "L101 / B216 / APC11",
    "faculty": "SAS-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA024P | L101/B216 | LAB | SAS-RA/APC11"
   },
@@ -127,6 +141,8 @@
    "room": "D115",
    "faculty": "APH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA025L | D115 | APH"
   },
@@ -142,6 +158,8 @@
    "room": "F109",
    "faculty": "RKD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMT504L | F109 | RKD"
   },
@@ -157,6 +175,8 @@
    "room": "F109",
    "faculty": "GDS / AKB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA024L | F109 | GDS/AKB"
   },
@@ -172,6 +192,8 @@
    "room": "MTX (D202)",
    "faculty": "SNK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMT503P | MTX(D202) | LAB | SNK"
   },
@@ -187,6 +209,8 @@
    "room": "AUTO (W121)",
    "faculty": "DK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME511P | AUTO(W121) | LAB | DK"
   },
@@ -202,6 +226,8 @@
    "room": "F109",
    "faculty": "BJS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMT403L | F109 | BJS"
   },
@@ -217,6 +243,8 @@
    "room": "F109",
    "faculty": "GTS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME511L | F109 | GTS"
   },
@@ -232,6 +260,8 @@
    "room": "F109",
    "faculty": "RKD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMT504L | F109 | RKD"
   },
@@ -252,6 +282,37 @@
     "UHU016",
     "UMA069L"
    ],
+   "choices": [
+    {
+     "code": "UCS002",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UTD004",
+     "room": "LT102",
+     "faculty": "VK",
+     "note": "",
+     "title": "Campus 2 Corporate"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS002/UTD004/UHU016/UMA069L | LT101/LT102/B303/F201 | SUS/VK/PS/AM"
   },
@@ -267,6 +328,8 @@
    "room": "LT101",
    "faculty": "ANS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU018L | LT101 | ANS"
   },
@@ -282,6 +345,8 @@
    "room": "F109",
    "faculty": "SNK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMT503L | F109 | SNK"
   },
@@ -297,6 +362,8 @@
    "room": "F309",
    "faculty": "APH",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UTA025P | F309 | APH"
   },
@@ -317,6 +384,37 @@
     "UHU016",
     "UMA069L"
    ],
+   "choices": [
+    {
+     "code": "UCS002",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UTD004",
+     "room": "LT102",
+     "faculty": "VK",
+     "note": "",
+     "title": "Campus 2 Corporate"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS002/UTD004/UHU016/UMA069L | LT101/LT102/B303/F201 | SUS/VK/PS/AM"
   },
@@ -332,6 +430,8 @@
    "room": "LT101",
    "faculty": "ANS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU018L | LT101 | ANS"
   },
@@ -347,6 +447,8 @@
    "room": "F109",
    "faculty": "SNK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMT503L | F109 | SNK"
   },
@@ -362,6 +464,8 @@
    "room": "F109",
    "faculty": "GTS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UME511L | F109 | GTS"
   },
@@ -377,6 +481,8 @@
    "room": "F109",
    "faculty": "BJS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMT403L | F109 | BJS"
   },
@@ -392,6 +498,8 @@
    "room": "B303",
    "faculty": "DMG",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMT521L | B303 | DMG"
   },
@@ -407,6 +515,8 @@
    "room": "",
    "faculty": "MDS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "MOM/(W123)",
    "raw": "UMT403P | MOM/(W123) | LAB | MDS"
   },
@@ -422,6 +532,8 @@
    "room": "F109",
    "faculty": "SNK",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMT503L | F109 | SNK"
   },
@@ -437,6 +549,8 @@
    "room": "ROBOTICS (D201)",
    "faculty": "RKD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UMT504P | ROBOTICS(D201) | LAB | RKD"
   }

@@ -13,23 +13,27 @@ mkdirSync(tmp, { recursive: true });
 writeFileSync("entry-ssr.tsx", `
 import { renderToStaticMarkup } from "react-dom/server";
 import ClassDetail from "./src/components/ClassDetail";
+import ElectivePicker from "./src/components/ElectivePicker";
 import Home from "./src/components/Home";
 import WeekBoard from "./src/components/WeekBoard";
 export function renderHome(props: any) { return renderToStaticMarkup(<Home {...props} />); }
 export function renderBoard(props: any) { return renderToStaticMarkup(<WeekBoard {...props} />); }
 export function renderDetail(props: any) { return renderToStaticMarkup(<ClassDetail {...props} />); }
+export function renderElectives(props: any) { return renderToStaticMarkup(<ElectivePicker {...props} />); }
 `);
 execFileSync("npx", ["esbuild", "entry-ssr.tsx", "--bundle", "--format=esm", "--platform=node",
   "--jsx=automatic", "--external:react", "--external:react-dom",
   `--outfile=${join(tmp, "ssr.mjs")}`, "--log-level=error"], { stdio: "inherit" });
 
-const { renderHome, renderBoard, renderDetail } = await import(pathToFileURL(join(process.cwd(), tmp, "ssr.mjs")).href);
+const { renderHome, renderBoard, renderDetail, renderElectives } = await import(pathToFileURL(join(process.cwd(), tmp, "ssr.mjs")).href);
 
 const index = JSON.parse(readFileSync("data/index.json", "utf8"));
 const batch = JSON.parse(readFileSync("data/batches/2Q3A.json", "utf8"));
 // 1X2A carries the longest course name in the whole workbook (73 characters),
 // so it is the honest stress test for card overflow.
 const stress = JSON.parse(readFileSync("data/batches/1X2A.json", "utf8"));
+// 3Q1A is a third-year CSE batch with real elective bundles.
+const elective = JSON.parse(readFileSync("data/batches/3Q1A.json", "utf8"));
 const cssFile = readdirSync("dist/assets").find((f) => f.endsWith(".css"));
 const css = readFileSync(join("dist/assets", cssFile), "utf8");
 
@@ -40,6 +44,8 @@ const boardOf = (b, theme) => `<div data-theme="${theme}" class="app" style="bac
 ${renderBoard({ batch: b, index, days: 6, focusDay: null, today: 0, now, debug: false })}</div>`;
 const detail = (theme, b, entry) => `<div data-theme="${theme}" style="position:absolute;inset:0">
 ${renderDetail({ entry, batch: b, index, now, debug: false, onClose: () => {} })}</div>`;
+const electives = (theme) => `<div data-theme="${theme}" style="position:absolute;inset:0">
+${renderElectives({ batch: elective, picks: {}, onChange: () => {}, onClose: () => {} })}</div>`;
 const home = (theme) => `<div data-theme="${theme}" style="background:var(--bg)">
 ${renderHome({ batches: index.batches, term: index.term, onPick: () => {}, theme, onToggleTheme: () => {} })}</div>`;
 
@@ -62,6 +68,10 @@ body{margin:0}
 <div data-theme="dark" style="position:relative;height:640px;background:var(--bg);overflow:hidden">${detail("dark", batch, batch.classes.find((c) => c.type === "practical") ?? batch.classes[0])}</div></section>
 <section class="pv"><p class="pv__h">Expanded detail (light) — a course with no verified name yet</p>
 <div data-theme="light" style="position:relative;height:640px;background:var(--bg);overflow:hidden">${detail("light", stress, stress.classes.find((c) => !c.title) ?? stress.classes[0])}</div></section>
+<section class="pv"><p class="pv__h">Elective picker — 3Q1A, third-year CSE (real options from their own sheet)</p>
+<div data-theme="dark" style="position:relative;height:760px;background:var(--bg);overflow:hidden">${electives("dark")}</div></section>
+<section class="pv"><p class="pv__h">Elective picker — light</p>
+<div data-theme="light" style="position:relative;height:760px;background:var(--bg);overflow:hidden">${electives("light")}</div></section>
 <section class="pv"><p class="pv__h">Overflow stress test — 1X2A, longest course names in the workbook</p>${boardOf(stress, "dark")}</section>
 <section class="pv"><p class="pv__h">Overflow stress test — light</p>${boardOf(stress, "light")}</section>
 </body></html>`;

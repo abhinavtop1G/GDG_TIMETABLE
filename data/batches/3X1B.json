@@ -22,6 +22,8 @@
    "room": "T106",
    "faculty": "SJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI502L | T106 | SJ"
   },
@@ -37,6 +39,8 @@
    "room": "T106",
    "faculty": "ASA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI501L | T106 | ASA"
   },
@@ -52,6 +56,8 @@
    "room": "AI (L307)",
    "faculty": "SJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI502P | AI(L307) | LAB | SJ"
   },
@@ -77,6 +83,72 @@
     "UCS550P",
     "UCS539L"
    ],
+   "choices": [
+    {
+     "code": "UCS531P",
+     "room": "L208",
+     "faculty": "ANS",
+     "note": "",
+     "title": "Cloud Computing"
+    },
+    {
+     "code": "UCS532P",
+     "room": "L002",
+     "faculty": "ST",
+     "note": "",
+     "title": "Computer Vision"
+    },
+    {
+     "code": "UMC513P",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Linear Algebra for Artificial Intelligence and Machine Learning"
+    },
+    {
+     "code": "UCS534P",
+     "room": "L408",
+     "faculty": "MAN",
+     "note": "",
+     "title": "Computer & Network Security"
+    },
+    {
+     "code": "UCS537P",
+     "room": "L106",
+     "faculty": "GS",
+     "note": "",
+     "title": "Source Code Management"
+    },
+    {
+     "code": "UCS542P",
+     "room": "L206",
+     "faculty": "MKB",
+     "note": "",
+     "title": "UI & UX Specialist"
+    },
+    {
+     "code": "UCS668P",
+     "room": "L011",
+     "faculty": "SHI-RA",
+     "note": "",
+     "title": "Edge AI and Robotics: Data Centre Vision"
+    },
+    {
+     "code": "UCS550P",
+     "room": "L102",
+     "faculty": "SAL",
+     "note": "",
+     "title": "Network Defence"
+    },
+    {
+     "code": "UCS539L",
+     "room": "LT102",
+     "faculty": "ROS",
+     "note": "UPTO 04:20 PM",
+     "title": "Finance, Accounting and Valuation"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS531P/UCS532P/UMC513P/UCS534P/UCS537P/UCS542P/UCS668P/UCS550P/UCS539L(Upto 04:20 PM) | L208/L002/---/L408/L106/L206/L011/L102/LT102 | LAB | ANS/ST/---/MAN/GS/MKB/SHI-RA/SAL/ROS"
   },
@@ -92,6 +164,8 @@
    "room": "L208",
    "faculty": "ROS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS539P | L208 | LAB | ROS"
   },
@@ -107,6 +181,8 @@
    "room": "LP108",
    "faculty": "JS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS551P | LP108 | JS"
   },
@@ -122,6 +198,8 @@
    "room": "LT402",
    "faculty": "ABD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI503L | LT402 | ABD"
   },
@@ -137,6 +215,8 @@
    "room": "LT402",
    "faculty": "ASA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI501L | LT402 | ASA"
   },
@@ -152,6 +232,8 @@
    "room": "LT402",
    "faculty": "SJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCI502L | LT402 | SJ"
   },
@@ -167,6 +249,8 @@
    "room": "LT402",
    "faculty": "SR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI504L | LT402 | SR"
   },
@@ -182,6 +266,8 @@
    "room": "SD (L501)",
    "faculty": "ANU-RA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS503P | SD(L501) | LAB | ANU-RA"
   },
@@ -197,6 +283,8 @@
    "room": "NS-2 (L103)",
    "faculty": "ARZ-RF",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI504P | NS-2(L103) | LAB | ARZ-RF"
   },
@@ -217,6 +305,37 @@
     "UHU016",
     "UMA069L"
    ],
+   "choices": [
+    {
+     "code": "UCS002",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UTD004",
+     "room": "LT102",
+     "faculty": "VK",
+     "note": "",
+     "title": "Campus 2 Corporate"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS002/UTD004/UHU016/UMA069L | LT101/LT102/B303/F201 | SUS/VK/PS/AM"
   },
@@ -232,6 +351,8 @@
    "room": "LT101",
    "faculty": "ANS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU018L | LT101 | ANS"
   },
@@ -247,6 +368,8 @@
    "room": "LP101",
    "faculty": "RGB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS503L | LP101 | RGB"
   },
@@ -262,6 +385,8 @@
    "room": "LP101",
    "faculty": "SR",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI504L | LP101 | SR"
   },
@@ -277,6 +402,8 @@
    "room": "LP101",
    "faculty": "ROS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS539L | LP101 | ROS"
   },
@@ -297,6 +424,37 @@
     "UHU016",
     "UMA069L"
    ],
+   "choices": [
+    {
+     "code": "UCS002",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UTD004",
+     "room": "LT102",
+     "faculty": "VK",
+     "note": "",
+     "title": "Campus 2 Corporate"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS002/UTD004/UHU016/UMA069L | LT101/LT102/B303/F201 | SUS/VK/PS/AM"
   },
@@ -312,6 +470,8 @@
    "room": "LT101",
    "faculty": "ANS",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UHU018L | LT101 | ANS"
   },
@@ -337,6 +497,72 @@
     "UCS550L",
     "UMC513L"
    ],
+   "choices": [
+    {
+     "code": "UCS531L",
+     "room": "LT303",
+     "faculty": "ANS",
+     "note": "",
+     "title": "Cloud Computing"
+    },
+    {
+     "code": "UCS532L",
+     "room": "LP109",
+     "faculty": "ST",
+     "note": "",
+     "title": "Computer Vision"
+    },
+    {
+     "code": "UCS534L",
+     "room": "LP108",
+     "faculty": "MAN",
+     "note": "",
+     "title": "Computer & Network Security"
+    },
+    {
+     "code": "UCS537L",
+     "room": "E101",
+     "faculty": "GS",
+     "note": "",
+     "title": "Source Code Management"
+    },
+    {
+     "code": "UCS542L",
+     "room": "LT101",
+     "faculty": "MKB",
+     "note": "",
+     "title": "UI & UX Specialist"
+    },
+    {
+     "code": "UCS551L",
+     "room": "LT101",
+     "faculty": "JS",
+     "note": "",
+     "title": "Conversational AI: Accelerated Data Science"
+    },
+    {
+     "code": "UCS668L",
+     "room": "LT102",
+     "faculty": "JHB",
+     "note": "",
+     "title": "Edge AI and Robotics: Data Centre Vision"
+    },
+    {
+     "code": "UCS550L",
+     "room": "E104",
+     "faculty": "SAL",
+     "note": "",
+     "title": "Network Defence"
+    },
+    {
+     "code": "UMC513L",
+     "room": "T106",
+     "faculty": "YK",
+     "note": "",
+     "title": "Linear Algebra for Artificial Intelligence and Machine Learning"
+    }
+   ],
+   "aligned": true,
    "note": "",
    "raw": "UCS531L/UCS532L/UCS534L/UCS537L/UCS542L/UCS551L/UCS668L/UCS550L/UMC513L | LT303/LP109/LP108/E101/LT101/LT101/LT102/E104/T106 | ANS/ST/MAN/GS/MKB/JS/JHB/SAL/YK"
   },
@@ -352,6 +578,8 @@
    "room": "T106",
    "faculty": "RGB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS503L | T106 | RGB"
   },
@@ -367,6 +595,8 @@
    "room": "T106",
    "faculty": "ASA",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI501L | T106 | ASA"
   },
@@ -382,6 +612,8 @@
    "room": "T106",
    "faculty": "SJ",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI502L | T106 | SJ"
   },
@@ -397,6 +629,8 @@
    "room": "T106",
    "faculty": "ABD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI503L | T106 | ABD"
   },
@@ -412,6 +646,8 @@
    "room": "CG2 (L430)",
    "faculty": "PLK-RF",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI501P | CG2(L430) | LAB | PLK-RF"
   },
@@ -427,6 +663,8 @@
    "room": "T106",
    "faculty": "RGB",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UCS503L | T106 | RGB"
   },
@@ -442,6 +680,8 @@
    "room": "T106",
    "faculty": "ABD",
    "options": [],
+   "choices": [],
+   "aligned": false,
    "note": "",
    "raw": "UAI503L | T106 | ABD"
   }
