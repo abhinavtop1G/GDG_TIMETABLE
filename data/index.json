@@ -1,0 +1,4874 @@
+{
+ "term": "August - December 2026",
+ "source": "TIME_TABLE_AUG_DEC_2026.xlsx",
+ "sourceHash": "a0cba9c4450741b1",
+ "generated": "2026-08-17T12:16:31Z",
+ "days": [
+  "MONDAY",
+  "TUESDAY",
+  "WEDNESDAY",
+  "THURSDAY",
+  "FRIDAY",
+  "SATURDAY",
+  "SUNDAY"
+ ],
+ "periods": [
+  {
+   "index": 1,
+   "start": "08:00",
+   "end": "08:50"
+  },
+  {
+   "index": 2,
+   "start": "08:50",
+   "end": "09:40"
+  },
+  {
+   "index": 3,
+   "start": "09:40",
+   "end": "10:30"
+  },
+  {
+   "index": 4,
+   "start": "10:30",
+   "end": "11:20"
+  },
+  {
+   "index": 5,
+   "start": "11:20",
+   "end": "12:10"
+  },
+  {
+   "index": 6,
+   "start": "12:10",
+   "end": "13:00"
+  },
+  {
+   "index": 7,
+   "start": "13:00",
+   "end": "13:50"
+  },
+  {
+   "index": 8,
+   "start": "13:50",
+   "end": "14:40"
+  },
+  {
+   "index": 9,
+   "start": "14:40",
+   "end": "15:30"
+  },
+  {
+   "index": 10,
+   "start": "15:30",
+   "end": "16:20"
+  },
+  {
+   "index": 11,
+   "start": "16:20",
+   "end": "17:10"
+  },
+  {
+   "index": 12,
+   "start": "17:10",
+   "end": "18:00"
+  },
+  {
+   "index": 13,
+   "start": "18:00",
+   "end": "18:50"
+  },
+  {
+   "index": 14,
+   "start": "18:50",
+   "end": "19:40"
+  }
+ ],
+ "batches": [
+  {
+   "id": "1A1A",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1A1",
+   "tutorialGroup": "1A11",
+   "classes": 31
+  },
+  {
+   "id": "1A1B",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1A1",
+   "tutorialGroup": "1A12",
+   "classes": 31
+  },
+  {
+   "id": "1A1C",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1A1",
+   "tutorialGroup": "1A13",
+   "classes": 31
+  },
+  {
+   "id": "1A1D",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1A1",
+   "tutorialGroup": "1A14",
+   "classes": 31
+  },
+  {
+   "id": "1A1E",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1A1",
+   "tutorialGroup": "1A15",
+   "classes": 31
+  },
+  {
+   "id": "1A1F",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A1",
+   "tutorialGroup": "1A16",
+   "classes": 31
+  },
+  {
+   "id": "1A1G",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A1",
+   "tutorialGroup": "1A17",
+   "classes": 31
+  },
+  {
+   "id": "1A1H",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A1",
+   "tutorialGroup": "1A18",
+   "classes": 31
+  },
+  {
+   "id": "1A2A",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A2",
+   "tutorialGroup": "1A21",
+   "classes": 31
+  },
+  {
+   "id": "1A2B",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A2",
+   "tutorialGroup": "1A22",
+   "classes": 31
+  },
+  {
+   "id": "1A2C",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A2",
+   "tutorialGroup": "1A23",
+   "classes": 31
+  },
+  {
+   "id": "1A2D",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A2",
+   "tutorialGroup": "1A24",
+   "classes": 31
+  },
+  {
+   "id": "1A2E",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A2",
+   "tutorialGroup": "1A25",
+   "classes": 31
+  },
+  {
+   "id": "1A2F",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A2",
+   "tutorialGroup": "1A26",
+   "classes": 31
+  },
+  {
+   "id": "1A2G",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A2",
+   "tutorialGroup": "1A27",
+   "classes": 31
+  },
+  {
+   "id": "1A2H",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A2",
+   "tutorialGroup": "1A28",
+   "classes": 31
+  },
+  {
+   "id": "1A3A",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A3",
+   "tutorialGroup": "1A31",
+   "classes": 31
+  },
+  {
+   "id": "1A3B",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A3",
+   "tutorialGroup": "1A32",
+   "classes": 31
+  },
+  {
+   "id": "1A3C",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A3",
+   "tutorialGroup": "1A33",
+   "classes": 31
+  },
+  {
+   "id": "1A3D",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A3",
+   "tutorialGroup": "1A34",
+   "classes": 31
+  },
+  {
+   "id": "1A3E",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A3",
+   "tutorialGroup": "1A35",
+   "classes": 31
+  },
+  {
+   "id": "1A3F",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A3",
+   "tutorialGroup": "1A36",
+   "classes": 31
+  },
+  {
+   "id": "1A3G",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A3",
+   "tutorialGroup": "1A37",
+   "classes": 31
+  },
+  {
+   "id": "1A3H",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A3",
+   "tutorialGroup": "1A38",
+   "classes": 31
+  },
+  {
+   "id": "1A4A",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A4",
+   "tutorialGroup": "1A41",
+   "classes": 31
+  },
+  {
+   "id": "1A4B",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A4",
+   "tutorialGroup": "1A42",
+   "classes": 31
+  },
+  {
+   "id": "1A4C",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A4",
+   "tutorialGroup": "1A43",
+   "classes": 31
+  },
+  {
+   "id": "1A4D",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A4",
+   "tutorialGroup": "1A44",
+   "classes": 31
+  },
+  {
+   "id": "1A4E",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A4",
+   "tutorialGroup": "1A45",
+   "classes": 31
+  },
+  {
+   "id": "1A5A",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A5",
+   "tutorialGroup": "1A51",
+   "classes": 31
+  },
+  {
+   "id": "1A5B",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A5",
+   "tutorialGroup": "1A52",
+   "classes": 31
+  },
+  {
+   "id": "1A5C",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A5",
+   "tutorialGroup": "1A53",
+   "classes": 31
+  },
+  {
+   "id": "1A5D",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A5",
+   "tutorialGroup": "1A54",
+   "classes": 31
+  },
+  {
+   "id": "1A5E",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A5",
+   "tutorialGroup": "1A55",
+   "classes": 31
+  },
+  {
+   "id": "1A6A",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A6",
+   "tutorialGroup": "1A61",
+   "classes": 31
+  },
+  {
+   "id": "1A6B",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A6",
+   "tutorialGroup": "1A62",
+   "classes": 31
+  },
+  {
+   "id": "1A6C",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A6",
+   "tutorialGroup": "1A63",
+   "classes": 31
+  },
+  {
+   "id": "1A6D",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A6",
+   "tutorialGroup": "1A64",
+   "classes": 31
+  },
+  {
+   "id": "1A6E",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A6",
+   "tutorialGroup": "1A65",
+   "classes": 31
+  },
+  {
+   "id": "1A7A",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A7",
+   "tutorialGroup": "1A71",
+   "classes": 31
+  },
+  {
+   "id": "1A7B",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A7",
+   "tutorialGroup": "1A72",
+   "classes": 31
+  },
+  {
+   "id": "1A7C",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A7",
+   "tutorialGroup": "1A73",
+   "classes": 31
+  },
+  {
+   "id": "1A7D",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A7",
+   "tutorialGroup": "1A74",
+   "classes": 31
+  },
+  {
+   "id": "1A7E",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A7",
+   "tutorialGroup": "1A75",
+   "classes": 31
+  },
+  {
+   "id": "1A8A",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A8",
+   "tutorialGroup": "1A81",
+   "classes": 31
+  },
+  {
+   "id": "1A8B",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A8",
+   "tutorialGroup": "1A82",
+   "classes": 31
+  },
+  {
+   "id": "1A8C",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A8",
+   "tutorialGroup": "1A83",
+   "classes": 31
+  },
+  {
+   "id": "1A8D",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A8",
+   "tutorialGroup": "1A84",
+   "classes": 31
+  },
+  {
+   "id": "1A8E",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A8",
+   "tutorialGroup": "1A85",
+   "classes": 31
+  },
+  {
+   "id": "1A9A",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A9",
+   "tutorialGroup": "1A91",
+   "classes": 31
+  },
+  {
+   "id": "1A9B",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A9",
+   "tutorialGroup": "1A92",
+   "classes": 31
+  },
+  {
+   "id": "1A9C",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A9",
+   "tutorialGroup": "1A93",
+   "classes": 31
+  },
+  {
+   "id": "1A9D",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A9",
+   "tutorialGroup": "1A94",
+   "classes": 31
+  },
+  {
+   "id": "1A9E",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1A9",
+   "tutorialGroup": "1A95",
+   "classes": 31
+  },
+  {
+   "id": "1B1A",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B1",
+   "tutorialGroup": "1B11",
+   "classes": 29
+  },
+  {
+   "id": "1B1B",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B1",
+   "tutorialGroup": "1B12",
+   "classes": 29
+  },
+  {
+   "id": "1B1C",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B1",
+   "tutorialGroup": "1B13",
+   "classes": 29
+  },
+  {
+   "id": "1B1D",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B1",
+   "tutorialGroup": "1B14",
+   "classes": 29
+  },
+  {
+   "id": "1B1E",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B1",
+   "tutorialGroup": "1B15",
+   "classes": 29
+  },
+  {
+   "id": "1B1F",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B1",
+   "tutorialGroup": "1B16",
+   "classes": 29
+  },
+  {
+   "id": "1B1G",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B1",
+   "tutorialGroup": "1B17",
+   "classes": 29
+  },
+  {
+   "id": "1B1H",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B1",
+   "tutorialGroup": "1B18",
+   "classes": 29
+  },
+  {
+   "id": "1B2A",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B2",
+   "tutorialGroup": "1B21",
+   "classes": 29
+  },
+  {
+   "id": "1B2B",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B2",
+   "tutorialGroup": "1B22",
+   "classes": 29
+  },
+  {
+   "id": "1B2C",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B2",
+   "tutorialGroup": "1B23",
+   "classes": 29
+  },
+  {
+   "id": "1B2D",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B2",
+   "tutorialGroup": "1B24",
+   "classes": 29
+  },
+  {
+   "id": "1B2E",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B2",
+   "tutorialGroup": "1B25",
+   "classes": 29
+  },
+  {
+   "id": "1B2F",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B2",
+   "tutorialGroup": "1B26",
+   "classes": 29
+  },
+  {
+   "id": "1B2G",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B2",
+   "tutorialGroup": "1B27",
+   "classes": 29
+  },
+  {
+   "id": "1B2H",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B2",
+   "tutorialGroup": "1B28",
+   "classes": 29
+  },
+  {
+   "id": "1B3A",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B3",
+   "tutorialGroup": "1B31",
+   "classes": 29
+  },
+  {
+   "id": "1B3B",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B3",
+   "tutorialGroup": "1B32",
+   "classes": 29
+  },
+  {
+   "id": "1B3C",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B3",
+   "tutorialGroup": "1B33",
+   "classes": 29
+  },
+  {
+   "id": "1B3D",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B3",
+   "tutorialGroup": "1B34",
+   "classes": 29
+  },
+  {
+   "id": "1B3E",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B3",
+   "tutorialGroup": "1B35",
+   "classes": 29
+  },
+  {
+   "id": "1B3F",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B3",
+   "tutorialGroup": "1B36",
+   "classes": 29
+  },
+  {
+   "id": "1B3G",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B3",
+   "tutorialGroup": "1B37",
+   "classes": 29
+  },
+  {
+   "id": "1B3H",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B3",
+   "tutorialGroup": "1B38",
+   "classes": 29
+  },
+  {
+   "id": "1B4A",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B4",
+   "tutorialGroup": "1B41",
+   "classes": 29
+  },
+  {
+   "id": "1B4B",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B4",
+   "tutorialGroup": "1B42",
+   "classes": 29
+  },
+  {
+   "id": "1B4C",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B4",
+   "tutorialGroup": "1B43",
+   "classes": 29
+  },
+  {
+   "id": "1B4D",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B4",
+   "tutorialGroup": "1B44",
+   "classes": 29
+  },
+  {
+   "id": "1B4E",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B4",
+   "tutorialGroup": "1B45",
+   "classes": 29
+  },
+  {
+   "id": "1B5A",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B5",
+   "tutorialGroup": "1B51",
+   "classes": 29
+  },
+  {
+   "id": "1B5B",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B5",
+   "tutorialGroup": "1B52",
+   "classes": 29
+  },
+  {
+   "id": "1B5C",
+   "year": 1,
+   "branch": "",
+   "lectureGroup": "1B5",
+   "tutorialGroup": "1B53",
+   "classes": 29
+  },
+  {
+   "id": "1B5D",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B5",
+   "tutorialGroup": "1B54",
+   "classes": 28
+  },
+  {
+   "id": "1B5E",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B5",
+   "tutorialGroup": "1B55",
+   "classes": 29
+  },
+  {
+   "id": "1B6A",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B6",
+   "tutorialGroup": "1B61",
+   "classes": 29
+  },
+  {
+   "id": "1B6B",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B6",
+   "tutorialGroup": "1B62",
+   "classes": 29
+  },
+  {
+   "id": "1B6C",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B6",
+   "tutorialGroup": "1B63",
+   "classes": 29
+  },
+  {
+   "id": "1B6D",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B6",
+   "tutorialGroup": "1B64",
+   "classes": 29
+  },
+  {
+   "id": "1B6E",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B6",
+   "tutorialGroup": "1B65",
+   "classes": 29
+  },
+  {
+   "id": "1B7A",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B7",
+   "tutorialGroup": "1B71",
+   "classes": 29
+  },
+  {
+   "id": "1B7B",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B7",
+   "tutorialGroup": "1B72",
+   "classes": 29
+  },
+  {
+   "id": "1B7C",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B7",
+   "tutorialGroup": "1B73",
+   "classes": 29
+  },
+  {
+   "id": "1B7D",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B7",
+   "tutorialGroup": "1B74",
+   "classes": 29
+  },
+  {
+   "id": "1B7E",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B7",
+   "tutorialGroup": "1B75",
+   "classes": 29
+  },
+  {
+   "id": "1B8A",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B8",
+   "tutorialGroup": "1B81",
+   "classes": 29
+  },
+  {
+   "id": "1B8B",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B8",
+   "tutorialGroup": "1B82",
+   "classes": 29
+  },
+  {
+   "id": "1B8C",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B8",
+   "tutorialGroup": "1B83",
+   "classes": 29
+  },
+  {
+   "id": "1B8D",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B8",
+   "tutorialGroup": "1B84",
+   "classes": 29
+  },
+  {
+   "id": "1B8E",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B8",
+   "tutorialGroup": "1B85",
+   "classes": 29
+  },
+  {
+   "id": "1B9A",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B9",
+   "tutorialGroup": "1B91",
+   "classes": 29
+  },
+  {
+   "id": "1B9B",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B9",
+   "tutorialGroup": "1B92",
+   "classes": 29
+  },
+  {
+   "id": "1B9C",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B9",
+   "tutorialGroup": "1B93",
+   "classes": 29
+  },
+  {
+   "id": "1B9D",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B9",
+   "tutorialGroup": "1B94",
+   "classes": 29
+  },
+  {
+   "id": "1B9E",
+   "year": 1,
+   "branch": "First Year-b",
+   "lectureGroup": "1B9",
+   "tutorialGroup": "1B95",
+   "classes": 29
+  },
+  {
+   "id": "1C1A",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1C1",
+   "tutorialGroup": "1C11",
+   "classes": 31
+  },
+  {
+   "id": "1C1B",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1C1",
+   "tutorialGroup": "1C12",
+   "classes": 31
+  },
+  {
+   "id": "1C1C",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1C1",
+   "tutorialGroup": "1C13",
+   "classes": 31
+  },
+  {
+   "id": "1C1D",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1C1",
+   "tutorialGroup": "1C14",
+   "classes": 31
+  },
+  {
+   "id": "1C1E",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1C1",
+   "tutorialGroup": "1C15",
+   "classes": 31
+  },
+  {
+   "id": "1D1A",
+   "year": 1,
+   "branch": "Computer Science & Business Systems",
+   "lectureGroup": "1D1",
+   "tutorialGroup": "1D11",
+   "classes": 29
+  },
+  {
+   "id": "1D1B",
+   "year": 1,
+   "branch": "Computer Science & Business Systems",
+   "lectureGroup": "1D1",
+   "tutorialGroup": "1D12",
+   "classes": 30
+  },
+  {
+   "id": "1D1C",
+   "year": 1,
+   "branch": "Computer Science & Business Systems",
+   "lectureGroup": "1D1",
+   "tutorialGroup": "1D13",
+   "classes": 29
+  },
+  {
+   "id": "1D1D",
+   "year": 1,
+   "branch": "Computer Science & Business Systems",
+   "lectureGroup": "1D1",
+   "tutorialGroup": "1D14",
+   "classes": 29
+  },
+  {
+   "id": "1D1E",
+   "year": 1,
+   "branch": "Computer Science & Business Systems",
+   "lectureGroup": "1D1",
+   "tutorialGroup": "1D15",
+   "classes": 29
+  },
+  {
+   "id": "1G1A",
+   "year": 1,
+   "branch": "Biotechnology Engineering",
+   "lectureGroup": "1G1",
+   "tutorialGroup": "1G11",
+   "classes": 20
+  },
+  {
+   "id": "1G1B",
+   "year": 1,
+   "branch": "Biotechnology Engineering",
+   "lectureGroup": "1G1",
+   "tutorialGroup": "1G12",
+   "classes": 20
+  },
+  {
+   "id": "1G1C",
+   "year": 1,
+   "branch": "Biotechnology Engineering",
+   "lectureGroup": "1G1",
+   "tutorialGroup": "1G13",
+   "classes": 20
+  },
+  {
+   "id": "1G1D",
+   "year": 1,
+   "branch": "Biotechnology Engineering",
+   "lectureGroup": "1G1",
+   "tutorialGroup": "1G14",
+   "classes": 20
+  },
+  {
+   "id": "1J1A",
+   "year": 1,
+   "branch": "Biomedical Engineering",
+   "lectureGroup": "1J1",
+   "tutorialGroup": "1J11",
+   "classes": 21
+  },
+  {
+   "id": "1R1A",
+   "year": 1,
+   "branch": "Computer Science & Business Systems",
+   "lectureGroup": "1R1",
+   "tutorialGroup": "1R11",
+   "classes": 22
+  },
+  {
+   "id": "1R1B",
+   "year": 1,
+   "branch": "Computer Science & Business Systems",
+   "lectureGroup": "1R1",
+   "tutorialGroup": "1R12",
+   "classes": 22
+  },
+  {
+   "id": "1R1C",
+   "year": 1,
+   "branch": "Computer Science & Business Systems",
+   "lectureGroup": "1R1",
+   "tutorialGroup": "1R13",
+   "classes": 22
+  },
+  {
+   "id": "1X1A",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1X1",
+   "tutorialGroup": "1X11",
+   "classes": 33
+  },
+  {
+   "id": "1X1B",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1X1",
+   "tutorialGroup": "1X12",
+   "classes": 33
+  },
+  {
+   "id": "1X1C",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1X1",
+   "tutorialGroup": "1X13",
+   "classes": 33
+  },
+  {
+   "id": "1X1D",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1X1",
+   "tutorialGroup": "1X14",
+   "classes": 33
+  },
+  {
+   "id": "1X2A",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1X2",
+   "tutorialGroup": "1X21",
+   "classes": 33
+  },
+  {
+   "id": "1X2B",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1X2",
+   "tutorialGroup": "1X22",
+   "classes": 33
+  },
+  {
+   "id": "1X2C",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1X2",
+   "tutorialGroup": "1X23",
+   "classes": 33
+  },
+  {
+   "id": "1X2D",
+   "year": 1,
+   "branch": "First Year -a",
+   "lectureGroup": "1X2",
+   "tutorialGroup": "1X24",
+   "classes": 33
+  },
+  {
+   "id": "2 TCD",
+   "year": 2,
+   "branch": "Copc Leet",
+   "lectureGroup": "2C8",
+   "tutorialGroup": "",
+   "classes": 27
+  },
+  {
+   "id": "2 UNSW",
+   "year": 2,
+   "branch": "Copc Leet",
+   "lectureGroup": "2C8",
+   "tutorialGroup": "",
+   "classes": 25
+  },
+  {
+   "id": "2 UOQ",
+   "year": 2,
+   "branch": "Copc Leet",
+   "lectureGroup": "2C8",
+   "tutorialGroup": "",
+   "classes": 25
+  },
+  {
+   "id": "2A1A",
+   "year": 2,
+   "branch": "Chemical Engineering",
+   "lectureGroup": "2A1",
+   "tutorialGroup": "2A11",
+   "classes": 27
+  },
+  {
+   "id": "2A1B",
+   "year": 2,
+   "branch": "Chemical Engineering",
+   "lectureGroup": "2A1",
+   "tutorialGroup": "2A12",
+   "classes": 27
+  },
+  {
+   "id": "2B1A",
+   "year": 2,
+   "branch": "Civil Engineering",
+   "lectureGroup": "2B1",
+   "tutorialGroup": "2B11",
+   "classes": 23
+  },
+  {
+   "id": "2B1B",
+   "year": 2,
+   "branch": "Civil Engineering",
+   "lectureGroup": "2B1",
+   "tutorialGroup": "2B12",
+   "classes": 24
+  },
+  {
+   "id": "2B1C",
+   "year": 2,
+   "branch": "Civil Engineering",
+   "lectureGroup": "2B1",
+   "tutorialGroup": "2B13",
+   "classes": 22
+  },
+  {
+   "id": "2C1A",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C1",
+   "tutorialGroup": "2C11",
+   "classes": 22
+  },
+  {
+   "id": "2C1B",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C1",
+   "tutorialGroup": "2C12",
+   "classes": 22
+  },
+  {
+   "id": "2C1C",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C1",
+   "tutorialGroup": "2C13",
+   "classes": 22
+  },
+  {
+   "id": "2C1D",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C1",
+   "tutorialGroup": "2C14",
+   "classes": 22
+  },
+  {
+   "id": "2C1E",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C1",
+   "tutorialGroup": "2C15",
+   "classes": 23
+  },
+  {
+   "id": "2C1F",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C1",
+   "tutorialGroup": "2C16",
+   "classes": 22
+  },
+  {
+   "id": "2C1G",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C1",
+   "tutorialGroup": "2C17",
+   "classes": 22
+  },
+  {
+   "id": "2C1H",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C1",
+   "tutorialGroup": "2C18",
+   "classes": 22
+  },
+  {
+   "id": "2C2A",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C2",
+   "tutorialGroup": "2C21",
+   "classes": 24
+  },
+  {
+   "id": "2C2B",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C2",
+   "tutorialGroup": "2C22",
+   "classes": 24
+  },
+  {
+   "id": "2C2C",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C2",
+   "tutorialGroup": "2C23",
+   "classes": 23
+  },
+  {
+   "id": "2C2D",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C2",
+   "tutorialGroup": "2C24",
+   "classes": 23
+  },
+  {
+   "id": "2C2E",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C2",
+   "tutorialGroup": "2C25",
+   "classes": 23
+  },
+  {
+   "id": "2C3A",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C3",
+   "tutorialGroup": "2C31",
+   "classes": 23
+  },
+  {
+   "id": "2C3B",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C3",
+   "tutorialGroup": "2C32",
+   "classes": 23
+  },
+  {
+   "id": "2C3C",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C3",
+   "tutorialGroup": "2C33",
+   "classes": 23
+  },
+  {
+   "id": "2C3D",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C3",
+   "tutorialGroup": "2C34",
+   "classes": 23
+  },
+  {
+   "id": "2C3E",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C3",
+   "tutorialGroup": "2C35",
+   "classes": 23
+  },
+  {
+   "id": "2C4A",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C4",
+   "tutorialGroup": "2C41",
+   "classes": 23
+  },
+  {
+   "id": "2C4B",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C4",
+   "tutorialGroup": "2C42",
+   "classes": 23
+  },
+  {
+   "id": "2C4C",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C4",
+   "tutorialGroup": "2C43",
+   "classes": 23
+  },
+  {
+   "id": "2C4D",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C4",
+   "tutorialGroup": "2C44",
+   "classes": 23
+  },
+  {
+   "id": "2C4E",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C4",
+   "tutorialGroup": "2C45",
+   "classes": 23
+  },
+  {
+   "id": "2C5A",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C5",
+   "tutorialGroup": "2C51",
+   "classes": 23
+  },
+  {
+   "id": "2C5B",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C5",
+   "tutorialGroup": "2C52",
+   "classes": 23
+  },
+  {
+   "id": "2C5C",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C5",
+   "tutorialGroup": "2C53",
+   "classes": 23
+  },
+  {
+   "id": "2C5D",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C5",
+   "tutorialGroup": "2C54",
+   "classes": 23
+  },
+  {
+   "id": "2C5E",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C5",
+   "tutorialGroup": "2C55",
+   "classes": 23
+  },
+  {
+   "id": "2C6A",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C6",
+   "tutorialGroup": "2C61",
+   "classes": 23
+  },
+  {
+   "id": "2C6B",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C6",
+   "tutorialGroup": "2C62",
+   "classes": 23
+  },
+  {
+   "id": "2C6C",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C6",
+   "tutorialGroup": "2C63",
+   "classes": 23
+  },
+  {
+   "id": "2C6D",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C6",
+   "tutorialGroup": "2C64",
+   "classes": 23
+  },
+  {
+   "id": "2C6E",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C6",
+   "tutorialGroup": "2C65",
+   "classes": 23
+  },
+  {
+   "id": "2C7A",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C7",
+   "tutorialGroup": "2C71",
+   "classes": 23
+  },
+  {
+   "id": "2C7B",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C7",
+   "tutorialGroup": "2C72",
+   "classes": 23
+  },
+  {
+   "id": "2C7C",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C7",
+   "tutorialGroup": "2C73",
+   "classes": 23
+  },
+  {
+   "id": "2C7D",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C7",
+   "tutorialGroup": "2C74",
+   "classes": 23
+  },
+  {
+   "id": "2C7E",
+   "year": 2,
+   "branch": "Computer Engineering",
+   "lectureGroup": "2C7",
+   "tutorialGroup": "2C75",
+   "classes": 23
+  },
+  {
+   "id": "2C8A",
+   "year": 2,
+   "branch": "Coe Leet Students",
+   "lectureGroup": "2C8",
+   "tutorialGroup": "2C81",
+   "classes": 23
+  },
+  {
+   "id": "2C8B",
+   "year": 2,
+   "branch": "Coe Leet Students",
+   "lectureGroup": "2C8",
+   "tutorialGroup": "2C82",
+   "classes": 23
+  },
+  {
+   "id": "2D1A",
+   "year": 2,
+   "branch": "Electrical Engineering",
+   "lectureGroup": "2D1",
+   "tutorialGroup": "2D11",
+   "classes": 20
+  },
+  {
+   "id": "2D1B",
+   "year": 2,
+   "branch": "Electrical Engineering",
+   "lectureGroup": "2D1",
+   "tutorialGroup": "2D12",
+   "classes": 20
+  },
+  {
+   "id": "2D1C",
+   "year": 2,
+   "branch": "Electrical Engineering",
+   "lectureGroup": "2D1",
+   "tutorialGroup": "2D13",
+   "classes": 20
+  },
+  {
+   "id": "2D1D",
+   "year": 2,
+   "branch": "Electrical Engineering",
+   "lectureGroup": "2D1",
+   "tutorialGroup": "2D14",
+   "classes": 20
+  },
+  {
+   "id": "2E1A",
+   "year": 2,
+   "branch": "Electronics & Instrumentation Engineering",
+   "lectureGroup": "2E1",
+   "tutorialGroup": "2E11",
+   "classes": 24
+  },
+  {
+   "id": "2E1B",
+   "year": 2,
+   "branch": "Electronics & Instrumentation Engineering",
+   "lectureGroup": "2E1",
+   "tutorialGroup": "2E12",
+   "classes": 24
+  },
+  {
+   "id": "2E1C",
+   "year": 2,
+   "branch": "Electronics & Instrumentation Engineering",
+   "lectureGroup": "2E1",
+   "tutorialGroup": "2E13",
+   "classes": 24
+  },
+  {
+   "id": "2E1D",
+   "year": 2,
+   "branch": "Electronics & Instrumentation Engineering",
+   "lectureGroup": "2E1",
+   "tutorialGroup": "2E14",
+   "classes": 24
+  },
+  {
+   "id": "2F1A",
+   "year": 2,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "2F1",
+   "tutorialGroup": "2F11",
+   "classes": 24
+  },
+  {
+   "id": "2F1B",
+   "year": 2,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "2F1",
+   "tutorialGroup": "2F12",
+   "classes": 24
+  },
+  {
+   "id": "2F1C",
+   "year": 2,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "2F1",
+   "tutorialGroup": "2F13",
+   "classes": 24
+  },
+  {
+   "id": "2F2A",
+   "year": 2,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "2F2",
+   "tutorialGroup": "2F21",
+   "classes": 24
+  },
+  {
+   "id": "2F2B",
+   "year": 2,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "2F2",
+   "tutorialGroup": "2F22",
+   "classes": 24
+  },
+  {
+   "id": "2F2C",
+   "year": 2,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "2F2",
+   "tutorialGroup": "2F23",
+   "classes": 24
+  },
+  {
+   "id": "2F3A",
+   "year": 2,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "2F3",
+   "tutorialGroup": "2F31",
+   "classes": 23
+  },
+  {
+   "id": "2F3B",
+   "year": 2,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "2F3",
+   "tutorialGroup": "2F32",
+   "classes": 23
+  },
+  {
+   "id": "2F3C",
+   "year": 2,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "2F3",
+   "tutorialGroup": "2F33",
+   "classes": 23
+  },
+  {
+   "id": "2G1A",
+   "year": 2,
+   "branch": "Biotechnology Engineering",
+   "lectureGroup": "2G1",
+   "tutorialGroup": "2G11",
+   "classes": 20
+  },
+  {
+   "id": "2G1B",
+   "year": 2,
+   "branch": "Biotechnology Engineering",
+   "lectureGroup": "2G1",
+   "tutorialGroup": "2G12",
+   "classes": 20
+  },
+  {
+   "id": "2G1C",
+   "year": 2,
+   "branch": "Biotechnology Engineering",
+   "lectureGroup": "2G1",
+   "tutorialGroup": "2G13",
+   "classes": 20
+  },
+  {
+   "id": "2G1D",
+   "year": 2,
+   "branch": "Biotechnology Engineering",
+   "lectureGroup": "2G1",
+   "tutorialGroup": "2G14",
+   "classes": 20
+  },
+  {
+   "id": "2H1A",
+   "year": 2,
+   "branch": "Mechanical Engineering",
+   "lectureGroup": "2H1",
+   "tutorialGroup": "2H11",
+   "classes": 19
+  },
+  {
+   "id": "2H1B",
+   "year": 2,
+   "branch": "Mechanical Engineering",
+   "lectureGroup": "2H1",
+   "tutorialGroup": "2H12",
+   "classes": 20
+  },
+  {
+   "id": "2H1C",
+   "year": 2,
+   "branch": "Mechanical Engineering",
+   "lectureGroup": "2H1",
+   "tutorialGroup": "2H13",
+   "classes": 20
+  },
+  {
+   "id": "2H2A",
+   "year": 2,
+   "branch": "Mechanical Engineering",
+   "lectureGroup": "2H2",
+   "tutorialGroup": "2H21",
+   "classes": 18
+  },
+  {
+   "id": "2H2B",
+   "year": 2,
+   "branch": "Mechanical Engineering",
+   "lectureGroup": "2H2",
+   "tutorialGroup": "2H22",
+   "classes": 18
+  },
+  {
+   "id": "2H2C",
+   "year": 2,
+   "branch": "Mechanical Engineering",
+   "lectureGroup": "2H2",
+   "tutorialGroup": "2H23",
+   "classes": 18
+  },
+  {
+   "id": "2I1A",
+   "year": 2,
+   "branch": "Mechatronics Engineering",
+   "lectureGroup": "2I1",
+   "tutorialGroup": "2I11",
+   "classes": 21
+  },
+  {
+   "id": "2I1B",
+   "year": 2,
+   "branch": "Mechatronics Engineering",
+   "lectureGroup": "2I1",
+   "tutorialGroup": "2I12",
+   "classes": 22
+  },
+  {
+   "id": "2I1C",
+   "year": 2,
+   "branch": "Mechatronics Engineering",
+   "lectureGroup": "2I1",
+   "tutorialGroup": "2I13",
+   "classes": 21
+  },
+  {
+   "id": "2I1D",
+   "year": 2,
+   "branch": "Mechatronics Engineering",
+   "lectureGroup": "2I1",
+   "tutorialGroup": "2I14",
+   "classes": 22
+  },
+  {
+   "id": "2J1A",
+   "year": 2,
+   "branch": "Biomedical Engineering",
+   "lectureGroup": "2J1",
+   "tutorialGroup": "2J11",
+   "classes": 30
+  },
+  {
+   "id": "2O1A",
+   "year": 2,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "2O1",
+   "tutorialGroup": "2O11",
+   "classes": 25
+  },
+  {
+   "id": "2O1B",
+   "year": 2,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "2O1",
+   "tutorialGroup": "2O12",
+   "classes": 25
+  },
+  {
+   "id": "2O1C",
+   "year": 2,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "2O1",
+   "tutorialGroup": "2O13",
+   "classes": 25
+  },
+  {
+   "id": "2O1D",
+   "year": 2,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "2O1",
+   "tutorialGroup": "2O14",
+   "classes": 25
+  },
+  {
+   "id": "2O1E",
+   "year": 2,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "2O1",
+   "tutorialGroup": "2O15",
+   "classes": 25
+  },
+  {
+   "id": "2O2A",
+   "year": 2,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "2O2",
+   "tutorialGroup": "2O21",
+   "classes": 25
+  },
+  {
+   "id": "2O2B",
+   "year": 2,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "2O2",
+   "tutorialGroup": "2O22",
+   "classes": 25
+  },
+  {
+   "id": "2O2C",
+   "year": 2,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "2O2",
+   "tutorialGroup": "2O23",
+   "classes": 25
+  },
+  {
+   "id": "2O2D",
+   "year": 2,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "2O2",
+   "tutorialGroup": "2O24",
+   "classes": 25
+  },
+  {
+   "id": "2O2E",
+   "year": 2,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "2O2",
+   "tutorialGroup": "2O25",
+   "classes": 25
+  },
+  {
+   "id": "2O3A",
+   "year": 2,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "2O3",
+   "tutorialGroup": "2O31",
+   "classes": 25
+  },
+  {
+   "id": "2O3B",
+   "year": 2,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "2O3",
+   "tutorialGroup": "2O32",
+   "classes": 25
+  },
+  {
+   "id": "2O3C",
+   "year": 2,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "2O3",
+   "tutorialGroup": "2O33",
+   "classes": 25
+  },
+  {
+   "id": "2O3D",
+   "year": 2,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "2O3",
+   "tutorialGroup": "2O34",
+   "classes": 25
+  },
+  {
+   "id": "2Q1A",
+   "year": 2,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "2Q1",
+   "tutorialGroup": "2Q11",
+   "classes": 23
+  },
+  {
+   "id": "2Q1B",
+   "year": 2,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "2Q1",
+   "tutorialGroup": "2Q12",
+   "classes": 23
+  },
+  {
+   "id": "2Q1C",
+   "year": 2,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "2Q1",
+   "tutorialGroup": "2Q13",
+   "classes": 23
+  },
+  {
+   "id": "2Q1D",
+   "year": 2,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "2Q1",
+   "tutorialGroup": "2Q14",
+   "classes": 24
+  },
+  {
+   "id": "2Q1E",
+   "year": 2,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "2Q1",
+   "tutorialGroup": "2Q15",
+   "classes": 23
+  },
+  {
+   "id": "2Q2A",
+   "year": 2,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "2Q2",
+   "tutorialGroup": "2Q21",
+   "classes": 23
+  },
+  {
+   "id": "2Q2B",
+   "year": 2,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "2Q2",
+   "tutorialGroup": "2Q22",
+   "classes": 23
+  },
+  {
+   "id": "2Q2C",
+   "year": 2,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "2Q2",
+   "tutorialGroup": "2Q23",
+   "classes": 23
+  },
+  {
+   "id": "2Q2D",
+   "year": 2,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "2Q2",
+   "tutorialGroup": "2Q24",
+   "classes": 23
+  },
+  {
+   "id": "2Q2E",
+   "year": 2,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "2Q2",
+   "tutorialGroup": "2Q25",
+   "classes": 23
+  },
+  {
+   "id": "2Q3A",
+   "year": 2,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "2Q3",
+   "tutorialGroup": "2Q31",
+   "classes": 23
+  },
+  {
+   "id": "2Q3B",
+   "year": 2,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "2Q3",
+   "tutorialGroup": "2Q32",
+   "classes": 23
+  },
+  {
+   "id": "2Q3C",
+   "year": 2,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "2Q3",
+   "tutorialGroup": "2Q33",
+   "classes": 23
+  },
+  {
+   "id": "2Q3D",
+   "year": 2,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "2Q3",
+   "tutorialGroup": "2Q34",
+   "classes": 23
+  },
+  {
+   "id": "2Q3E",
+   "year": 2,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "2Q3",
+   "tutorialGroup": "2Q35",
+   "classes": 23
+  },
+  {
+   "id": "2Q4A",
+   "year": 2,
+   "branch": "Copc Leet",
+   "lectureGroup": "2C8",
+   "tutorialGroup": "2Q41",
+   "classes": 23
+  },
+  {
+   "id": "2R1A",
+   "year": 2,
+   "branch": "Computer Science & Business Systems",
+   "lectureGroup": "2R1",
+   "tutorialGroup": "2R11",
+   "classes": 23
+  },
+  {
+   "id": "2R1B",
+   "year": 2,
+   "branch": "Computer Science & Business Systems",
+   "lectureGroup": "2R1",
+   "tutorialGroup": "2R12",
+   "classes": 23
+  },
+  {
+   "id": "2R1C",
+   "year": 2,
+   "branch": "Computer Science & Business Systems",
+   "lectureGroup": "2R1",
+   "tutorialGroup": "2R13",
+   "classes": 23
+  },
+  {
+   "id": "2S1A",
+   "year": 2,
+   "branch": "Electrical & Computer Engineering",
+   "lectureGroup": "2S1",
+   "tutorialGroup": "2S11",
+   "classes": 23
+  },
+  {
+   "id": "2S1B",
+   "year": 2,
+   "branch": "Electrical & Computer Engineering",
+   "lectureGroup": "2S1",
+   "tutorialGroup": "2S12",
+   "classes": 23
+  },
+  {
+   "id": "2S1C",
+   "year": 2,
+   "branch": "Electrical & Computer Engineering",
+   "lectureGroup": "2S1",
+   "tutorialGroup": "2S13",
+   "classes": 23
+  },
+  {
+   "id": "2S1D",
+   "year": 2,
+   "branch": "Electrical & Computer Engineering",
+   "lectureGroup": "2S1",
+   "tutorialGroup": "2S14",
+   "classes": 23
+  },
+  {
+   "id": "2S1E",
+   "year": 2,
+   "branch": "Electrical & Computer Engineering",
+   "lectureGroup": "2S1",
+   "tutorialGroup": "2S15",
+   "classes": 23
+  },
+  {
+   "id": "2U1A",
+   "year": 2,
+   "branch": "Civil With Computer Application",
+   "lectureGroup": "2U1",
+   "tutorialGroup": "2U11",
+   "classes": 24
+  },
+  {
+   "id": "2V1A",
+   "year": 2,
+   "branch": "Electronics Engg(vlsi Desgin)",
+   "lectureGroup": "2V1",
+   "tutorialGroup": "2V11",
+   "classes": 23
+  },
+  {
+   "id": "2V1B",
+   "year": 2,
+   "branch": "Electronics Engg(vlsi Desgin)",
+   "lectureGroup": "2V1",
+   "tutorialGroup": "2V12",
+   "classes": 23
+  },
+  {
+   "id": "2V1C",
+   "year": 2,
+   "branch": "Electronics Engg(vlsi Desgin)",
+   "lectureGroup": "2V1",
+   "tutorialGroup": "2V13",
+   "classes": 23
+  },
+  {
+   "id": "2V1D",
+   "year": 2,
+   "branch": "Electronics Engg(vlsi Desgin)",
+   "lectureGroup": "2V1",
+   "tutorialGroup": "2V14",
+   "classes": 24
+  },
+  {
+   "id": "2W1A",
+   "year": 2,
+   "branch": "Robotics & Artificial Intelligence",
+   "lectureGroup": "2W1",
+   "tutorialGroup": "2W11",
+   "classes": 20
+  },
+  {
+   "id": "2W1B",
+   "year": 2,
+   "branch": "Robotics & Artificial Intelligence",
+   "lectureGroup": "2W1",
+   "tutorialGroup": "2W12",
+   "classes": 26
+  },
+  {
+   "id": "2W1C",
+   "year": 2,
+   "branch": "Robotics & Artificial Intelligence",
+   "lectureGroup": "2W1",
+   "tutorialGroup": "2W13",
+   "classes": 26
+  },
+  {
+   "id": "2W1D",
+   "year": 2,
+   "branch": "Robotics & Artificial Intelligence",
+   "lectureGroup": "2W1",
+   "tutorialGroup": "2W14",
+   "classes": 26
+  },
+  {
+   "id": "2W1E",
+   "year": 2,
+   "branch": "Robotics & Artificial Intelligence",
+   "lectureGroup": "2W1",
+   "tutorialGroup": "2W15",
+   "classes": 26
+  },
+  {
+   "id": "2X1A",
+   "year": 2,
+   "branch": "AI & Machine Learning",
+   "lectureGroup": "2X1",
+   "tutorialGroup": "2X11",
+   "classes": 19
+  },
+  {
+   "id": "2X1B",
+   "year": 2,
+   "branch": "AI & Machine Learning",
+   "lectureGroup": "2X1",
+   "tutorialGroup": "2X12",
+   "classes": 19
+  },
+  {
+   "id": "2X1C",
+   "year": 2,
+   "branch": "AI & Machine Learning",
+   "lectureGroup": "2X1",
+   "tutorialGroup": "2X13",
+   "classes": 19
+  },
+  {
+   "id": "2X1D",
+   "year": 2,
+   "branch": "AI & Machine Learning",
+   "lectureGroup": "2X1",
+   "tutorialGroup": "2X14",
+   "classes": 19
+  },
+  {
+   "id": "2X2A",
+   "year": 2,
+   "branch": "AI & Machine Learning",
+   "lectureGroup": "2X2",
+   "tutorialGroup": "2X21",
+   "classes": 19
+  },
+  {
+   "id": "2X2B",
+   "year": 2,
+   "branch": "AI & Machine Learning",
+   "lectureGroup": "2X2",
+   "tutorialGroup": "2X22",
+   "classes": 19
+  },
+  {
+   "id": "2X2C",
+   "year": 2,
+   "branch": "AI & Machine Learning",
+   "lectureGroup": "2X2",
+   "tutorialGroup": "2X23",
+   "classes": 19
+  },
+  {
+   "id": "2X2D",
+   "year": 2,
+   "branch": "AI & Machine Learning",
+   "lectureGroup": "2X2",
+   "tutorialGroup": "2X24",
+   "classes": 19
+  },
+  {
+   "id": "3A1A",
+   "year": 3,
+   "branch": "Chemical Engineering",
+   "lectureGroup": "3A1",
+   "tutorialGroup": "3A11",
+   "classes": 29
+  },
+  {
+   "id": "3A1B",
+   "year": 3,
+   "branch": "Chemical Engineering",
+   "lectureGroup": "3A1",
+   "tutorialGroup": "3A12",
+   "classes": 29
+  },
+  {
+   "id": "3B1A",
+   "year": 3,
+   "branch": "Civil Engineering",
+   "lectureGroup": "3B1",
+   "tutorialGroup": "3B11",
+   "classes": 27
+  },
+  {
+   "id": "3B1B",
+   "year": 3,
+   "branch": "Civil Engineering",
+   "lectureGroup": "3B1",
+   "tutorialGroup": "3B12",
+   "classes": 27
+  },
+  {
+   "id": "3B1C",
+   "year": 3,
+   "branch": "Civil Engineering",
+   "lectureGroup": "3B1",
+   "tutorialGroup": "3B13",
+   "classes": 27
+  },
+  {
+   "id": "3C1A",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C1",
+   "tutorialGroup": "3C11",
+   "classes": 28
+  },
+  {
+   "id": "3C1B",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C1",
+   "tutorialGroup": "3C12",
+   "classes": 28
+  },
+  {
+   "id": "3C1C",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C1",
+   "tutorialGroup": "3C13",
+   "classes": 28
+  },
+  {
+   "id": "3C1D",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C1",
+   "tutorialGroup": "3C14",
+   "classes": 28
+  },
+  {
+   "id": "3C1E",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C1",
+   "tutorialGroup": "3C15",
+   "classes": 28
+  },
+  {
+   "id": "3C1F",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C1",
+   "tutorialGroup": "3C16",
+   "classes": 28
+  },
+  {
+   "id": "3C1G",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C1",
+   "tutorialGroup": "3C17",
+   "classes": 28
+  },
+  {
+   "id": "3C1H",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C1",
+   "tutorialGroup": "3C18",
+   "classes": 28
+  },
+  {
+   "id": "3C2A",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C2",
+   "tutorialGroup": "3C21",
+   "classes": 28
+  },
+  {
+   "id": "3C2B",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C2",
+   "tutorialGroup": "3C22",
+   "classes": 28
+  },
+  {
+   "id": "3C2C",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C2",
+   "tutorialGroup": "3C23",
+   "classes": 28
+  },
+  {
+   "id": "3C2D",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C2",
+   "tutorialGroup": "3C24",
+   "classes": 28
+  },
+  {
+   "id": "3C2E",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C2",
+   "tutorialGroup": "3C25",
+   "classes": 28
+  },
+  {
+   "id": "3C3A",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C3",
+   "tutorialGroup": "3C31",
+   "classes": 28
+  },
+  {
+   "id": "3C3B",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C3",
+   "tutorialGroup": "3C32",
+   "classes": 28
+  },
+  {
+   "id": "3C3C",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C3",
+   "tutorialGroup": "3C33",
+   "classes": 28
+  },
+  {
+   "id": "3C3D",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C3",
+   "tutorialGroup": "3C34",
+   "classes": 28
+  },
+  {
+   "id": "3C3E",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C3",
+   "tutorialGroup": "3C35",
+   "classes": 28
+  },
+  {
+   "id": "3C4A",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C4",
+   "tutorialGroup": "3C41",
+   "classes": 29
+  },
+  {
+   "id": "3C4B",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C4",
+   "tutorialGroup": "3C42",
+   "classes": 29
+  },
+  {
+   "id": "3C4C",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C4",
+   "tutorialGroup": "3C43",
+   "classes": 29
+  },
+  {
+   "id": "3C4D",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C4",
+   "tutorialGroup": "3C44",
+   "classes": 29
+  },
+  {
+   "id": "3C4E",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C4",
+   "tutorialGroup": "3C45",
+   "classes": 29
+  },
+  {
+   "id": "3C5A",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C5",
+   "tutorialGroup": "3C51",
+   "classes": 30
+  },
+  {
+   "id": "3C5B",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C5",
+   "tutorialGroup": "3C52",
+   "classes": 30
+  },
+  {
+   "id": "3C5C",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C5",
+   "tutorialGroup": "3C53",
+   "classes": 30
+  },
+  {
+   "id": "3C5D",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C5",
+   "tutorialGroup": "3C54",
+   "classes": 30
+  },
+  {
+   "id": "3C5E",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C5",
+   "tutorialGroup": "3C55",
+   "classes": 30
+  },
+  {
+   "id": "3C6A",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C6",
+   "tutorialGroup": "3C61",
+   "classes": 29
+  },
+  {
+   "id": "3C6B",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C6",
+   "tutorialGroup": "3C62",
+   "classes": 29
+  },
+  {
+   "id": "3C6C",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C6",
+   "tutorialGroup": "3C63",
+   "classes": 29
+  },
+  {
+   "id": "3C6D",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C6",
+   "tutorialGroup": "3C64",
+   "classes": 29
+  },
+  {
+   "id": "3C6E",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C6",
+   "tutorialGroup": "3C65",
+   "classes": 29
+  },
+  {
+   "id": "3C7A",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C7",
+   "tutorialGroup": "3C71",
+   "classes": 29
+  },
+  {
+   "id": "3C7B",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C7",
+   "tutorialGroup": "3C72",
+   "classes": 29
+  },
+  {
+   "id": "3C7C",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C7",
+   "tutorialGroup": "3C73",
+   "classes": 29
+  },
+  {
+   "id": "3C7D",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C7",
+   "tutorialGroup": "3C74",
+   "classes": 29
+  },
+  {
+   "id": "3C7E",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C7",
+   "tutorialGroup": "3C75",
+   "classes": 29
+  },
+  {
+   "id": "3C81A",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C7",
+   "tutorialGroup": "3C811",
+   "classes": 29
+  },
+  {
+   "id": "3C81B",
+   "year": 3,
+   "branch": "Computer Engineering",
+   "lectureGroup": "3C7",
+   "tutorialGroup": "3C812",
+   "classes": 29
+  },
+  {
+   "id": "3D1A",
+   "year": 3,
+   "branch": "Electrical Engineering",
+   "lectureGroup": "3D1",
+   "tutorialGroup": "3D11",
+   "classes": 25
+  },
+  {
+   "id": "3D1B",
+   "year": 3,
+   "branch": "Electrical Engineering",
+   "lectureGroup": "3D1",
+   "tutorialGroup": "3D12",
+   "classes": 25
+  },
+  {
+   "id": "3D1C",
+   "year": 3,
+   "branch": "Electrical Engineering",
+   "lectureGroup": "3D1",
+   "tutorialGroup": "3D13",
+   "classes": 25
+  },
+  {
+   "id": "3E1A",
+   "year": 3,
+   "branch": "Electronics Instrumentation Engineering",
+   "lectureGroup": "3E1",
+   "tutorialGroup": "3E11",
+   "classes": 27
+  },
+  {
+   "id": "3E1B",
+   "year": 3,
+   "branch": "Electronics Instrumentation Engineering",
+   "lectureGroup": "3E1",
+   "tutorialGroup": "3E12",
+   "classes": 27
+  },
+  {
+   "id": "3F1A",
+   "year": 3,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "3F1",
+   "tutorialGroup": "3F11",
+   "classes": 35
+  },
+  {
+   "id": "3F1B",
+   "year": 3,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "3F1",
+   "tutorialGroup": "3F12",
+   "classes": 35
+  },
+  {
+   "id": "3F1C",
+   "year": 3,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "3F1",
+   "tutorialGroup": "3F13",
+   "classes": 35
+  },
+  {
+   "id": "3F1D",
+   "year": 3,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "3F1",
+   "tutorialGroup": "3F14",
+   "classes": 35
+  },
+  {
+   "id": "3F2A",
+   "year": 3,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "3F2",
+   "tutorialGroup": "3F21",
+   "classes": 34
+  },
+  {
+   "id": "3F2B",
+   "year": 3,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "3F2",
+   "tutorialGroup": "3F22",
+   "classes": 34
+  },
+  {
+   "id": "3F2C",
+   "year": 3,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "3F2",
+   "tutorialGroup": "3F23",
+   "classes": 34
+  },
+  {
+   "id": "3F3A",
+   "year": 3,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "3F3",
+   "tutorialGroup": "3F31",
+   "classes": 33
+  },
+  {
+   "id": "3F3B",
+   "year": 3,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "3F3",
+   "tutorialGroup": "3F32",
+   "classes": 33
+  },
+  {
+   "id": "3F3C",
+   "year": 3,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "3F3",
+   "tutorialGroup": "3F33",
+   "classes": 33
+  },
+  {
+   "id": "3G1A",
+   "year": 3,
+   "branch": "Biotechnology Engineering",
+   "lectureGroup": "3G1",
+   "tutorialGroup": "3G11",
+   "classes": 24
+  },
+  {
+   "id": "3G1B",
+   "year": 3,
+   "branch": "Biotechnology Engineering",
+   "lectureGroup": "3G1",
+   "tutorialGroup": "3G12",
+   "classes": 24
+  },
+  {
+   "id": "3G1C",
+   "year": 3,
+   "branch": "Biotechnology Engineering",
+   "lectureGroup": "3G1",
+   "tutorialGroup": "3G13",
+   "classes": 25
+  },
+  {
+   "id": "3G1D",
+   "year": 3,
+   "branch": "Biotechnology Engineering",
+   "lectureGroup": "3G1",
+   "tutorialGroup": "3G14",
+   "classes": 24
+  },
+  {
+   "id": "3H1A",
+   "year": 3,
+   "branch": "Mechanical Engineering",
+   "lectureGroup": "3H1",
+   "tutorialGroup": "3H11",
+   "classes": 32
+  },
+  {
+   "id": "3H1B",
+   "year": 3,
+   "branch": "Mechanical Engineering",
+   "lectureGroup": "3H1",
+   "tutorialGroup": "3H12",
+   "classes": 32
+  },
+  {
+   "id": "3H1C",
+   "year": 3,
+   "branch": "Mechanical Engineering",
+   "lectureGroup": "3H1",
+   "tutorialGroup": "3H13",
+   "classes": 32
+  },
+  {
+   "id": "3H2A",
+   "year": 3,
+   "branch": "Mechanical Engineering",
+   "lectureGroup": "3H2",
+   "tutorialGroup": "3H21",
+   "classes": 32
+  },
+  {
+   "id": "3H2B",
+   "year": 3,
+   "branch": "Mechanical Engineering",
+   "lectureGroup": "3H2",
+   "tutorialGroup": "3H22",
+   "classes": 32
+  },
+  {
+   "id": "3H2C",
+   "year": 3,
+   "branch": "Mechanical Engineering",
+   "lectureGroup": "3H2",
+   "tutorialGroup": "3H23",
+   "classes": 32
+  },
+  {
+   "id": "3I1A",
+   "year": 3,
+   "branch": "Mechatronics Engineering",
+   "lectureGroup": "3I1",
+   "tutorialGroup": "3I11",
+   "classes": 28
+  },
+  {
+   "id": "3I1B",
+   "year": 3,
+   "branch": "Mechatronics Engineering",
+   "lectureGroup": "3I1",
+   "tutorialGroup": "3I12",
+   "classes": 28
+  },
+  {
+   "id": "3I1C",
+   "year": 3,
+   "branch": "Mechatronics Engineering",
+   "lectureGroup": "3I1",
+   "tutorialGroup": "3I13",
+   "classes": 28
+  },
+  {
+   "id": "3J1A",
+   "year": 3,
+   "branch": "Biomedical Engineering",
+   "lectureGroup": "3J1",
+   "tutorialGroup": "3J11",
+   "classes": 25
+  },
+  {
+   "id": "3O1A",
+   "year": 3,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "3O1",
+   "tutorialGroup": "3O11",
+   "classes": 34
+  },
+  {
+   "id": "3O1B",
+   "year": 3,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "3O1",
+   "tutorialGroup": "3O12",
+   "classes": 34
+  },
+  {
+   "id": "3O1C",
+   "year": 3,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "3O1",
+   "tutorialGroup": "3O13",
+   "classes": 34
+  },
+  {
+   "id": "3O1D",
+   "year": 3,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "3O1",
+   "tutorialGroup": "3O14",
+   "classes": 34
+  },
+  {
+   "id": "3O2A",
+   "year": 3,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "3O2",
+   "tutorialGroup": "3O21",
+   "classes": 34
+  },
+  {
+   "id": "3O2B",
+   "year": 3,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "3O2",
+   "tutorialGroup": "3O22",
+   "classes": 34
+  },
+  {
+   "id": "3O2C",
+   "year": 3,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "3O2",
+   "tutorialGroup": "3O23",
+   "classes": 34
+  },
+  {
+   "id": "3O2D",
+   "year": 3,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "3O2",
+   "tutorialGroup": "3O24",
+   "classes": 34
+  },
+  {
+   "id": "3O3A",
+   "year": 3,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "3O3",
+   "tutorialGroup": "3O31",
+   "classes": 32
+  },
+  {
+   "id": "3O3B",
+   "year": 3,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "3O3",
+   "tutorialGroup": "3O32",
+   "classes": 32
+  },
+  {
+   "id": "3O3C",
+   "year": 3,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "3O3",
+   "tutorialGroup": "3O33",
+   "classes": 32
+  },
+  {
+   "id": "3O3D",
+   "year": 3,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "3O3",
+   "tutorialGroup": "3O34",
+   "classes": 32
+  },
+  {
+   "id": "3P1A",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3P1",
+   "tutorialGroup": "3P11",
+   "classes": 30
+  },
+  {
+   "id": "3P1B",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3P1",
+   "tutorialGroup": "3P12",
+   "classes": 30
+  },
+  {
+   "id": "3P1C",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3P1",
+   "tutorialGroup": "3P13",
+   "classes": 30
+  },
+  {
+   "id": "3P1D",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3P1",
+   "tutorialGroup": "3P14",
+   "classes": 30
+  },
+  {
+   "id": "3Q1A",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3Q1",
+   "tutorialGroup": "3Q11",
+   "classes": 30
+  },
+  {
+   "id": "3Q1B",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3Q1",
+   "tutorialGroup": "3Q12",
+   "classes": 30
+  },
+  {
+   "id": "3Q1C",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3Q1",
+   "tutorialGroup": "3Q13",
+   "classes": 30
+  },
+  {
+   "id": "3Q1D",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3Q1",
+   "tutorialGroup": "3Q14",
+   "classes": 30
+  },
+  {
+   "id": "3Q1E",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3Q1",
+   "tutorialGroup": "3Q15",
+   "classes": 30
+  },
+  {
+   "id": "3Q2A",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3Q2",
+   "tutorialGroup": "3Q21",
+   "classes": 32
+  },
+  {
+   "id": "3Q2B",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3Q2",
+   "tutorialGroup": "3Q22",
+   "classes": 32
+  },
+  {
+   "id": "3Q2C",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3Q2",
+   "tutorialGroup": "3Q23",
+   "classes": 32
+  },
+  {
+   "id": "3Q2D",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3Q2",
+   "tutorialGroup": "3Q24",
+   "classes": 32
+  },
+  {
+   "id": "3Q2E",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3Q2",
+   "tutorialGroup": "3Q25",
+   "classes": 32
+  },
+  {
+   "id": "3Q3A",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3Q3",
+   "tutorialGroup": "3Q31",
+   "classes": 31
+  },
+  {
+   "id": "3Q3B",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3Q3",
+   "tutorialGroup": "3Q32",
+   "classes": 31
+  },
+  {
+   "id": "3Q3C",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3Q3",
+   "tutorialGroup": "3Q33",
+   "classes": 31
+  },
+  {
+   "id": "3Q3D",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3Q3",
+   "tutorialGroup": "3Q34",
+   "classes": 31
+  },
+  {
+   "id": "3Q3E",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "3Q3",
+   "tutorialGroup": "3Q35",
+   "classes": 31
+  },
+  {
+   "id": "3Q4A",
+   "year": 3,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "LEET",
+   "tutorialGroup": "3Q41",
+   "classes": 31
+  },
+  {
+   "id": "3R1A",
+   "year": 3,
+   "branch": "Computer Science & Business Systems",
+   "lectureGroup": "3R1",
+   "tutorialGroup": "3R11",
+   "classes": 25
+  },
+  {
+   "id": "3R1B",
+   "year": 3,
+   "branch": "Computer Science & Business Systems",
+   "lectureGroup": "3R1",
+   "tutorialGroup": "3R12",
+   "classes": 26
+  },
+  {
+   "id": "3R1C",
+   "year": 3,
+   "branch": "Computer Science & Business Systems",
+   "lectureGroup": "3R1",
+   "tutorialGroup": "3R13",
+   "classes": 25
+  },
+  {
+   "id": "3S1A",
+   "year": 3,
+   "branch": "Electrical & Computer Engineering",
+   "lectureGroup": "3S1",
+   "tutorialGroup": "3S11",
+   "classes": 28
+  },
+  {
+   "id": "3S1B",
+   "year": 3,
+   "branch": "Electrical & Computer Engineering",
+   "lectureGroup": "3S1",
+   "tutorialGroup": "3S12",
+   "classes": 28
+  },
+  {
+   "id": "3S1C",
+   "year": 3,
+   "branch": "Electrical & Computer Engineering",
+   "lectureGroup": "3S1",
+   "tutorialGroup": "3S13",
+   "classes": 28
+  },
+  {
+   "id": "3S1D",
+   "year": 3,
+   "branch": "Electrical & Computer Engineering",
+   "lectureGroup": "3S1",
+   "tutorialGroup": "3S14",
+   "classes": 28
+  },
+  {
+   "id": "3S1E",
+   "year": 3,
+   "branch": "Electrical & Computer Engineering",
+   "lectureGroup": "3S1",
+   "tutorialGroup": "3S15",
+   "classes": 28
+  },
+  {
+   "id": "3U1A",
+   "year": 3,
+   "branch": "Civil & Computer",
+   "lectureGroup": "3U1",
+   "tutorialGroup": "3U11",
+   "classes": 26
+  },
+  {
+   "id": "3V1A",
+   "year": 3,
+   "branch": "VLSI",
+   "lectureGroup": "3V1",
+   "tutorialGroup": "3V11",
+   "classes": 34
+  },
+  {
+   "id": "3V1B",
+   "year": 3,
+   "branch": "VLSI",
+   "lectureGroup": "3V1",
+   "tutorialGroup": "3V12",
+   "classes": 34
+  },
+  {
+   "id": "3V1C",
+   "year": 3,
+   "branch": "VLSI",
+   "lectureGroup": "3V1",
+   "tutorialGroup": "3V13",
+   "classes": 34
+  },
+  {
+   "id": "3W1A",
+   "year": 3,
+   "branch": "Robotics & Artificial Intelligence",
+   "lectureGroup": "3W1",
+   "tutorialGroup": "3W11",
+   "classes": 26
+  },
+  {
+   "id": "3W1B",
+   "year": 3,
+   "branch": "Robotics & Artificial Intelligence",
+   "lectureGroup": "3W1",
+   "tutorialGroup": "3W12",
+   "classes": 26
+  },
+  {
+   "id": "3W1C",
+   "year": 3,
+   "branch": "Robotics & Artificial Intelligence",
+   "lectureGroup": "3W1",
+   "tutorialGroup": "3W13",
+   "classes": 26
+  },
+  {
+   "id": "3W1D",
+   "year": 3,
+   "branch": "Robotics & Artificial Intelligence",
+   "lectureGroup": "3W1",
+   "tutorialGroup": "3W14",
+   "classes": 26
+  },
+  {
+   "id": "3X1A",
+   "year": 3,
+   "branch": "AI & Machine Learning",
+   "lectureGroup": "3X1",
+   "tutorialGroup": "3X11",
+   "classes": 27
+  },
+  {
+   "id": "3X1B",
+   "year": 3,
+   "branch": "AI & Machine Learning",
+   "lectureGroup": "3X1",
+   "tutorialGroup": "3X12",
+   "classes": 27
+  },
+  {
+   "id": "3X1C",
+   "year": 3,
+   "branch": "AI & Machine Learning",
+   "lectureGroup": "3X1",
+   "tutorialGroup": "3X13",
+   "classes": 27
+  },
+  {
+   "id": "3X1D",
+   "year": 3,
+   "branch": "AI & Machine Learning",
+   "lectureGroup": "3X1",
+   "tutorialGroup": "3X14",
+   "classes": 27
+  },
+  {
+   "id": "3X1E",
+   "year": 3,
+   "branch": "AI & Machine Learning",
+   "lectureGroup": "3X1",
+   "tutorialGroup": "3X15",
+   "classes": 27
+  },
+  {
+   "id": "4C1A",
+   "year": 4,
+   "branch": "",
+   "lectureGroup": "4C1",
+   "tutorialGroup": "4C11",
+   "classes": 12
+  },
+  {
+   "id": "4C1B",
+   "year": 4,
+   "branch": "",
+   "lectureGroup": "4C1",
+   "tutorialGroup": "4C12",
+   "classes": 12
+  },
+  {
+   "id": "4C1C",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C1",
+   "tutorialGroup": "4C13",
+   "classes": 12
+  },
+  {
+   "id": "4C1D",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C1",
+   "tutorialGroup": "4C14",
+   "classes": 12
+  },
+  {
+   "id": "4C1E",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C1",
+   "tutorialGroup": "4C15",
+   "classes": 12
+  },
+  {
+   "id": "4C1F",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C1",
+   "tutorialGroup": "4C16",
+   "classes": 12
+  },
+  {
+   "id": "4C1G",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C1",
+   "tutorialGroup": "4C17",
+   "classes": 12
+  },
+  {
+   "id": "4C1H",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C1",
+   "tutorialGroup": "4C18",
+   "classes": 12
+  },
+  {
+   "id": "4C1I",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C1",
+   "tutorialGroup": "4C19",
+   "classes": 12
+  },
+  {
+   "id": "4C1J",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C1",
+   "tutorialGroup": "4C20",
+   "classes": 12
+  },
+  {
+   "id": "4C2A",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C2",
+   "tutorialGroup": "4C21",
+   "classes": 13
+  },
+  {
+   "id": "4C2B",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C2",
+   "tutorialGroup": "4C22",
+   "classes": 13
+  },
+  {
+   "id": "4C2C",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C2",
+   "tutorialGroup": "4C23",
+   "classes": 13
+  },
+  {
+   "id": "4C2D",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C2",
+   "tutorialGroup": "4C24",
+   "classes": 13
+  },
+  {
+   "id": "4C2E",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C2",
+   "tutorialGroup": "4C25",
+   "classes": 13
+  },
+  {
+   "id": "4C2F",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C2",
+   "tutorialGroup": "4C26",
+   "classes": 13
+  },
+  {
+   "id": "4C2G",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C2",
+   "tutorialGroup": "4C27",
+   "classes": 13
+  },
+  {
+   "id": "4C2H",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C2",
+   "tutorialGroup": "4C28",
+   "classes": 13
+  },
+  {
+   "id": "4C2I",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C2",
+   "tutorialGroup": "4C29",
+   "classes": 13
+  },
+  {
+   "id": "4C2J",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C2",
+   "tutorialGroup": "4C30",
+   "classes": 13
+  },
+  {
+   "id": "4C3A",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C3",
+   "tutorialGroup": "4C31",
+   "classes": 13
+  },
+  {
+   "id": "4C3B",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C3",
+   "tutorialGroup": "4C32",
+   "classes": 13
+  },
+  {
+   "id": "4C3C",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C3",
+   "tutorialGroup": "4C33",
+   "classes": 13
+  },
+  {
+   "id": "4C3D",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C3",
+   "tutorialGroup": "4C34",
+   "classes": 13
+  },
+  {
+   "id": "4C3E",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C3",
+   "tutorialGroup": "4C35",
+   "classes": 13
+  },
+  {
+   "id": "4C3F",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C3",
+   "tutorialGroup": "4C36",
+   "classes": 13
+  },
+  {
+   "id": "4C3G",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C3",
+   "tutorialGroup": "4C37",
+   "classes": 13
+  },
+  {
+   "id": "4C3H",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C3",
+   "tutorialGroup": "4C38",
+   "classes": 13
+  },
+  {
+   "id": "4C3I",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C3",
+   "tutorialGroup": "4C39",
+   "classes": 13
+  },
+  {
+   "id": "4C3J",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C3",
+   "tutorialGroup": "4C40",
+   "classes": 13
+  },
+  {
+   "id": "4C4A",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C4",
+   "tutorialGroup": "4C41",
+   "classes": 13
+  },
+  {
+   "id": "4C4B",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C4",
+   "tutorialGroup": "4C42",
+   "classes": 13
+  },
+  {
+   "id": "4C4C",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C4",
+   "tutorialGroup": "4C43",
+   "classes": 13
+  },
+  {
+   "id": "4C4D",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C4",
+   "tutorialGroup": "4C44",
+   "classes": 13
+  },
+  {
+   "id": "4C4E",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C4",
+   "tutorialGroup": "4C45",
+   "classes": 13
+  },
+  {
+   "id": "4C4F",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C4",
+   "tutorialGroup": "4C46",
+   "classes": 13
+  },
+  {
+   "id": "4C4G",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C4",
+   "tutorialGroup": "4C47",
+   "classes": 13
+  },
+  {
+   "id": "4C4H",
+   "year": 4,
+   "branch": "Computer Engineering",
+   "lectureGroup": "4C4",
+   "tutorialGroup": "4C48",
+   "classes": 13
+  },
+  {
+   "id": "4D1A",
+   "year": 4,
+   "branch": "Electrical Engineering",
+   "lectureGroup": "4D1",
+   "tutorialGroup": "4D11",
+   "classes": 14
+  },
+  {
+   "id": "4D1B",
+   "year": 4,
+   "branch": "Electrical Engineering",
+   "lectureGroup": "4D1",
+   "tutorialGroup": "4D12",
+   "classes": 15
+  },
+  {
+   "id": "4D1C",
+   "year": 4,
+   "branch": "Electrical Engineering",
+   "lectureGroup": "4D1",
+   "tutorialGroup": "4D13",
+   "classes": 15
+  },
+  {
+   "id": "4D1D",
+   "year": 4,
+   "branch": "Electrical Engineering",
+   "lectureGroup": "4D1",
+   "tutorialGroup": "4D14",
+   "classes": 15
+  },
+  {
+   "id": "4E1A",
+   "year": 4,
+   "branch": "Electronics Instrumentation Engineering",
+   "lectureGroup": "4E1",
+   "tutorialGroup": "4E11",
+   "classes": 16
+  },
+  {
+   "id": "4E1B",
+   "year": 4,
+   "branch": "Electronics Instrumentation Engineering",
+   "lectureGroup": "4E1",
+   "tutorialGroup": "4E12",
+   "classes": 18
+  },
+  {
+   "id": "4F1A",
+   "year": 4,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "4F1",
+   "tutorialGroup": "4F11",
+   "classes": 16
+  },
+  {
+   "id": "4F1B",
+   "year": 4,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "4F1",
+   "tutorialGroup": "4F12",
+   "classes": 16
+  },
+  {
+   "id": "4F1C",
+   "year": 4,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "4F1",
+   "tutorialGroup": "4F13",
+   "classes": 16
+  },
+  {
+   "id": "4F1D",
+   "year": 4,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "4F1",
+   "tutorialGroup": "4F14",
+   "classes": 16
+  },
+  {
+   "id": "4F2A",
+   "year": 4,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "4F2",
+   "tutorialGroup": "4F21",
+   "classes": 17
+  },
+  {
+   "id": "4F2B",
+   "year": 4,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "4F2",
+   "tutorialGroup": "4F22",
+   "classes": 17
+  },
+  {
+   "id": "4F2C",
+   "year": 4,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "4F2",
+   "tutorialGroup": "4F23",
+   "classes": 16
+  },
+  {
+   "id": "4F2D",
+   "year": 4,
+   "branch": "Electronics & Communication Engineering",
+   "lectureGroup": "4F2",
+   "tutorialGroup": "4F24",
+   "classes": 16
+  },
+  {
+   "id": "4G1A",
+   "year": 4,
+   "branch": "Biotechnology Engineering",
+   "lectureGroup": "4G1",
+   "tutorialGroup": "4G11",
+   "classes": 17
+  },
+  {
+   "id": "4G1B",
+   "year": 4,
+   "branch": "Biotechnology Engineering",
+   "lectureGroup": "4G1",
+   "tutorialGroup": "4G12",
+   "classes": 17
+  },
+  {
+   "id": "4H1A",
+   "year": 4,
+   "branch": "Electrical Engineering",
+   "lectureGroup": "4H1",
+   "tutorialGroup": "4H11",
+   "classes": 24
+  },
+  {
+   "id": "4H1B",
+   "year": 4,
+   "branch": "Electrical Engineering",
+   "lectureGroup": "4H1",
+   "tutorialGroup": "4H12",
+   "classes": 24
+  },
+  {
+   "id": "4H1C",
+   "year": 4,
+   "branch": "Electrical Engineering",
+   "lectureGroup": "4H1",
+   "tutorialGroup": "4H13",
+   "classes": 24
+  },
+  {
+   "id": "4H2A",
+   "year": 4,
+   "branch": "Electrical Engineering",
+   "lectureGroup": "4H2",
+   "tutorialGroup": "4H21",
+   "classes": 24
+  },
+  {
+   "id": "4H2B",
+   "year": 4,
+   "branch": "Electrical Engineering",
+   "lectureGroup": "4H2",
+   "tutorialGroup": "4H22",
+   "classes": 24
+  },
+  {
+   "id": "4H2C",
+   "year": 4,
+   "branch": "Electrical Engineering",
+   "lectureGroup": "4H2",
+   "tutorialGroup": "4H23",
+   "classes": 24
+  },
+  {
+   "id": "4I1A",
+   "year": 4,
+   "branch": "Mechatronics Engineering",
+   "lectureGroup": "4I1",
+   "tutorialGroup": "4I11",
+   "classes": 29
+  },
+  {
+   "id": "4I1B",
+   "year": 4,
+   "branch": "Mechatronics Engineering",
+   "lectureGroup": "4I1",
+   "tutorialGroup": "4I12",
+   "classes": 29
+  },
+  {
+   "id": "4I1C",
+   "year": 4,
+   "branch": "Mechatronics Engineering",
+   "lectureGroup": "4I1",
+   "tutorialGroup": "4I13",
+   "classes": 29
+  },
+  {
+   "id": "4J1A",
+   "year": 4,
+   "branch": "Biomedical Engineering",
+   "lectureGroup": "4J1",
+   "tutorialGroup": "4J11",
+   "classes": 12
+  },
+  {
+   "id": "4O1A",
+   "year": 4,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "4O1",
+   "tutorialGroup": "4O11",
+   "classes": 18
+  },
+  {
+   "id": "4O1B",
+   "year": 4,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "4O1",
+   "tutorialGroup": "4O12",
+   "classes": 18
+  },
+  {
+   "id": "4O1C",
+   "year": 4,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "4O1",
+   "tutorialGroup": "4O13",
+   "classes": 17
+  },
+  {
+   "id": "4O1D",
+   "year": 4,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "4O1",
+   "tutorialGroup": "4O14",
+   "classes": 17
+  },
+  {
+   "id": "4O1E",
+   "year": 4,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "4O1",
+   "tutorialGroup": "4O15",
+   "classes": 17
+  },
+  {
+   "id": "4O1F",
+   "year": 4,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "4O1",
+   "tutorialGroup": "4O16",
+   "classes": 18
+  },
+  {
+   "id": "4O2A",
+   "year": 4,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "4O2",
+   "tutorialGroup": "4O21",
+   "classes": 18
+  },
+  {
+   "id": "4O2B",
+   "year": 4,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "4O2",
+   "tutorialGroup": "4O22",
+   "classes": 18
+  },
+  {
+   "id": "4O2C",
+   "year": 4,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "4O2",
+   "tutorialGroup": "4O23",
+   "classes": 17
+  },
+  {
+   "id": "4O2D",
+   "year": 4,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "4O2",
+   "tutorialGroup": "4O24",
+   "classes": 17
+  },
+  {
+   "id": "4O2E",
+   "year": 4,
+   "branch": "Electronics & Computer Engineering",
+   "lectureGroup": "4O2",
+   "tutorialGroup": "4O25",
+   "classes": 17
+  },
+  {
+   "id": "4Q1A",
+   "year": 4,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "4Q1",
+   "tutorialGroup": "4Q11",
+   "classes": 11
+  },
+  {
+   "id": "4Q1B",
+   "year": 4,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "4Q1",
+   "tutorialGroup": "4Q12",
+   "classes": 11
+  },
+  {
+   "id": "4Q1C",
+   "year": 4,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "4Q1",
+   "tutorialGroup": "4Q13",
+   "classes": 11
+  },
+  {
+   "id": "4Q1D",
+   "year": 4,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "4Q1",
+   "tutorialGroup": "4Q14",
+   "classes": 11
+  },
+  {
+   "id": "4Q1E",
+   "year": 4,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "4Q1",
+   "tutorialGroup": "4Q15",
+   "classes": 11
+  },
+  {
+   "id": "4Q1F",
+   "year": 4,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "4Q1",
+   "tutorialGroup": "4Q16",
+   "classes": 11
+  },
+  {
+   "id": "4Q1G",
+   "year": 4,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "4Q1",
+   "tutorialGroup": "4Q17",
+   "classes": 11
+  },
+  {
+   "id": "4Q1H",
+   "year": 4,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "4Q1",
+   "tutorialGroup": "4Q18",
+   "classes": 11
+  },
+  {
+   "id": "4Q2A",
+   "year": 4,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "4Q2",
+   "tutorialGroup": "4Q21",
+   "classes": 12
+  },
+  {
+   "id": "4Q2B",
+   "year": 4,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "4Q2",
+   "tutorialGroup": "4Q22",
+   "classes": 12
+  },
+  {
+   "id": "4Q2C",
+   "year": 4,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "4Q2",
+   "tutorialGroup": "4Q23",
+   "classes": 12
+  },
+  {
+   "id": "4Q2D",
+   "year": 4,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "4Q2",
+   "tutorialGroup": "4Q24",
+   "classes": 12
+  },
+  {
+   "id": "4Q2E",
+   "year": 4,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "4Q2",
+   "tutorialGroup": "4Q25",
+   "classes": 12
+  },
+  {
+   "id": "4Q2F",
+   "year": 4,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "4Q2",
+   "tutorialGroup": "4Q26",
+   "classes": 12
+  },
+  {
+   "id": "4Q2G",
+   "year": 4,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "4Q2",
+   "tutorialGroup": "4Q27",
+   "classes": 12
+  },
+  {
+   "id": "4Q2H",
+   "year": 4,
+   "branch": "Computer Science & Engineering",
+   "lectureGroup": "4Q2",
+   "tutorialGroup": "4Q28",
+   "classes": 12
+  },
+  {
+   "id": "4R1A",
+   "year": 4,
+   "branch": "Computer Science & Business System",
+   "lectureGroup": "4R1",
+   "tutorialGroup": "4R11",
+   "classes": 25
+  },
+  {
+   "id": "4R1B",
+   "year": 4,
+   "branch": "Computer Science & Business System",
+   "lectureGroup": "4R1",
+   "tutorialGroup": "4R12",
+   "classes": 25
+  },
+  {
+   "id": "4R1C",
+   "year": 4,
+   "branch": "Computer Science & Business System",
+   "lectureGroup": "4R1",
+   "tutorialGroup": "4R13",
+   "classes": 27
+  },
+  {
+   "id": "4S1A",
+   "year": 4,
+   "branch": "Electrical & Computer Engineering",
+   "lectureGroup": "4S1",
+   "tutorialGroup": "4S11",
+   "classes": 19
+  },
+  {
+   "id": "4S1B",
+   "year": 4,
+   "branch": "Electrical & Computer Engineering",
+   "lectureGroup": "4S1",
+   "tutorialGroup": "4S12",
+   "classes": 19
+  },
+  {
+   "id": "4S1C",
+   "year": 4,
+   "branch": "Electrical & Computer Engineering",
+   "lectureGroup": "4S1",
+   "tutorialGroup": "4S13",
+   "classes": 19
+  },
+  {
+   "id": "4S1D",
+   "year": 4,
+   "branch": "Electrical & Computer Engineering",
+   "lectureGroup": "4S1",
+   "tutorialGroup": "4S14",
+   "classes": 19
+  },
+  {
+   "id": "4S1E",
+   "year": 4,
+   "branch": "Electrical & Computer Engineering",
+   "lectureGroup": "4S1",
+   "tutorialGroup": "4S15",
+   "classes": 19
+  },
+  {
+   "id": "4U1A",
+   "year": 4,
+   "branch": "Civil & Computer",
+   "lectureGroup": "4U1",
+   "tutorialGroup": "4U11",
+   "classes": 0
+  },
+  {
+   "id": "4V1A",
+   "year": 4,
+   "branch": "VLSI",
+   "lectureGroup": "4V1",
+   "tutorialGroup": "4V11",
+   "classes": 16
+  },
+  {
+   "id": "4V1B",
+   "year": 4,
+   "branch": "VLSI",
+   "lectureGroup": "4V1",
+   "tutorialGroup": "4V12",
+   "classes": 16
+  },
+  {
+   "id": "4V1C",
+   "year": 4,
+   "branch": "VLSI",
+   "lectureGroup": "4V1",
+   "tutorialGroup": "4V13",
+   "classes": 16
+  },
+  {
+   "id": "4W1A",
+   "year": 4,
+   "branch": "Robotics & Artificial Intelligence",
+   "lectureGroup": "4W1",
+   "tutorialGroup": "4W11",
+   "classes": 27
+  },
+  {
+   "id": "4W1B",
+   "year": 4,
+   "branch": "Robotics & Artificial Intelligence",
+   "lectureGroup": "4W1",
+   "tutorialGroup": "4W12",
+   "classes": 27
+  },
+  {
+   "id": "4W1C",
+   "year": 4,
+   "branch": "Robotics & Artificial Intelligence",
+   "lectureGroup": "4W1",
+   "tutorialGroup": "4W13",
+   "classes": 27
+  },
+  {
+   "id": "1MCA 1",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "MCA 1st Year",
+   "tutorialGroup": "",
+   "classes": 27
+  },
+  {
+   "id": "1MCA 2",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "MCA 1st Year",
+   "tutorialGroup": "",
+   "classes": 26
+  },
+  {
+   "id": "1MCA 3",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "MCA 1st Year",
+   "tutorialGroup": "",
+   "classes": 28
+  },
+  {
+   "id": "1MCA 4",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "MCA 1st Year",
+   "tutorialGroup": "",
+   "classes": 27
+  },
+  {
+   "id": "1ME(CS)1",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "ME CSE 1st Year",
+   "tutorialGroup": "",
+   "classes": 22
+  },
+  {
+   "id": "1ME(CS)2",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "ME CSE 1st Year",
+   "tutorialGroup": "",
+   "classes": 22
+  },
+  {
+   "id": "1ME(CS)3",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "ME CSE 1st Year",
+   "tutorialGroup": "",
+   "classes": 22
+  },
+  {
+   "id": "1ME(CS)4",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "ME CSE 1st Year",
+   "tutorialGroup": "",
+   "classes": 24
+  },
+  {
+   "id": "1MEAI 1",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "1ME AI",
+   "tutorialGroup": "",
+   "classes": 21
+  },
+  {
+   "id": "1MEAI 2",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "1ME AI",
+   "tutorialGroup": "",
+   "classes": 21
+  },
+  {
+   "id": "1ST YEAR",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "MSc -Mathematics & Computing",
+   "tutorialGroup": "",
+   "classes": 20
+  },
+  {
+   "id": "1ST YEAR(EIED)",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "ME -EV",
+   "tutorialGroup": "",
+   "classes": 22
+  },
+  {
+   "id": "2MCA 1",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "2MCA1",
+   "tutorialGroup": "",
+   "classes": 16
+  },
+  {
+   "id": "2MCA2",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "2MCA1",
+   "tutorialGroup": "",
+   "classes": 16
+  },
+  {
+   "id": "2MCA3",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "2MCA1",
+   "tutorialGroup": "",
+   "classes": 16
+  },
+  {
+   "id": "2MCA4",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "2MCA1",
+   "tutorialGroup": "",
+   "classes": 16
+  },
+  {
+   "id": "2ND YEAR",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "MSc -Mathematics & Computing",
+   "tutorialGroup": "",
+   "classes": 26
+  },
+  {
+   "id": "G1",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "MSc(PHY) 1",
+   "tutorialGroup": "",
+   "classes": 30
+  },
+  {
+   "id": "M.E. INFRASTRUCTURE IIND SEM",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "",
+   "tutorialGroup": "",
+   "classes": 0
+  },
+  {
+   "id": "M.E. STRUCTURES IIND SEM",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "M.E. CIVIL",
+   "tutorialGroup": "",
+   "classes": 0
+  },
+  {
+   "id": "M.E. STRUCTURES IST SEM",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "M.E. CIVIL",
+   "tutorialGroup": "",
+   "classes": 24
+  },
+  {
+   "id": "M.E. TRANSPORTATION IST SEM",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "M.E. CIVIL",
+   "tutorialGroup": "",
+   "classes": 23
+  },
+  {
+   "id": "M.TECH. 1 (BT)",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "M.Tech. BTD",
+   "tutorialGroup": "",
+   "classes": 26
+  },
+  {
+   "id": "MS 1(BT1)",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "MSC BTD 1st Year",
+   "tutorialGroup": "",
+   "classes": 25
+  },
+  {
+   "id": "MS 1(BT2)",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "MSC BTD 1st Year",
+   "tutorialGroup": "",
+   "classes": 25
+  },
+  {
+   "id": "MS 2(BT1)",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "MSC BTD 2nd Year",
+   "tutorialGroup": "",
+   "classes": 25
+  },
+  {
+   "id": "MS 2(BT2)",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "MSC BTD 2nd Year",
+   "tutorialGroup": "",
+   "classes": 28
+  },
+  {
+   "id": "MSC IIND YR CHEM",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "MSC Ist Yr CHEM",
+   "tutorialGroup": "",
+   "classes": 20
+  },
+  {
+   "id": "MSC IST YR CHEM",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "MSC Ist Yr CHEM",
+   "tutorialGroup": "",
+   "classes": 22
+  },
+  {
+   "id": "MTECH VLSI",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "ME -EV",
+   "tutorialGroup": "",
+   "classes": 21
+  },
+  {
+   "id": "MTECH VLSI FIRST SEM",
+   "year": 5,
+   "branch": "",
+   "lectureGroup": "M.E. CIVIL",
+   "tutorialGroup": "",
+   "classes": 0
+  }
+ ],
+ "subjects": {
+  "DMC007P": "Research Methodology",
+  "MCA102L": "Data Base Management System",
+  "MCA102P": "Data Base Management System",
+  "MCA103L": "Operating Systems",
+  "MCA103P": "Operating Systems",
+  "MCA105L": "Data Structures",
+  "MCA105P": "Data Structures",
+  "MCA107L": "Computer Programming",
+  "MCA107P": "Computer Programming",
+  "MCA109L": "Data Science Foundation",
+  "MCA109P": "Data Science Foundation",
+  "MCA203L": "Big Data Analytics and Business Intelligence",
+  "MCA203P": "Big Data Analytics and Business Intelligence",
+  "MCA207L": "Machine Learning",
+  "MCA207P": "Machine Learning",
+  "MCA302L": "Object Oriented Programming",
+  "MCA302P": "Object Oriented Programming",
+  "PAI101L": "Essentials of Artificial Intelligence",
+  "PAI101P": "Essentials of Artificial Intelligence",
+  "PAI102L": "Data Engineering",
+  "PAI102P": "Data Engineering",
+  "PAI103L": "Mathematics Behind AI",
+  "PAI103P": "Mathematics Behind AI",
+  "PAI104L": "Advanced Deep Learning",
+  "PAI104P": "Advanced Deep Learning",
+  "PBT110L": "Microbiology",
+  "PBT110P": "Microbiology",
+  "PBT113L": "Biochemistry",
+  "PBT113P": "Biochemistry",
+  "PBT114L": "Molecular Biology",
+  "PBT114P": "Molecular Biology",
+  "PBT115L": "Bio-Techniques",
+  "PBT115P": "Bio-Techniques",
+  "PBT301L": "Animal Biotechnology",
+  "PBT301P": "Animal Biotechnology",
+  "PBT303L": "Bioinformatics",
+  "PBT303P": "Bioinformatics",
+  "PBT304L": "Pharmaceutical Technology",
+  "PBT304P": "Pharmaceutical Technology",
+  "PBT305L": "Plant Biotechnology",
+  "PBT305P": "Plant Biotechnology",
+  "PBT314P": "Medical Biotechnology",
+  "PBT315P": "Protein Engineering",
+  "PBY105L": "Recombinant DNA Technology",
+  "PBY105P": "Recombinant DNA Technology",
+  "PBY105T": "Recombinant DNA Technology",
+  "PBY106L": "Computational & Systems Biology",
+  "PBY106P": "Computational & Systems Biology",
+  "PBY106T": "Computational & Systems Biology",
+  "PBY107L": "Trends in Food Technology",
+  "PBY107P": "Trends in Food Technology",
+  "PBY108L": "Fermentation & Bio-separation Technology",
+  "PBY108P": "Fermentation & Bio-separation Technology",
+  "PBY108T": "Fermentation & Bio-separation Technology",
+  "PBY109L": "Structural Biology and Protein Engineering",
+  "PBY109P": "Structural Biology and Protein Engineering",
+  "PBY109T": "Structural Biology and Protein Engineering",
+  "PCE101L": "Advanced Structural Analysis",
+  "PCE101P": "Advanced Structural Analysis",
+  "PCE102L": "Advanced Solid Mechanics",
+  "PCE102T": "Advanced Solid Mechanics",
+  "PCE103L": "Advanced Structural Design",
+  "PCE103T": "Advanced Structural Design",
+  "PCE104L": "Structural Materials",
+  "PCE104P": "Structural Materials",
+  "PCE204L": "Structural Dynamics",
+  "PCE204T": "Structural Dynamics",
+  "PCL105L": "Statistical Methods and Algorithms",
+  "PCL105P": "Statistical Methods and Algorithms",
+  "PCS108L": "Advanced Data Structures",
+  "PCS108P": "Advanced Data Structures",
+  "PCS111L": "Software Project Management",
+  "PCS111P": "Software Project Management",
+  "PCS113L": "Linear Algebra and Applied Statistical Methods",
+  "PCS113P": "Linear Algebra and Applied Statistical Methods",
+  "PCS114L": "Data Science",
+  "PCS114P": "Data Science",
+  "PCS206L": "Machine Learning",
+  "PCS206P": "Machine Learning",
+  "PCY302L": "Symmetry and Group Theory",
+  "PCY307L": "Catalysis and Reagents",
+  "PCY308L": "Interpretative Spectroscopy",
+  "PCY308T": "Interpretative Spectroscopy",
+  "PCY317P": "Physical and Analytical Chemistry Lab",
+  "PCY322L": "Photophysical Chemistry",
+  "PCY326L": "Computational Chemistry",
+  "PCY326P": "Computational Chemistry",
+  "PCY327L": "Organometallic Chemistry",
+  "PES117L": "Wastewater Treatment Technologies",
+  "PES117P": "Wastewater Treatment Technologies",
+  "PEV101L": "Power Converters and Control",
+  "PEV101P": "Power Converters and Control",
+  "PEV102L": "Special Electrical Machines",
+  "PEV103L": "Battery Management Systems",
+  "PEV103P": "Battery Management Systems",
+  "PEV104L": "EV Modeling and Simulation",
+  "PEV104P": "EV Modeling and Simulation",
+  "PEV105L": "Vehicle to X Technology",
+  "PEV106L": "Deep Learning for Electric Vehicles",
+  "PEV106P": "Deep Learning for Electric Vehicles",
+  "PHU002": "Professional Communication",
+  "PHU002T": "Professional Communication",
+  "PHU004L": "Research Methodology, Ethics and IPR",
+  "PHU301L": "Entrepreneurship and IPR",
+  "PHU301T": "Entrepreneurship and IPR",
+  "PIM101L": "Basic Mathematics",
+  "PIM101T": "Basic Mathematics",
+  "PMA102L": "Research Methodology",
+  "PMA102P": "Research Methodology",
+  "PMA206L": "Partial Differential Equations",
+  "PMA301L": "Functional Analysis",
+  "PMA301T": "Functional Analysis",
+  "PMA303L": "Probability and Statistics",
+  "PMA303P": "Probability and Statistics",
+  "PMA304L": "Mathematical Programming",
+  "PMC206L": "Operating Systems",
+  "PMC303L": "Computer Network",
+  "PMC303P": "Computer Network",
+  "PMC331L": "Machine Learning and Applications",
+  "PMC331P": "Machine Learning and Applications",
+  "PPH301L": "Particle Physics",
+  "PPH303T": "Semiconductor Physics",
+  "PPH308L": "Instrumentation and Experiment Design",
+  "PPH312L": "Advanced Quantum Mechanics",
+  "PPH319P": "Physics Lab V",
+  "PPH320P": "Physics Lab VI",
+  "PTE101L": "Pavement Materials and Construction Practices",
+  "PTE101P": "Pavement Materials and Construction Practices",
+  "PTE102L": "Geometric Design of Transportation Facilities",
+  "PTE102T": "Geometric Design of Transportation Facilities",
+  "PTE104L": "Advanced Foundation Engineering",
+  "PTE104T": "Advanced Foundation Engineering",
+  "PTE105L": "Traffic Analysis & Design",
+  "PTE105T": "Traffic Analysis & Design",
+  "PTE110L": "Urban Transportation Infrastructure: Planning and Design",
+  "PVL103L": "Digital VLSI Design",
+  "PVL103P": "Digital VLSI Design",
+  "PVL103T": "Digital VLSI Design",
+  "PVL204L": "FPGA Based System Design",
+  "PVL204P": "FPGA Based System Design",
+  "UAI101L": "Foundation of Machine Intelligence: Concepts, Techniques and Applications",
+  "UAI301L": "Object Oriented Programming",
+  "UAI301P": "Object Oriented Programming",
+  "UAI302P": "Experiential Learning (DLI)",
+  "UBM001L": "Introduction to Bioengineering Applications",
+  "UBM001T": "Introduction to Bioengineering Applications",
+  "UBM003L": "Fundamental of Life Sciences",
+  "UBM003P": "Fundamental of Life Sciences",
+  "UBM008L": "Biomaterials",
+  "UBM009L": "Bioengineering Thermodynamics",
+  "UBM009T": "Bioengineering Thermodynamics",
+  "UBM024L": "Freshman Design Innovation-I",
+  "UBM024P": "Freshman Design Innovation-I",
+  "UBM031L": "Electrical Circuits",
+  "UBM031P": "Electrical Circuits",
+  "UBM031T": "Electrical Circuits",
+  "UBM504L": "Fundamentals of Signals and System",
+  "UBM504T": "Fundamentals of Signals and System",
+  "UBM505L": "Introduction to Analog Circuits and Devices",
+  "UBM505P": "Introduction to Analog Circuits and Devices",
+  "UBM505T": "Introduction to Analog Circuits and Devices",
+  "UBM603L": "Advanced Medical Instruments",
+  "UBM605L": "Data Structure and Algorithms",
+  "UBM605P": "Data Structure and Algorithms",
+  "UBM701L": "Medical Image Processing",
+  "UBM701P": "Medical Image Processing",
+  "UBM702L": "Hospital Engineering and Management",
+  "UBT008L": "Cell Biology and Genetics",
+  "UBT307L": "Molecular Biology",
+  "UBT308L": "Food Science and Nutrition",
+  "UBT309L": "Immunotechnology",
+  "UBT310L": "Biochemistry-II",
+  "UBT311P": "Molecular Biology, Food Science and Immunology Lab",
+  "UBT513L/512L": "Cell and Tissue Engineering",
+  "UBT514L": "Natural Products",
+  "UBT514T": "Natural Products",
+  "UBT515L": "Biostatistics",
+  "UBT516L": "Bioinformatics",
+  "UBT517L": "Bioprocess Engineering",
+  "UBT517T": "Bioprocess Engineering",
+  "UBT518P": "Biostatistics and OMICS Lab",
+  "UBT610L": "Industrial Biotechnology",
+  "UBT802L": "Nanobiotechnology",
+  "UBT802T": "Nanobiotechnology",
+  "UBT832L": "Concepts in Biomedical Instrumentation",
+  "UBT832P": "Concepts in Biomedical Instrumentation",
+  "UBT837L/839L": "Cancer Biology",
+  "UBT844L/846L": "Environmental Biotechnology",
+  "UCB008L": "Applied Chemistry",
+  "UCB009L": "Chemistry",
+  "UCB009P": "Chemistry",
+  "UCB028P": "General Chemistry-I",
+  "UCC302L": "Civil Engineering Materials",
+  "UCC302P": "Civil Engineering Materials",
+  "UCC306L": "Fluid Mechanics",
+  "UCC306P": "Fluid Mechanics",
+  "UCC306T": "Fluid Mechanics",
+  "UCE306L": "Architecture Drawing and Building Construction",
+  "UCE306P": "Architecture Drawing and Building Construction",
+  "UCE308L": "Building Materials",
+  "UCE308P": "Building Materials",
+  "UCE310L": "Fluid Mechanics",
+  "UCE310P": "Fluid Mechanics",
+  "UCE310T": "Fluid Mechanics",
+  "UCE312L": "Solid Mechanics",
+  "UCE312P": "Solid Mechanics",
+  "UCE312T": "Solid Mechanics",
+  "UCE401L": "Hydrology and Ground Water",
+  "UCE401T": "Hydrology and Ground Water",
+  "UCE501L": "Soil Mechanics",
+  "UCE501P": "Soil Mechanics",
+  "UCE501T": "Soil Mechanics",
+  "UCE511L": "Transportation Engineering-I",
+  "UCE511P": "Transportation Engineering-I",
+  "UCE512L": "Design of Steel Structures",
+  "UCE512T": "Design of Steel Structures",
+  "UCE513L": "Construction Management",
+  "UCE513T": "Construction Management",
+  "UCE693P": "Engineering Design Project-II",
+  "UCH301L": "Material and Energy Balances",
+  "UCH301T": "Material and Energy Balances",
+  "UCH302L": "Process Fluid Mechanics",
+  "UCH302P": "Process Fluid Mechanics",
+  "UCH302T": "Process Fluid Mechanics",
+  "UCH401L": "Fluid and Particle Mechanics",
+  "UCH401P": "Fluid and Particle Mechanics",
+  "UCH401T": "Fluid and Particle Mechanics",
+  "UCH405L": "Energy Resources",
+  "UCH405P": "Energy Resources",
+  "UCH405T": "Energy Resources",
+  "UCH409L": "Process Engineering Simulation Softwares",
+  "UCH409P": "Process Engineering Simulation Softwares",
+  "UCH501L": "Chemical Reaction Engineering-I",
+  "UCH501P": "Chemical Reaction Engineering-I",
+  "UCH501T": "Chemical Reaction Engineering-I",
+  "UCH506L": "Process Instrumentation and Control",
+  "UCH506P": "Process Instrumentation and Control",
+  "UCH506T": "Process Instrumentation and Control",
+  "UCS301L": "Data Structures",
+  "UCS301P": "Data Structures",
+  "UCS303L": "Operating Systems",
+  "UCS303P": "Operating Systems",
+  "UCS320L": "Introduction to Sustainable Green Computing",
+  "UCS321L": "AI for Engineers",
+  "UCS321P": "AI for Engineers",
+  "UCS405L": "Discrete Mathematical Structures",
+  "UCS405T": "Discrete Mathematical Structures",
+  "UCS420L": "Cognitive Computing",
+  "UCS420P": "Cognitive Computing",
+  "UCS421L": "Ethics and Risk Mitigation in AI",
+  "UCS503L": "Software Engineering",
+  "UCS503P": "Software Engineering",
+  "UCS510L": "Computer Architecture and Organization",
+  "UCS537P": "Source Code Management",
+  "UCS539L": "Finance, Accounting and Valuation",
+  "UCS539P": "Finance, Accounting and Valuation",
+  "UCS551P": "Conversational AI: Accelerated Data Science",
+  "UCS553L": "Enterprise Web Application",
+  "UCS553P": "Enterprise Web Application",
+  "UCS615L": "Image Processing",
+  "UCS615P": "Image Processing",
+  "UCS668L": "Edge AI and Robotics: Data Centre Vision",
+  "UCS668P": "Edge AI and Robotics: Data Centre Vision",
+  "UCS671P": "Edge AI and Robotics: Embedded Vision",
+  "UCS751P": "Simulation & Modelling",
+  "UCS760P": "Edge AI and Robotics: Reinforcement Learning & Conversational AI",
+  "UCS802L": "Compiler Construction",
+  "UCS802P": "Compiler Construction",
+  "UCT101L": "Discrete Mathematics",
+  "UCT101T": "Discrete Mathematics",
+  "UCT102L": "Probability & Statistics",
+  "UCT104": "Fundamentals of Computer Science",
+  "UCT104L": "Fundamentals of Computer Science",
+  "UCT104P": "Fundamentals of Computer Science",
+  "UCT203L": "Data Structures and Algorithms",
+  "UCT203P": "Data Structures and Algorithms",
+  "UCT301L": "Formal Language and Automata Theory",
+  "UCT301T": "Formal Language and Automata Theory",
+  "UCT501L": "Design and Analysis of Algorithms",
+  "UCT501P": "Design and Analysis of Algorithms",
+  "UEC301L": "Analog Electronic Circuits",
+  "UEC301P": "Analog Electronic Circuits",
+  "UEC307T": "Electromagnetic Field Theory and Transmission Lines",
+  "UEC310L": "Information and Communication Theory",
+  "UEC310T": "Information and Communication Theory",
+  "UEC311L": "Circuit Analysis and Synthesis",
+  "UEC311T": "Circuit Analysis and Synthesis",
+  "UEC502L": "Digital Signal Processing",
+  "UEC502P": "Digital Signal Processing",
+  "UEC502T": "Digital Signal Processing",
+  "UEC512L": "Linear Integrated Circuits and Applications",
+  "UEC512P": "Linear Integrated Circuits and Applications",
+  "UEC513L": "Embedded Systems",
+  "UEC513P": "Embedded Systems",
+  "UEC519L": "Analog and Digital Communication",
+  "UEC519P": "Analog and Digital Communication",
+  "UEC519T": "Analog and Digital Communication",
+  "UEC610L": "Computer Architecture",
+  "UEC612L": "Digital System Design",
+  "UEC612P": "Digital System Design",
+  "UEC612T": "Digital System Design",
+  "UEC630L": "Deep Learning and Applications",
+  "UEC640L": "IoT Based Systems",
+  "UEC640P": "IoT Based Systems",
+  "UEC716L": "Database Management Systems",
+  "UEC716P": "Database Management Systems",
+  "UEC750L": "MOS Circuit Design",
+  "UEC750P": "MOS Circuit Design",
+  "UEC750T": "MOS Circuit Design",
+  "UEC823L": "Soft Computing",
+  "UEC823P": "Soft Computing",
+  "UEC867L": "Modern Control Theory",
+  "UEC867T": "Modern Control Theory",
+  "UEE002L": "Principles of Electrical Engineering",
+  "UEE002P": "Principles of Electrical Engineering",
+  "UEE301L": "Direct Current Machines and Transformers",
+  "UEE301P": "Direct Current Machines and Transformers",
+  "UEE301T": "Direct Current Machines and Transformers",
+  "UEE410L": "Data Structures and Algorithms",
+  "UEE410P": "Data Structures and Algorithms",
+  "UEE504L": "Power Electronics",
+  "UEE504P": "Power Electronics",
+  "UEE508L": "Linear Control Systems",
+  "UEE508P": "Linear Control Systems",
+  "UEE508T": "Linear Control Systems",
+  "UEE510L": "High Voltage Engineering",
+  "UEE510P": "High Voltage Engineering",
+  "UEI301L": "Digital Electronics",
+  "UEI301P": "Digital Electronics",
+  "UEI301T": "Digital Electronics",
+  "UEI306L": "Network Analysis",
+  "UEI306T": "Network Analysis",
+  "UEI408L": "Analog Devices and Circuits",
+  "UEI408P": "Analog Devices and Circuits",
+  "UEI408T": "Analog Devices and Circuits",
+  "UEI501L": "Control Systems",
+  "UEI501P": "Control Systems",
+  "UEI501T": "Control Systems",
+  "UEI510P": "Bio-Medical Instrumentation",
+  "UEI601L": "Industrial Instrumentation",
+  "UEI601P": "Industrial Instrumentation",
+  "UEI601T": "Industrial Instrumentation",
+  "UEI604L": "Process Dynamics and Control",
+  "UEI604P": "Process Dynamics and Control",
+  "UEI604T": "Process Dynamics and Control",
+  "UEI608L": "Bio-Medical Instrumentation",
+  "UEI608P": "Bio-Medical Instrumentation",
+  "UEI614L": "Biomedical Sensors and Measurement",
+  "UEI614P": "Biomedical Sensors and Measurement",
+  "UEI614T": "Biomedical Sensors and Measurement",
+  "UEI735P": "Power Electronics for Automation",
+  "UEI801L": "Advanced Process Control",
+  "UEI801P": "Advanced Process Control",
+  "UEI801T": "Advanced Process Control",
+  "UEI831L": "Biosensors and MEMS",
+  "UEI831T": "Biosensors and MEMS",
+  "UEN008L": "Energy and Environment",
+  "UES009L": "Mechanics",
+  "UES009T": "Mechanics",
+  "UES012L": "Engineering Materials",
+  "UES012P": "Engineering Materials",
+  "UES012T": "Engineering Materials",
+  "UES013L": "Electrical & Electronics Engineering",
+  "UES013P": "Electrical & Electronics Engineering",
+  "UES013T": "Electrical & Electronics Engineering",
+  "UES017L": "Solids and Structures",
+  "UES017P": "Solids and Structures",
+  "UES017T": "Solids and Structures",
+  "UES034L": "Measurement Science and Techniques",
+  "UES034P": "Measurement Science and Techniques",
+  "UES034T": "Measurement Science and Techniques",
+  "UES101": "Engineering Drawing",
+  "UES101L": "Engineering Drawing",
+  "UES101P": "Engineering Drawing",
+  "UES101T": "Engineering Drawing",
+  "UES102L": "Manufacturing Processes",
+  "UES102P": "Manufacturing Processes",
+  "UES103L": "Programming for Problem Solving",
+  "UES103P": "Programming for Problem Solving",
+  "UES301L": "Analog Circuits",
+  "UES301P": "Analog Circuits",
+  "UES302L": "Introduction to Measurement Systems",
+  "UES302P": "Introduction to Measurement Systems",
+  "UHU003L": "Professional Communication",
+  "UHU003P": "Professional Communication",
+  "UHU005L": "Humanities for Engineers",
+  "UHU005P": "Humanities for Engineers",
+  "UHU018L": "Introduction to Corporate Finance",
+  "UHU047L": "Financial Management",
+  "UHU047T": "Financial Management",
+  "UHU050L": "Evolutionary Psychology",
+  "ULC301L": "Data Structures",
+  "ULC301P": "Data Structures",
+  "ULC302L": "Introduction to Network Theory",
+  "ULC302T": "Introduction to Network Theory",
+  "ULC303L": "Computer Architecture and Organization",
+  "ULC501L": "Database Management Systems",
+  "ULC501P": "Database Management Systems",
+  "ULC502L": "Computer Networks",
+  "ULC502P": "Computer Networks",
+  "ULC601L": "Machine Learning Techniques",
+  "ULC601P": "Machine Learning Techniques",
+  "ULC603L": "Electric Vehicle and Real Time Systems",
+  "ULC603P": "Electric Vehicle and Real Time Systems",
+  "ULC701L": "Electric Vehicle and Real Time Systems",
+  "ULC703L": "Theory of Computation",
+  "ULC703T": "Theory of Computation",
+  "UMA005T": "Introductory Mathematics-I",
+  "UMA015L": "Calculus-I",
+  "UMA015T": "Calculus-I",
+  "UMA017L": "Differential Equations",
+  "UMA021L": "Numerical Linear Algebra",
+  "UMA021P": "Numerical Linear Algebra",
+  "UMA022L": "Calculus for Engineers",
+  "UMA022T": "Calculus for Engineers",
+  "UMA023L": "Differential Equations and Linear Algebra",
+  "UMA023T": "Differential Equations and Linear Algebra",
+  "UMA028L": "Mathematics for Data Science",
+  "UMA028P": "Mathematics for Data Science",
+  "UMA034L": "Optimization Methods",
+  "UMA034P": "Optimization Methods",
+  "UMA034T": "Optimization Methods",
+  "UMA035L": "Optimization Techniques",
+  "UMA035P": "Optimization Techniques",
+  "UMA301L": "Discrete Mathematical Structures",
+  "UMA301T": "Discrete Mathematical Structures",
+  "UMA302L": "Mathematics for Signals",
+  "UMA302T": "Mathematics for Signals",
+  "UMA401L": "Probability and Statistics",
+  "UMA401P": "Probability and Statistics",
+  "UMA601L": "Mathematics of Signal Processing",
+  "UMA601P": "Mathematics of Signal Processing",
+  "UMA601T": "Mathematics of Signal Processing",
+  "UMC513P": "Linear Algebra for Artificial Intelligence and Machine Learning",
+  "UMC743P": "Quantitative and Statistical Methods for Finance",
+  "UME309L": "Engineering Fluid Mechanics",
+  "UME309P": "Engineering Fluid Mechanics",
+  "UME309T": "Engineering Fluid Mechanics",
+  "UME404L": "Mechanics of Deformable Bodies",
+  "UME404T": "Mechanics of Deformable Bodies",
+  "UME408L": "Machine Design-I",
+  "UME408T": "Machine Design-I",
+  "UME501L": "Applied Thermodynamics",
+  "UME511L": "Automobile Engineering",
+  "UME511P": "Automobile Engineering",
+  "UME517L": "Materials Engineering and Metallurgy",
+  "UME517T": "Materials Engineering and Metallurgy",
+  "UME718L": "Applied Thermodynamics",
+  "UME718P": "Applied Thermodynamics",
+  "UME718T": "Applied Thermodynamics",
+  "UME720L": "Heat Transfer",
+  "UME720T": "Heat Transfer",
+  "UME722L": "System Modelling and Simulation",
+  "UME722P": "System Modelling and Simulation",
+  "UME722T": "System Modelling and Simulation",
+  "UME725L": "Robot Dynamics and Control",
+  "UME725T": "Robot Dynamics and Control",
+  "UML501L": "Machine Learning",
+  "UML501P": "Machine Learning",
+  "UMT306L": "Signal Conditioning and Data Acquisition",
+  "UMT306P": "Signal Conditioning and Data Acquisition",
+  "UMT403L": "Stress Analysis and Mechanical Design",
+  "UMT403P": "Stress Analysis and Mechanical Design",
+  "UMT403T": "Stress Analysis and Mechanical Design",
+  "UMT404L": "Data Structure",
+  "UMT404P": "Data Structure",
+  "UMT503L": "Automatic Control Systems",
+  "UMT503P": "Automatic Control Systems",
+  "UMT504L": "Robotics Engineering",
+  "UMT504P": "Robotics Engineering",
+  "UMT504T": "Robotics Engineering",
+  "UNC302L": "Object Oriented Programming Practices",
+  "UNC302P": "Object Oriented Programming Practices",
+  "UNC401L": "Data Structures and Algorithms",
+  "UNC401P": "Data Structures and Algorithms",
+  "UNC503L": "Artificial Intelligence & Machine Learning",
+  "UNC503P": "Artificial Intelligence & Machine Learning",
+  "UNC514P": "Data Science Fundamentals",
+  "UPH010L": "Physics with Calculus-I",
+  "UPH010P": "Physics with Calculus-I",
+  "UPH010T": "Physics with Calculus-I",
+  "UPH013L": "Physics",
+  "UPH013P": "Physics",
+  "UPH013T": "Physics",
+  "URA302L": "Python Programming",
+  "URA302P": "Python Programming",
+  "UTA016L": "Engineering Design Project I",
+  "UTA016P": "Engineering Design Project I",
+  "UTA018L": "Object Oriented Programming",
+  "UTA018P": "Object Oriented Programming",
+  "UTA024L": "Engineering Design Project II",
+  "UTA024P": "Engineering Design Project II",
+  "UTA025L": "Innovation and Entrepreneurship",
+  "UTA025P": "Innovation and Entrepreneurship",
+  "UTA025T": "Innovation and Entrepreneurship",
+  "UTA030L": "Engineering Design Project (Buggy)",
+  "UTA030P": "Engineering Design Project (Buggy)",
+  "UTD003L": "Aptitude Skills Building",
+  "UTD003P": "Aptitude Skills Building",
+  "UTD004L": "Campus 2 Corporate",
+  "UVD301L": "Electronic Devices for Integrated Circuits",
+  "UVD301P": "Electronic Devices for Integrated Circuits",
+  "UVD301T": "Electronic Devices for Integrated Circuits",
+  "UVD515L": "Hardware Modeling using Verilog",
+  "UVD515P": "Hardware Modeling using Verilog"
+ },
+ "faculty": {},
+ "descriptions": {},
+ "coverage": {
+  "subjectsNamed": 505,
+  "subjectsTotal": 689
+ }
+}
