@@ -12,3 +12,4 @@ entry-ssr.tsx
 render-samples.mjs
 source/*.xlsx
 public/data/
+push.sh
