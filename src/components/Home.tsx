@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useState } from "react";
-import Badge from "./Badge";
+import { useEffect, useMemo, useRef, useState } from "react";
+import GdgMark from "./GdgMark";
 import { CONTRIBUTORS } from "../lib/contributors";
 import {
   branchesForYear,
@@ -14,9 +14,12 @@ interface Props {
   onPick: (id: string) => void;
   theme: string;
   onToggleTheme: () => void;
+  /** Seeds the palette — used by shareable ?q= links and the design preview. */
+  initialQuery?: string;
 }
 
-const REPO = "https://github.com/abhinavtop1G/gdg-tiet-timetable";
+const REPO = "https://github.com/abhinavtop1G/GDG_TIMETABLE";
+const AVATAR_COLORS = ["#4285F4", "#EA4335", "#FBBC04", "#34A853"];
 
 function initials(name: string): string {
   return name
@@ -26,25 +29,60 @@ function initials(name: string): string {
     .join("");
 }
 
-const AVATAR_COLORS = ["#4285F4", "#EA4335", "#FBBC04", "#34A853"];
+/** Rank matches so an exact code outranks a prefix, which outranks a branch hit. */
+function rank(b: BatchSummary, q: string): number {
+  const label = displayId(b.id, b.tutorialGroup).toUpperCase();
+  const id = b.id.toUpperCase();
+  if (label === q || id === q) return 0;
+  if (label.startsWith(q) || id.startsWith(q)) return 1;
+  if (b.lectureGroup.toUpperCase().startsWith(q)) return 2;
+  if (label.includes(q) || id.includes(q)) return 3;
+  if (b.branch.toUpperCase().includes(q)) return 4;
+  return 99;
+}
 
-export default function Home({ batches, term, onPick, theme, onToggleTheme }: Props) {
-  const [year, setYear] = useState<number | "">("");
-  const [branch, setBranch] = useState<string>("");
-  const [batchId, setBatchId] = useState<string>("");
+export default function Home({
+  batches,
+  term,
+  onPick,
+  theme,
+  onToggleTheme,
+  initialQuery = "",
+}: Props) {
+  const [query, setQuery] = useState(initialQuery);
+  const [cursor, setCursor] = useState(0);
+  const [browsing, setBrowsing] = useState(false);
+  const [year, setYear] = useState<number | null>(null);
+  const [branch, setBranch] = useState<string | null>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
 
-  const years = useMemo(() => {
-    const set = new Set(batches.map((b) => b.year));
-    return [...set].sort();
-  }, [batches]);
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, []);
 
+  const matches = useMemo(() => {
+    const q = query.trim().toUpperCase();
+    if (!q) return [];
+    return batches
+      .map((b) => ({ b, r: rank(b, q) }))
+      .filter((x) => x.r < 99)
+      .sort((x, y) => x.r - y.r || x.b.id.localeCompare(y.b.id))
+      .slice(0, 7)
+      .map((x) => x.b);
+  }, [batches, query]);
+
+  useEffect(() => setCursor(0), [query]);
+
+  const years = useMemo(
+    () => [...new Set(batches.map((b) => b.year))].sort(),
+    [batches],
+  );
   const branches = useMemo(
-    () => (year === "" ? [] : branchesForYear(batches, year)),
+    () => (year === null ? [] : branchesForYear(batches, year)),
     [batches, year],
   );
-
-  const options = useMemo(() => {
-    if (year === "") return [];
+  const browseList = useMemo(() => {
+    if (year === null) return [];
     return batches
       .filter((b) => b.year === year && (!branch || b.branch === branch))
       .sort((a, b) =>
@@ -56,113 +94,155 @@ export default function Home({ batches, term, onPick, theme, onToggleTheme }: Pr
       );
   }, [batches, year, branch]);
 
-  useEffect(() => setBranch(""), [year]);
-  useEffect(() => setBatchId(""), [year, branch]);
+  function onKey(e: React.KeyboardEvent<HTMLInputElement>) {
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setCursor((c) => Math.min(c + 1, matches.length - 1));
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setCursor((c) => Math.max(c - 1, 0));
+    } else if (e.key === "Enter" && matches[cursor]) {
+      e.preventDefault();
+      onPick(matches[cursor].id);
+    }
+  }
 
   return (
     <div className="home">
-      <div className="glow" aria-hidden="true" />
+      <div className="mesh" aria-hidden="true">
+        <span className="mesh__blob mesh__blob--a" />
+        <span className="mesh__blob mesh__blob--b" />
+        <span className="mesh__blob mesh__blob--c" />
+        <span className="mesh__blob mesh__blob--d" />
+      </div>
 
-      <header className="home__top">
-        <span className="home__wordmark">GDG TIMETABLE</span>
+      <header className="home__bar">
+        <span className="home__brand">
+          <GdgMark size={22} />
+          GDG on Campus · TIET
+        </span>
+        <button className="ghost-btn" onClick={onToggleTheme} aria-label="Switch theme">
+          {theme === "dark" ? "☀" : "☾"}
+        </button>
       </header>
 
-      <section className="hero">
-        <div className="hero__art">
-          <Badge size={310} />
+      <main className="stage">
+        <p className="stage__term">{term}</p>
+        <h1 className="stage__title">
+          Your timetable,
+          <span className="stage__grad"> beautifully.</span>
+        </h1>
+
+        <div className={`palette ${matches.length ? "palette--open" : ""}`}>
+          <div className="palette__field">
+            <svg className="palette__icon" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" strokeWidth="2" />
+              <path d="M20 20l-4-4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+            </svg>
+            <input
+              ref={inputRef}
+              className="palette__input"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              onKeyDown={onKey}
+              placeholder="Type your batch (e.g. 2Q31) and press Enter…"
+              spellCheck={false}
+              autoComplete="off"
+              aria-label="Search for your batch"
+            />
+            {query && (
+              <kbd className="palette__kbd">↵</kbd>
+            )}
+          </div>
+
+          {matches.length > 0 && (
+            <ul className="palette__list">
+              {matches.map((b, i) => (
+                <li key={b.id}>
+                  <button
+                    className={`hit ${i === cursor ? "hit--on" : ""}`}
+                    onMouseEnter={() => setCursor(i)}
+                    onClick={() => onPick(b.id)}
+                    style={{ "--i": i } as React.CSSProperties}
+                  >
+                    <span className="hit__id">{displayId(b.id, b.tutorialGroup)}</span>
+                    <span className="hit__branch">{b.branch || "—"}</span>
+                    <span className="hit__year">{YEAR_LABEL[b.year]}</span>
+                    <span className="hit__go">↵</span>
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+
+          {query && matches.length === 0 && (
+            <p className="palette__empty">
+              Nothing matches “{query}”. Your batch code looks like 2Q31 or 1B14 —
+              or <button className="linky" onClick={() => setBrowsing(true)}>browse by year</button>.
+            </p>
+          )}
         </div>
 
-        <div className="hero__panel">
-          <h1 className="hero__title">
-            GDG Timetable <span className="hero__term">{term.replace("August - December ", "Odd ")}</span>
-          </h1>
-          <p className="hero__sub">Thapar Institute of Engineering &amp; Technology</p>
+        <button className="stage__browse" onClick={() => setBrowsing((v) => !v)}>
+          {browsing ? "Hide the list" : "Don't know your code? Browse all batches"}
+        </button>
 
-          <p className="hero__lede">
-            Every batch, every branch — your week, readable at a glance. Pick
-            once and we'll remember it.
-          </p>
-
-          <div className="select">
-            <label className="select__label" htmlFor="year">
-              Year
-            </label>
-            <select
-              id="year"
-              className="select__field"
-              value={year}
-              onChange={(e) => setYear(e.target.value === "" ? "" : Number(e.target.value))}
-            >
-              <option value="">Select your year</option>
+        {browsing && (
+          <section className="browse">
+            <div className="browse__row">
               {years.map((y) => (
-                <option key={y} value={y}>
-                  {YEAR_LABEL[y] ?? `Year ${y}`}
-                </option>
+                <button
+                  key={y}
+                  className={`tag ${year === y ? "tag--on" : ""}`}
+                  onClick={() => {
+                    setYear(year === y ? null : y);
+                    setBranch(null);
+                  }}
+                >
+                  {YEAR_LABEL[y]}
+                </button>
               ))}
-            </select>
-          </div>
+            </div>
 
-          <div className={`select ${year === "" ? "select--off" : ""}`}>
-            <label className="select__label" htmlFor="branch">
-              Branch
-            </label>
-            <select
-              id="branch"
-              className="select__field"
-              value={branch}
-              disabled={year === ""}
-              onChange={(e) => setBranch(e.target.value)}
-            >
-              <option value="">All branches</option>
-              {branches.map((b) => (
-                <option key={b} value={b}>
-                  {b}
-                </option>
-              ))}
-            </select>
-          </div>
+            {branches.length > 1 && (
+              <div className="browse__row browse__row--sub">
+                {branches.map((b) => (
+                  <button
+                    key={b}
+                    className={`tag tag--sm ${branch === b ? "tag--on" : ""}`}
+                    onClick={() => setBranch(branch === b ? null : b)}
+                  >
+                    {b}
+                  </button>
+                ))}
+              </div>
+            )}
 
-          <div className={`select ${year === "" ? "select--off" : ""}`}>
-            <label className="select__label" htmlFor="batch">
-              Batch
-            </label>
-            <select
-              id="batch"
-              className="select__field"
-              value={batchId}
-              disabled={year === ""}
-              onChange={(e) => setBatchId(e.target.value)}
-            >
-              <option value="">
-                {year === "" ? "Pick a year first" : `Select from ${options.length}`}
-              </option>
-              {options.map((b) => (
-                <option key={b.id} value={b.id}>
-                  {displayId(b.id, b.tutorialGroup)}
-                  {b.branch && branch === "" ? ` — ${b.branch}` : ""}
-                </option>
-              ))}
-            </select>
-          </div>
+            {browseList.length > 0 && (
+              <div className="browse__grid">
+                {browseList.map((b, i) => (
+                  <button
+                    key={b.id}
+                    className="tile"
+                    onClick={() => onPick(b.id)}
+                    style={{ "--i": i % 24 } as React.CSSProperties}
+                  >
+                    <span className="tile__id">{displayId(b.id, b.tutorialGroup)}</span>
+                    <span className="tile__sub">{b.classes} classes</span>
+                  </button>
+                ))}
+              </div>
+            )}
+          </section>
+        )}
 
-          <button
-            className="cta"
-            disabled={!batchId}
-            onClick={() => batchId && onPick(batchId)}
-          >
-            {batchId
-              ? `Open ${displayId(batchId, options.find((b) => b.id === batchId)?.tutorialGroup)}`
-              : "Show my timetable"}
-          </button>
+        <p className="stage__count">
+          {batches.length} batches · every branch · generated from the official sheet
+        </p>
+      </main>
 
-          <p className="hero__note">
-            {batches.length} batches · generated from the official {term} sheet
-          </p>
-        </div>
-      </section>
-
-      <section className="community">
-        <h2 className="community__title">Built by the community</h2>
+      <footer className="home__foot">
+        <p className="community__title">Built by the community</p>
         <div className="community__row">
           {CONTRIBUTORS.map((c, i) => (
             <a
@@ -182,43 +262,14 @@ export default function Home({ batches, term, onPick, theme, onToggleTheme }: Pr
               <span className="avatar__name">{c.name}</span>
             </a>
           ))}
-          <a className="avatar avatar--join" href={REPO} target="_blank" rel="noreferrer">
+          <a className="avatar" href={REPO} target="_blank" rel="noreferrer">
             <span className="avatar__ring avatar__ring--dashed">+</span>
             <span className="avatar__name">Join us</span>
           </a>
         </div>
-
         <a className="repo" href={REPO} target="_blank" rel="noreferrer">
           Repo link ↗
         </a>
-      </section>
-
-      <footer className="home__foot">
-        <div className="cluster">
-          <span className="cluster__mark" aria-hidden="true">
-            <svg viewBox="0 0 100 100" width="20" height="20" fill="none" strokeWidth="13" strokeLinecap="round">
-              <path d="M44 24 L20 50" stroke="#EA4335" />
-              <path d="M20 50 L44 76" stroke="#4285F4" />
-              <path d="M56 24 L80 50" stroke="#34A853" />
-              <path d="M80 50 L56 76" stroke="#FBBC04" />
-            </svg>
-          </span>
-          <button
-            className="cluster__btn"
-            onClick={onToggleTheme}
-            aria-label="Switch theme"
-            title="Switch theme"
-          >
-            {theme === "dark" ? "☀" : "☾"}
-          </button>
-          <a className="cluster__btn" href={REPO} target="_blank" rel="noreferrer" title="Source code">
-            ⌥
-          </a>
-        </div>
-        <p className="home__fine">
-          Built by GDG on Campus, TIET. Always check the official sheet for
-          anything that looks wrong.
-        </p>
       </footer>
     </div>
   );

@@ -46,8 +46,8 @@ const detail = (theme, b, entry) => `<div data-theme="${theme}" style="position:
 ${renderDetail({ entry, batch: b, index, now, debug: false, onClose: () => {} })}</div>`;
 const electives = (theme) => `<div data-theme="${theme}" style="position:absolute;inset:0">
 ${renderElectives({ batch: elective, picks: {}, onChange: () => {}, onClose: () => {} })}</div>`;
-const home = (theme) => `<div data-theme="${theme}" style="background:var(--bg)">
-${renderHome({ batches: index.batches, term: index.term, onPick: () => {}, theme, onToggleTheme: () => {} })}</div>`;
+const home = (theme, query = "") => `<div data-theme="${theme}" style="background:var(--bg)">
+${renderHome({ batches: index.batches, term: index.term, onPick: () => {}, theme, onToggleTheme: () => {}, initialQuery: query })}</div>`;
 
 const page = `<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -55,13 +55,14 @@ const page = `<!doctype html><html lang="en"><head><meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>${css}
-body{margin:0}
+body{margin:0;background:#f7f8fc}
 .detail{position:absolute}
 .pv{padding:2.5rem 1rem;border-bottom:1px solid rgba(128,128,128,.25)}
 .pv__h{font:600 .72rem/1 Inter,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#888;margin:0 auto 1.25rem;max-width:84rem;padding:0 1.25rem}
 </style></head><body style="background:#000">
-<section class="pv"><p class="pv__h">Home — dark</p>${home("dark")}</section>
-<section class="pv"><p class="pv__h">Home — light</p>${home("light")}</section>
+<section class="pv"><p class="pv__h">Home — light (resting)</p>${home("light")}</section>
+<section class="pv"><p class="pv__h">Home — command palette, typing "2Q3"</p>${home("light", "2Q3")}</section>
+<section class="pv"><p class="pv__h">Home — dark</p>${home("dark", "2Q3")}</section>
 <section class="pv"><p class="pv__h">Week board — dark (2Q31, Monday 11:47)</p>${board("dark")}</section>
 <section class="pv"><p class="pv__h">Week board — light</p>${board("light")}</section>
 <section class="pv"><p class="pv__h">Click a block → expanded detail (dark)</p>

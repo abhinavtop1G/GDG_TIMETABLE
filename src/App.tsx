@@ -149,6 +149,7 @@ export default function App() {
         onPick={pick}
         theme={theme}
         onToggleTheme={toggleTheme}
+        initialQuery={new URLSearchParams(window.location.search).get("q") ?? ""}
       />
     );
   }
@@ -163,7 +164,12 @@ export default function App() {
 
   return (
     <div className="app">
-      <div className="glow" aria-hidden="true" />
+      <div className="mesh" aria-hidden="true">
+        <span className="mesh__blob mesh__blob--a" />
+        <span className="mesh__blob mesh__blob--b" />
+        <span className="mesh__blob mesh__blob--c" />
+        <span className="mesh__blob mesh__blob--d" />
+      </div>
 
       <header className="top">
         <button className="top__brand" onClick={goHome} title="Change batch">
@@ -291,6 +297,7 @@ export default function App() {
         today={today}
         now={now}
         debug={debug}
+        onSwipeDay={setFocusDay}
       />
 
       <footer className="foot">

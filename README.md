@@ -62,6 +62,26 @@ npm run samples   # renders sample wallpapers + a PDF to /tmp (needs: npm i -D c
 `npm run preview` server-renders the actual components with the shipped CSS, so
 the file shows the real design in both themes — no dev server needed.
 
+## Design notes
+
+The interface is "aurora glass": a slow-drifting four-blob mesh in the GDG
+palette, with every surface a frosted glass panel floating above it. Light by
+default, dark on toggle, and the whole thing is CSS — no animation library.
+
+Two deliberate decisions worth knowing:
+
+- **Class-type colours are not the GDG four.** Lecture green, practical orange,
+  tutorial purple, elective pink, chosen for maximum separation at a glance on
+  a dense grid. The GDG blue/red/yellow/green live in the ambient mesh, the
+  wordmark and the badge instead. To switch types back to brand colours, edit
+  the five `--t-*` tokens at the top of `src/styles.css` — nothing else
+  references those hues.
+- **No Framer Motion.** Every animation here is transform and opacity, which
+  the compositor handles without JavaScript. Adding Framer Motion would have
+  cost roughly 40 KB gzipped for effects the browser already does for free.
+  The one exception is card tilt, which needs pointer position: `src/lib/tilt.ts`
+  writes it to CSS custom properties so it never re-renders React.
+
 ## Electives, and why the parser is strict about them
 
 An elective cell is a set of parallel arrays: the nth course goes with the nth

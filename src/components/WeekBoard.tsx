@@ -1,6 +1,7 @@
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import ClassDetail from "./ClassDetail";
 import GdgMark from "./GdgMark";
+import { useTilt } from "../lib/tilt";
 import {
   DAY_NAMES,
   DAY_SHORT,
@@ -34,6 +35,7 @@ interface Props {
   today: number;
   now: Date;
   debug: boolean;
+  onSwipeDay?: (day: number) => void;
 }
 
 export default function WeekBoard({
@@ -44,6 +46,7 @@ export default function WeekBoard({
   today,
   now,
   debug,
+  onSwipeDay,
 }: Props) {
   const [open, setOpen] = useState<ClassEntry | null>(null);
   const cards = useMemo(
@@ -72,8 +75,31 @@ export default function WeekBoard({
   const nowOffset =
     ((nowMin - gridStart) / (gridEnd - gridStart)) * (periods.length * ROW_HEIGHT);
 
+  const touch = useRef<{ x: number; y: number } | null>(null);
+
+  function onTouchStart(e: React.TouchEvent) {
+    const t0 = e.touches[0];
+    touch.current = { x: t0.clientX, y: t0.clientY };
+  }
+
+  function onTouchEnd(e: React.TouchEvent) {
+    if (focusDay === null || !touch.current) return;
+    const t0 = e.changedTouches[0];
+    const dx = t0.clientX - touch.current.x;
+    const dy = t0.clientY - touch.current.y;
+    touch.current = null;
+    // Horizontal intent only, so vertical scrolling never changes the day.
+    if (Math.abs(dx) < 60 || Math.abs(dx) < Math.abs(dy) * 1.6) return;
+    const next = dx < 0 ? focusDay + 1 : focusDay - 1;
+    if (next >= 0 && next < days) onSwipeDay?.(next);
+  }
+
   return (
-    <div className={`board ${focusDay !== null ? "board--single" : ""}`}>
+    <div
+      className={`board ${focusDay !== null ? "board--single" : ""}`}
+      onTouchStart={onTouchStart}
+      onTouchEnd={onTouchEnd}
+    >
       <div className="board__scroll">
         <div
           className="board__grid"
@@ -146,6 +172,7 @@ export default function WeekBoard({
                 key={`${c.day}-${c.period}-${c.code}`}
                 entry={c}
                 index={i}
+                col={shown.indexOf(c.day)}
                 onOpen={() => setOpen(c)}
                 column={shown.indexOf(c.day) + 2}
                 row={c.period - firstPeriod + 2}
@@ -194,6 +221,7 @@ export default function WeekBoard({
 function Card({
   entry,
   index,
+  col,
   column,
   row,
   live,
@@ -202,21 +230,25 @@ function Card({
 }: {
   entry: ClassEntry;
   index: number;
+  col: number;
   column: number;
   row: number;
   live: boolean;
   debug: boolean;
   onOpen: () => void;
 }) {
+  const tilt = useTilt();
   const dept = entry.title ? "" : department(entry.code);
   return (
     <article
       className={`card card--${entry.type} ${live ? "card--live" : ""} ${entry.picked ? "card--picked" : ""}`}
+      {...tilt}
       style={
         {
           gridColumn: column,
           gridRow: row,
           "--i": index,
+          "--col": col,
         } as React.CSSProperties
       }
       role="button"
