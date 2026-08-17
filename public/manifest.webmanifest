@@ -1,0 +1,9 @@
+{
+  "name": "TIET Timetable — GDG on Campus",
+  "short_name": "TIET Timetable",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4285F4",
+  "icons": []
+}

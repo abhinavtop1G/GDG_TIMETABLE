@@ -1,0 +1,28 @@
+{
+  "name": "gdg-tiet-timetable",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "parse": "python3 scripts/parse_timetable.py && rm -rf public/data && cp -r data public/data",
+    "standalone": "python3 scripts/build_standalone.py data dist/timetable.html",
+    "dev": "vite",
+    "build": "tsc -b && vite build && node scripts/check-wallpaper.mjs",
+    "preview": "vite preview",
+    "check": "node scripts/check-wallpaper.mjs",
+    "preview": "node scripts/render-preview.mjs",
+    "samples": "node scripts/render-samples.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "jsdom": "^30.0.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
