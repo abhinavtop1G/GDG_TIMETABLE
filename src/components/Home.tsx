@@ -117,16 +117,22 @@ export default function Home({
       </div>
 
       <header className="home__bar">
-        <span className="home__brand">
-          <GdgMark size={22} />
-          GDG on Campus · TIET
-        </span>
+        <span />
         <button className="ghost-btn" onClick={onToggleTheme} aria-label="Switch theme">
           {theme === "dark" ? "☀" : "☾"}
         </button>
       </header>
 
       <main className="stage">
+        <div className="lockup">
+          <span className="lockup__glow" aria-hidden="true" />
+          <GdgMark size={44} className="lockup__mark" />
+          <span className="lockup__text">
+            <span className="lockup__name">Google Developer Groups</span>
+            <span className="lockup__sub">On Campus · TIET Patiala</span>
+          </span>
+        </div>
+
         <p className="stage__term">{term}</p>
         <h1 className="stage__title">
           Your timetable,

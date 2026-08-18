@@ -264,6 +264,71 @@ a {
   padding: 3rem 0 2rem;
 }
 
+/* Brand lockup — the first thing you see, sitting on its own colour wash. */
+.lockup {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.7rem 1.5rem 0.7rem 1.1rem;
+  margin-bottom: 1.6rem;
+  border-radius: 999px;
+  background: var(--glass);
+  backdrop-filter: blur(var(--blur)) saturate(160%);
+  -webkit-backdrop-filter: blur(var(--blur)) saturate(160%);
+  border: 1px solid var(--edge);
+  box-shadow: var(--shadow-sm);
+  animation: rise 0.7s var(--ease) backwards;
+}
+
+/* The four brand colours bloom softly behind the lockup. */
+.lockup__glow {
+  position: absolute;
+  inset: -40% -8%;
+  z-index: -1;
+  border-radius: 999px;
+  pointer-events: none;
+  background:
+    radial-gradient(40% 100% at 12% 50%, var(--blue), transparent 70%),
+    radial-gradient(36% 100% at 38% 50%, var(--red), transparent 70%),
+    radial-gradient(36% 100% at 62% 50%, var(--yellow), transparent 70%),
+    radial-gradient(40% 100% at 88% 50%, var(--green), transparent 70%);
+  filter: blur(26px);
+  opacity: 0.42;
+}
+
+[data-theme="dark"] .lockup__glow {
+  opacity: 0.34;
+}
+
+.lockup__mark {
+  flex: none;
+}
+
+.lockup__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.1rem;
+  text-align: left;
+}
+
+.lockup__name {
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: var(--ink);
+}
+
+.lockup__sub {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
 .stage__term {
   margin: 0 0 1rem;
   font-size: 0.72rem;
@@ -1973,6 +2038,20 @@ a {
 
   .hit__year {
     display: none;
+  }
+
+  .lockup {
+    gap: 0.7rem;
+    padding: 0.6rem 1.15rem 0.6rem 0.9rem;
+  }
+
+  .lockup__name {
+    font-size: 0.88rem;
+  }
+
+  .lockup__sub {
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
   }
 
   /* Single day fills the width; swipe left/right moves between days. */
