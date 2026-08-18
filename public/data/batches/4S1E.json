@@ -1,0 +1,477 @@
+{
+ "id": "4S1E",
+ "term": "August - December 2026",
+ "meta": {
+  "id": "4S1E",
+  "year": 4,
+  "sheet": "4TH YEAR A",
+  "branch": "Electrical & Computer Engineering",
+  "lecture_group": "4S1",
+  "tutorial_group": "4S15"
+ },
+ "classes": [
+  {
+   "day": 0,
+   "period": 3,
+   "periods": 1,
+   "start": "09:40",
+   "end": "10:30",
+   "code": "ULC703L",
+   "type": "lecture",
+   "title": "Theory of Computation",
+   "room": "B208",
+   "faculty": "ASG",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "ULC703L | B208 | ASG"
+  },
+  {
+   "day": 0,
+   "period": 4,
+   "periods": 1,
+   "start": "10:30",
+   "end": "11:20",
+   "code": "ULC603L",
+   "type": "lecture",
+   "title": "Electric Vehicle and Real Time Systems",
+   "room": "B208",
+   "faculty": "RPN",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "ULC603L | B208 | RPN"
+  },
+  {
+   "day": 0,
+   "period": 5,
+   "periods": 1,
+   "start": "11:20",
+   "end": "12:10",
+   "code": "ULC701L",
+   "type": "lecture",
+   "title": "Electric Vehicle and Real Time Systems",
+   "room": "B208",
+   "faculty": "PAW",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "ULC701L | B208 | PAW"
+  },
+  {
+   "day": 1,
+   "period": 3,
+   "periods": 1,
+   "start": "09:40",
+   "end": "10:30",
+   "code": "ULC701L",
+   "type": "lecture",
+   "title": "Electric Vehicle and Real Time Systems",
+   "room": "B208",
+   "faculty": "PAW",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "ULC701L | B208 | PAW"
+  },
+  {
+   "day": 1,
+   "period": 4,
+   "periods": 1,
+   "start": "10:30",
+   "end": "11:20",
+   "code": "ULC603L",
+   "type": "lecture",
+   "title": "Electric Vehicle and Real Time Systems",
+   "room": "B208",
+   "faculty": "RPN",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "ULC603L | B208 | RPN"
+  },
+  {
+   "day": 1,
+   "period": 5,
+   "periods": 1,
+   "start": "11:20",
+   "end": "12:10",
+   "code": "ULC703L",
+   "type": "lecture",
+   "title": "Theory of Computation",
+   "room": "B208",
+   "faculty": "ASG",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "ULC703L | B208 | ASG"
+  },
+  {
+   "day": 1,
+   "period": 6,
+   "periods": 1,
+   "start": "12:10",
+   "end": "13:00",
+   "code": "ULC703T",
+   "type": "tutorial",
+   "title": "Theory of Computation",
+   "room": "B208",
+   "faculty": "ASG",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "ULC703T | B208 | ASG"
+  },
+  {
+   "day": 1,
+   "period": 10,
+   "periods": 1,
+   "start": "15:30",
+   "end": "16:20",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "B208 / B301",
+   "faculty": "SSH / JPK",
+   "options": [
+    "UCS646L",
+    "UCS635L"
+   ],
+   "choices": [
+    {
+     "code": "UCS646L",
+     "room": "B208",
+     "faculty": "SSH",
+     "note": "",
+     "title": "Game Design & Development"
+    },
+    {
+     "code": "UCS635L",
+     "room": "B301",
+     "faculty": "JPK",
+     "note": "",
+     "title": "GPU Computing"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS646L/UCS635L | B208/B301 | SSH/JPK"
+  },
+  {
+   "day": 1,
+   "period": 11,
+   "periods": 1,
+   "start": "16:20",
+   "end": "17:10",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "B208 / B301",
+   "faculty": "SSH / JPK",
+   "options": [
+    "UCS646L",
+    "UCS635L"
+   ],
+   "choices": [
+    {
+     "code": "UCS646L",
+     "room": "B208",
+     "faculty": "SSH",
+     "note": "",
+     "title": "Game Design & Development"
+    },
+    {
+     "code": "UCS635L",
+     "room": "B301",
+     "faculty": "JPK",
+     "note": "",
+     "title": "GPU Computing"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS646L/UCS635L | B208/B301 | SSH/JPK"
+  },
+  {
+   "day": 2,
+   "period": 3,
+   "periods": 2,
+   "start": "09:40",
+   "end": "11:20",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "BMC (C323) / ISD (C223)",
+   "faculty": "SSH / JPK",
+   "options": [
+    "UCS646P",
+    "UCS635P"
+   ],
+   "choices": [
+    {
+     "code": "UCS646P",
+     "room": "BMC(C323)",
+     "faculty": "SSH",
+     "note": "",
+     "title": "Game Design & Development"
+    },
+    {
+     "code": "UCS635P",
+     "room": "ISD(C223)",
+     "faculty": "JPK",
+     "note": "",
+     "title": "GPU Computing"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS646P/UCS635P | BMC(C323)/ISD(C223) | LAB | SSH/JPK"
+  },
+  {
+   "day": 2,
+   "period": 6,
+   "periods": 1,
+   "start": "12:10",
+   "end": "13:00",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "LT101 / LP106 / B303 / F201",
+   "faculty": "SUS / RKS / PS / AM",
+   "options": [
+    "UCS002L",
+    "UHU018",
+    "UHU016",
+    "UMA069L"
+   ],
+   "choices": [
+    {
+     "code": "UCS002L",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UHU018",
+     "room": "LP106",
+     "faculty": "RKS",
+     "note": "",
+     "title": "Introduction to Corporate Finance"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS002L/UHU018/UHU016/UMA069L | LT101/LP106/B303/F201 | SUS/RKS/PS/AM"
+  },
+  {
+   "day": 2,
+   "period": 7,
+   "periods": 1,
+   "start": "13:00",
+   "end": "13:50",
+   "code": "UTD004L",
+   "type": "lecture",
+   "title": "Campus 2 Corporate",
+   "room": "LT102",
+   "faculty": "VK",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UTD004L | LT102 | VK"
+  },
+  {
+   "day": 2,
+   "period": 8,
+   "periods": 2,
+   "start": "13:50",
+   "end": "15:30",
+   "code": "ULC603P",
+   "type": "practical",
+   "title": "Electric Vehicle and Real Time Systems",
+   "room": "PE (C113) / TA15",
+   "faculty": "",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "ULC603P | PE(C113) | LAB | TA15"
+  },
+  {
+   "day": 2,
+   "period": 10,
+   "periods": 1,
+   "start": "15:30",
+   "end": "16:20",
+   "code": "ULC603L",
+   "type": "lecture",
+   "title": "Electric Vehicle and Real Time Systems",
+   "room": "B208",
+   "faculty": "RPN",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "ULC603L | B208 | RPN"
+  },
+  {
+   "day": 2,
+   "period": 11,
+   "periods": 1,
+   "start": "16:20",
+   "end": "17:10",
+   "code": "ULC703L",
+   "type": "lecture",
+   "title": "Theory of Computation",
+   "room": "B208",
+   "faculty": "ASG",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "ULC703L | B208 | ASG"
+  },
+  {
+   "day": 3,
+   "period": 1,
+   "periods": 1,
+   "start": "08:00",
+   "end": "08:50",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "LT101 / LP106 / B303 / F201",
+   "faculty": "SUS / RKS / PS / AM",
+   "options": [
+    "UCS002L",
+    "UHU018",
+    "UHU016",
+    "UMA069L"
+   ],
+   "choices": [
+    {
+     "code": "UCS002L",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UHU018",
+     "room": "LP106",
+     "faculty": "RKS",
+     "note": "",
+     "title": "Introduction to Corporate Finance"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS002L/UHU018/UHU016/UMA069L | LT101/LP106/B303/F201 | SUS/RKS/PS/AM"
+  },
+  {
+   "day": 3,
+   "period": 2,
+   "periods": 1,
+   "start": "08:50",
+   "end": "09:40",
+   "code": "UTD004L",
+   "type": "lecture",
+   "title": "Campus 2 Corporate",
+   "room": "LT102",
+   "faculty": "VK",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UTD004L | LT102 | VK"
+  },
+  {
+   "day": 3,
+   "period": 9,
+   "periods": 2,
+   "start": "14:40",
+   "end": "16:20",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "BMC (C323) / ISD (C223)",
+   "faculty": "SSH / JPK",
+   "options": [
+    "UCS646P",
+    "UCS635P"
+   ],
+   "choices": [
+    {
+     "code": "UCS646P",
+     "room": "BMC(C323)",
+     "faculty": "SSH",
+     "note": "",
+     "title": "Game Design & Development"
+    },
+    {
+     "code": "UCS635P",
+     "room": "ISD(C223)",
+     "faculty": "JPK",
+     "note": "GROUP-2",
+     "title": "GPU Computing"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS646P/UCS635P(GROUP-2) | BMC(C323)/ISD(C223) | LAB | SSH/JPK"
+  },
+  {
+   "day": 4,
+   "period": 4,
+   "periods": 1,
+   "start": "10:30",
+   "end": "11:20",
+   "code": "ULC701L",
+   "type": "lecture",
+   "title": "Electric Vehicle and Real Time Systems",
+   "room": "B208",
+   "faculty": "PAW",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "ULC701L | B208 | PAW"
+  }
+ ]
+}

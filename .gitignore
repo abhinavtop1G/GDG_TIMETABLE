@@ -11,5 +11,5 @@ entry-wp.ts
 entry-ssr.tsx
 render-samples.mjs
 source/*.xlsx
-public/data/
+# public/data is committed — Vercel needs it at build time
 push.sh

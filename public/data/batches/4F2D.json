@@ -1,0 +1,618 @@
+{
+ "id": "4F2D",
+ "term": "August - December 2026",
+ "meta": {
+  "id": "4F2D",
+  "year": 4,
+  "sheet": "4TH YEAR A",
+  "branch": "Electronics & Communication Engineering",
+  "lecture_group": "4F2",
+  "tutorial_group": "4F24"
+ },
+ "classes": [
+  {
+   "day": 0,
+   "period": 3,
+   "periods": 1,
+   "start": "09:40",
+   "end": "10:30",
+   "code": "UEC720L",
+   "type": "lecture",
+   "title": "",
+   "room": "B209",
+   "faculty": "RAK",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC720L | B209 | RAK"
+  },
+  {
+   "day": 0,
+   "period": 4,
+   "periods": 1,
+   "start": "10:30",
+   "end": "11:20",
+   "code": "UEC719L",
+   "type": "lecture",
+   "title": "",
+   "room": "B209",
+   "faculty": "AMJ",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC719L | B209 | AMJ"
+  },
+  {
+   "day": 0,
+   "period": 5,
+   "periods": 2,
+   "start": "11:20",
+   "end": "13:00",
+   "code": "UEC720P",
+   "type": "practical",
+   "title": "",
+   "room": "B203",
+   "faculty": "RAK",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC720P | B203 | LAB | RAK"
+  },
+  {
+   "day": 0,
+   "period": 8,
+   "periods": 2,
+   "start": "13:50",
+   "end": "15:30",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "C211 / B106 / L102 / L103 / L429",
+   "faculty": "GTJ / MFD / GS / RAH / HMK",
+   "options": [
+    "UEC630P",
+    "UEC752P",
+    "UCS750P",
+    "UCS762P",
+    "UCS760P"
+   ],
+   "choices": [
+    {
+     "code": "UEC630P",
+     "room": "C211",
+     "faculty": "GTJ",
+     "note": "",
+     "title": "Deep Learning and Applications"
+    },
+    {
+     "code": "UEC752P",
+     "room": "B106",
+     "faculty": "MFD",
+     "note": "",
+     "title": "IC Fabrication Technology"
+    },
+    {
+     "code": "UCS750P",
+     "room": "L102",
+     "faculty": "GS",
+     "note": "",
+     "title": "Computer Hacking and Forensic Investigation"
+    },
+    {
+     "code": "UCS762P",
+     "room": "L103",
+     "faculty": "RAH",
+     "note": "",
+     "title": "Cyber Security for Mobility Systems"
+    },
+    {
+     "code": "UCS760P",
+     "room": "L429",
+     "faculty": "HMK",
+     "note": "",
+     "title": "Edge AI and Robotics: Reinforcement Learning & Conversational AI"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UEC630P/UEC752P/UCS750P/UCS762P/UCS760P | C211/B106/L102/L103/L429 | LAB | GTJ/MFD/GS/RAH/HMK"
+  },
+  {
+   "day": 1,
+   "period": 3,
+   "periods": 1,
+   "start": "09:40",
+   "end": "10:30",
+   "code": "UEC719L",
+   "type": "lecture",
+   "title": "",
+   "room": "B209",
+   "faculty": "AMJ",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC719L | B209 | AMJ"
+  },
+  {
+   "day": 1,
+   "period": 4,
+   "periods": 1,
+   "start": "10:30",
+   "end": "11:20",
+   "code": "UEC720L",
+   "type": "lecture",
+   "title": "",
+   "room": "B209",
+   "faculty": "RAK",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC720L | B209 | RAK"
+  },
+  {
+   "day": 1,
+   "period": 5,
+   "periods": 1,
+   "start": "11:20",
+   "end": "12:10",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "B209 / LP106 / E304 / LP109 / T101 / E305 / E308 / T102 / E205 / F105 / E104 / LT102",
+   "faculty": "MFD / PSR / SSH / NRJ / ANJ / GS / RAH / HMK / RKT / SMG / GEK / KUC",
+   "options": [
+    "UEC752L",
+    "UCS751L",
+    "UCS752L",
+    "UCS754L",
+    "UCS758L",
+    "UCS750L",
+    "UCS762L",
+    "UCS760L",
+    "UCS748L",
+    "UCS745L",
+    "UCS772L",
+    "UMC743L"
+   ],
+   "choices": [
+    {
+     "code": "UEC752L",
+     "room": "B209",
+     "faculty": "MFD",
+     "note": "",
+     "title": "IC Fabrication Technology"
+    },
+    {
+     "code": "UCS751L",
+     "room": "LP106",
+     "faculty": "PSR",
+     "note": "",
+     "title": "Simulation & Modelling"
+    },
+    {
+     "code": "UCS752L",
+     "room": "E304",
+     "faculty": "SSH",
+     "note": "",
+     "title": "Augmented and Virtual Reality"
+    },
+    {
+     "code": "UCS754L",
+     "room": "LP109",
+     "faculty": "NRJ",
+     "note": "",
+     "title": "Blockchain Technology and Applications"
+    },
+    {
+     "code": "UCS758L",
+     "room": "T101",
+     "faculty": "ANJ",
+     "note": "",
+     "title": "System Provisioning and Configuration Management"
+    },
+    {
+     "code": "UCS750L",
+     "room": "E305",
+     "faculty": "GS",
+     "note": "",
+     "title": "Computer Hacking and Forensic Investigation"
+    },
+    {
+     "code": "UCS762L",
+     "room": "E308",
+     "faculty": "RAH",
+     "note": "",
+     "title": "Cyber Security for Mobility Systems"
+    },
+    {
+     "code": "UCS760L",
+     "room": "T102",
+     "faculty": "HMK",
+     "note": "",
+     "title": "Edge AI and Robotics: Reinforcement Learning & Conversational AI"
+    },
+    {
+     "code": "UCS748L",
+     "room": "E205",
+     "faculty": "RKT",
+     "note": "",
+     "title": "Generative AI"
+    },
+    {
+     "code": "UCS745L",
+     "room": "F105",
+     "faculty": "SMG",
+     "note": "",
+     "title": "Cloud & DevOps"
+    },
+    {
+     "code": "UCS772L",
+     "room": "E104",
+     "faculty": "GEK",
+     "note": "",
+     "title": "Data Science: Computer Vision & NLP"
+    },
+    {
+     "code": "UMC743L",
+     "room": "LT102",
+     "faculty": "KUC",
+     "note": "",
+     "title": "Quantitative and Statistical Methods for Finance"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UEC752L/UCS751L/UCS752L/UCS754L/UCS758L/UCS750L/UCS762L/UCS760L/UCS748L/UCS745L/UCS772L/UMC743L | B209/LP106/E304/LP109/T101/E305/E308/T102/E205/F105/E104/LT102 | MFD/PSR/SSH/NRJ/ANJ/GS/RAH/HMK/RKT/SMG/GEK/KUC"
+  },
+  {
+   "day": 1,
+   "period": 6,
+   "periods": 1,
+   "start": "12:10",
+   "end": "13:00",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "F208 / B209 / LP106 / E304 / LP109 / T101 / E305 / E308 / T102 / E205 / F105 / E104 / LT102",
+   "faculty": "GTJ / MFD / PSR / SSH / NRJ / ANJ / GS / RAH / HMK / RKT / SMG / GEK / KUC",
+   "options": [
+    "UEC630L",
+    "UEC752L",
+    "UCS751L",
+    "UCS752L",
+    "UCS754L",
+    "UCS758L",
+    "UCS750L",
+    "UCS762L",
+    "UCS760L",
+    "UCS748L",
+    "UCS745L",
+    "UCS772L",
+    "UMC743L"
+   ],
+   "choices": [
+    {
+     "code": "UEC630L",
+     "room": "F208",
+     "faculty": "GTJ",
+     "note": "",
+     "title": "Deep Learning and Applications"
+    },
+    {
+     "code": "UEC752L",
+     "room": "B209",
+     "faculty": "MFD",
+     "note": "",
+     "title": "IC Fabrication Technology"
+    },
+    {
+     "code": "UCS751L",
+     "room": "LP106",
+     "faculty": "PSR",
+     "note": "",
+     "title": "Simulation & Modelling"
+    },
+    {
+     "code": "UCS752L",
+     "room": "E304",
+     "faculty": "SSH",
+     "note": "",
+     "title": "Augmented and Virtual Reality"
+    },
+    {
+     "code": "UCS754L",
+     "room": "LP109",
+     "faculty": "NRJ",
+     "note": "",
+     "title": "Blockchain Technology and Applications"
+    },
+    {
+     "code": "UCS758L",
+     "room": "T101",
+     "faculty": "ANJ",
+     "note": "",
+     "title": "System Provisioning and Configuration Management"
+    },
+    {
+     "code": "UCS750L",
+     "room": "E305",
+     "faculty": "GS",
+     "note": "",
+     "title": "Computer Hacking and Forensic Investigation"
+    },
+    {
+     "code": "UCS762L",
+     "room": "E308",
+     "faculty": "RAH",
+     "note": "",
+     "title": "Cyber Security for Mobility Systems"
+    },
+    {
+     "code": "UCS760L",
+     "room": "T102",
+     "faculty": "HMK",
+     "note": "",
+     "title": "Edge AI and Robotics: Reinforcement Learning & Conversational AI"
+    },
+    {
+     "code": "UCS748L",
+     "room": "E205",
+     "faculty": "RKT",
+     "note": "",
+     "title": "Generative AI"
+    },
+    {
+     "code": "UCS745L",
+     "room": "F105",
+     "faculty": "SMG",
+     "note": "",
+     "title": "Cloud & DevOps"
+    },
+    {
+     "code": "UCS772L",
+     "room": "E104",
+     "faculty": "GEK",
+     "note": "",
+     "title": "Data Science: Computer Vision & NLP"
+    },
+    {
+     "code": "UMC743L",
+     "room": "LT102",
+     "faculty": "KUC",
+     "note": "",
+     "title": "Quantitative and Statistical Methods for Finance"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UEC630L/UEC752L/UCS751L/UCS752L/UCS754L/UCS758L/UCS750L/UCS762L/UCS760L/UCS748L/UCS745L/UCS772L/UMC743L | F208/B209/LP106/E304/LP109/T101/E305/E308/T102/E205/F105/E104/LT102 | GTJ/MFD/PSR/SSH/NRJ/ANJ/GS/RAH/HMK/RKT/SMG/GEK/KUC"
+  },
+  {
+   "day": 2,
+   "period": 6,
+   "periods": 1,
+   "start": "12:10",
+   "end": "13:00",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "LT101 / LP106 / B303 / F201",
+   "faculty": "SUS / RKS / PS / AM",
+   "options": [
+    "UCS002",
+    "UHU018",
+    "UHU016",
+    "UMA069L"
+   ],
+   "choices": [
+    {
+     "code": "UCS002",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UHU018",
+     "room": "LP106",
+     "faculty": "RKS",
+     "note": "",
+     "title": "Introduction to Corporate Finance"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS002/UHU018/UHU016/UMA069L | LT101/LP106/B303/F201 | SUS/RKS/PS/AM"
+  },
+  {
+   "day": 2,
+   "period": 7,
+   "periods": 1,
+   "start": "13:00",
+   "end": "13:50",
+   "code": "UTD004L",
+   "type": "lecture",
+   "title": "Campus 2 Corporate",
+   "room": "LT102",
+   "faculty": "VK",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UTD004L | LT102 | VK"
+  },
+  {
+   "day": 2,
+   "period": 8,
+   "periods": 2,
+   "start": "13:50",
+   "end": "15:30",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "B106 / C211",
+   "faculty": "",
+   "options": [
+    "UEC752P",
+    "UEC630P"
+   ],
+   "choices": [
+    {
+     "code": "UEC752P",
+     "room": "B106",
+     "faculty": "",
+     "note": "",
+     "title": "IC Fabrication Technology"
+    },
+    {
+     "code": "UEC630P",
+     "room": "C211",
+     "faculty": "",
+     "note": "",
+     "title": "Deep Learning and Applications"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UEC752P/UEC630P | B106/C211 | .0. | 0"
+  },
+  {
+   "day": 3,
+   "period": 1,
+   "periods": 1,
+   "start": "08:00",
+   "end": "08:50",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "LT101 / LP106 / B303 / F201",
+   "faculty": "SUS / RKS / PS / AM",
+   "options": [
+    "UCS002",
+    "UHU018",
+    "UHU016",
+    "UMA069L"
+   ],
+   "choices": [
+    {
+     "code": "UCS002",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UHU018",
+     "room": "LP106",
+     "faculty": "RKS",
+     "note": "",
+     "title": "Introduction to Corporate Finance"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS002/UHU018/UHU016/UMA069L | LT101/LP106/B303/F201 | SUS/RKS/PS/AM"
+  },
+  {
+   "day": 3,
+   "period": 2,
+   "periods": 1,
+   "start": "08:50",
+   "end": "09:40",
+   "code": "UTD004L",
+   "type": "lecture",
+   "title": "Campus 2 Corporate",
+   "room": "LT102",
+   "faculty": "VK",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UTD004L | LT102 | VK"
+  },
+  {
+   "day": 3,
+   "period": 4,
+   "periods": 1,
+   "start": "10:30",
+   "end": "11:20",
+   "code": "UEC719L",
+   "type": "lecture",
+   "title": "",
+   "room": "B209",
+   "faculty": "AMJ",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC719L | B209 | AMJ"
+  },
+  {
+   "day": 3,
+   "period": 5,
+   "periods": 1,
+   "start": "11:20",
+   "end": "12:10",
+   "code": "UEC630L",
+   "type": "lecture",
+   "title": "Deep Learning and Applications",
+   "room": "F203",
+   "faculty": "GTJ",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC630L | F203 | GTJ"
+  },
+  {
+   "day": 3,
+   "period": 10,
+   "periods": 2,
+   "start": "15:30",
+   "end": "17:10",
+   "code": "UEC719P",
+   "type": "practical",
+   "title": "",
+   "room": "C211",
+   "faculty": "RSK",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC719P | C211 | LAB | RSK"
+  }
+ ]
+}

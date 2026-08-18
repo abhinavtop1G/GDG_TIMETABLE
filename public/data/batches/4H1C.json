@@ -1,0 +1,812 @@
+{
+ "id": "4H1C",
+ "term": "August - December 2026",
+ "meta": {
+  "id": "4H1C",
+  "year": 4,
+  "sheet": "4TH YEAR A",
+  "branch": "Electrical Engineering",
+  "lecture_group": "4H1",
+  "tutorial_group": "4H13"
+ },
+ "classes": [
+  {
+   "day": 0,
+   "period": 1,
+   "periods": 2,
+   "start": "08:00",
+   "end": "09:40",
+   "code": "URA731P",
+   "type": "practical",
+   "title": "",
+   "room": "B302",
+   "faculty": "DMG",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "URA731P | B302 | DMG"
+  },
+  {
+   "day": 0,
+   "period": 3,
+   "periods": 1,
+   "start": "09:40",
+   "end": "10:30",
+   "code": "URA753L",
+   "type": "lecture",
+   "title": "",
+   "room": "F207",
+   "faculty": "JPT",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "URA753L | F207 | JPT"
+  },
+  {
+   "day": 0,
+   "period": 4,
+   "periods": 1,
+   "start": "10:30",
+   "end": "11:20",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "F206 / F207 / F109",
+   "faculty": "RTK / VG / ASO",
+   "options": [
+    "UME742L",
+    "UME741L",
+    "UME744L"
+   ],
+   "choices": [
+    {
+     "code": "UME742L",
+     "room": "F206",
+     "faculty": "RTK",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME741L",
+     "room": "F207",
+     "faculty": "VG",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME744L",
+     "room": "F109",
+     "faculty": "ASO",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UME742L/UME741L/UME744L | F206/F207/F109 | RTK/VG/ASO"
+  },
+  {
+   "day": 0,
+   "period": 5,
+   "periods": 1,
+   "start": "11:20",
+   "end": "12:10",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "F206 / F207 / F312",
+   "faculty": "CSED / NF / AMG",
+   "options": [
+    "UCS760L",
+    "URA751L",
+    "UME751L"
+   ],
+   "choices": [
+    {
+     "code": "UCS760L",
+     "room": "F206",
+     "faculty": "CSED",
+     "note": "",
+     "title": "Edge AI and Robotics: Reinforcement Learning & Conversational AI"
+    },
+    {
+     "code": "URA751L",
+     "room": "F207",
+     "faculty": "NF",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME751L",
+     "room": "F312",
+     "faculty": "AMG",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS760L/URA751L/UME751L | F206/F207/F312 | CSED/NF/AMG"
+  },
+  {
+   "day": 0,
+   "period": 6,
+   "periods": 1,
+   "start": "12:10",
+   "end": "13:00",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "F206 / F207 / F312 / F102 / F107",
+   "faculty": "CSED / NF / AMG / VKS / RJS",
+   "options": [
+    "UCS760L",
+    "URA751L",
+    "UME751L",
+    "UME754L",
+    "UME743L"
+   ],
+   "choices": [
+    {
+     "code": "UCS760L",
+     "room": "F206",
+     "faculty": "CSED",
+     "note": "",
+     "title": "Edge AI and Robotics: Reinforcement Learning & Conversational AI"
+    },
+    {
+     "code": "URA751L",
+     "room": "F207",
+     "faculty": "NF",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME751L",
+     "room": "F312",
+     "faculty": "AMG",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME754L",
+     "room": "F102",
+     "faculty": "VKS",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME743L",
+     "room": "F107",
+     "faculty": "RJS",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS760L/URA751L/UME751L/UME754L/UME743L | F206/F207/F312/F102/F107 | CSED/NF/AMG/VKS/RJS"
+  },
+  {
+   "day": 0,
+   "period": 8,
+   "periods": 1,
+   "start": "13:50",
+   "end": "14:40",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "F206 / F207 / F110",
+   "faculty": "APH / DKJ / PKW",
+   "options": [
+    "UME752L",
+    "URA413L",
+    "URA741L"
+   ],
+   "choices": [
+    {
+     "code": "UME752L",
+     "room": "F206",
+     "faculty": "APH",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "URA413L",
+     "room": "F207",
+     "faculty": "DKJ",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "URA741L",
+     "room": "F110",
+     "faculty": "PKW",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UME752L/URA413L/URA741L | F206/F207/F110 | APH/DKJ/PKW"
+  },
+  {
+   "day": 0,
+   "period": 9,
+   "periods": 1,
+   "start": "14:40",
+   "end": "15:30",
+   "code": "URA731L",
+   "type": "lecture",
+   "title": "",
+   "room": "B303",
+   "faculty": "DMG",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "Capstone project",
+   "raw": "URA731L | B303 | DMG | CAPSTONE PROJECT"
+  },
+  {
+   "day": 1,
+   "period": 3,
+   "periods": 1,
+   "start": "09:40",
+   "end": "10:30",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "F206 / F207",
+   "faculty": "APH / DKJ",
+   "options": [
+    "UME752L",
+    "URA413L"
+   ],
+   "choices": [
+    {
+     "code": "UME752L",
+     "room": "F206",
+     "faculty": "APH",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "URA413L",
+     "room": "F207",
+     "faculty": "DKJ",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UME752L/URA413L | F206/F207 | APH/DKJ"
+  },
+  {
+   "day": 1,
+   "period": 4,
+   "periods": 1,
+   "start": "10:30",
+   "end": "11:20",
+   "code": "URA753L",
+   "type": "lecture",
+   "title": "",
+   "room": "F207",
+   "faculty": "JPT",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "URA753L | F207 | JPT"
+  },
+  {
+   "day": 1,
+   "period": 5,
+   "periods": 1,
+   "start": "11:20",
+   "end": "12:10",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "F206 / F207",
+   "faculty": "HMG / SAT",
+   "options": [
+    "UCS617",
+    "UME730L"
+   ],
+   "choices": [
+    {
+     "code": "UCS617",
+     "room": "F206",
+     "faculty": "HMG",
+     "note": "",
+     "title": "Microprocessor-Based Systems Design"
+    },
+    {
+     "code": "UME730L",
+     "room": "F207",
+     "faculty": "SAT",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS617/UME730L | F206/F207 | HMG/SAT"
+  },
+  {
+   "day": 1,
+   "period": 6,
+   "periods": 1,
+   "start": "12:10",
+   "end": "13:00",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "F206 / F207",
+   "faculty": "HMG / SAT",
+   "options": [
+    "UCS617",
+    "UME730L"
+   ],
+   "choices": [
+    {
+     "code": "UCS617",
+     "room": "F206",
+     "faculty": "HMG",
+     "note": "",
+     "title": "Microprocessor-Based Systems Design"
+    },
+    {
+     "code": "UME730L",
+     "room": "F207",
+     "faculty": "SAT",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS617/UME730L | F206/F207 | HMG/SAT"
+  },
+  {
+   "day": 1,
+   "period": 8,
+   "periods": 2,
+   "start": "13:50",
+   "end": "15:30",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "IA (H214) / MT (H104) / CAM (H107)",
+   "faculty": "CSED / MET / NF / AMG / VKS / RJS",
+   "options": [
+    "UCS760P",
+    "URA751P",
+    "UME751P",
+    "UME754P",
+    "UME743P"
+   ],
+   "choices": [
+    {
+     "code": "UCS760P",
+     "room": "CSED",
+     "faculty": "CSED",
+     "note": "",
+     "title": "Edge AI and Robotics: Reinforcement Learning & Conversational AI"
+    },
+    {
+     "code": "URA751P",
+     "room": "IA(H214)",
+     "faculty": "NF",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME751P",
+     "room": "MET",
+     "faculty": "AMG",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME754P",
+     "room": "MT(H104)",
+     "faculty": "VKS",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME743P",
+     "room": "CAM(H107)",
+     "faculty": "RJS",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS760P/URA751P/UME751P/UME754P/UME743P | CSED/IA(H214)/MET/MT(H104)/CAM(H107) | LAB | CSED/NF/AMG/VKS/RJS"
+  },
+  {
+   "day": 1,
+   "period": 10,
+   "periods": 2,
+   "start": "15:30",
+   "end": "17:10",
+   "code": "UME730P",
+   "type": "practical",
+   "title": "",
+   "room": "CAM (H107)",
+   "faculty": "SAT",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UME730P | CAM(H107) | LAB | SAT"
+  },
+  {
+   "day": 2,
+   "period": 1,
+   "periods": 2,
+   "start": "08:00",
+   "end": "09:40",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "",
+   "faculty": "CSED / RTK",
+   "options": [
+    "UCS668P",
+    "UME743P"
+   ],
+   "choices": [
+    {
+     "code": "UCS668P",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Edge AI and Robotics: Data Centre Vision"
+    },
+    {
+     "code": "UME743P",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": false,
+   "note": "CSED/W/S",
+   "raw": "UCS668P/UME743P | CSED/W/S | LAB | CSED/RTK"
+  },
+  {
+   "day": 2,
+   "period": 5,
+   "periods": 1,
+   "start": "11:20",
+   "end": "12:10",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "F206 / F207",
+   "faculty": "VKS / RJS",
+   "options": [
+    "UME754L",
+    "UME743L"
+   ],
+   "choices": [
+    {
+     "code": "UME754L",
+     "room": "F206",
+     "faculty": "VKS",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME743L",
+     "room": "F207",
+     "faculty": "RJS",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UME754L/UME743L | F206/F207 | VKS/RJS"
+  },
+  {
+   "day": 2,
+   "period": 6,
+   "periods": 1,
+   "start": "12:10",
+   "end": "13:00",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "F109 / F110",
+   "faculty": "VG / ASO",
+   "options": [
+    "UME741L",
+    "UME744L"
+   ],
+   "choices": [
+    {
+     "code": "UME741L",
+     "room": "F109",
+     "faculty": "VG",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME744L",
+     "room": "F110",
+     "faculty": "ASO",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UME741L/UME744L | F109/F110 | VG/ASO"
+  },
+  {
+   "day": 3,
+   "period": 1,
+   "periods": 2,
+   "start": "08:00",
+   "end": "09:40",
+   "code": "URA741P",
+   "type": "practical",
+   "title": "",
+   "room": "",
+   "faculty": "BAJAJ / PKW",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "URA741P | BAJAJ | LAB | PKW"
+  },
+  {
+   "day": 3,
+   "period": 5,
+   "periods": 1,
+   "start": "11:20",
+   "end": "12:10",
+   "code": "UCS668L",
+   "type": "lecture",
+   "title": "Edge AI and Robotics: Data Centre Vision",
+   "room": "CSED ROOM",
+   "faculty": "CSED",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UCS668L | CSED ROOM | CSED"
+  },
+  {
+   "day": 3,
+   "period": 6,
+   "periods": 1,
+   "start": "12:10",
+   "end": "13:00",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "B303 / F109 / F110 / F11",
+   "faculty": "CSED / DMG / RTK / VG / ASO",
+   "options": [
+    "UCS668L",
+    "URA731L",
+    "UME742L",
+    "UME741L",
+    "UME744L"
+   ],
+   "choices": [
+    {
+     "code": "UCS668L",
+     "room": "CSED",
+     "faculty": "CSED",
+     "note": "",
+     "title": "Edge AI and Robotics: Data Centre Vision"
+    },
+    {
+     "code": "URA731L",
+     "room": "B303",
+     "faculty": "DMG",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME742L",
+     "room": "F109",
+     "faculty": "RTK",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME741L",
+     "room": "F110",
+     "faculty": "VG",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME744L",
+     "room": "F11",
+     "faculty": "ASO",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS668L/URA731L/UME742L/UME741L/UME744L | CSED/B303/F109/F110/F11 | CSED/DMG/RTK/VG/ASO"
+  },
+  {
+   "day": 3,
+   "period": 8,
+   "periods": 2,
+   "start": "13:50",
+   "end": "15:30",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "IA (214) / MT (H104) / CAM (H107)",
+   "faculty": "CSED / NF / VKS / RJS",
+   "options": [
+    "UCS760P",
+    "URA751P",
+    "UME754P",
+    "UME743P"
+   ],
+   "choices": [
+    {
+     "code": "UCS760P",
+     "room": "CSED",
+     "faculty": "CSED",
+     "note": "",
+     "title": "Edge AI and Robotics: Reinforcement Learning & Conversational AI"
+    },
+    {
+     "code": "URA751P",
+     "room": "IA(214)",
+     "faculty": "NF",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME754P",
+     "room": "MT(H104)",
+     "faculty": "VKS",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UME743P",
+     "room": "CAM(H107)",
+     "faculty": "RJS",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS760P/URA751P/UME754P/UME743P | CSED/IA(214)/MT(H104)/CAM(H107) | LAB | CSED/NF/VKS/RJS"
+  },
+  {
+   "day": 4,
+   "period": 1,
+   "periods": 2,
+   "start": "08:00",
+   "end": "09:40",
+   "code": "UCS671P",
+   "type": "practical",
+   "title": "Edge AI and Robotics: Embedded Vision",
+   "room": "NS2 (L103)",
+   "faculty": "HMG",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UCS671P | NS2(L103) | LAB | HMG"
+  },
+  {
+   "day": 4,
+   "period": 5,
+   "periods": 1,
+   "start": "11:20",
+   "end": "12:10",
+   "code": "URA753L",
+   "type": "lecture",
+   "title": "",
+   "room": "F206",
+   "faculty": "JPT",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "URA753L | F206 | JPT"
+  },
+  {
+   "day": 4,
+   "period": 6,
+   "periods": 1,
+   "start": "12:10",
+   "end": "13:00",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "F206 / F207 / F110",
+   "faculty": "APH / DKJ / PKW",
+   "options": [
+    "UME752L",
+    "URA413L",
+    "URA741L"
+   ],
+   "choices": [
+    {
+     "code": "UME752L",
+     "room": "F206",
+     "faculty": "APH",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "URA413L",
+     "room": "F207",
+     "faculty": "DKJ",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "URA741L",
+     "room": "F110",
+     "faculty": "PKW",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UME752L/URA413L/URA741L | F206/F207/F110 | APH/DKJ/PKW"
+  },
+  {
+   "day": 4,
+   "period": 10,
+   "periods": 2,
+   "start": "15:30",
+   "end": "17:10",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "CAM (H107)",
+   "faculty": "CSDE / CSED / SAT",
+   "options": [
+    "UCS668P",
+    "UME730P"
+   ],
+   "choices": [
+    {
+     "code": "UCS668P",
+     "room": "CSDE",
+     "faculty": "CSED",
+     "note": "",
+     "title": "Edge AI and Robotics: Data Centre Vision"
+    },
+    {
+     "code": "UME730P",
+     "room": "CAM(H107)",
+     "faculty": "SAT",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS668P/UME730P | CSDE/CAM(H107) | LAB | CSED/SAT"
+  }
+ ]
+}

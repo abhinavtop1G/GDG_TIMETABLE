@@ -7,10 +7,11 @@
     "parse": "python3 scripts/parse_timetable.py && rm -rf public/data && cp -r data public/data",
     "standalone": "python3 scripts/build_standalone.py data dist/timetable.html",
     "dev": "vite",
-    "build": "tsc -b && vite build && node scripts/check-wallpaper.mjs && node scripts/check-electives.mjs",
+    "build": "tsc -b && vite build",
     "preview": "node scripts/render-preview.mjs",
     "check": "node scripts/check-wallpaper.mjs && node scripts/check-electives.mjs",
-    "samples": "node scripts/render-samples.mjs"
+    "samples": "node scripts/render-samples.mjs",
+    "build:full": "tsc -b && vite build && node scripts/check-wallpaper.mjs && node scripts/check-electives.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

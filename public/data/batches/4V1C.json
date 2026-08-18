@@ -1,0 +1,390 @@
+{
+ "id": "4V1C",
+ "term": "August - December 2026",
+ "meta": {
+  "id": "4V1C",
+  "year": 4,
+  "sheet": "4TH YEAR A",
+  "branch": "VLSI",
+  "lecture_group": "4V1",
+  "tutorial_group": "4V13"
+ },
+ "classes": [
+  {
+   "day": 0,
+   "period": 3,
+   "periods": 1,
+   "start": "09:40",
+   "end": "10:30",
+   "code": "UVD701L",
+   "type": "lecture",
+   "title": "",
+   "room": "F104",
+   "faculty": "RS",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UVD701L | F104 | RS"
+  },
+  {
+   "day": 0,
+   "period": 8,
+   "periods": 2,
+   "start": "13:50",
+   "end": "15:30",
+   "code": "UVDXXXP",
+   "type": "practical",
+   "title": "",
+   "room": "C334",
+   "faculty": "UKS",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UVDXXXP | C334/? | UKS"
+  },
+  {
+   "day": 1,
+   "period": 3,
+   "periods": 1,
+   "start": "09:40",
+   "end": "10:30",
+   "code": "UVD701L",
+   "type": "lecture",
+   "title": "",
+   "room": "E107",
+   "faculty": "RS",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UVD701L | E107 | RS"
+  },
+  {
+   "day": 1,
+   "period": 5,
+   "periods": 1,
+   "start": "11:20",
+   "end": "12:10",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "F303 / F316",
+   "faculty": "AJK / UKS",
+   "options": [
+    "UNCXXXL",
+    "UVDXXXL"
+   ],
+   "choices": [
+    {
+     "code": "UNCXXXL",
+     "room": "F303",
+     "faculty": "AJK",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UVDXXXL",
+     "room": "F316",
+     "faculty": "UKS",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UNCXXXL/UVDXXXL | F303/F316 | AJK/UKS"
+  },
+  {
+   "day": 1,
+   "period": 6,
+   "periods": 1,
+   "start": "12:10",
+   "end": "13:00",
+   "code": "UEC519L",
+   "type": "lecture",
+   "title": "Analog and Digital Communication",
+   "room": "B309",
+   "faculty": "HSS",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC519L | B309 | HSS"
+  },
+  {
+   "day": 1,
+   "period": 8,
+   "periods": 2,
+   "start": "13:50",
+   "end": "15:30",
+   "code": "UVD701P",
+   "type": "practical",
+   "title": "",
+   "room": "C334",
+   "faculty": "RS",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UVD701P | C334 | LAB | RS"
+  },
+  {
+   "day": 2,
+   "period": 3,
+   "periods": 2,
+   "start": "09:40",
+   "end": "11:20",
+   "code": "UEC519P",
+   "type": "practical",
+   "title": "Analog and Digital Communication",
+   "room": "B214",
+   "faculty": "HSS",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC519P | B214 | LAB | HSS"
+  },
+  {
+   "day": 2,
+   "period": 6,
+   "periods": 1,
+   "start": "12:10",
+   "end": "13:00",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "LT101 / LP106 / B303 / F201",
+   "faculty": "SUS / RKS / PS / AM",
+   "options": [
+    "UCS002",
+    "UHU018",
+    "UHU016",
+    "UMA069L"
+   ],
+   "choices": [
+    {
+     "code": "UCS002",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UHU018",
+     "room": "LP106",
+     "faculty": "RKS",
+     "note": "",
+     "title": "Introduction to Corporate Finance"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS002/UHU018/UHU016/UMA069L | LT101/LP106/B303/F201 | SUS/RKS/PS/AM"
+  },
+  {
+   "day": 2,
+   "period": 7,
+   "periods": 1,
+   "start": "13:00",
+   "end": "13:50",
+   "code": "UTD004L",
+   "type": "lecture",
+   "title": "Campus 2 Corporate",
+   "room": "LT102",
+   "faculty": "VK",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UTD004L | LT102 | VK"
+  },
+  {
+   "day": 2,
+   "period": 10,
+   "periods": 1,
+   "start": "15:30",
+   "end": "16:20",
+   "code": "UEC519L",
+   "type": "lecture",
+   "title": "Analog and Digital Communication",
+   "room": "B309",
+   "faculty": "HSS",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC519L | B309 | HSS"
+  },
+  {
+   "day": 3,
+   "period": 1,
+   "periods": 1,
+   "start": "08:00",
+   "end": "08:50",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "LT101 / LP106 / B303 / F201",
+   "faculty": "SUS / RKS / PS / AM",
+   "options": [
+    "UCS002",
+    "UHU018",
+    "UHU016",
+    "UMA069L"
+   ],
+   "choices": [
+    {
+     "code": "UCS002",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UHU018",
+     "room": "LP106",
+     "faculty": "RKS",
+     "note": "",
+     "title": "Introduction to Corporate Finance"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS002/UHU018/UHU016/UMA069L | LT101/LP106/B303/F201 | SUS/RKS/PS/AM"
+  },
+  {
+   "day": 3,
+   "period": 2,
+   "periods": 1,
+   "start": "08:50",
+   "end": "09:40",
+   "code": "UTD004L",
+   "type": "lecture",
+   "title": "Campus 2 Corporate",
+   "room": "LT102",
+   "faculty": "VK",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UTD004L | LT102 | VK"
+  },
+  {
+   "day": 3,
+   "period": 5,
+   "periods": 1,
+   "start": "11:20",
+   "end": "12:10",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "F303 / F304",
+   "faculty": "AJK / UKS",
+   "options": [
+    "UNCXXXL",
+    "UVDXXXL"
+   ],
+   "choices": [
+    {
+     "code": "UNCXXXL",
+     "room": "F303",
+     "faculty": "AJK",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UVDXXXL",
+     "room": "F304",
+     "faculty": "UKS",
+     "note": "",
+     "title": ""
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UNCXXXL/UVDXXXL | F303/F304 | AJK/UKS"
+  },
+  {
+   "day": 3,
+   "period": 6,
+   "periods": 1,
+   "start": "12:10",
+   "end": "13:00",
+   "code": "UNCXXXL",
+   "type": "lecture",
+   "title": "",
+   "room": "F303",
+   "faculty": "AJK",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UNCXXXL | F303 | AJK"
+  },
+  {
+   "day": 4,
+   "period": 5,
+   "periods": 1,
+   "start": "11:20",
+   "end": "12:10",
+   "code": "UEC519T",
+   "type": "tutorial",
+   "title": "Analog and Digital Communication",
+   "room": "B209 / APC15",
+   "faculty": "",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC519T | B209 | APC15"
+  },
+  {
+   "day": 4,
+   "period": 6,
+   "periods": 1,
+   "start": "12:10",
+   "end": "13:00",
+   "code": "UEC519L",
+   "type": "lecture",
+   "title": "Analog and Digital Communication",
+   "room": "B309",
+   "faculty": "HSS",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC519L | B309 | HSS"
+  }
+ ]
+}

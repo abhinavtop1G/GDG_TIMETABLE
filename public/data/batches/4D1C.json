@@ -1,0 +1,398 @@
+{
+ "id": "4D1C",
+ "term": "August - December 2026",
+ "meta": {
+  "id": "4D1C",
+  "year": 4,
+  "sheet": "4TH YEAR A",
+  "branch": "Electrical Engineering",
+  "lecture_group": "4D1",
+  "tutorial_group": "4D13"
+ },
+ "classes": [
+  {
+   "day": 0,
+   "period": 3,
+   "periods": 1,
+   "start": "09:40",
+   "end": "10:30",
+   "code": "UMA601L",
+   "type": "lecture",
+   "title": "Mathematics of Signal Processing",
+   "room": "E107",
+   "faculty": "DM",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UMA601L | E107 | DM"
+  },
+  {
+   "day": 0,
+   "period": 4,
+   "periods": 1,
+   "start": "10:30",
+   "end": "11:20",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "E107 / E313",
+   "faculty": "SP / SJ",
+   "options": [
+    "UEE744L",
+    "UEE601L"
+   ],
+   "choices": [
+    {
+     "code": "UEE744L",
+     "room": "E107",
+     "faculty": "SP",
+     "note": "",
+     "title": "Industrial Electronics"
+    },
+    {
+     "code": "UEE601L",
+     "room": "E313",
+     "faculty": "SJ",
+     "note": "",
+     "title": "Flexible AC Transmission Systems"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UEE744L/UEE601L | E107/E313 | SP/SJ"
+  },
+  {
+   "day": 0,
+   "period": 5,
+   "periods": 1,
+   "start": "11:20",
+   "end": "12:10",
+   "code": "ULC603L",
+   "type": "lecture",
+   "title": "Electric Vehicle and Real Time Systems",
+   "room": "E107",
+   "faculty": "SKA",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "ULC603L | E107 | SKA"
+  },
+  {
+   "day": 1,
+   "period": 8,
+   "periods": 1,
+   "start": "13:50",
+   "end": "14:40",
+   "code": "ULC603L",
+   "type": "lecture",
+   "title": "Electric Vehicle and Real Time Systems",
+   "room": "E107",
+   "faculty": "SKA",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "ULC603L | E107 | SKA"
+  },
+  {
+   "day": 1,
+   "period": 9,
+   "periods": 1,
+   "start": "14:40",
+   "end": "15:30",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "E107 / E108",
+   "faculty": "SP / SJ",
+   "options": [
+    "UEE744L",
+    "UEE601L"
+   ],
+   "choices": [
+    {
+     "code": "UEE744L",
+     "room": "E107",
+     "faculty": "SP",
+     "note": "",
+     "title": "Industrial Electronics"
+    },
+    {
+     "code": "UEE601L",
+     "room": "E108",
+     "faculty": "SJ",
+     "note": "",
+     "title": "Flexible AC Transmission Systems"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UEE744L/UEE601L | E107/E108 | SP/SJ"
+  },
+  {
+   "day": 1,
+   "period": 10,
+   "periods": 1,
+   "start": "15:30",
+   "end": "16:20",
+   "code": "UMA601T",
+   "type": "tutorial",
+   "title": "Mathematics of Signal Processing",
+   "room": "E108 / TA6",
+   "faculty": "",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UMA601T | E108 | TA6"
+  },
+  {
+   "day": 2,
+   "period": 4,
+   "periods": 2,
+   "start": "10:30",
+   "end": "12:10",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "PE (C113) / E107",
+   "faculty": "SP / SJ",
+   "options": [
+    "UEE744P",
+    "UEE601L"
+   ],
+   "choices": [
+    {
+     "code": "UEE744P",
+     "room": "PE(C113)",
+     "faculty": "SP",
+     "note": "",
+     "title": "Industrial Electronics"
+    },
+    {
+     "code": "UEE601L",
+     "room": "E107",
+     "faculty": "SJ",
+     "note": "",
+     "title": "Flexible AC Transmission Systems"
+    },
+    {
+     "code": "UEE744P",
+     "room": "PE(C113)",
+     "faculty": "SJ",
+     "note": "",
+     "title": "Industrial Electronics"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UEE744P/UEE601L/UEE744P | PE(C113)/E107/PE(C113) | LAB | SP/SJ/SJ"
+  },
+  {
+   "day": 2,
+   "period": 6,
+   "periods": 1,
+   "start": "12:10",
+   "end": "13:00",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "LT101 / LP106 / B303 / F201",
+   "faculty": "SUS / RKS / PS / AM",
+   "options": [
+    "UCS002L",
+    "UHU018",
+    "UHU016",
+    "UMA069L"
+   ],
+   "choices": [
+    {
+     "code": "UCS002L",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UHU018",
+     "room": "LP106",
+     "faculty": "RKS",
+     "note": "",
+     "title": "Introduction to Corporate Finance"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS002L/UHU018/UHU016/UMA069L | LT101/LP106/B303/F201 | SUS/RKS/PS/AM"
+  },
+  {
+   "day": 2,
+   "period": 7,
+   "periods": 1,
+   "start": "13:00",
+   "end": "13:50",
+   "code": "UTD004L",
+   "type": "lecture",
+   "title": "Campus 2 Corporate",
+   "room": "LT102",
+   "faculty": "VK",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UTD004L | LT102 | VK"
+  },
+  {
+   "day": 3,
+   "period": 1,
+   "periods": 1,
+   "start": "08:00",
+   "end": "08:50",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "LT101 / LP106 / B303 / F201",
+   "faculty": "SUS / RKS / PS / AM",
+   "options": [
+    "UCS002L",
+    "UHU018",
+    "UHU016",
+    "UMA069L"
+   ],
+   "choices": [
+    {
+     "code": "UCS002L",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UHU018",
+     "room": "LP106",
+     "faculty": "RKS",
+     "note": "",
+     "title": "Introduction to Corporate Finance"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS002L/UHU018/UHU016/UMA069L | LT101/LP106/B303/F201 | SUS/RKS/PS/AM"
+  },
+  {
+   "day": 3,
+   "period": 2,
+   "periods": 1,
+   "start": "08:50",
+   "end": "09:40",
+   "code": "UTD004L",
+   "type": "lecture",
+   "title": "Campus 2 Corporate",
+   "room": "LT102",
+   "faculty": "VK",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UTD004L | LT102 | VK"
+  },
+  {
+   "day": 3,
+   "period": 8,
+   "periods": 2,
+   "start": "13:50",
+   "end": "15:30",
+   "code": "UMA601P",
+   "type": "practical",
+   "title": "Mathematics of Signal Processing",
+   "room": "NETWORK (H223) / TA6",
+   "faculty": "",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UMA601P | NETWORK(H223) | LAB | TA6"
+  },
+  {
+   "day": 3,
+   "period": 10,
+   "periods": 2,
+   "start": "15:30",
+   "end": "17:10",
+   "code": "ULC603P",
+   "type": "practical",
+   "title": "Electric Vehicle and Real Time Systems",
+   "room": "PE (C113) / TA10",
+   "faculty": "",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "ULC603P | PE(C113) | LAB | TA10"
+  },
+  {
+   "day": 4,
+   "period": 4,
+   "periods": 1,
+   "start": "10:30",
+   "end": "11:20",
+   "code": "UMA601L",
+   "type": "lecture",
+   "title": "Mathematics of Signal Processing",
+   "room": "E107",
+   "faculty": "DM",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UMA601L | E107 | DM"
+  },
+  {
+   "day": 4,
+   "period": 5,
+   "periods": 1,
+   "start": "11:20",
+   "end": "12:10",
+   "code": "ULC603L",
+   "type": "lecture",
+   "title": "Electric Vehicle and Real Time Systems",
+   "room": "E107",
+   "faculty": "SKA",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "ULC603L | E107 | SKA"
+  }
+ ]
+}

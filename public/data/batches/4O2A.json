@@ -1,0 +1,610 @@
+{
+ "id": "4O2A",
+ "term": "August - December 2026",
+ "meta": {
+  "id": "4O2A",
+  "year": 4,
+  "sheet": "4TH YEAR A",
+  "branch": "Electronics & Computer Engineering",
+  "lecture_group": "4O2",
+  "tutorial_group": "4O21"
+ },
+ "classes": [
+  {
+   "day": 0,
+   "period": 5,
+   "periods": 1,
+   "start": "11:20",
+   "end": "12:10",
+   "code": "UEC640L",
+   "type": "lecture",
+   "title": "IoT Based Systems",
+   "room": "B307",
+   "faculty": "KSS",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC640L | B307 | KSS"
+  },
+  {
+   "day": 0,
+   "period": 6,
+   "periods": 1,
+   "start": "12:10",
+   "end": "13:00",
+   "code": "UEC642L",
+   "type": "lecture",
+   "title": "",
+   "room": "B307",
+   "faculty": "SS",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC642L | B307 | SS"
+  },
+  {
+   "day": 1,
+   "period": 4,
+   "periods": 1,
+   "start": "10:30",
+   "end": "11:20",
+   "code": "UEC642L",
+   "type": "lecture",
+   "title": "",
+   "room": "B307",
+   "faculty": "SS",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC642L | B307 | SS"
+  },
+  {
+   "day": 1,
+   "period": 5,
+   "periods": 1,
+   "start": "11:20",
+   "end": "12:10",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "B307 / B209 / LP106 / E304 / LP109 / T101 / E305 / E308 / T102 / E205 / F105 / E104 / LT102",
+   "faculty": "DVG / MFD / PSR / SSH / NRJ / ANJ / GS / RAH / HMK / RKT / SMG / GEK / KUC",
+   "options": [
+    "UEC735L",
+    "UEC752L",
+    "UCS751L",
+    "UCS752L",
+    "UCS754L",
+    "UCS758L",
+    "UCS750L",
+    "UCS762L",
+    "UCS760L",
+    "UCS748L",
+    "UCS745L",
+    "UCS772L",
+    "UMC743L"
+   ],
+   "choices": [
+    {
+     "code": "UEC735L",
+     "room": "B307",
+     "faculty": "DVG",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UEC752L",
+     "room": "B209",
+     "faculty": "MFD",
+     "note": "",
+     "title": "IC Fabrication Technology"
+    },
+    {
+     "code": "UCS751L",
+     "room": "LP106",
+     "faculty": "PSR",
+     "note": "",
+     "title": "Simulation & Modelling"
+    },
+    {
+     "code": "UCS752L",
+     "room": "E304",
+     "faculty": "SSH",
+     "note": "",
+     "title": "Augmented and Virtual Reality"
+    },
+    {
+     "code": "UCS754L",
+     "room": "LP109",
+     "faculty": "NRJ",
+     "note": "",
+     "title": "Blockchain Technology and Applications"
+    },
+    {
+     "code": "UCS758L",
+     "room": "T101",
+     "faculty": "ANJ",
+     "note": "",
+     "title": "System Provisioning and Configuration Management"
+    },
+    {
+     "code": "UCS750L",
+     "room": "E305",
+     "faculty": "GS",
+     "note": "",
+     "title": "Computer Hacking and Forensic Investigation"
+    },
+    {
+     "code": "UCS762L",
+     "room": "E308",
+     "faculty": "RAH",
+     "note": "",
+     "title": "Cyber Security for Mobility Systems"
+    },
+    {
+     "code": "UCS760L",
+     "room": "T102",
+     "faculty": "HMK",
+     "note": "",
+     "title": "Edge AI and Robotics: Reinforcement Learning & Conversational AI"
+    },
+    {
+     "code": "UCS748L",
+     "room": "E205",
+     "faculty": "RKT",
+     "note": "",
+     "title": "Generative AI"
+    },
+    {
+     "code": "UCS745L",
+     "room": "F105",
+     "faculty": "SMG",
+     "note": "",
+     "title": "Cloud & DevOps"
+    },
+    {
+     "code": "UCS772L",
+     "room": "E104",
+     "faculty": "GEK",
+     "note": "",
+     "title": "Data Science: Computer Vision & NLP"
+    },
+    {
+     "code": "UMC743L",
+     "room": "LT102",
+     "faculty": "KUC",
+     "note": "",
+     "title": "Quantitative and Statistical Methods for Finance"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UEC735L/UEC752L/UCS751L/UCS752L/UCS754L/UCS758L/UCS750L/UCS762L/UCS760L/UCS748L/UCS745L/UCS772L/UMC743L | B307/B209/LP106/E304/LP109/T101/E305/E308/T102/E205/F105/E104/LT102 | DVG/MFD/PSR/SSH/NRJ/ANJ/GS/RAH/HMK/RKT/SMG/GEK/KUC"
+  },
+  {
+   "day": 1,
+   "period": 6,
+   "periods": 1,
+   "start": "12:10",
+   "end": "13:00",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "B209 / LP106 / E304 / LP109 / T101 / E305 / E308 / T102 / E205 / F105 / E104 / LT102",
+   "faculty": "DVG / MFD / PSR / SSH / NRJ / ANJ / GS / RAH / HMK / RKT / SMG / GEK / KUC",
+   "options": [
+    "UEC752L",
+    "UCS751L",
+    "UCS752L",
+    "UCS754L",
+    "UCS758L",
+    "UCS750L",
+    "UCS762L",
+    "UCS760L",
+    "UCS748L",
+    "UCS745L",
+    "UCS772L",
+    "UMC743L"
+   ],
+   "choices": [
+    {
+     "code": "UEC752L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "IC Fabrication Technology"
+    },
+    {
+     "code": "UCS751L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Simulation & Modelling"
+    },
+    {
+     "code": "UCS752L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Augmented and Virtual Reality"
+    },
+    {
+     "code": "UCS754L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Blockchain Technology and Applications"
+    },
+    {
+     "code": "UCS758L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "System Provisioning and Configuration Management"
+    },
+    {
+     "code": "UCS750L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Computer Hacking and Forensic Investigation"
+    },
+    {
+     "code": "UCS762L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Cyber Security for Mobility Systems"
+    },
+    {
+     "code": "UCS760L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Edge AI and Robotics: Reinforcement Learning & Conversational AI"
+    },
+    {
+     "code": "UCS748L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Generative AI"
+    },
+    {
+     "code": "UCS745L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Cloud & DevOps"
+    },
+    {
+     "code": "UCS772L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Data Science: Computer Vision & NLP"
+    },
+    {
+     "code": "UMC743L",
+     "room": "",
+     "faculty": "",
+     "note": "",
+     "title": "Quantitative and Statistical Methods for Finance"
+    }
+   ],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC752L/UCS751L/UCS752L/UCS754L/UCS758L/UCS750L/UCS762L/UCS760L/UCS748L/UCS745L/UCS772L/UMC743L | B209/LP106/E304/LP109/T101/E305/E308/T102/E205/F105/E104/LT102 | DVG/MFD/PSR/SSH/NRJ/ANJ/GS/RAH/HMK/RKT/SMG/GEK/KUC"
+  },
+  {
+   "day": 1,
+   "period": 8,
+   "periods": 2,
+   "start": "13:50",
+   "end": "15:30",
+   "code": "UEC735P",
+   "type": "practical",
+   "title": "",
+   "room": "C202",
+   "faculty": "DVG",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC735P | C202 | LAB | DVG"
+  },
+  {
+   "day": 2,
+   "period": 1,
+   "periods": 2,
+   "start": "08:00",
+   "end": "09:40",
+   "code": "UEC735P",
+   "type": "practical",
+   "title": "",
+   "room": "C202",
+   "faculty": "DVG",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC735P | C202 | LAB | DVG"
+  },
+  {
+   "day": 2,
+   "period": 6,
+   "periods": 1,
+   "start": "12:10",
+   "end": "13:00",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "LT101 / LP106 / B303 / F201",
+   "faculty": "SUS / RKS / PS / AM",
+   "options": [
+    "UCS002",
+    "UHU018",
+    "UHU016",
+    "UMA069L"
+   ],
+   "choices": [
+    {
+     "code": "UCS002",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UHU018",
+     "room": "LP106",
+     "faculty": "RKS",
+     "note": "",
+     "title": "Introduction to Corporate Finance"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS002/UHU018/UHU016/UMA069L | LT101/LP106/B303/F201 | SUS/RKS/PS/AM"
+  },
+  {
+   "day": 2,
+   "period": 7,
+   "periods": 1,
+   "start": "13:00",
+   "end": "13:50",
+   "code": "UTD004L",
+   "type": "lecture",
+   "title": "Campus 2 Corporate",
+   "room": "LT102",
+   "faculty": "VK",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UTD004L | LT102 | VK"
+  },
+  {
+   "day": 2,
+   "period": 10,
+   "periods": 1,
+   "start": "15:30",
+   "end": "16:20",
+   "code": "UEC823L",
+   "type": "lecture",
+   "title": "Soft Computing",
+   "room": "B307",
+   "faculty": "MKA",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC823L | B307 | MKA"
+  },
+  {
+   "day": 3,
+   "period": 1,
+   "periods": 1,
+   "start": "08:00",
+   "end": "08:50",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "LT101 / LP106 / B303 / F201",
+   "faculty": "SUS / RKS / PS / AM",
+   "options": [
+    "UCS002",
+    "UHU018",
+    "UHU016",
+    "UMA069L"
+   ],
+   "choices": [
+    {
+     "code": "UCS002",
+     "room": "LT101",
+     "faculty": "SUS",
+     "note": "",
+     "title": "Introduction to Cyber Security"
+    },
+    {
+     "code": "UHU018",
+     "room": "LP106",
+     "faculty": "RKS",
+     "note": "",
+     "title": "Introduction to Corporate Finance"
+    },
+    {
+     "code": "UHU016",
+     "room": "B303",
+     "faculty": "PS",
+     "note": "",
+     "title": "Introductory Course in French"
+    },
+    {
+     "code": "UMA069L",
+     "room": "F201",
+     "faculty": "AM",
+     "note": "",
+     "title": "Graph Theory and Applications"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UCS002/UHU018/UHU016/UMA069L | LT101/LP106/B303/F201 | SUS/RKS/PS/AM"
+  },
+  {
+   "day": 3,
+   "period": 2,
+   "periods": 1,
+   "start": "08:50",
+   "end": "09:40",
+   "code": "UTD004L",
+   "type": "lecture",
+   "title": "Campus 2 Corporate",
+   "room": "LT102",
+   "faculty": "VK",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UTD004L | LT102 | VK"
+  },
+  {
+   "day": 3,
+   "period": 5,
+   "periods": 2,
+   "start": "11:20",
+   "end": "13:00",
+   "code": "UEC640P",
+   "type": "practical",
+   "title": "IoT Based Systems",
+   "room": "C210",
+   "faculty": "KSS",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC640P | C210 | LAB | KSS"
+  },
+  {
+   "day": 3,
+   "period": 8,
+   "periods": 2,
+   "start": "13:50",
+   "end": "15:30",
+   "code": "UEC642P",
+   "type": "practical",
+   "title": "",
+   "room": "C328",
+   "faculty": "AJK",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC642P | C328 | LAB | AJK"
+  },
+  {
+   "day": 4,
+   "period": 1,
+   "periods": 2,
+   "start": "08:00",
+   "end": "09:40",
+   "code": "UEC823P",
+   "type": "practical",
+   "title": "Soft Computing",
+   "room": "C328",
+   "faculty": "MKA",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC823P | C328 | LAB | MKA"
+  },
+  {
+   "day": 4,
+   "period": 4,
+   "periods": 1,
+   "start": "10:30",
+   "end": "11:20",
+   "code": "ELECTIVE",
+   "type": "elective",
+   "title": "",
+   "room": "B307 / F303",
+   "faculty": "DVG / MKA",
+   "options": [
+    "UEC735L",
+    "UEC823L"
+   ],
+   "choices": [
+    {
+     "code": "UEC735L",
+     "room": "B307",
+     "faculty": "DVG",
+     "note": "",
+     "title": ""
+    },
+    {
+     "code": "UEC823L",
+     "room": "F303",
+     "faculty": "MKA",
+     "note": "",
+     "title": "Soft Computing"
+    }
+   ],
+   "aligned": true,
+   "note": "",
+   "raw": "UEC735L/UEC823L | B307/F303 | DVG/MKA"
+  },
+  {
+   "day": 4,
+   "period": 5,
+   "periods": 1,
+   "start": "11:20",
+   "end": "12:10",
+   "code": "UEC640L",
+   "type": "lecture",
+   "title": "IoT Based Systems",
+   "room": "B307",
+   "faculty": "KSS",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC640L | B307 | KSS"
+  },
+  {
+   "day": 4,
+   "period": 6,
+   "periods": 1,
+   "start": "12:10",
+   "end": "13:00",
+   "code": "UEC642L",
+   "type": "lecture",
+   "title": "",
+   "room": "B307",
+   "faculty": "SS",
+   "options": [],
+   "choices": [],
+   "aligned": false,
+   "note": "",
+   "raw": "UEC642L | B307 | SS"
+  }
+ ]
+}
