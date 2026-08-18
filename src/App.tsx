@@ -3,6 +3,7 @@ import ElectivePicker from "./components/ElectivePicker";
 import CardStylePicker from "./components/CardStylePicker";
 import ExportStudio from "./components/ExportStudio";
 import MobileAgenda from "./components/MobileAgenda";
+import MobileWeek from "./components/MobileWeek";
 import ClassDetail from "./components/ClassDetail";
 import GdgMark from "./components/GdgMark";
 import Home from "./components/Home";
@@ -358,15 +359,12 @@ export default function App() {
               onWeekView={() => setMobileView("week")}
             />
           ) : (
-            <WeekBoard
+            <MobileWeek
               batch={resolved}
               index={index}
               days={dayCount}
-              focusDay={null}
               today={today}
-              now={now}
-              debug={debug}
-              onSwipeDay={(d) => { setFocusDay(d); setMobileView("agenda"); }}
+              onOpen={setOpenClass}
             />
           )}
         </>

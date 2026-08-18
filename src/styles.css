@@ -3081,3 +3081,129 @@ a {
 [data-cards="sandstorm"] .card::before {
   display: none;
 }
+
+/* ---- compact week for phones: whole week, one screen ---- */
+
+.mweek {
+  /* Fills what's left of the viewport so rows divide the space instead of
+     overflowing. dvh accounts for mobile browser chrome appearing/hiding. */
+  height: calc(100dvh - 210px);
+  min-height: 330px;
+  max-height: 620px;
+}
+
+.mweek__grid {
+  display: grid;
+  grid-template-columns: 2.1rem repeat(var(--cols), minmax(0, 1fr));
+  grid-template-rows: 1.15rem repeat(var(--rows), minmax(0, 1fr));
+  gap: 3px;
+  height: 100%;
+}
+
+.mweek__corner {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.mweek__day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: var(--dim);
+}
+
+.mweek__day--today {
+  color: var(--blue);
+}
+
+.mweek__time {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 0.2rem;
+  font-family: var(--mono);
+  font-size: 0.53rem;
+  color: var(--dim);
+  white-space: nowrap;
+}
+
+.mweek__todayCol {
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--blue) 7%, transparent);
+  pointer-events: none;
+}
+
+.mchip {
+  --c: var(--t-other);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1px;
+  min-width: 0;
+  padding: 0.15rem 0.2rem;
+  border-radius: 6px;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--c) 17%, var(--surface-solid));
+  border: 1px solid color-mix(in srgb, var(--c) 34%, transparent);
+  border-left: 2.5px solid var(--c);
+  transition: transform 0.12s ease;
+}
+
+.mchip:active {
+  transform: scale(0.94);
+}
+
+.mchip--lecture {
+  --c: var(--t-lecture);
+}
+.mchip--practical {
+  --c: var(--t-practical);
+}
+.mchip--tutorial {
+  --c: var(--t-tutorial);
+}
+.mchip--elective {
+  --c: var(--t-elective);
+}
+
+.mchip__code {
+  font-family: var(--mono);
+  font-size: 0.56rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mchip__room {
+  font-family: var(--mono);
+  font-size: 0.5rem;
+  line-height: 1.1;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mweek__empty {
+  padding: 2rem 1rem;
+  text-align: center;
+  color: var(--muted);
+}
+
+/* Narrow phones: drop the room, keep the code legible */
+@media (max-width: 370px) {
+  .mweek__grid {
+    grid-template-columns: 1.8rem repeat(var(--cols), minmax(0, 1fr));
+    gap: 2px;
+  }
+
+  .mchip__room {
+    display: none;
+  }
+}
