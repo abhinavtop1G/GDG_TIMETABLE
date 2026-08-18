@@ -71,6 +71,16 @@ export const PRESETS: Preset[] = [
   },
 ];
 
+const TYPE_LABEL: Record<string, string> = {
+  lecture: "Lecture",
+  practical: "Practical",
+  tutorial: "Tutorial",
+  elective: "Elective",
+  seminar: "Seminar",
+  discussion: "Discussion",
+  class: "Class",
+};
+
 export type Op =
   | { t: "fill"; color: string }
   | { t: "glow"; x: number; y: number; r: number; color: string; alpha: number }
@@ -84,6 +94,9 @@ export type Op =
       fill?: string;
       stroke?: string;
       lineWidth?: number;
+      /** "card" marks a class background, so the audit can tell cards apart
+       *  from the pills and chips drawn inside them. */
+      role?: string;
     }
   | {
       t: "text";
@@ -300,7 +313,7 @@ export function layout(batch: Batch, index: Index, opts: Options): Op[] {
   // Type is sized by row height as well as canvas width. A wide, short canvas
   // (the A4 print sheet) has large columns but shallow rows, and scaling text
   // by width alone pushes it straight out of the card.
-  const tu = Math.min(u, (rowH - Math.round(7 * vu) * 2) / 68);
+  const tu = Math.min(u, (rowH - Math.round(7 * vu) * 2) / 95);
   const colX = (i: number) => pad + gutter + i * colW;
 
   // Day headers
@@ -381,26 +394,69 @@ export function layout(batch: Batch, index: Index, opts: Options): Op[] {
       fill: cardFill,
       stroke: cardStroke,
       lineWidth: Math.max(1.5, 2 * u),
+      role: "card",
     });
 
-    const px = x + 18 * u;
-    const innerW = w - 36 * u;
+    const px = x + 16 * u;
+    const innerW = w - 32 * u;
     const group = `${c.day}-${c.period}-${c.code}`;
 
-    const metaSize = Math.round(19 * tu);
-    const titleSize = Math.round(20 * tu);
-    const lineH = titleSize * 1.18;
+    const kindSize = Math.max(14, Math.round(13 * tu));
+    const metaSize = Math.max(14, Math.round(18 * tu));
+    const titleSize = Math.max(15, Math.round(21 * tu));
+    const lineH = titleSize * 1.2;
 
-    // The course name is the headline. The code only appears when we have no
-    // name for it, so the card never spends a line saying the same thing twice.
+    // Footer sits at the bottom; everything above has to fit in what's left.
+    const metaY = cy + h - 14 * tu;
+    const footerTop = metaY - metaSize * 1.15;
+    const topPad = cy + 9 * tu;
+
+    const kindH = kindSize * 1.6;
+    // The pill only earns its place if the course name still gets two lines
+    // afterwards. On a phone-width card it never does, and the card's colour
+    // already carries the type — so the name wins and the pill is dropped.
+    const showPill = footerTop - (topPad + kindH + 6 * tu) >= lineH * 2;
+    const titleTop = showPill ? topPad + kindH + 6 * tu : topPad;
+
+    if (showPill) {
+      const kindText = (TYPE_LABEL[c.type] ?? c.type).toUpperCase();
+      const kindW = textWidth(kindText, kindSize) + 16 * tu;
+      ops.push({
+        t: "rect",
+        x: px,
+        y: topPad,
+        w: kindW,
+        h: kindH,
+        radius: 6 * tu,
+        fill: tint(color, 0.22),
+        stroke: tint(color, 0.42),
+        lineWidth: 1,
+      });
+      ops.push({
+        t: "text",
+        x: px + 8 * tu,
+        y: topPad + kindH * 0.74,
+        text: kindText,
+        size: kindSize,
+        color,
+        weight: 700,
+        tracking: 1.1 * tu,
+        group,
+      });
+    }
+
     const name = opts.names ? c.title || department(c.code) : "";
-    const heading = name || c.code;
-    const isCode = !name;
 
-    const metaY = cy + h - 15 * tu;
-    const facSize = Math.round(17 * tu);
+    // Footer line: room on the left, course-code chip on the right — but only
+    // when both genuinely fit. In a narrow column the chip yields, because the
+    // room is what gets you to the class and the code is implied by the name.
     const roomText = c.room ? fitRoom(c.room, metaSize, innerW) : "";
     const roomW = roomText ? textWidth(roomText, metaSize, true) : 0;
+    const chipSize = Math.max(14, Math.round(metaSize * 0.92));
+    const chipTextW = textWidth(c.code, chipSize, true);
+    const chipW = chipTextW + 12 * tu;
+    const showChip =
+      Boolean(name) && innerW - roomW - 12 * tu >= chipW;
 
     if (roomText) {
       ops.push({
@@ -414,56 +470,52 @@ export function layout(batch: Batch, index: Index, opts: Options): Op[] {
         group,
       });
     }
-    // Faculty shares the footer line only when it genuinely fits beside the
-    // room; a long room name wins, since it is what gets you to the class.
-    if (
-      opts.faculty &&
-      c.faculty &&
-      textWidth(c.faculty, facSize) + roomW + 12 * u <= innerW
-    ) {
+    if (showChip) {
+      ops.push({
+        t: "rect",
+        x: x + w - 16 * u - chipW,
+        y: metaY - metaSize * 1.2,
+        w: chipW,
+        h: metaSize * 1.6,
+        radius: 5 * tu,
+        fill: tint(color, 0.16),
+        stroke: tint(color, 0.3),
+        lineWidth: 1,
+      });
       ops.push({
         t: "text",
-        x: x + w - 18 * u,
+        x: x + w - 16 * u - 6 * tu,
         y: metaY,
-        text: c.faculty,
-        size: facSize,
-        color: C.dim,
+        text: c.code,
+        size: chipSize,
+        color: C.muted,
+        mono: true,
         align: "right",
         group,
       });
     }
 
-    const budget = Math.max(
-      1,
-      Math.min(3, Math.floor((metaY - metaSize - (cy + 10 * tu)) / lineH)),
-    );
-    let ty = cy + 30 * tu;
-    for (const line of wrap(heading, titleSize, innerW, budget)) {
-      ops.push({
-        t: "text",
-        x: px,
-        y: ty,
-        text: line,
-        size: titleSize,
-        color: isCode ? color : C.ink,
-        weight: 600,
-        mono: isCode,
-        group,
-      });
-      ty += lineH;
-    }
-
-    if (name && !isCode && budget >= 2 && ty + metaSize < metaY - metaSize) {
-      ops.push({
-        t: "text",
-        x: px,
-        y: ty,
-        text: c.code,
-        size: Math.round(17 * tu),
-        color: tint(color, 0.85),
-        mono: true,
-        group,
-      });
+    // Course name fills the space between the pill and the footer.
+    const heading = name || c.code;
+    const room = footerTop - titleTop;
+    const budget = Math.max(1, Math.min(3, Math.floor(room / lineH)));
+    const fits = room >= lineH * 0.85;
+    if (fits) {
+      let ty = titleTop + titleSize * 0.88;
+      for (const line of wrap(heading, titleSize, innerW, budget)) {
+        ops.push({
+          t: "text",
+          x: px,
+          y: ty,
+          text: line,
+          size: titleSize,
+          color: C.ink,
+          weight: 700,
+          mono: !name,
+          group,
+        });
+        ty += lineH;
+      }
     }
   }
 

@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import ElectivePicker from "./components/ElectivePicker";
 import ExportStudio from "./components/ExportStudio";
+import MobileAgenda from "./components/MobileAgenda";
+import ClassDetail from "./components/ClassDetail";
 import GdgMark from "./components/GdgMark";
 import Home from "./components/Home";
 import WeekBoard from "./components/WeekBoard";
@@ -19,6 +21,7 @@ import {
   resolvePicks,
   YEAR_LABEL,
   type Batch,
+  type ClassEntry,
   type Index,
   type Picks,
 } from "./lib/data";
@@ -45,6 +48,7 @@ export default function App() {
   const [batchId, setBatchId] = useState<string | null>(null);
   const [studioOpen, setStudioOpen] = useState(false);
   const [electivesOpen, setElectivesOpen] = useState(false);
+  const [openClass, setOpenClass] = useState<ClassEntry | null>(null);
   const [picks, setPicks] = useState<Picks>({});
   const [now, setNow] = useState(() => new Date());
   const [error, setError] = useState<string | null>(null);
@@ -258,24 +262,26 @@ export default function App() {
         </dl>
       </section>
 
-      <nav className="days">
-        <button
-          className={`day ${focusDay === null ? "day--on" : ""}`}
-          onClick={() => setFocusDay(null)}
-        >
-          Full week
-        </button>
-        {Array.from({ length: dayCount }, (_, d) => (
+      {!narrow && (
+        <nav className="days">
           <button
-            key={d}
-            className={`day ${focusDay === d ? "day--on" : ""}`}
-            onClick={() => setFocusDay(d)}
+            className={`day ${focusDay === null ? "day--on" : ""}`}
+            onClick={() => setFocusDay(null)}
           >
-            {DAY_SHORT[d]}
-            {d === today && <span className="day__dot" />}
+            Full week
           </button>
-        ))}
-      </nav>
+          {Array.from({ length: dayCount }, (_, d) => (
+            <button
+              key={d}
+              className={`day ${focusDay === d ? "day--on" : ""}`}
+              onClick={() => setFocusDay(d)}
+            >
+              {DAY_SHORT[d]}
+              {d === today && <span className="day__dot" />}
+            </button>
+          ))}
+        </nav>
+      )}
 
       {pendingElectives > 0 && (
         <button className="banner" onClick={() => setElectivesOpen(true)}>
@@ -289,16 +295,29 @@ export default function App() {
         </button>
       )}
 
-      <WeekBoard
-        batch={resolved}
-        index={index}
-        days={dayCount}
-        focusDay={focusDay}
-        today={today}
-        now={now}
-        debug={debug}
-        onSwipeDay={setFocusDay}
-      />
+      {narrow ? (
+        <MobileAgenda
+          batch={resolved}
+          days={dayCount}
+          day={focusDay ?? Math.min(today, dayCount - 1)}
+          today={today}
+          now={now}
+          debug={debug}
+          onDay={setFocusDay}
+          onOpen={setOpenClass}
+        />
+      ) : (
+        <WeekBoard
+          batch={resolved}
+          index={index}
+          days={dayCount}
+          focusDay={focusDay}
+          today={today}
+          now={now}
+          debug={debug}
+          onSwipeDay={setFocusDay}
+        />
+      )}
 
       <footer className="foot">
         <div className="foot__legend">
@@ -318,6 +337,17 @@ export default function App() {
           wrong, check the sheet and tell us.
         </p>
       </footer>
+
+      {openClass && (
+        <ClassDetail
+          entry={openClass}
+          batch={resolved}
+          index={index}
+          now={now}
+          debug={debug}
+          onClose={() => setOpenClass(null)}
+        />
+      )}
 
       {electivesOpen && (
         <ElectivePicker

@@ -55,7 +55,7 @@ for (const file of files) {
           if (op.x < -1 || op.y < -1 || op.x + op.w > preset.width + 1 || op.y + op.h > preset.height + 1) {
             problems.push(`${batch.id}/${preset.id}: rect escapes canvas`);
           }
-          if (op.radius) boxes.push(op);
+          if (op.role === "card") boxes.push(op);
           if (op.h < 0 || op.w < 0) problems.push(`${batch.id}/${preset.id}: negative box`);
         }
         if (op.t === "text") {

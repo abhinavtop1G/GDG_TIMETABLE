@@ -1,7 +1,7 @@
 import type { Batch, Index } from "./data";
 import { layout, type Op, type Options } from "./wallpaper-layout";
 
-const SANS = `"Google Sans", Inter, Roboto, system-ui, sans-serif`;
+const SANS = `"Plus Jakarta Sans", Inter, system-ui, sans-serif`;
 const MONO = `"Roboto Mono", ui-monospace, SFMono-Regular, Menlo, monospace`;
 
 /** The GDG chevron mark, drawn in device pixels. */
