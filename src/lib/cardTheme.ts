@@ -22,6 +22,24 @@ export const CARD_THEMES: CardTheme[] = [
     swatch: ["#a5b4fc", "#f0abfc"],
   },
   {
+    id: "comic",
+    name: "Comic Ink",
+    blurb: "Halftone dots and heavy ink lines",
+    swatch: ["#ffd23f", "#e63946"],
+  },
+  {
+    id: "odyssey",
+    name: "Odyssey",
+    blurb: "Deep space, starfield and chrome",
+    swatch: ["#0b1026", "#8ab4ff"],
+  },
+  {
+    id: "sandstorm",
+    name: "Sandstorm",
+    blurb: "Sun-bleached ochre and long shadow",
+    swatch: ["#c8853b", "#3d2415"],
+  },
+  {
     id: "blueprint",
     name: "Blueprint",
     blurb: "Drafting paper and fine cyan rules",
@@ -32,18 +50,6 @@ export const CARD_THEMES: CardTheme[] = [
     name: "Neon Grid",
     blurb: "Midnight arcade, glowing edges",
     swatch: ["#0f0524", "#f0f"],
-  },
-  {
-    id: "paper",
-    name: "Paper Cut",
-    blurb: "Warm card stock with a hard shadow",
-    swatch: ["#fdf6e3", "#e07a5f"],
-  },
-  {
-    id: "terminal",
-    name: "Terminal",
-    blurb: "Monospace on a phosphor screen",
-    swatch: ["#04140a", "#4ade80"],
   },
 ];
 

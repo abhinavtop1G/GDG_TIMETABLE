@@ -65,14 +65,16 @@ body{margin:0;background:#f7f8fc}
 <section class="pv"><p class="pv__h">Home — dark</p>${home("dark", "2Q3")}</section>
 <section class="pv"><p class="pv__h">Week board — dark (2Q31, Monday 11:47)</p>${board("dark")}</section>
 <section class="pv"><p class="pv__h">Week board — light</p>${board("light")}</section>
+<section class="pv"><p class="pv__h">Card style — Comic Ink</p>
+<div data-cards="comic">${board("light")}</div></section>
+<section class="pv"><p class="pv__h">Card style — Odyssey</p>
+<div data-cards="odyssey">${board("dark")}</div></section>
+<section class="pv"><p class="pv__h">Card style — Sandstorm</p>
+<div data-cards="sandstorm">${board("light")}</div></section>
 <section class="pv"><p class="pv__h">Card style — Blueprint</p>
 <div data-cards="blueprint">${board("dark")}</div></section>
 <section class="pv"><p class="pv__h">Card style — Neon Grid</p>
 <div data-cards="neon">${board("dark")}</div></section>
-<section class="pv"><p class="pv__h">Card style — Paper Cut</p>
-<div data-cards="paper">${board("light")}</div></section>
-<section class="pv"><p class="pv__h">Card style — Terminal</p>
-<div data-cards="terminal">${board("dark")}</div></section>
 <section class="pv"><p class="pv__h">Click a block → expanded detail (dark)</p>
 <div data-theme="dark" style="position:relative;height:640px;background:var(--bg);overflow:hidden">${detail("dark", batch, batch.classes.find((c) => c.type === "practical") ?? batch.classes[0])}</div></section>
 <section class="pv"><p class="pv__h">Expanded detail (light) — a course with no verified name yet</p>
