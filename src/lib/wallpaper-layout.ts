@@ -112,31 +112,39 @@ export interface Palette {
 }
 
 export const DARK: Palette = {
-  bg: "#08090a",
-  surface: "#16181b",
-  line: "rgba(255,255,255,0.09)",
-  ink: "#e8eaed",
-  muted: "#9aa0a6",
-  dim: "#6b7075",
+  bg: "#070810",
+  surface: "#13152a",
+  line: "rgba(255,255,255,0.10)",
+  ink: "#f1f5f9",
+  muted: "#94a3b8",
+  dim: "#64748b",
   types: {
-    lecture: "#4285f4",
-    practical: "#34a853",
-    tutorial: "#fbbc04",
-    elective: "#ea4335",
-    class: "#9aa0a6",
-    seminar: "#9aa0a6",
-    discussion: "#9aa0a6",
+    lecture: "#34d399",
+    practical: "#fb923c",
+    tutorial: "#a78bfa",
+    elective: "#f472b6",
+    class: "#94a3b8",
+    seminar: "#94a3b8",
+    discussion: "#94a3b8",
   },
 };
 
 export const LIGHT: Palette = {
-  bg: "#ffffff",
-  surface: "#f1f3f4",
-  line: "rgba(0,0,0,0.10)",
-  ink: "#1f1f1f",
-  muted: "#5f6368",
-  dim: "#80868b",
-  types: DARK.types,
+  bg: "#f7f8fc",
+  surface: "#ffffff",
+  line: "rgba(15,23,42,0.08)",
+  ink: "#0f172a",
+  muted: "#64748b",
+  dim: "#94a3b8",
+  types: {
+    lecture: "#16a34a",
+    practical: "#f97316",
+    tutorial: "#8b5cf6",
+    elective: "#ec4899",
+    class: "#64748b",
+    seminar: "#64748b",
+    discussion: "#64748b",
+  },
 };
 
 export interface Options {
@@ -217,11 +225,14 @@ export function layout(batch: Batch, index: Index, opts: Options): Op[] {
   ops.push({ t: "fill", color: C.bg });
 
   // Brand wash behind the header.
-  const glowY = P.safeTop + 40 * u;
-  ops.push({ t: "glow", x: P.width * 0.2, y: glowY, r: P.width * 0.42, color: "#4285f4", alpha: 0.2 });
-  ops.push({ t: "glow", x: P.width * 0.45, y: glowY - 30 * u, r: P.width * 0.34, color: "#ea4335", alpha: 0.14 });
-  ops.push({ t: "glow", x: P.width * 0.62, y: glowY, r: P.width * 0.34, color: "#fbbc04", alpha: 0.12 });
-  ops.push({ t: "glow", x: P.width * 0.85, y: glowY - 20 * u, r: P.width * 0.42, color: "#34a853", alpha: 0.16 });
+  const glowY = P.height * 0.35;
+  // Four-blob aurora mesh matching the website background
+  const isDark = opts.palette === DARK;
+  const glowA = isDark ? 0.28 : 0.18;
+  ops.push({ t: "glow", x: P.width * 0.08, y: glowY * 0.7, r: P.width * 0.55, color: "#4285f4", alpha: glowA });
+  ops.push({ t: "glow", x: P.width * 0.55, y: glowY * 0.5, r: P.width * 0.42, color: "#8b5cf6", alpha: glowA * 0.75 });
+  ops.push({ t: "glow", x: P.width * 0.25, y: P.height * 0.72, r: P.width * 0.5,  color: "#ec4899", alpha: glowA * 0.55 });
+  ops.push({ t: "glow", x: P.width * 0.85, y: P.height * 0.65, r: P.width * 0.48, color: "#34a853", alpha: glowA * 0.6 });
 
   // ---- header ----
   const markSize = Math.round(64 * chrome);
@@ -352,6 +363,14 @@ export function layout(batch: Batch, index: Index, opts: Options): Op[] {
     const h = rowH - gapY * 2;
     const color = typeColor(C, c.type);
 
+    // Card: lighter glass tint on dark, clean white-tinted glass on light
+    const isDarkPalette = opts.palette.bg.startsWith("#07") || opts.palette.bg.startsWith("#08");
+    const cardFill = isDarkPalette
+      ? tint(color, 0.22)
+      : `rgba(255,255,255,0.72)`;
+    const cardStroke = isDarkPalette
+      ? tint(color, 0.5)
+      : tint(color, 0.32);
     ops.push({
       t: "rect",
       x,
@@ -359,9 +378,9 @@ export function layout(batch: Batch, index: Index, opts: Options): Op[] {
       w,
       h,
       radius: 20 * u,
-      fill: tint(color, 0.17),
-      stroke: tint(color, 0.38),
-      lineWidth: Math.max(1, 2 * u),
+      fill: cardFill,
+      stroke: cardStroke,
+      lineWidth: Math.max(1.5, 2 * u),
     });
 
     const px = x + 18 * u;

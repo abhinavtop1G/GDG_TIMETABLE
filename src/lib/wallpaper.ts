@@ -57,10 +57,18 @@ export function paint(ctx: CanvasRenderingContext2D, ops: Op[], width: number, h
         const g = ctx.createRadialGradient(op.x, op.y, 0, op.x, op.y, op.r);
         const n = parseInt(op.color.slice(1), 16);
         const rgb = `${(n >> 16) & 255},${(n >> 8) & 255},${n & 255}`;
-        g.addColorStop(0, `rgba(${rgb},${op.alpha})`);
-        g.addColorStop(1, `rgba(${rgb},0)`);
+        // Two-stop gradient: peak alpha at centre, fade to transparent.
+        // Gaussian-style midstop makes the bloom look softer.
+        g.addColorStop(0,   `rgba(${rgb},${op.alpha})`);
+        g.addColorStop(0.4, `rgba(${rgb},${(op.alpha * 0.5).toFixed(3)})`);
+        g.addColorStop(1,   `rgba(${rgb},0)`);
+        ctx.save();
+        ctx.filter = "blur(80px)";
         ctx.fillStyle = g;
-        ctx.fillRect(op.x - op.r, op.y - op.r, op.r * 2, op.r * 2);
+        ctx.beginPath();
+        ctx.ellipse(op.x, op.y, op.r, op.r * 0.85, 0, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.restore();
         break;
       }
 
