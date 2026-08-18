@@ -29,6 +29,7 @@ interface Props {
   debug: boolean;
   onDay: (day: number) => void;
   onOpen: (entry: ClassEntry) => void;
+  onWeekView: () => void;
 }
 
 /** A run of consecutive periods with the same class, kept as one card. */
@@ -49,6 +50,7 @@ export default function MobileAgenda({
   debug,
   onDay,
   onOpen,
+  onWeekView,
 }: Props) {
   const touch = useRef<{ x: number; y: number } | null>(null);
 
@@ -135,6 +137,12 @@ export default function MobileAgenda({
           </button>
         ))}
       </nav>
+
+      <div className="strip__week">
+        <button className="week-btn" onClick={onWeekView}>
+          Full week ↗
+        </button>
+      </div>
 
       <header className="agenda__head">
         <h2 className="agenda__day">

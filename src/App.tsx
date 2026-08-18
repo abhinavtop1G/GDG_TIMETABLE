@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import ElectivePicker from "./components/ElectivePicker";
+import CardStylePicker from "./components/CardStylePicker";
 import ExportStudio from "./components/ExportStudio";
 import MobileAgenda from "./components/MobileAgenda";
 import ClassDetail from "./components/ClassDetail";
@@ -7,6 +8,7 @@ import GdgMark from "./components/GdgMark";
 import Home from "./components/Home";
 import WeekBoard from "./components/WeekBoard";
 import { downloadICS } from "./lib/ics";
+import { useCardTheme } from "./lib/cardTheme";
 import { useTheme } from "./lib/theme";
 import {
   DAY_NAMES,
@@ -48,12 +50,15 @@ export default function App() {
   const [batchId, setBatchId] = useState<string | null>(null);
   const [studioOpen, setStudioOpen] = useState(false);
   const [electivesOpen, setElectivesOpen] = useState(false);
+  const [mobileView, setMobileView] = useState<"agenda" | "week">("agenda");
+  const [stylesOpen, setStylesOpen] = useState(false);
   const [openClass, setOpenClass] = useState<ClassEntry | null>(null);
   const [picks, setPicks] = useState<Picks>({});
   const [now, setNow] = useState(() => new Date());
   const [error, setError] = useState<string | null>(null);
   const narrow = useIsNarrow();
   const [theme, toggleTheme] = useTheme();
+  const [cardTheme, setCardTheme] = useCardTheme();
   const today = dayIndex(now);
   const [focusDay, setFocusDay] = useState<number | null>(null);
 
@@ -191,6 +196,23 @@ export default function App() {
         </button>
 
         <div className="top__right">
+          <span className="stylesWrap">
+            <button
+              className="pill pill--icon"
+              onClick={() => setStylesOpen((v) => !v)}
+              aria-label="Card style"
+              title="Card style"
+            >
+              ✦
+            </button>
+            {stylesOpen && (
+              <CardStylePicker
+                value={cardTheme}
+                onChange={setCardTheme}
+                onClose={() => setStylesOpen(false)}
+              />
+            )}
+          </span>
           <button
             className="pill pill--icon"
             onClick={toggleTheme}
@@ -302,16 +324,52 @@ export default function App() {
       )}
 
       {narrow ? (
-        <MobileAgenda
-          batch={resolved}
-          days={dayCount}
-          day={focusDay ?? Math.min(today, dayCount - 1)}
-          today={today}
-          now={now}
-          debug={debug}
-          onDay={setFocusDay}
-          onOpen={setOpenClass}
-        />
+        <>
+          {mobileView === "week" && (
+            <nav className="days" style={{ marginBottom: "0.6rem" }}>
+              <button
+                className="day day--on"
+                onClick={() => setMobileView("agenda")}
+              >
+                ← Day view
+              </button>
+              {Array.from({ length: dayCount }, (_, d) => (
+                <button
+                  key={d}
+                  className={`day ${focusDay === d ? "day--on" : ""}`}
+                  onClick={() => { setFocusDay(d); setMobileView("agenda"); }}
+                >
+                  {DAY_SHORT[d]}
+                  {d === today && <span className="day__dot" />}
+                </button>
+              ))}
+            </nav>
+          )}
+          {mobileView === "agenda" ? (
+            <MobileAgenda
+              batch={resolved}
+              days={dayCount}
+              day={focusDay ?? Math.min(today, dayCount - 1)}
+              today={today}
+              now={now}
+              debug={debug}
+              onDay={setFocusDay}
+              onOpen={setOpenClass}
+              onWeekView={() => setMobileView("week")}
+            />
+          ) : (
+            <WeekBoard
+              batch={resolved}
+              index={index}
+              days={dayCount}
+              focusDay={null}
+              today={today}
+              now={now}
+              debug={debug}
+              onSwipeDay={(d) => { setFocusDay(d); setMobileView("agenda"); }}
+            />
+          )}
+        </>
       ) : (
         <WeekBoard
           batch={resolved}
