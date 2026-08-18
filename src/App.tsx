@@ -162,7 +162,13 @@ export default function App() {
   const groups = electiveGroups(batch);
   const pendingElectives = groups.filter((g) => !picks[g.key]).length;
 
-  const dayCount = batch.meta.year === 5 ? 7 : 6;
+  // Only show days the batch actually has classes on. Trailing empty days
+  // are dropped so Saturday never appears for Mon–Fri batches.
+  const dayCount = (() => {
+    const maxDay = batch.classes.reduce((m, c) => Math.max(m, c.day), -1);
+    if (maxDay < 0) return batch.meta.year === 5 ? 7 : 6;
+    return maxDay + 1;
+  })();
   const state = resolveNow(resolved, now);
   const label = displayId(batch.id, batch.meta.tutorial_group);
 
