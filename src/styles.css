@@ -3207,3 +3207,267 @@ a {
     display: none;
   }
 }
+
+/* ---- exams + campus calendar ---- */
+
+.exams__tabs {
+  display: flex;
+  gap: 0.25rem;
+  padding: 0.25rem;
+  margin-bottom: 1rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--ink) 5%, transparent);
+}
+
+.exams__tab {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--muted);
+  transition: background 0.18s, color 0.18s;
+}
+
+.exams__tab--on {
+  background: var(--surface-solid);
+  color: var(--ink);
+  box-shadow: var(--shadow-sm);
+}
+
+.exams__head {
+  margin: 0 0 0.7rem;
+  font-size: 0.72rem;
+  color: var(--dim);
+}
+
+.exams__list,
+.evlist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.exam,
+.ev {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0.75rem;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--ink) 4%, transparent);
+  border-left: 3px solid var(--t-elective);
+}
+
+.ev {
+  border-left-color: var(--t-lecture);
+}
+
+.ev--gdg {
+  border-left-color: var(--blue);
+}
+
+.ev--exam {
+  border-left-color: var(--t-elective);
+}
+
+.exam__when,
+.ev__date {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 2.9rem;
+  font-family: var(--mono);
+}
+
+.exam__date,
+.ev__date {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.exam__in {
+  font-size: 0.6rem;
+  color: var(--dim);
+}
+
+.exam__body,
+.ev__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 0;
+}
+
+.exam__title,
+.ev__title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.exam__meta,
+.ev__where {
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+
+.exam__clash {
+  margin-left: auto;
+  flex: none;
+  padding: 0.15rem 0.4rem;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--t-practical) 20%, transparent);
+  color: var(--t-practical);
+  font-size: 0.62rem;
+  font-weight: 700;
+}
+
+.exams__source {
+  display: inline-block;
+  margin-top: 0.9rem;
+  font-size: 0.8rem;
+  color: var(--blue);
+}
+
+.exams__warn {
+  margin: 0.7rem 0 0;
+  font-size: 0.7rem;
+  color: var(--dim);
+}
+
+/* month grid */
+
+.cal__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+}
+
+.cal__month {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.cal__nav {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  color: var(--muted);
+}
+
+.cal__nav:hover {
+  background: color-mix(in srgb, var(--ink) 6%, transparent);
+  color: var(--ink);
+}
+
+.cal {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+
+.cal__dow {
+  text-align: center;
+  padding-bottom: 0.3rem;
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--dim);
+}
+
+.cal__cell {
+  position: relative;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  font-size: 0.76rem;
+  color: var(--ink-2);
+}
+
+.cal__cell--day {
+  background: color-mix(in srgb, var(--ink) 3.5%, transparent);
+}
+
+.cal__cell--today {
+  background: var(--blue);
+  color: #fff;
+  font-weight: 700;
+}
+
+.cal__dots {
+  position: absolute;
+  bottom: 3px;
+  display: flex;
+  gap: 2px;
+}
+
+.cal__dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--t-lecture);
+}
+
+.cal__dot--gdg {
+  background: var(--blue);
+}
+.cal__dot--exam {
+  background: var(--t-elective);
+}
+.cal__dot--holiday {
+  background: var(--t-tutorial);
+}
+
+.cal__legend {
+  display: flex;
+  gap: 0.9rem;
+  margin: 0.8rem 0 1rem;
+}
+
+.cal__key {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+
+.blank {
+  padding: 1.6rem 1rem;
+  text-align: center;
+  border-radius: 14px;
+  border: 1px dashed var(--hair);
+}
+
+.blank__title {
+  margin: 0 0 0.4rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.blank__body {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.blank__hint {
+  margin: 0.7rem 0 0;
+  font-size: 0.7rem;
+  color: var(--dim);
+}
+
+.blank__hint code {
+  font-family: var(--mono);
+  font-size: 0.95em;
+}

@@ -29,6 +29,9 @@ source/*.xlsx  ──►  scripts/parse_timetable.py  ──►  data/  ──�
 - **Pick your year, then your batch.** 534 batches; the numbered group id
   students actually use (2Q31, not 2Q3A).
 - **Live "in class now"** card, and a now-line that moves down the week grid.
+- **Exam dates** matched to your own courses, with a countdown and a flag when
+  two papers fall on the same day. Empty until the datesheet is published.
+- **Campus calendar** — month grid with event dots and an upcoming list.
 - **Pick your electives.** Third and fourth year slots that offer a choice
   become a picker showing only the courses open to that batch, each with its
   own room and teacher. Choosing once fills in the lecture and the lab.

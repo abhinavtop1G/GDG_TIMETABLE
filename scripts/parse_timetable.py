@@ -758,6 +758,11 @@ def main():
         }
         (out / "batches" / f"{bid}.json").write_text(json.dumps(payload, indent=1))
 
+    # Hand-maintained calendars pass straight through to the site.
+    for name in ("exams", "events"):
+        payload = load_override(f"overrides/{name}.json")
+        (out / f"{name}.json").write_text(json.dumps(payload, indent=1))
+
     (out / "unknown_tokens.json").write_text(json.dumps(
         [{"token": t, "count": n, "firstSeen": report.unknown_context.get(t, "")}
          for t, n in report.unknown.most_common()], indent=1))

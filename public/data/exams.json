@@ -1,0 +1,8 @@
+{
+ "term": "August - December 2026",
+ "title": "End Semester Examinations",
+ "source": "",
+ "updated": "",
+ "note": "Fill this from the official datesheet PDF published by the Examination Section. Key each entry by the six-character base course code. Leave this file with an empty exams object until the datesheet is out \u2014 the site shows an honest 'not published yet' state rather than guessing.",
+ "exams": {}
+}

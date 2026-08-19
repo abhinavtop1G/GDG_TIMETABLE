@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import ElectivePicker from "./components/ElectivePicker";
 import CardStylePicker from "./components/CardStylePicker";
+import ExamsPanel from "./components/ExamsPanel";
 import ExportStudio from "./components/ExportStudio";
 import MobileAgenda from "./components/MobileAgenda";
 import MobileWeek from "./components/MobileWeek";
@@ -53,6 +54,7 @@ export default function App() {
   const [electivesOpen, setElectivesOpen] = useState(false);
   const [mobileView, setMobileView] = useState<"agenda" | "week">("agenda");
   const [stylesOpen, setStylesOpen] = useState(false);
+  const [examsOpen, setExamsOpen] = useState(false);
   const [openClass, setOpenClass] = useState<ClassEntry | null>(null);
   const [picks, setPicks] = useState<Picks>({});
   const [now, setNow] = useState(() => new Date());
@@ -236,6 +238,9 @@ export default function App() {
               )}
             </button>
           )}
+          <button className="pill" onClick={() => setExamsOpen(true)}>
+            Exams
+          </button>
           <button className="pill pill--go" onClick={() => setStudioOpen(true)}>
             Download
           </button>
@@ -417,6 +422,13 @@ export default function App() {
           picks={picks}
           onChange={savePicks}
           onClose={() => setElectivesOpen(false)}
+        />
+      )}
+
+      {examsOpen && (
+        <ExamsPanel
+          batch={resolved}
+          onClose={() => setExamsOpen(false)}
         />
       )}
 
